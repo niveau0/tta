@@ -1,0 +1,12 @@
+light 10
+height 500
+xsize 300
+ysize 300
+climate 9
+type 2
+edge_base ({4|3,3,3,3,})
+room_coords ({3|1,2,3,})
+room_short "A small but high room"
+room_long "You are in a small, but very high room. It's quite cold in here, and somehow\nyou feel absolutely nothing. A huge wheelchair is standing here, for what \npurpose you don't know.\n"
+room_exits ([0|])
+pseudo_items ([1|1:({3|({1|"wheelchair",}),({1|"wheelchairs",}),"It's a uncomfortable chair with wheels on it.",}),])

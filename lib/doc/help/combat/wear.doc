@@ -1,0 +1,14 @@
+*------------------------------( Combat: Wear )------------------------------*
+
+   Type:        command
+   Usage:       wear <item> [on <location>] 
+                where <item> is the name of the clothes you want to wear
+                and <location> specifies where you want to wear the item.
+                
+   Description: Put on something you are holding.  Armor, rings, whatever.
+                This could take some time.
+
+   Example:     wear hat on third head
+   
+*----------------------------------------------------------------------------*
+ See also: 'remove'

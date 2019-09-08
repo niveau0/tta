@@ -1,0 +1,8 @@
+
+/* File: /base/misc/wear.c
+ * Function name: set_locations
+ * Description:   Set the locations the equipment uses
+ * Arguments:     locs - integer array, the location-slots
+ */
+static nomask void
+set_locations(int *locs)

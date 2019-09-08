@@ -1,0 +1,8 @@
+
+/* File: /base/poison.c
+ * Function name: query_poisoned
+ * Description:   gives all poisoned players
+ * Returns:       mapping
+ */
+nomask mapping
+query_poisoned()

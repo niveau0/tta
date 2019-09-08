@@ -1,0 +1,7 @@
+
+/* File: /base/weapon.c
+ * Function name: create_weapon
+ * Description:   create the weapon
+ */
+static void
+create_weapon()

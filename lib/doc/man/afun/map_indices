@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: map_indices
+ * Description:   gives all indices of a mapping as array
+ * Arguments:     map - mapping
+ * Returns:       array, indices
+ */
+static nomask mixed *
+map_indices(mapping map)

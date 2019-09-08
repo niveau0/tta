@@ -1,0 +1,12 @@
+*------------------------------( Builder: ijoin )----------------------------*
+
+   Type:        command
+   Usage:       ijoin <channelname>
+                
+   Description: Join an udp channel. You need to specify the channelname 
+		which can be listed with the 'ilist' cmd.
+
+   Example:     ijoin talk
+   
+*----------------------------------------------------------------------------*
+ See also: 'istatus', 'ileave', 'ilist', 'imsg', 'itell', 'iwho'

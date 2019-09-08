@@ -1,0 +1,16 @@
+*------------------------------( Misc: carve )-------------------------------*
+
+   Type:        command
+   Usage:       carve <object> from wood
+                
+   Description: Lets you carve an object out of wood. You need a piece
+                of wood large enough to get the object out of it and
+                you also need a fletching set. This command is most
+                usefull in conjunction with the skills "fletching" and
+                "wood craft". 
+                
+   Example:     carve arrow from wood
+   
+*----------------------------------------------------------------------------*
+ See also: 'skills', 'fletching','wood craft'
+

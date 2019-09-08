@@ -1,0 +1,13 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: parse_dir_string
+ * Description:   parse a direction string of the form 2n3e
+ * Arguments:     str - the direction string
+ *                tp - the player that has given the string
+ *                co - player coordinates
+ *                range - spell range
+ * Returns:       array of coordinates
+ *                0 if no valid direction
+ */
+int *
+parse_dir_string(string str, object tp, int *co, int range)

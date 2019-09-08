@@ -1,0 +1,34 @@
+obj_weight 87000
+obj_volume 78300
+obj_size 76
+cmdsoul_list ({2|"/cmd/emotion/emotion","/cmd/misc/misc",})
+hp 11
+base_hp 9
+race_name "ainu"
+move_msg "walks"
+run_msg "runs"
+teleport_in "arrives in a puff of smoke."
+teleport_out "disappears in a puff of smoke."
+skill_rank ([3|600:50005,605:100010,607:200020,])
+wounds ([0|])
+bandaged ([0|])
+dev_points 361
+tmp_stats ({11|93,62,58,96,71,90,30,50,42,58,30,})
+pot_stats ({11|99,96,71,97,85,100,92,77,49,60,72,})
+tmp_stat_val ({11|0,0,0,0,0,0,0,0,0,0,0,})
+tmp_stat_t ({11|0,0,0,0,0,0,0,0,0,0,0,})
+hunger 258
+thirst 736
+login_time 1111180851
+active_time 3600
+birth 1111180020
+password "EwdqowyiuUd42"
+path "/home/cadderly"
+email "geirhans@ifi.uio.no"
+last_location "/home/manwe/home:-396,0,44"
+login_from "80.111.110.153"
+auto_load ({2|"/lib/food/egg",0,})
+skill_usage ([1|607:22,])
+name "cadderly"
+adj ({0|})
+saved_props ([4|4503:607,4504:1,8000:17,8001:1111180968,])

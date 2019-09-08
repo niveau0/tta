@@ -1,0 +1,9 @@
+
+/* File: /base/living/magic.c
+ * Function name: set_realm
+ * Description:   set the realm the living is assigned to
+ * Arguments:     r - the realm code
+ * Returns:       none
+ */
+nomask void
+set_realm(int r)

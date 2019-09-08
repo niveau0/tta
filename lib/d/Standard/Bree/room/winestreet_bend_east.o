@@ -1,0 +1,11 @@
+height 100000000
+xsize 200
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2800,-1200,0,})
+room_short "Eastern bend of the Winestreet"
+room_long "From this bend you recognize a crossing with another street more to the north.\nThe other street stretches from the east to west, but after some feet it is\nhidden behind housings so you can only guess about its real destination.\nClose to the west this road bends again in front of a house and turns back to\nthe south where it escapes your wandering glance as a house south of this bend\nblocks your sight.\nIn the east a two-storeyed building catches your eye. A sign over its door\ninvites you in a way that only inns gain over the years that pass by.\n"
+room_exits ([2|"winestreet_bend":({7|119,0,0,200,100000000,0,0,}),"winestreet_south2":({7|110,0,0,200,100000000,0,0,}),])
+pseudo_items ([2|1:({4|({1|"sign",}),({1|"signs",}),"A closer look reveals the neglected state of the sign. Though you can see the\nfaint silhouettes of letters you have no chance of reading them anymore. The\nsign's appearance stands in a strange opposite to the well cared building.",({3|3000,-1100,110,}),}),2:({3|({2|"inn","building",}),({2|"inns","buildings",}),"A closer look shows a sturdy built and well cared building. It has a door in\nits front and several windows scattered over both storeys. Dangling over the\ndoor, a sign gives hints about purpose and name of this building.",}),])

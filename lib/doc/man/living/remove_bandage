@@ -1,0 +1,8 @@
+
+/* File: /base/living/slot.c
+ * Function name: remove_bandage
+ * Description:   remove the bandages from a slot so it will no longer heal
+ * Arguments:     slot - the slot id
+ */
+nomask void
+remove_bandage(int slot)

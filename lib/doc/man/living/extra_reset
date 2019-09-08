@@ -1,0 +1,7 @@
+
+/* File: /base/living/extra.c
+ * Function name: extra_reset
+ * Description:   set some default values, init arrays
+ */
+static nomask void 
+extra_reset()

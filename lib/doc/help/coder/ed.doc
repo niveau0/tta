@@ -1,0 +1,11 @@
+*------------------------------( Builder: ed )-------------------------------*
+
+   Type:        command
+   Usage:       ed [<filename>]
+                
+   Description: Start the builtin DGD-Editor. 
+
+   Example:     ed /home/foo/bar.c
+   
+*----------------------------------------------------------------------------*
+ See also: 'edref'

@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: exec
+ * Description:   swap player objects from user to another user
+ * Arguments:     to - object to connect to
+ *                from - object to get user object
+ * Returns:       1 if success, else 0
+ */
+static nomask int
+exec(object to, object from)

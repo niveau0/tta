@@ -1,0 +1,8 @@
+
+/* File: /base/player/extra.c
+ * Function name: query_birth
+ * Description:   gives the birthtime
+ * Returns:       integer time
+ */
+nomask int
+query_birth()

@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: short
+ * Description:   Return the short description of the object.
+ * Returns:       string, short description
+ */
+string
+short()

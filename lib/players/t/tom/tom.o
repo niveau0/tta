@@ -1,0 +1,38 @@
+obj_weight 107000
+obj_volume 117700
+obj_size 84
+cmdsoul_list ({2|"/cmd/emotion/emotion","/cmd/misc/misc",})
+hp 11
+base_hp 5
+fatigue 110
+race_name "ainu"
+effects ([0|])
+mana 11219
+realm 7
+move_msg "walks in his yellow boots"
+run_msg "runs"
+teleport_in "arrives, whistling a happy tune."
+teleport_out "starts to whistle a happy tune and suddenly disappears."
+skill_rank ([21|101:10001,251:10001,600:200020,601:200020,602:200020,603:200020,604:200020,605:200020,606:200020,607:200020,802:10001,1200:100010,1201:100010,1202:100010,1203:100010,1204:100010,1205:100010,1206:100010,1207:100010,1208:100010,1209:10001,])
+wounds ([0|])
+dev_points 267985
+tmp_stats ({11|110,120,98,120,90,90,120,98,110,120,85,})
+pot_stats ({11|110,120,98,120,90,90,120,98,110,120,85,})
+tmp_stat_val ({11|0,0,0,0,0,0,0,0,0,0,0,})
+tmp_stat_t ({11|0,0,0,0,0,0,0,0,0,0,0,})
+hunger 729
+thirst 1762
+login_time 987779276
+active_time 10524644
+prompt 8
+birth 842531067
+password "Usk59pEtoRmFo"
+path "/home/manwe/."
+email "Arne.Schulz@informatik.uni-oldenburg.de"
+last_location "/home/manwe/home:-600,0,40"
+login_from "134.106.53.25"
+auto_load ({8|"/lib/misc/light/tinder&stone",0,"/lib/misc/light/candle",0,"/lib/misc/light/candle",0,"/lib/misc/light/candle",0,})
+aliases ([3|"g":"goto","ll":"ls -l","tm":"tell manwe",])
+name "tom"
+adj ({0|})
+saved_props ([8|2000:1,2002:({3|"/lib/furniture/*","/lib/furniture","/lib/misc/light",}),2004:1,2005:"/home/tom/kitchen",4503:607,4506:1,8000:60,8001:987779276,])

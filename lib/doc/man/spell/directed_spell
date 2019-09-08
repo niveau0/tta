@@ -1,0 +1,12 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: directed_spell
+ * Description:   check hit for a directed spell
+ * Arguments:     tp - the caster
+ *                tar - target
+ *                atype - attack type (skill)
+ *                mod - roll modifier (e.g. elemental protection)
+ * Returns:       difference ob-db, or -1 if missed
+ */
+static int
+directed_spell(object tp, object tar, int atype, int mod)

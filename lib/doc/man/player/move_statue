@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: move_statue
+ * Description:   move linkdead players into a statue room
+ */
+static nomask void
+move_statue()

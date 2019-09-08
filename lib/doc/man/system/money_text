@@ -1,0 +1,9 @@
+
+/* File: /system/money.c
+ * Function name: money_text
+ * Description:   translates amount into money description string
+ * Arguments:     n - how much money 
+ * Returns:       string
+ */
+string
+money_text(int n)

@@ -1,0 +1,9 @@
+
+/* File: /base/living/slot.c
+ * Function name: set_wound
+ * Description:   set or remove a wound
+ * Arguments:     slot - the slot that got broken or healed
+ *                status - 0 to heal, or see definitions in <combat.h>
+ */
+nomask void
+set_wound(int slot, int flag)

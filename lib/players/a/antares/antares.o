@@ -1,0 +1,36 @@
+obj_weight 116000
+obj_volume 104400
+obj_size 76
+cmdsoul_list ({2|"/cmd/emotion/emotion","/cmd/misc/misc",})
+hp 31
+base_hp 18
+fatigue 100
+race_name "ainu"
+effects ([0|])
+mana 4026
+realm 1
+move_msg "walks"
+run_msg "runs"
+teleport_in "arrives in a puff of smoke."
+teleport_out "disappears in a puff of smoke."
+skill_rank ([7|211:10001,220:10001,311:10001,605:200020,607:200020,1209:30003,1210:100,])
+wounds ([0|])
+bandaged ([0|])
+dev_points 203
+tmp_stats ({11|100,84,56,59,100,54,21,100,100,100,65,})
+pot_stats ({11|39,90,88,64,93,67,67,97,61,76,65,})
+tmp_stat_val ({11|0,0,0,0,0,0,0,0,0,0,0,})
+tmp_stat_t ({11|0,0,0,0,0,0,0,0,0,0,0,})
+login_time 1111673678
+active_time 39155
+birth 1111571788
+password "uPgbnt70HGOQQ"
+path "/lib/npc/humanoid/."
+email "ngc2997@gmx.net"
+last_location "/d/Standard/room/ooc/discussion:0,256,2097152"
+login_from "80.138.248.42"
+auto_load ({20|"/lib/armor/r_leather/leather_helmet",({2|0,0,}),"/lib/misc/container/large_backpack",0,({14|"/base/coins",({2|0,({2|1,7,}),}),"/lib/drink/winebottle",0,"/lib/misc/light/torch",0,"/lib/drink/waterskin",0,"/lib/armor/cloth/human_underwear",({2|0,0,}),"/lib/misc/light/candle",0,"/lib/weapon/one_h_s/dagger",({2|0,0,}),}),"/lib/misc/equipment/belt",0,({6|"/home/antares/trout",({2|0,0,}),"/lib/weapon/two_h/battle_axe",({2|0,0,}),"/lib/weapon/one_h_s/dagger",({2|0,1,}),}),"/lib/armor/r_leather/human_boot",({2|0,0,}),"/lib/armor/chain/human_chain_shirt",({2|0,0,}),"/lib/armor/r_leather/human_breastplate",({2|0,0,}),"/lib/armor/r_leather/human_leg_greaves",({2|0,0,}),"/lib/armor/r_leather/human_boot",({2|0,0,}),"/lib/armor/r_leather/human_leg_greaves",({2|0,0,}),})
+skill_usage ([4|211:3,220:2,251:3,607:3,])
+name "antares"
+adj ({0|})
+saved_props ([6|2004:1,4500:([1|"cha":([1|"anar":10,]),]),4503:607,4504:1,8000:17,8001:1111673678,])

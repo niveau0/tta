@@ -1,0 +1,10 @@
+height 100000000
+xsize 200
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2800,400,0,})
+room_short "The crossing of Winestreet and Wateralley"
+room_long "You just reached the crossing of the Winestreet and Wateralley. The \nWinestreet runs from north to south and the Wateralley from east \nto west. To the north you see the jail of the town and to the south\nanother homing area of the town. This seems to be the place with the\nmost traffic in Bree, and often you'll see here guards, watching the\narea to avoid trouble.\n"
+room_exits ([4|"wateralley_east":({7|101,0,0,200,1000,0,0,}),"wateralley_west":({7|119,0,0,200,1000,0,0,}),"winestreet_north":({7|110,0,0,200,1000,0,0,}),"winestreet_south":({7|115,0,0,200,1000,0,0,}),])

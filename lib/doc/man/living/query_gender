@@ -1,0 +1,8 @@
+
+/* File: /base/living/gender.c
+ * Function name:   query_gender()
+ * Description:     Returns the gender code of the living.
+ * Returns:         The code.
+ */
+nomask int
+query_gender()

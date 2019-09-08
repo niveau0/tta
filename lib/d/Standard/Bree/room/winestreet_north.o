@@ -1,0 +1,12 @@
+height 100000000
+xsize 200
+ysize 1600
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2800,600,0,})
+room_short "On the northern part of the Winestreet"
+room_long "This is the northern part of the Winestreet. To the north the street\nleads to the jailhouse and to the south you see the crossing with the\nWateralley. On each side you see some small human houses, which seem\nto be very private homes. When you look a bit closer you recognize\na guard house at the north western part of this street.\n"
+room_exits ([1|"cross_wine_water":({7|115,0,0,200,1000,0,0,}),])
+objs_to_clone ({1|({2|"/d/Standard/Bree/obj/jailer_door",({1|({3|2900,2200,0,}),}),}),})
+pseudo_items ([1|1:({4|({1|"crossing",}),({1|"crossings",}),"Crossing: A place, where usually two roads intersect each other. This special\ncrossing is the spot, where the Winestreet crosses the Wateralley ... or the\nother way round.",({3|2900,500,0,}),}),])

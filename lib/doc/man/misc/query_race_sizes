@@ -1,0 +1,8 @@
+
+/* File: /base/misc/wear.c
+ * Function name: query_race_sizes
+ * Description:   gives min and max sizes wearer is allowed to have
+ * Returns:       two elements array
+ */
+nomask int *
+query_race_sizes()

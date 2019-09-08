@@ -1,0 +1,9 @@
+
+/* File: /base/disease.c
+ * Function name: restart_effect
+ * Description:   start disease after login
+ * Arguments:     tp - player object
+ *                count - current disease state
+ */
+nomask void
+restart_effect(object tp, int count)

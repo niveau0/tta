@@ -1,0 +1,23 @@
+*------------------------------( Magic: Prepare )----------------------------*
+
+   Type:        command
+   Usage:       prepare spells <number>
+                
+   Description: This command allows you to set the time how long you wish to
+		prepare a spell, how long you want to focus on its magic, 
+		before freeing the energies. It's very difficult to overcast,
+		i.e. cast beyond your personal abilities, and therefore you
+		should never overcast spells without enough preparation time.
+		You better spend the time to handle magic carefully.
+		As a simple rule one can say, overcasting needs at least 2
+		rounds of preparation time, while casting a spell 6-7 levels
+		below your knowlegde needs no preparation time. But this is 
+		only an advice. You better prepare yourself always if you got
+		the time.
+ 
+   Example:     prepare spells 0
+		prepare spells 1
+		prepare spells 2
+                    
+*----------------------------------------------------------------------------*
+ See also: 'cast'

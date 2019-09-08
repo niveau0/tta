@@ -1,0 +1,10 @@
+
+/* File: /base/poison.c
+ * Function name: poison_player
+ * Description:   poison a given player
+ * Arguments:     tp - the player that should become poisoned
+ *                rrmod - resistance modifier (positiv -> easier)
+ * Returns:       1 if poisoned, else 0
+ */
+nomask varargs int
+poison_player(object tp, int rrmod)

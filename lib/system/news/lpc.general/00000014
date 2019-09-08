@@ -1,0 +1,14 @@
+new exit format
+manwe
+Tue Jul 15 14:04:43 1997
+The new internal exit format is finished now. Walking works again and the
+room creator has been adapted to the new format. Old rooms will update
+their exits themself (the upgrade code will be removed after some days, so
+please make sure your rooms have been loaded once).
+
+Walking between rooms with different floor height follows soon. For now
+new is the line-of-sight behaviour of exits. You will only see items in 
+the neighbour room which are within your 'line of sight' (not blocked by the
+rooms walls).
+
+Manwe

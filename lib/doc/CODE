@@ -1,0 +1,86 @@
+  About coding standards
+--------------------------
+
+  The code in 'The Third age' (TTA) should look unitary.
+  This is to encourage the overview and it helps to make new creations or 
+  removal of bugs.
+
+  Some guidelines that need to be followed are listed below.
+
+  * one main rule is: Don't write code-lines that exceed the length of 79
+    characters (means: every 79 characters you must insert a newline)
+
+  * the main indentation value is '4'. Example:
+    
+    if (expression)
+    {
+        expression; /* 4 spaces indentation */
+        expression; /* 4 spaces indentation */
+    }
+    
+  * always start opening a new 'block' (with '{') after a newline. Example:
+    Don't use:
+    
+    if (expression) {
+        expression;
+        expression;
+    }
+
+    Use:
+
+    if (expression) 
+    {
+        expression;
+        expression;
+    }
+
+  * always have a space before opening brackets, never have a space between
+    a function name and it's arguments. Example:
+    
+    if (a == b)
+        a = b + (c - d);
+    but:
+        function(a, b, c);
+
+  * use no blocks if not needed, means:
+    if (expression)
+	expression; /* needs no block */
+
+    but:
+
+    if (expression) 
+    {
+        expression; /* two expressions need a block mark */
+        expression;
+    }
+
+  * optimisation is really wanted/needed. Get in touch with the 'auto-object'
+    (maybe ask someone about it?) and figure out whats best to replace with
+    a local variable. Example:
+ 
+    Using an indexed array inside a loop is slower (execution cost) than using
+    a local variable to store the value and use the stored in the loop:
+
+    for (i=0; i<1000; i++)
+        if (a[i] == b || a[i] == c || a[i] == d)
+            expression;
+
+    Better:
+
+    int e; /* assuming that all a[i] are integer values */
+    
+    for (i=0; i<1000; i++)
+    {
+	e = a[i];
+        if (e == b || e == c || e == d)
+            expression;
+    }
+
+  * don't use permanently running callouts (if they are short-timed) and don't 
+    do much inside those call_out functions. Keep them running fast.
+
+  * don't add 1000 comments if you fixed a bug like:
+    /* fixed foo-bug on date bar */
+    Better send a mail to the original coder.
+
+ Manwe

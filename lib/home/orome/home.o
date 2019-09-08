@@ -1,0 +1,11 @@
+height 100000000
+xsize 1500
+ysize 1500
+climate 2
+type 32768
+edge_base ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "Amid a dense forest"
+room_long "You are amid a dense forest. Huge trees are all around you and leaves are\nsoughing in a light breeze. Sunlight flunks through the branches and leaves\nimmersing the sourroundings with a greenish light. Several small animals\nand birds are cracking in the underbrushes. This seems to be a place where\nthe Vala Orome is feeling at home and rests from his chases.\n"
+room_exits ([0|])
+objs_to_clone ({2|({2|"/lib/npc/humanoid/orc",({1|({3|0,0,0,}),}),}),({2|"/lib/weapon/one_h_s/dagger",({2|({3|0,0,0,}),3,}),}),})

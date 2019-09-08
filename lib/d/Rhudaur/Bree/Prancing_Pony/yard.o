@@ -1,0 +1,12 @@
+height 100000000
+xsize 306
+ysize 258
+climate 1
+type 131072
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|276,192,0,})
+room_short "A backyard"
+room_long "The yard is encircled by walls in the south, the west and the north. To the\neast you see a hill with a slight slope which starts immidiately where the\nwalls end. Southward lies a wide entrance and you can see an interior that\nreminds you of a stable. Westward begins an arched tunnel leading further into\nthat direction. You notice a window in the northeastern and two in the\nnorthwestern corner of the yard.\nA little stair lies close to the wall directly north of the tunnel, ending at\nthe stoop of a door.\n"
+room_exits ([2|"archway":({7|119,96,0,72,180,0,0,}),"stable2":({7|115,84,0,120,150,0,0,}),])
+objs_to_clone ({2|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/kitchyard_door",({1|({3|276,411,0,}),}),}),({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/corryard_door",({1|({3|570,449,0,}),}),}),})
+pseudo_items ([2|1:({4|({2|"archway","tunnel",}),({2|"archways","tunnels",}),"You see a short passage leading westward to a road.",({3|250,130,90,}),}),2:({3|({1|"window",}),({1|"windows",}),"Which one? The one in the west, the other one in the northwest or the third\nin the northeast?",}),])

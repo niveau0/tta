@@ -1,0 +1,11 @@
+
+/* File: /base/living/stat.c
+ * Function name: stat_check
+ * Description:   General statcheck method.
+ * Arguments:     stat - statcode <see living.h>
+ *                modifier - difficulty (negative -> harder)
+ * Returns:       integer, success difference,
+ *                         positive value means success
+ */
+nomask int
+stat_check(int stat, int modifier)

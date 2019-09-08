@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: read_lines
+ * Description:   read a file and split into lines
+ * Arguments:     file - filepath
+ *                from - line where to start reading
+ *                num - number of lines to read
+ * Returns:       array, lines
+ */
+static nomask string *
+read_lines(string file, int from, int num)

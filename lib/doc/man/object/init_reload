@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: init_reload
+ * Description:   initialize stored data after reload (see reload_data())
+ * Arguments:     reload_data - the values to restore
+ */
+nomask void
+init_reload(mixed reload_data)

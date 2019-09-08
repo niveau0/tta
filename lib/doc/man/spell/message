@@ -1,0 +1,9 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: message
+ * Description:   default spell message
+ * Arguments:     tp - caster
+ *                tar - spell targets
+ */
+void
+message(object tp, object *tar)

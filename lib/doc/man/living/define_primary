@@ -1,0 +1,9 @@
+
+/* File: /base/living/cmd.c
+ * Function name: define_primary
+ * Description:   catch all commands in a function
+ * Arguments:     func - function to call
+ *                obj - object to call function in
+ */
+nomask void
+define_primary(string func, mixed obj)

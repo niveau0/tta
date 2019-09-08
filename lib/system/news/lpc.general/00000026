@@ -1,0 +1,5 @@
+new function query_state_desc()
+seclan
+Fri May 29 15:47:08 1998
+I've just added this function to /base/object/props.c, it returns a string
+describing the state of an object.

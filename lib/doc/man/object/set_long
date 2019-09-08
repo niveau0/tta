@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: set_long
+ * Description:   Sets the string to return as long description.
+ * Arguments:     long - The long description
+ */
+nomask void
+set_long(string long)

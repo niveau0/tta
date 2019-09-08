@@ -1,0 +1,9 @@
+
+/* File: /base/living/gender.c
+ * Function name:   query_pronoun()
+ * Description:     Returns the pronoun that goes with the gender of this
+ *                  living.
+ * Returns:         "he", "she" or "it", depending on gender.
+ */
+string
+query_pronoun()

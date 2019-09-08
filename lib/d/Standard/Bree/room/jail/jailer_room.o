@@ -1,0 +1,10 @@
+light 500
+height 100
+xsize 600
+ysize 500
+type 2
+room_coords ({3|2600,2200,0,})
+room_short "The jailer's room"
+room_long "You find yourself standing in the jailer's room. Normally the jailer\nand some guards are hanging around here to watch over the prisoners.\nTo the north you see a hall leading to the cells and to the south\nyou may leave this room to the street again. On the walls are posters\nof some wanted people and you wonder if you can remember some of them.\n"
+room_exits ([1|"hall":({7|110,250,0,100,100,0,0,}),])
+objs_to_clone ({4|({2|"/lib/furniture/bench",({1|({3|2708,2632,0,}),}),}),({2|"/lib/furniture/bench",({1|({3|2600,2632,0,}),}),}),({2|"/lib/furniture/table",({1|({3|2654,2632,0,}),}),}),({2|"/d/Standard/Bree/obj/jailer_door",({1|({3|2900,2200,0,}),}),}),})

@@ -1,0 +1,17 @@
+*-----------------------------( Builder: destruct )--------------------------*
+ 
+   Type:        command
+   Usage:       destruct [-d] <objectname>
+
+   Description: Destruct helps to get rid of an object. The object will be
+		simply 'destructed'. The -d option should only be used if
+		you are sure what you do. E.g. to get rid of objects that
+		bug if you destruct them without -d.
+		Note that -d won't update the room properties (like the
+ 		light value) correctly.
+ 
+   Example:     destruct torch
+		destruct -d torch
+   
+*----------------------------------------------------------------------------*
+ See also: 'clone', 'cleanup'

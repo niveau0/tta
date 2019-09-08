@@ -1,0 +1,9 @@
+
+/* File: /base/misc/wear.c
+ * Function name: set_race_sizes
+ * Description:   set the min and max size of the allowed wearers
+ * Arguments:     min - minimum size
+ *                max - maximum size
+ */
+static nomask void
+set_race_sizes(int min, int max)

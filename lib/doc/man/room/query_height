@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: query_height
+ * Description:   return height of the room
+ * Returns:       integer
+ */
+nomask int
+query_height()

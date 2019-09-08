@@ -1,0 +1,122 @@
+
+  The AGREEMENT (COPYRIGHT) of 'The Third Age'
+
+  This document  describes the legal implications of  writing code for use in
+  'The Third Age'  and  rules of conduct  for  handling  code.  This  type of
+  document is usually not necessary in leisure programming.
+
+  It also describes the  ethical rules of conduct  for handling the code that
+  you as well  as others have produced. These  are very different from  legal
+  rules in the   copyright notice. The  legal rules  say that  you can't  sue
+  someone just because  your code pops up  somewhere else  in the world.  The
+  ethical rules say that  you are a bastard if   you take someone  elses code
+  without permission and put it up somewhere else. They also  say that if you
+  behave like a bastard you can be thrown off the game.
+
+  The reasons behind formulating things this way are several:
+
+- Copyright  issues  and  legal  matters in this   environment are  extremely
+  complicated  and largely unexplored. The fact  that programmers are sitting
+  in a number of  different countries, sometimes producing  the code on their
+  home  machine and sometimes  inside the game is  one  such complication. 
+  Another one  is whether 'The Third Age'  is to  be considered as one single
+  large program or if each object is a separate  program. If the first alter-
+  native is  the case it means   that there is  a collective  copyright which
+  belongs to  all people who  have written any part  of the code we are using
+  and if anyone wants to distribute any part of it he needs the consent of ALL
+  the others. As the copyright notice is formulated it is always clear who
+  holds the rights to a certain piece of code.
+
+- Most of the  code that is  written  for 'The Third   Age' is the  result of
+  endeavors from a  lot of people.  To give  the person actually  writing the
+  object all the rights would be to deny all the others theirs.
+
+- Mud is a hobby and monetary interests, legal action  and hassles about code
+  ownership detract from the enjoyment of the hobby.
+
+- Very drastic changes in the world detract from the players enjoyment of the
+  game. The copyright notice allows the admins to keep the code running under
+  all circumstances.
+
+- It is  very hard to foresee things  such as net  access and  machine avail-
+  ability in the future.  It should be  possible to transfer 'The  Third Age'
+  to other competent hands without having to ask each and every wizard in the
+  game if it's ok with him/her.
+
+- It could be argued that it is possible to develop code outside the game and
+  then move it here. However it  is not in the interest  of anyone except the
+  coding person that he/she retains all privileges.
+
+- Please note that the copyright belongs to the producer of the code if he/she
+  wishes so. He/she just promises to exercise the right in certain ways.
+
+
+  COPYRIGHT LICENSE
+
+1. 'The Third Age' is  is the name of  the DGD-Mud world currently running at
+   Uni-Oldenburg, Oldenburg, Germany. The code  making up the world is termed
+   'The Third Age' and is termed TTA in the following text.
+
+2. All code that  is produced in TTA or  imported to TTA  is subject to  this
+   license. If you have code that you for some reason can't  or don't want to
+   place under this license, don't import it.
+
+3. All code in TTA may be freely copied and used  by anyone gaining access to
+   it as long as it is used for TTA.  No code may for  any reason be used for
+   the purpose of making  a monetary profit or  without the permission of the
+   producer. That means that while  you are allowed to  run the mud, charging
+   money from those who use it to cover the running costs, you may not make a
+   profit from it.
+
+4. The copyright to all code that is not accompanied by an explicit copyright
+   notice with the word Copyright,  the year of creation and  the name of the
+   author is held by TTA.
+
+5. German law applies to this license. Among other things this means that all
+   code is protected, even if it doesn't contain a copyright notice.
+
+
+  ETHICS
+
+  The following paragraphs are recommendations.
+
+1. Send a mail with the information on the change every time you make a major
+   change to someones objects.
+
+   These are to be considered  as rules of conduct. Breaking  them in a major
+   way may trigger disciplinary actions.
+
+2. Write code that is in accordance with the rules, theme  and balance of the
+   game.
+
+3. Don't  copy other persons code without  permission from that  person or an
+   admin.
+
+4. Don't export other persons code without  permission from that person or an
+   admin.
+
+5. Don't  place objects that differ little  from the original  into the game.
+   Every creation should be in some way unique.
+
+6. If you  make code that  is not in  balance with  the game,  is against the
+   rules or contains bugs,  a Vala or  a Admin may at any  time change it.
+   The same applies to code  that  has to be  changed  due to changes in  the
+   surroundings.
+
+7. Code that is left unattended for a long time may be turned over to an other
+   coder by an  admin. Unattended  code  in  a domain becomes  common  domain
+   property.
+
+8. All code that keeps no vital function in the Game can of course be removed,
+   or better: will be removed if the Disk-Space is needed.
+   The same may happen if you are demoted for any kind of misbehaviour.
+
+9. For now  Uni-Oldenburg owns the machine that  'The Third Age' runs on. The
+   society reserves the  right  to do anything  (that  does  not violate  the
+   copyright  notice) it  finds suitable  with any  information stored in the
+   computer,  but will under  normal circumstances  refrain from such actions
+   without the consent of the authors.
+
+ This COPYRIGHT was taken from Xyllomer and adapted concerning 'The Third Age'.
+
+ Manwe.

@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: plural_short
+ * Description:   Return the plural short description of the object.
+ * Returns:       string, plural short description
+ */
+string
+plural_short()

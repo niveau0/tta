@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: query_internal_weight
+ * Description:   Returns the weight of the items in the container.
+ * Returns:	  Weight value
+ */
+nomask int
+query_internal_weight()

@@ -1,0 +1,8 @@
+
+/* File: /base/living/move.c
+ * Function name:   set_move_msg(string m)
+ * Description:     Set the walking message of this living.
+ * Arguments:       m - The message string
+ */
+nomask void
+set_move_msg(string m)

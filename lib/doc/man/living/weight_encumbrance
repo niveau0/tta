@@ -1,0 +1,8 @@
+
+/* File: /base/living/carry.c
+ * Function name:   weight_encumbrance()
+ * Description:     Calculate how encumbered we are in weight
+ * Returns:         integer, encumbrance in percent
+ */
+nomask int
+weight_encumbrance()

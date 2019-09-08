@@ -1,0 +1,10 @@
+
+/* File: /base/weapon.c
+ * Function name: E_move
+ * Description:   notify movement
+ * Arguments:     ob - object that moved
+ *                from - old environment
+ *                to - new environment
+ */
+nomask void
+E_move(object ob, object from, object to)

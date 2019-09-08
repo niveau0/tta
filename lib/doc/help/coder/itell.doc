@@ -1,0 +1,11 @@
+*------------------------------( Builder: itell )----------------------------*
+
+   Type:        command
+   Usage:       itell <playername>@<ipname> <message>
+                
+   Description: Send a message to someone at a specified ipname. 
+
+   Example:     itell manwe@tta Hello!
+   
+*----------------------------------------------------------------------------*
+ See also: 'istatus', 'ijoin', 'ileave', 'imsg', 'ilist', 'iwho'

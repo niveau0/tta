@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: query_loaded_exit
+ * Description:   Gives a list of the connected exitrooms
+ * Returns:       mapping ([ roomobject : roompath ])
+ */
+nomask mapping 
+query_loaded_exit()

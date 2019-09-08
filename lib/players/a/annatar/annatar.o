@@ -1,0 +1,36 @@
+obj_weight 122000
+obj_volume 109800
+obj_size 86
+cmdsoul_list ({2|"/cmd/emotion/emotion","/cmd/misc/misc",})
+hp 7
+base_hp 7
+fatigue 35
+race_name "ainu"
+realm 7
+move_msg "walks"
+run_msg "runs"
+teleport_in "arrives in a puff of smoke."
+teleport_out "disappears in a puff of smoke."
+skill_rank ([3|603:30003,605:200020,607:100010,])
+wounds ([0|])
+bandaged ([0|])
+dev_points 674
+tmp_stats ({11|50,89,23,96,75,55,84,97,88,37,64,})
+pot_stats ({11|71,99,86,100,100,57,88,97,91,61,100,})
+tmp_stat_val ({11|0,0,0,0,0,0,0,0,0,0,0,})
+tmp_stat_t ({11|0,0,0,0,0,0,0,0,0,0,0,})
+hunger 304
+thirst 759
+login_time 1110483710
+active_time 440
+birth 1110481076
+password "boHZ61Wwf6542"
+path "/."
+email "Dirk.Grabenkamp@gmx.de"
+last_location "/d/Rhudaur/Bree/westgate:-21700,3000,0"
+login_from "84.178.255.2"
+auto_load ({0|})
+skill_usage ([1|220:2,])
+name "annatar"
+adj ({0|})
+saved_props ([3|4503:605,8000:17,8001:1110483710,])

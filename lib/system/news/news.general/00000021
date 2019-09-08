@@ -1,0 +1,7 @@
+last editor
+manwe
+Wed Oct 22 14:08:28 1997
+The last editor of a file is now stored. You can see his/her name with
+  ls -l <filename|directory>
+
+Manwe

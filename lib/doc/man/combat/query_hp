@@ -1,0 +1,10 @@
+
+/* File: /base/living/combat.c
+ * Function name: query_hp
+ * Description:   Gives the amount of hp points of a living
+ *                hit points increase every 900 mudseconds. rest doubles
+ *                the speed (450 mudsec), sleep triples (300 mudsec).
+ * Returns:       The number of hp points
+ */
+nomask int
+query_hp()

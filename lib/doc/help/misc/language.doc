@@ -1,0 +1,13 @@
+*-----------------------------( Misc: language )-----------------------------*
+
+   Type:        command
+   Usage:       language <language>
+                
+   Description: Lets you set the <language> you want to speak. <language>
+                has to be a language that you know. You can see the 
+                languages that you know by typing "skills linguistics".
+                
+   Example:     language westron
+   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills'

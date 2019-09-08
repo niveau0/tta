@@ -1,0 +1,9 @@
+new command 'props'
+manwe
+Sun Jan 12 19:43:41 1997
+I reimplemented an old command named 'props'. It's helpful because it
+shows all properties of an object and stdproperties are replaced with their
+definition name, so you can get a quick overview.
+Usage: props [<objectname>|here]
+
+Manwe

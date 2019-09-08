@@ -1,0 +1,16 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: delay_spell(int level, int knownlev, int prep,
+ *                            string target, object ob, string extra, int code)
+ * Description:   delay the spell (prepare time)
+ * Arguments:     level - the level the spell will be casted
+ *                knownlev - the level the spell list has be learned to
+ *                prep - preparation time
+ *                target - target name(s)
+ *                ob - the object casting
+ *                extra - extra spell arguments
+ *                code - spell id
+ */
+static nomask void
+delay_spell(int level, int knownlev, int prep, string target, object ob,
+	    string extra, int code)

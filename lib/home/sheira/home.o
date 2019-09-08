@@ -1,0 +1,11 @@
+light 100
+height 96
+xsize 240
+ysize 240
+climate 7
+type 2
+room_coords ({3|-600,0,1048576,})
+room_short "This is the mansion of the well known Maia Sheira"
+room_long "A new room. That's what you would call empty.\nThis is the mansion of the Maia Sheira, it is filled with treasures of all\nkinds\n"
+room_exits ([0|])
+pseudo_items ([3|1:({3|({1|"gem",}),({1|"gems",}),"Piles of beautiful gems.",}),2:({3|({2|"coins","gold coins",}),({2|"coins","gold coins",}),"Some shining gold coins.",}),3:({3|({1|"pile",}),({1|"piles",}),"Piles of treasures.",}),])

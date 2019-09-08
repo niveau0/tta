@@ -1,0 +1,13 @@
+light 5000
+height 100000000
+xsize 600
+ysize 400
+type 524290
+edge_base ({4|0,0,0,0,})
+room_coords ({3|5800,200,0,})
+room_short "The smithy"
+room_long "You entered the smithy of Bree. It is very hot here and the smell of\nthe burning oves makes you shiver. It seems you can buy here everything\na smith could make on Arda and you wonder, how he could manage his\njob alone. A lot of armors and weapons are hanging on the wall and\nsome other iron or steel equipment are standing in a corner.\n"
+room_exits ([0|])
+objs_to_clone ({4|({2|"/d/Standard/Bree/npc/tore",({1|({3|6300,500,0,}),}),}),({2|"/lib/armor/plate/hobbit_plate",({2|0,0,}),}),({2|"/lib/armor/chain/human_chain_shirt",({2|0,0,}),}),({2|"/lib/armor/s_leather/small_helmet",({2|0,0,}),}),})
+pseudo_items ([2|1:({3|({1|"list",}),({1|"lists",}),"@@list_offer",}),2:({3|({2|"armor","weapon",}),({2|"armors","weapons",}),"Some of them are new, some not, but all of good quality.",}),])
+offer ([16|"/lib/armor/chain/hobbit_full_chain":({5|3,"fullchain(hobbit size)",3,2000,896375721,}),"/lib/armor/chain/human_chain_shirt":({5|5,"chainshirt(human size)",5,1000,896375721,}),"/lib/armor/plate/plate_helmet":({5|15,"plate helmet",15,200,896375721,}),"/lib/armor/shield/human_shield":({5|10,"metal shield(human size)",10,250,896375721,}),"/lib/misc/container/bucket":({5|20,"bucket",20,50,896375721,}),"/lib/misc/container/pot":({5|25,"cooking pot",25,75,896375721,}),"/lib/misc/equipment/chain":({5|50,"chain",50,150,896375721,}),"/lib/misc/equipment/saw":({5|25,"saw",25,200,896375721,}),"/lib/trap/bear_trap":({5|3,"bear trap",3,2000,896375721,}),"/lib/weapon/one_h_c/warhammer":({5|10,"warhammer",10,175,896375721,}),"/lib/weapon/one_h_s/dagger":({5|50,"dagger",50,125,896375721,}),"/lib/weapon/one_h_s/handaxe":({5|15,"handaxe",15,180,896375721,}),"/lib/weapon/one_h_s/longsword":({5|30,"longsword",30,250,896375721,}),"/lib/weapon/one_h_s/shortsword":({5|30,"shortsword",30,160,896375721,}),"/lib/weapon/two_h/2h_sword":({5|5,"twohand sword",5,800,896375721,}),"/lib/weapon/two_h/battle_axe":({5|5,"battle axe",5,1000,896375721,}),])

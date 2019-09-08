@@ -1,0 +1,12 @@
+light 50000
+height 150
+xsize 150
+ysize 150
+climate 6
+type 2
+cornerheight ({4|1048576,1048576,1048576,1048576,})
+room_coords ({3|-600,0,1048576,})
+room_short "Throne of Swords"
+room_long "Before you is a throne of swords.  It is the seat of Dantis.  He delights in\nthe creation of things and swords are his forte.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/lib/misc/misc/skin","0&&",}),})

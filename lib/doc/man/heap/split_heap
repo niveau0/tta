@@ -1,0 +1,10 @@
+
+/* File: /base/heap.c
+ * Function name: split_heap
+ * Description:   called before a pending move of a part of the heap
+ *	 	  The heap size / volume is set to the part to be moved
+ * Arguments:	  num: The size of the heap that is splitted from this one
+ * Returns:	  (int) size of splitted heap
+ */
+nomask int
+split_heap(int num)

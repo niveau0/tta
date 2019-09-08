@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: set_plong
+ * Description:   Sets the plural long description.
+ * Arguments:     long - The long description
+ */
+nomask void
+set_plong(string long)

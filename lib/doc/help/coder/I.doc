@@ -1,0 +1,25 @@
+*-------------------------------( Builder: I )-------------------------------*
+ 
+   Type:        command
+   Usage:       I
+		I <living>
+                
+   Description: The command 'I' is used by the Gods to give detailed 
+		information about the items in one's inventory.  If 'I' is 
+		used without an argument, it is used to list the items in your
+		own inventory.  If 'I' is used with a living (player/NPC) as 
+		an argument, you get the items that they carry in their 
+		inventory.
+ 
+   Example:     
+
+ > I manwe
+ Name        Weight  Volume  Size Heap  Filename
+ ============================================================================
+ longsword.....2000.....500....33....0../lib/weapon/one_h_s/longsword#78.....
+ helmet........1050....5000....14....0../lib/armor/s_leather/helmet#80.......
+ backpack......1533.....323....30....0../lib/misc/container/large_backpack#83
+ bronzecopp......10.......4.....1....9../base/coins#56.......................
+   
+*----------------------------------------------------------------------------*
+ See also: 'I'

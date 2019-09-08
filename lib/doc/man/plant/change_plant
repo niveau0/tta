@@ -1,0 +1,8 @@
+
+/* File: /base/plant.c
+ * Function name: change_plant
+ * Description:   sets new values for a new grow-phase
+ * Arguments;     new_phase - new grow phase (old is not changed for now)
+ */
+static nomask void
+change_plant(int new_phase)

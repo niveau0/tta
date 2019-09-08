@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: syslog
+ * Description:   log info in /syslog
+ * Arguments:     file - file name (added to /syslog)
+ *                str - string to write in log file
+ */
+static nomask void
+syslog(string file, string str)

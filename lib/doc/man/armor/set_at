@@ -1,0 +1,8 @@
+
+/* File: /base/armor.c
+ * Function name: set_at
+ * Description:   Set at value
+ * Arguments:     at - the armor type (equals weapon data type)
+ */
+static nomask void
+set_at(int at)

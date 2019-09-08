@@ -1,0 +1,9 @@
+
+/* File: /base/living/move.c
+ * Function name:   set_teleport_out(string m)
+ * Description:     Set the magical exit message of this living. You should
+ *                  end the string with a "."
+ * Arguments:       m - The message string
+ */
+nomask void
+set_teleport_out(string m)

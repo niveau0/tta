@@ -1,0 +1,11 @@
+height 100000000
+xsize 750
+ysize 2500
+climate 1
+type 131072
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-250,4000,0,})
+room_short "on a road"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([3|"free_n2w":({7|119,0,0,2500,100000000,0,0,}),"road_north1":({7|115,500,0,250,100000000,0,0,}),"road_north3":({7|110,0,0,250,100000000,0,0,}),])
+objs_to_clone ({1|({2|"/lib/npc/animal/rabbit",({1|({3|385,4070,0,}),}),}),})

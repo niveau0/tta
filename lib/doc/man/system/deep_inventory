@@ -1,0 +1,10 @@
+
+/* File: /system/inventory.c
+ * Function name: deep_inventory
+ * Description:   return the recursive inventory of an object  
+ * Arguments:     obj - object to query
+ *                flag - see manual for 'inventory'
+ * Returns:       array, inventory
+ */
+nomask varargs object *
+deep_inventory(int flag)

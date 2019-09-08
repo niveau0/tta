@@ -1,0 +1,146 @@
+<html>
+<head><title>The Third Age - Lpc-Chapter1</title></head>
+
+<body
+background="http://tta.artis.uni-oldenburg.de/~mud/pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="http://www.artis.uni-oldenburg.de/tta">
+<img border=0 src="http://tta.artis.uni-oldenburg.de/~mud/pic/tta.mini.gif" 
+alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - An introduction to lpc</h3>
+<font size=-1>
+<i>(by Descartes of Borg, 23 april 1993)</i>
+</font>
+</center>
+<p>
+<hr noshade>
+
+<center>
+<h4>
+<font color="#007744">
+Chapter 1: Introduction to the Coding Environment
+</font>
+</h4>
+</center>
+
+<h5>1.1 UNIX file structure</h5>
+
+LPMuds use basic UNIX commands and its file structure.  If you know
+UNIX commands already, then note that the same options are not available to
+the commands (they are written in lpc).  Like DOS, UNIX is hierarchical.  The
+root directory of which all directories are sub-directories is called
+<b>root (/)</b>.  And from those sub-directories you may have further
+sub-directories.  A directory may be referred to in two different ways:
+<ul>
+<li>by its full or absolute name
+<li>by its relative name
+</ul>
+Absolute name refers to the directory's full path starting from / winding
+down the directory tree until you name the directory in question.  For
+example:
+<p>
+<b>/lib/npc/animal</b>
+<p>
+refers to the directory animal which is a sub-directory of npc which
+is a sub-directory of lib which is a sudirectory of /.
+<p>
+The relative name refers to the name relative to another directory.
+The above example is called <b>animal</b> relative to <b>/lib/npc</b>,
+but it is also called <b>npc/animal</b> relative to <b>/lib</b>,
+and finally <b>lib/npc/animal</b> relative to <b>/</b>.  You can tell the
+difference between absolute names and relative names because absolute
+names always start with /.  In order to know exactly which directory
+is being named by a relative name, you naturally must know what
+directory it is relative to.
+<p>
+A directory contains sub-directories and files.  LPMuds only use text files
+inside the mudlib.  Like directories, files have both absolute and
+relative names.  The most basic relative name is often referred to as the file
+name, with the rest of the absolute name being referred to as the path.  So,
+for the file: <b>/lib/npc/animal/rabbit.c</b>, you get <b>rabbit.c</b> as
+the filename, and <b>/lib/npc/animal</b> is the path.
+<p>
+On some muds, a file with a file name beginning with a . (like .plan) is
+not visible when you list files with the regular file listing command.
+<p>
+
+<h5>1.2 UNIX Commands</h5>
+
+Along with the UNIX file structure, LPMuds use many UNIX commands.  Typical
+UNIX commands on most muds are:
+<p>
+pwd, cd, ls, rm, mv, cp, mkdir, rmdir, more, cat, ed
+<p>
+If you have never before seen UNIX commands, you probably are thinking this
+is all nonsense.  Well, you got to use them ;-).  Before getting
+into what they mean though, first a discussion of current directory.
+If you know DOS, then you know what a current working directory is.
+At any given point, you are considered to be "in" some directory.  This
+means that any relative file or directory names you give in UNIX commands
+are relative to that directory.  For example, if my current directory is
+/lib/npc/animal and I type "ed rabbit.c" (ed is the command to edit),
+then it assumes I like to edit the file /lib/npc/animal/rabbit.c
+<p>
+The basic commands (normal usage):
+<ul>
+<li><font color="#007744"><b>pwd</b></font> shows you your current working
+directory. 
+<li><font color="#007744"><b>cd</b></font> changes your current working
+directory.  You may give either relative or absolute path names.  With no
+arguments, it changes to your home directory.
+<li><font color="#007744"><b>ls</b></font> lists all files in the directory
+named.  If no directory is named, it lists the files of the current working
+directory. 
+<li><font color="#007744"><b>rm</b></font> deletes the file named.
+<li><font color="#007744"><b>mv</b></font> renames the file named.
+<li><font color="#007744"><b>cp</b></font> copies the file named.
+<li><font color="#007744"><b>mkdir</b></font> makes a new directory.
+<li><font color="#007744"><b>rmdir</b></font> deletes a directory.  All
+files must have been first removed. 
+<li><font color="#007744"><b>more</b></font> pages the file named so that
+the file appears on your screen one page at a time.
+<li><font color="#007744"><b>cat</b></font> shows the whole file to you at
+once. 
+<li><font color="#007744"><b>head</b></font> shows you the first several
+lines of a file. 
+<li><font color="#007744"><b>tail</b></font> shows you the last several
+lines of a file. 
+<li><font color="#007744"><b>ed</b></font> allows you to edit a file using
+the mud editor. 
+</ul>
+
+<h4>1.3 Chapter Summary</h4>
+
+UNIX uses a hierarchical file structure with the root of the tree being
+named /.  Other directories branch off from that root directory and
+in turn have their own sub-directories.  All directories may contain
+directories and files.  Directories and files are referred to either
+by their absolute name, which always begins with /, or by their relative
+name which gives the file's name relative to a particular directory.
+In order to get around in the UNIX files structure, you have the
+typical UNIX commands for listing files, your current directory, etc.
+On your mud, all of the above commands should have detailed help commands
+to help you explore exactly what they do.  In addition, there should
+be a very detailed file on your mud's editor.  If you are unfamiliar
+with ed, you should go over this convoluted file.
+<p>
+<a href="mailto:borg@imaginary.com">George Reese</a> (Descartes of Borg), 
+12 july 1993
+<p>
+
+<center>
+<i><a href="chapter2.html">Next Chapter</a></i>
+</center>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Dec 01, 1996</address>
+</body>
+</html>

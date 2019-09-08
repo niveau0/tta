@@ -1,0 +1,9 @@
+
+/* File: /base/living.c
+ * Function name: query_presentation
+ * Description:   Gives a presentation of the living in one line.
+ * Arguments:     tp - the living that wants to know presentation string
+ * Returns:       The presentation string
+ */
+string
+query_presentation(object tp)

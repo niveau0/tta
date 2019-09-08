@@ -1,0 +1,8 @@
+
+/* File: /base/missile_weapon.c
+ * Function name: set_weapon_range
+ * Description:   how far does this weapon shoot
+ * Arguments:     r - integer range (inch)
+ */
+static nomask void
+set_weapon_range(int r)

@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: set_fill
+ * Description:   set how much liquid is inside
+ * Arguments:     f - the amount
+ */
+static nomask void
+set_fill(int f)

@@ -1,0 +1,13 @@
+light 1
+height 65
+xsize 200
+ysize 180
+climate 9
+type 6
+cornerheight ({4|-63,-63,-63,-63,})
+room_coords ({3|1470,1505,-63,})
+room_short "Dark and cool room"
+room_long "You see clean stonewalls in all four directions. The masonry stands on the\nstamped earth which the whole floor consists of and raises to a ceiling of\nwooden boards. Several strong beams go along the ceiling in order to prevent\nthe room from collapsing. In the southwestern corner is an exit in the\nceiling.\n"
+room_exits ([1|"back":({7|117,0,0,45,45,0,0,}),])
+objs_to_clone ({2|({2|"/lib/misc/light/torch",({1|({3|1470,1505,-63,}),}),}),({2|"/d/Standard/Bree/room/pub/obj/pub_ladder",({1|({3|1497,1505,-63,}),}),}),})
+pseudo_items ([2|1:({3|({3|"wall","stonewall","masonry",}),({2|"walls","stonewalls",}),"The walls are partly made from usual stones which the mason considered as\nusable and partly from bricks. They look sturdy and durable enough to stand\nfor quite a while.",}),2:({3|({3|"beam","board","ceiling",}),({2|"beams","boards",}),"There is nothing special about this construction. Just wooden boards on a\nsupporting layer of strong beams.",}),])

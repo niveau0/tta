@@ -1,0 +1,10 @@
+
+/* File: /base/door.c
+ * Function name: pick_cmd
+ * Description:   try to pick the lock
+ * Arguments:     str - an optional tool used for lockpicking
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+int
+pick_cmd(string str, object tp)

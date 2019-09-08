@@ -1,0 +1,8 @@
+
+/* File: /base/player/met.c
+ * Function name:   query_remembered()
+ * Description:     Gives back a mapping with all names of people we remember
+ * Return:          A mapping with names
+ */
+nomask mapping
+query_remembered()

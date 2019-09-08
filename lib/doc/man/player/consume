@@ -1,0 +1,7 @@
+
+/* File: /base/player/consume.c
+ * Function name: consume
+ * Description:   handle consumption of food and water
+ */
+static nomask void
+consume()

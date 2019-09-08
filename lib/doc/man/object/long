@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: long
+ * Description:   Describe the object
+ * Returns:	  string, long description
+ */
+string
+long()

@@ -1,0 +1,18 @@
+*-------------------------------( Misc: Accept )-----------------------------*
+
+   Type:        command
+   Usage:       accept all from <name>
+	        accept <item> from <name>
+		accept all
+       		accept nothing
+                
+   Description: If someone is offering you some items, you need to accept 
+		those to get them. 'accept all' and 'accept nothing' allows 
+                you to set your default behaviour. But be careful, if you
+		take all without taking a look, it might happen that an
+		assassin kills you with a nasty poison.
+                
+   Example:     accept all from mablung
+                    
+*----------------------------------------------------------------------------*
+ See also: 'give'

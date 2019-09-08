@@ -1,0 +1,7 @@
+
+/* File: /base/living/slot.c
+ * Function name: slot_reset
+ * Description:   Configure slot variables
+ */
+static nomask void
+slot_reset()

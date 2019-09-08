@@ -1,0 +1,8 @@
+
+/* File: /base/living/extra.c
+ * Function name:   set_fatigue(int f)
+ * Description:     Set the fatigue points of the living to a certain amount.
+ * Arguments:       f - The amount to set.
+ */
+nomask void
+set_fatigue(int f)

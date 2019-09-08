@@ -1,0 +1,9 @@
+
+/* File: /base/misc/openclose.c
+ * Function name: set_key
+ * Description:   if this container can only be opened with a key this
+ *                function should be called with the keyfile as argument
+ * Arguments:     kf - key filename
+ */
+static nomask void
+set_key(string kf)

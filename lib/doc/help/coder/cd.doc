@@ -1,0 +1,43 @@
+*------------------------------( Builder: cd )-------------------------------*
+ 
+   Type:        command
+   Usage:       cd <directory | path>
+		cd ..
+		cd -here
+		cd -<objectname>
+		
+   Description: Just like the UNIX command, 'cd' stands for change directory.
+		It is used by the Gods to change from their current working 
+		directory to another specified directory.  This can be 
+		accomplished in a variety of ways. 
+
+		cd <directory | path> : means that you give a specified 
+					path as a argument.
+
+		cd .. : means that you want to move up one directory level.
+			You can also use / as a seperator (cd ../..)
+
+		cd -here : means that you want to change your current working 
+			   directory to the directory of the room you are 
+			   currently standing in.
+
+		cd -<objectname> : means that you want to change your current 
+				   working directory to the directory of an 
+				   object living or non-living (player/NPC/
+				   object) that is in your room or inventory.
+ 
+   Example:  	> cd /home/erikose/room
+	    	/home/erikose/room
+		
+		> cd ..
+		/home/erikose   
+
+		> cd -here
+		Switching to /d/Standard/Bree/room.
+
+		> cd -cadderly
+		Switching to /config/race/ainu.
+   
+*----------------------------------------------------------------------------*
+ See also: 'access', 'cp,', 'ls', 'mkdir', 'mv', 'pwd', 'rm', 'rmdir', 
+	   'updir'

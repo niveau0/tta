@@ -1,0 +1,23 @@
+*----------------------------( Builder: banish )-----------------------------*
+ 
+   Type:    	command    
+   Usage:       banish -i|-r|-a <name>
+                
+   Description: The 'banish' command is used by Gods to banish certain 
+		undesirable names.  This means that new players cannot login 
+		as those names.  Examples are: 
+		Silly names, like fatty or dummy
+ 		Monster names, like troll or orc
+
+		The flags for 'banish' are:
+		-i:	INFO	Gives info on a banished name
+		-a:	ADD	Adds the name to the banished list
+		-r:	REMOVE	Removes the banished name from the list
+
+	    ** NOTE : Banish is obsolete here at TTA : NOTE **		
+
+   Example:	> banish -i troll
+	     	Troll was banished by Manwe at Sat Sep  7 21:51:47 1996.  
+   
+*----------------------------------------------------------------------------*
+ See also: 

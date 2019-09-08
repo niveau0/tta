@@ -1,0 +1,70 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+source $DIR/../config/env
+
+LOG=${LOG_DIR}Cron
+DATE=`date +'%d.%m.%y %T'`
+cd ${TTA_MUD_DIR}
+cleanupmud
+
+ADMINS="lib/players/m/manwe lib/players/u/ulmo lib/players/i/irmo"
+
+case ${1} in
+	"full")
+		SUBDIR='full';;
+	"partial")
+		SUBDIR='partial';;
+	"player")
+		SUBDIR='player'
+		players='players'
+		ADMINS=;;
+	*)
+		SUBDIR='full';;
+esac
+
+now=`date`
+then=`cat ${BACKUP_DIR_1}.last.${SUBDIR}`
+
+BACKUP_NAME=${BACKUP_DIR_1}${SUBDIR}/`date +${BACKUP_PREFIX}%m-%d`
+BACKUP_TMP_NAME=${BACKUP_NAME}
+
+COUNTER=0
+
+while [ -f ${BACKUP_TMP_NAME} ] || [ -f ${BACKUP_TMP_NAME}.tgz ]
+do
+	 COUNTER=`expr ${COUNTER} + 1` 
+	 BACKUP_TMP_NAME=${BACKUP_NAME}.${COUNTER}
+done
+
+if [ ${BACKUP_NAME} != ${BACKUP_TMP_NAME} ]
+then
+	 BACKUP_NAME=${BACKUP_TMP_NAME}
+fi
+
+if [ ${1} != 'partial' ]
+then
+    tar --exclude-from config/tar_${SUBDIR} \
+	--gzip \
+	--create \
+	--file ${BACKUP_NAME}.tgz \
+	lib/${players} \
+	${ADMINS}
+else
+    tar --exclude-from config/tar_${SUBDIR} \
+	--gzip \
+	-N '10 days ago' \
+	--create \
+	--file ${BACKUP_NAME}.tgz \
+	lib/${players} \
+	${ADMINS}
+fi
+
+cp ${BACKUP_NAME}.tgz ${BACKUP_DIR_2}${SUBDIR}
+
+echo $now >${BACKUP_DIR_1}.last.${SUBDIR}
+echo $now >${BACKUP_DIR_2}.last.${SUBDIR}
+echo "${DATE} B_UP  DONE   backup ${SUBDIR}" >>${LOG}
+
+find ${BACKUP_DIR_1}${SUBDIR} -atime +30 -exec rm -f {} \;
+find ${BACKUP_DIR_2}${SUBDIR} -atime +30 -exec rm -f {} \;
+

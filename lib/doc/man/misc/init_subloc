@@ -1,0 +1,8 @@
+
+/* File: /base/misc/subloc.c
+ * Function name: init_subloc
+ * Description:   initialize subloc mapping, must be called at the creation of
+ *                an object that uses this support
+ */
+nomask void
+init_subloc()

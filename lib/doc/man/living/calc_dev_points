@@ -1,0 +1,7 @@
+
+/* File: /base/living/stat.c
+ * Function name: calc_dev_points
+ * Description:   calculates new development points after stat improvement
+ */
+static nomask void
+calc_dev_points()

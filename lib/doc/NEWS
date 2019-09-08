@@ -1,0 +1,10 @@
+  - distance between people is no longer shown in steps, but feet.
+
+  - If you encounter any bugs or typos please write down some info with the
+    'bug' and 'typo' command, thanks
+  
+  - debug is now enabled in some /base files, so you will receive an error
+    if some object is missing any value.
+
+  - there is now an lpc-ftpd, using port 3337
+    login name is no longer tta.<username>, now only <username>

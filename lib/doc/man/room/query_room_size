@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: query_room_size
+ * Description:   return size of this room
+ * Returns:       ({ xsize, ysize, height })
+ */
+nomask int *
+query_room_size()

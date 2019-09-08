@@ -1,0 +1,8 @@
+
+/* File: /base/living/magic.c
+ * Function name:   query_max_mana()
+ * Description:     Calculates the maximum of mana points
+ * Returns:         integer
+ */
+nomask int
+query_max_mana()

@@ -1,0 +1,10 @@
+height 160
+xsize 750
+ysize 750
+climate 1
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-6250,24500,0,})
+room_short "On a wide road"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([2|"above_gatenorth":({7|117,0,0,750,750,0,0,}),"northgate_south":({7|115,250,0,500,160,0,0,}),])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/obj/northgate",0,}),})

@@ -1,0 +1,8 @@
+
+/* File: /base/food.c
+ * Function name: query_amount
+ * Description:   gives the feeding value, see set_amount
+ * Returns:       integer
+ */
+nomask int
+query_amount()

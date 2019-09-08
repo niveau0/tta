@@ -1,0 +1,9 @@
+
+/* File: /base/living/extra.c
+ * Function name:   add_fatigue(int f)
+ * Description:     Add an amount of fatigue points to the current amount
+ *                  of the living
+ * Arguments:       f - the amount of change
+ */
+nomask void
+add_fatigue(int f)

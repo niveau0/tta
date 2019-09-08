@@ -1,0 +1,8 @@
+
+/* File: /system/mudtime.c
+ * Function name: season
+ * Description:   gives the actual season
+ * Returns:       integer
+ */
+nomask int
+season()

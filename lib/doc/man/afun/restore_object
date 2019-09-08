@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: restore_object
+ * Description:   read object data file
+ * Arguments:     file - file path (without .o suffix)
+ * Returns:       1 if success, 0 else
+ */
+static nomask int
+restore_object(string file)

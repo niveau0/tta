@@ -1,0 +1,11 @@
+
+/* File: /system/composite.c
+ * Function name: object_desc
+ * Description:   get correct object description
+ * Arguments:     ob - object to describe
+ *                cap - if true, capitalize description
+ *                pre - prefix type (0 - none, 't' - the, 'a' - article)
+ * Returns:       description array
+ */
+nomask mixed
+object_desc(object o, int cap, int pre)

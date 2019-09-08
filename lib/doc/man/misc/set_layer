@@ -1,0 +1,17 @@
+
+/* File: /base/misc/wear.c
+ * Function name: set_layer
+ * Description:   Set equipment layer. An object can be worn above other
+ *                objects with a lower layer or above objects with the same
+ *                layer, if the worn equipment is marked as thin (property
+ *                OBJ_THIN_MATERIAL). Layer definitions see <slots.h>
+ * Arguments:     l - LAYER_UNDERWEAR...Shirts, underwear
+ *		      LAYER_CLOTH...pullovers, warm clothes
+ *		      LAYER_CHAIN...jackets, things to wear over clothes but
+ *		                    below thick armor and equipment
+ *		      LAYER_PLATE...thick armor above other cloth/armor
+ *		      LAYER_CAPE...above thick armor but below backpack
+ *		      LAYER_ABOVE_ALL...backpacks, etc.
+ */
+static nomask void
+set_layer(int l)

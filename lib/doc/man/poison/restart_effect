@@ -1,0 +1,9 @@
+
+/* File: /base/poison.c
+ * Function name: restart_effect
+ * Description:   start poison after login
+ * Arguments:     tp - player object
+ *                count - current poison state
+ */
+nomask void
+restart_effect(object tp, int count)

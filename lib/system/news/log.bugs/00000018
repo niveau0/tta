@@ -1,0 +1,4 @@
+/home/seclan/room/tower/laboratory
+seclan
+Mon Mar 16 15:08:02 1998
+Going linkdead causes all data about skill_usage to be lost. :(

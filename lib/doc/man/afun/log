@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: log
+ * Description:   log info in /log
+ * Arguments:     file - file name (added to /log)
+ *                str - string to write in log file
+ */
+static nomask void
+log(string file, string str)

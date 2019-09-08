@@ -1,0 +1,12 @@
+height 100000000
+xsize 1500
+ysize 150
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-1500,50,0,})
+room_short "The Stubbyway"
+room_long "The cobbled ground from the large place to the east stretches into this narrow\nalley. The stones look nearly polished and are lowering in the middle.\nThe walls north and south show alot of scratches and spots of a white powder.\nNot far to the west the road disappears and turns into a grassy area that\nseems to crouch under the high citywall behind it.\n"
+room_exits ([2|"/d/Standard/Bree/room/marketplace":({7|101,0,0,150,100000000,0,0,}),"grass_westbaker":({7|119,0,0,150,100000000,0,0,}),])
+objs_to_clone ({1|({2|"/lib/misc/special/log_heap",({1|({3|-500,195,0,}),}),}),})
+pseudo_items ([2|1:({3|({3|"white","powder","spot",}),({1|"spots",}),"The powder feels sticky and a bit wet as you touch it. Recognizing further\nfamiliar signs you decide to taste it and find your assumption to be correct.\nIt is flour.",}),2:({4|({2|"place","large place",}),({2|"places","large places",}),"The place is wide and surely useful for public affairs that require the\ngathering of many people.",({3|50,125,0,}),}),])

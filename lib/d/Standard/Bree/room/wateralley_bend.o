@@ -1,0 +1,11 @@
+height 100000000
+xsize 200
+ysize 650
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|3800,-50,0,})
+room_short "The Wateralley bend"
+room_long "Winding between several buildings the road is connecting a part of itself more\nto the north and another part more southward. The way to the west lies at the\nnorthern end, while the southern end of the bend lies at a street to the east.\nThis part of the town is densely populated, judged by the many houses you see\neast and west of the street and by the roofs and chimneys you see beyond the\nbuildings in front of you. Especially southeast from here the road gets wider\nand has some shops along it sides.\nBehind the houses in the north and the south you become aware of high walls\nthat prohibit uncontrolled visits of the town.\n"
+room_exits ([2|"wateralley_east":({7|119,450,0,200,1000,0,0,}),"wateralley_east2":({7|101,0,0,250,1000,0,0,}),])
+pseudo_items ([2|1:({4|({1|"northern end",}),({1|"northern ends",}),"There is nothing too interisting at this spot, except the road that continues\nto the west.",({3|3770,500,0,}),}),2:({4|({1|"southern end",}),({1|"southern ends",}),"There is nothing too interisting at this spot, except the road that continues\nto the east.",({3|4020,100,0,}),}),])

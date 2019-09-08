@@ -1,0 +1,114 @@
+<html>
+<head><title>The Third Age - Lpc-Intro</title></head>
+
+<body
+background="http://tta.artis.uni-oldenburg.de/~mud/pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="http://www.artis.uni-oldenburg.de/tta">
+<img border=0 src="http://tta.artis.uni-oldenburg.de/~mud/pic/tta.mini.gif" 
+alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - An introduction to lpc</h3>
+<font size=-1>
+<i>(by Descartes of Borg, 23 april 1993)</i>
+</font>
+</center>
+<p>
+<hr noshade>
+
+<center>
+<h4>
+<font color="#007744">
+This manual, how to use it, and its terms
+</font>
+</h4>
+</center>
+ 
+I have seen a lot of requests lately on USENET for LPC manuals.  In addition,
+the immortals on my mud have been telling how good the building documentation
+of Nightmare is, but that there was just no adequate explanation of the
+LPC programming language.  So I decided to try my hand at writing a manual.
+Some things you should keep in mind.
+<p>
+LPC is a very easy programming language to learn, and it has real
+value in that place most of us know as the real world. As a
+Philosophy major in a world of Computer Science majors, I just want to
+make clear that it is not at all required that you have ever done anything
+with your computer than log into a mud in order for you to really come
+to understand LPC coding.  This manual makes the following assumptions:
+Someone has taught you basic UNIX commands like ls, cd, mkdir, mv, rm, etc.
+You know how to enter your mud's editor and write a file.  No other
+assumptions are made.  If you know C, you are handicapped in that LPC
+looks a lot like C, but it is not C.  Your preconceptions about
+modular programming development will be a hinderence you will have to
+overcome.  If you have never heard of the C programming language (like
+me in May of 1991), then you are only missing an understanding of the
+simple constructs of C like the flow of program execution and logical
+operators and such.  So a C guru has no real advantage over you, since
+what they know from C which is applicable to LPC is easy to pick up.
+The stuff they know about C which makes them a guru is irrelevant to
+LPC.
+<p> 
+The chapters of this manual are meant to be read in order.  Starting with
+the introduction, going sequentially through the chapter numbers as
+ordered in the contents file.  Each chapter begins with a paragraph or
+two, explaining what you should have come to understand by that point
+in your studies.  After those introductory paragraphs, the chapter then
+begins to discuss its subject matter in nauseating detail.  At the end
+of the chapter is a briefly worded summary of what you should understand
+from that chapter if I have been successful.  Following that may or may
+not be some sidenotes relevant to the subject at hand, but not necessary
+to its understanding.
+<p> 
+If at any time you get to a chapter intro, and you have read the preceeding
+chapters thoroughly and you do not understand what it says you should
+understand by that point, please mail.
+<p>
+Some basic terms this manual uses:
+<p>
+<b>driver</b><br>
+This is the C program which is the game.  It accepts incoming sockets
+(links to other computers), interprets LPC code defined by the mudlib,
+keeps mud objects in memory, makes periodic attempts to clean unused
+mud objects from memory, makes periodic calls to objects, and so on.
+<p> 
+<b>mudlib</b><br>
+LPC code which defines the world in which you are in.  The driver of itself
+is not a game.  It is just a program which allows the creation of a
+multi-user environment.  In some sense, the driver is like an LPC
+compiler, and the mudlib is like a compiler's library (a very loose
+analogy).  The mudlib defines basic objects which will likely be used
+over and over again by people creating in the mud world.  Examples of
+such objects are /base/room (or /std/room, whatever mudlib you are using)
+and so on.
+<p>
+<b>area</b><br>
+Specific creator coded objects which often use a feature of LPC called
+inheritance to make use of the properties of basic mudlib objects and
+turn them into specific objects to be used by players in the game
+<p> 
+<b>object</b><br>
+a room, a weapon, a monster, a player, a bag, etc.  More importantly,
+every individual file with a ".c" extension is an object.  Objects are
+used in different ways.  Objects like /base/living.c are inherited by
+objects like monsters and players.  Others are cloned, which means a
+duplicate of that code is loaded into memory.  And still others are
+simply loaded into memory to be referenced by other objects.
+<p>
+Good Luck!
+<p>
+<a href="mailto:borg@imaginary.com">George Reese</a> (Descartes of Borg), 
+12 july 1993
+<p>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Dec 01, 1996</address>
+</body>
+</html>

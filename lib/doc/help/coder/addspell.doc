@@ -1,0 +1,11 @@
+*----------------------------( Builder: addspell )---------------------------*
+ 
+   Type:        command
+   Usage:       addspell <realm> <list> <level> <target>
+                
+   Description: Add someone a spellist. 
+ 
+   Example:     addspell cha anar 50 manwe
+   
+*----------------------------------------------------------------------------*
+ See also: 'magic', 'cast', 'realms'

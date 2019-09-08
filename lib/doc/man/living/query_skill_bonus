@@ -1,0 +1,9 @@
+
+/* File: /base/living/skill.c
+ * Function name: query_skill_bonus
+ * Description:   how much bonus for a skill
+ * Arguments:     skill - the skill 
+ * Returns:       the bonus for the skill
+ */
+nomask int
+query_skill_bonus(int skill)

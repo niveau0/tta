@@ -1,0 +1,9 @@
+
+/* File: /base/living/combat.c
+ * Function name: add_hp
+ * Description:   Add an amount of hit points to the current amount
+ *                of the living
+ * Arguments:     h: the amount of change
+ */
+nomask void
+add_hp(int h)

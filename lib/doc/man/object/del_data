@@ -1,0 +1,9 @@
+
+/* File: /base/object.c
+ * Function name: del_data
+ * Description:   remove name, pname or adjective
+ * Arguments:	  data - string(s) to remove
+ *		  type - type of data, name, pname or adjective
+ */
+private void
+del_data(string data, int type)

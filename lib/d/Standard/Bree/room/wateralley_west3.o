@@ -1,0 +1,11 @@
+height 100000000
+xsize 1700
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-4900,1600,0,})
+room_short "The Wateralley"
+room_long "Westward is a crossing with a road that branches off to the north. To the east\nlies a bend close to a single building. As the building hides the road beyond\nthe bend you can only guess it follows its main direction to the east. South\nof this road extends a big vacant area of grassy ground up to the citywall.\nMore to the north, a road, parallel to this one, can be seen going towards a\nchurch situated in the northeast.\n"
+room_exits ([3|"cross_chapel_water":({7|110,0,0,100,100000000,0,0,}),"wateralley_west4":({7|119,0,0,200,100000000,0,0,}),"wateralley_westbendnorth":({7|101,0,0,200,100000000,0,0,}),])
+pseudo_items ([3|1:({4|({1|"crossing",}),({1|"crossings",}),"There is a place where a road splits off and leads to the north.",({3|-4900,1700,0,}),}),2:({4|({1|"bend",}),({1|"bends",}),"The road curves to the south and venishes behind the building in the bend.",({3|-3100,1700,0,}),}),3:({4|({4|"road to place","road to marketplace","east road","#roadToMarketplace",}),({3|"roads to place","roads to marketplace","east roads",}),"This cobbled road looks pretty worn. It leads eastward further into the city.",({3|-3100,1700,0,}),}),])

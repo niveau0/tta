@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: read_file
+ * Description:   read file contents
+ * Arguments:     file - file path
+ *                from - first byte where to start reading
+ *                num - number of bytes to read
+ * Returns:       string
+ */
+static nomask varargs string
+read_file(string file, int from, int num)

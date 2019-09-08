@@ -1,0 +1,9 @@
+/*
+ * Function name: living
+ * Description:   returns the 'alive' status of an object
+ * Arguments:     ob - the object to query
+ * Returns:       1 if this object is alive, else 0 
+ */
+
+ This is no longer a function but a macro call within the global include file
+ (/kernel/include/global.h)

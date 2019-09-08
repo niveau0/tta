@@ -1,0 +1,10 @@
+
+/* File: /system/weathermaster.c
+ * Function name: notify_hour_event
+ * Description:   add calling object to the event list, to get notifed that a
+ *                certain is reached
+ * Arguments:     func - function to call
+ *                hour - daytime that should cause the event
+ */
+nomask void
+notify_hour_event(string func, int hour)

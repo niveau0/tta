@@ -1,0 +1,8 @@
+
+/* File: /base/armor.c
+ * Function name: set_protection
+ * Description:   Set the locations the armor protects
+ * Arguments:     locs - integer array, the protection-slots
+ */
+static nomask void
+set_protection(int *p)

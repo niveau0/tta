@@ -1,0 +1,7 @@
+
+/* File: /base/weapon.c
+ * Function name: create_object
+ * Description:   standard constructor
+ */
+static nomask void
+create_object()

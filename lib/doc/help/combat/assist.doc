@@ -1,0 +1,11 @@
+*-----------------------------( Combat: Assist )-----------------------------*
+
+   Type:        command
+   Usage:       assist <name>
+                where <name> is the name of the person you want to assist.
+                
+   Description: Help someone in combat.  You will start to fight against 
+                the current enemy of your partner.
+   
+*----------------------------------------------------------------------------*
+ See also: 'attack'

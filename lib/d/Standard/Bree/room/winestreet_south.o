@@ -1,0 +1,11 @@
+height 100000000
+xsize 200
+ysize 600
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2800,-200,0,})
+room_short "The Winestreet"
+room_long "This part of the road lies directly south of a large crossing. It allows you\nan easy travel to the southern district and its citygate as well as further to\nthe north.\nTwo houses, most probable homes of city-dwellers, lie beside the road showing\nwalls made from wood and small but well-made bricks.\n"
+room_exits ([2|"cross_wine_juice":({7|115,0,0,200,1000,0,0,}),"cross_wine_water":({7|110,0,0,200,1000,0,0,}),])
+pseudo_items ([1|1:({4|({1|"crossing",}),({1|"crossings",}),"Crossing: A place, where usually two roads intersect each other. This special\ncrossing is the spot, where the Winestreet crosses the Wateralley ... or the\nother way round.",({3|2900,500,0,}),}),])

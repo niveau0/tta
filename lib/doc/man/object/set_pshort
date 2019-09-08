@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: set_pshort
+ * Description:   Sets the string to return for plural short description.
+ * Arguments:     pshort - The plural short description
+ */
+void
+set_pshort(string pshort)

@@ -1,0 +1,9 @@
+
+/* File: /base/container.c
+ * Function name: show_inside
+ * Description:   gives description of contents
+ * Arguments:     tp - the looking player
+ * Returns:       string
+ */
+nomask string
+show_inside(object tp)

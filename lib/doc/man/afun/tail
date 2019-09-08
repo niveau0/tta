@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: tail
+ * Description:   show tail of a file
+ * Arguments:     file - file path
+ *                num - number of lines to show
+ * Returns:       1 if success, 0 else
+ */
+static nomask varargs int
+tail(string file, int num)

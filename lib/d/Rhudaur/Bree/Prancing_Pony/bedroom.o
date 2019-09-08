@@ -1,0 +1,12 @@
+light 30000
+height 156
+xsize 156
+ysize 108
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|258,576,0,})
+room_short "A bedroom"
+room_long "Thick curtains are framing two windows in the northern wall and every noise\nyou make seems to be a little bit muffled. The room and its interior is held\nin dark colours.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/bedroom_door",({1|({3|336,576,0,}),}),}),})

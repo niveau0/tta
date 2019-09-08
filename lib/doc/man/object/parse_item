@@ -1,0 +1,11 @@
+
+/* File: /base/object/item.c
+ * Function name: parse_item
+ * Description:   called by cmdsoul to find all matching pseudo items
+ *                of this object
+ * Arguments:     cmd - the command string to check
+ *                type - match type, 1 singular, 2 plural, 3 sing. or plural
+ * Returns:       array, ({ descriptions of matching items })
+ */
+nomask string **
+parse_item(string cmd, int type)

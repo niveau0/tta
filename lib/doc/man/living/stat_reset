@@ -1,0 +1,7 @@
+
+/* File: /base/living/stat.c
+ * Function name: stat_reset
+ * Description:   set some default values, init arrays
+ */
+static nomask void
+stat_reset()

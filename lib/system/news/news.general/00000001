@@ -1,0 +1,9 @@
+home directories
+manwe
+Wed Aug 28 20:37:05 1996
+Domains have been removed, creator home directories (open for read and
+write) are now /home/creatorname (e.g. /home/manwe is my homedirectory).
+You can check your read and write rights with the cmd 'access'.
+Ftp is installed, login: tta.username, password: same as your muduser.
+
+Manwe

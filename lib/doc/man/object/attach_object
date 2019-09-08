@@ -1,0 +1,9 @@
+
+/* File: /base/object.c
+ * Function name: attach_object
+ * Description:   change the environment of an object, but insert into
+ *                'attached' inventory
+ * Arguments:     dest - destination object
+ */
+static nomask void
+attach_object(object dest)

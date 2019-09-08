@@ -1,0 +1,11 @@
+
+/* File: /system/composite.c
+ * Function name: composite_room_contents
+ * Description:   Creates a description-string of a rooms contents
+ *                for a certain player
+ * Arguments:     room - room to describe
+ *                tp - looking player
+ * Returns:       string
+ */
+nomask string
+composite_room_contents(object room, object tp)

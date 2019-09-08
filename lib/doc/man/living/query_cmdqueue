@@ -1,0 +1,8 @@
+
+/* File: /base/living/cmd.c
+ * Function name: query_cmdqueue()
+ * Description:   Give the current cmdqueue array
+ * Returns:       mixed array
+ */
+nomask string *
+query_cmdqueue()

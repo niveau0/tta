@@ -1,0 +1,88 @@
+		sk_percep = cont->query_skill_bonus(SK_PERCEPTION);
+lib/./cmd/misc/get.c
+    if (random(100 + percent) > tp->query_skill_bonus(SK_CHANNELING))
+lib/./cmd/misc/channel.c
+    if ((i=500-random(tp->query_skill_bonus(skill))) < 100 )
+    if ((i = tp->query_skill_bonus(skill) + roll_dice(-1)) >= 100)
+lib/./cmd/misc/repair.c
+	if ((result += roll_dice(-1)) + tp->query_skill_bonus(SK_SECOND_AID) -
+    if ((result = roll_dice(-1) + tp->query_skill_bonus(SK_FIRST_AID) -
+lib/./cmd/misc/aid.c
+    sk = tp->query_skill_bonus(SK_APPRAISAL);
+lib/./cmd/misc/appraise.c
+        ob->query_skill_bonus(SK_PERCEPTION) >
+        tp->query_skill_bonus(SK_AMBUSH) + roll_dice(-1) ||
+lib/./cmd/misc/backstab.c
+    if (tp->query_skill_bonus(SK_FAUNA_LORE) + 50 + roll_dice(-1) >= 100 &&
+	tp->query_skill_bonus(skill) + 80 + roll_dice(-1) >= 100)
+	if ((i=tp->query_skill_bonus(SK_COOKERY) + roll_dice(-1)) < 1)
+lib/./cmd/misc/butcher.c
+    if ((j=500-random(tp->query_skill_bonus(SK_FLETCHING))) < 60)
+    if (tp->query_skill_bonus(SK_FLETCHING) + roll_dice(-1) + 60 > 100)
+    if ((i=500-random(tp->query_skill_bonus(SK_FLETCHING))) < 60 )
+lib/./cmd/misc/carve.c
+		     random(tp->query_skill_bonus(SK_HIDE)));
+		 random(tp->query_skill_bonus(SK_HIDE_ITEM)));
+lib/./cmd/misc/hide.c
+    per = tp->query_skill_bonus(SK_PERCEPTION);
+lib/./cmd/misc/search.c
+    if ((tp->query_skill_bonus(SK_FAUNA_LORE) + 25 + roll_dice(-1)) >= 100 &&
+	(tp->query_skill_bonus(skill) + 10 + roll_dice(-1)) >= 100 )
+lib/./cmd/misc/skin.c
+    sk = tp->query_skill_bonus(SK_STALK) + random(hide);
+	if (random(percep = listen[i]->query_skill_bonus(SK_PERCEPTION)) >=
+lib/./cmd/misc/sneak.c
+    if (roll_dice(-1) + tp->query_skill_bonus(SK_SINGING) < 100)
+lib/./cmd/misc/communicate.c
+	sk = query_skill_bonus(SK_SLA);
+lib/./base/living.c
+	sk_bonus = 30 + random(30) + tp->query_skill_bonus(SK_COOKERY);
+	sk_bonus = tp->query_skill_bonus(SK_HERB_LORE) +
+		   (tp->query_skill_bonus(SK_COOKERY)/2);
+	sk_bonus = tp->query_skill_bonus(SK_COOKERY);
+	sk_bonus = tp->query_skill_bonus(SK_POISON_LORE) +
+		   (tp->query_skill_bonus(SK_COOKERY)/2);
+lib/./base/container.c
+nomask int query_skill_bonus(int skill);
+lib/./base/living/prototypes.h
+ * Function name: query_skill_bonus
+query_skill_bonus(int skill)
+			      desc, prac, theo, query_skill_bonus(i));
+    modifier = query_skill_bonus(skill) + roll_dice(-1) - modifier;
+lib/./base/living/skill.c
+    return query_stat(STAT_CO) + query_skill_bonus(SK_DISTANCE_RUN);
+			   query_skill_bonus(SK_PERCEPTION),
+    percep    = query_skill_bonus(SK_PERCEPTION);
+lib/./base/living/extra.c
+	if ((v = random(100 - query_skill_bonus(skill))) > 0)
+	if ((mod = query_skill_bonus(SK_SLA)) > 100)
+	if ((malus = 90 - query_skill_bonus(SK_TWO_WEAPONS)) < 5)
+	return (weap->query_bonus() + (query_skill_bonus(skill) * mod *
+    return (query_skill_bonus(skill) * mod *
+	  query_skill_bonus(SK_ADRENAL_DEFENSE) + sizeof(shields) * 25);
+	return (query_skill_bonus(weap->query_data()[A_SKILL]) * mood / 100 +
+    return (query_skill_bonus(parry_skill) * mood / 100 +
+	return (weap->query_bonus() + (query_skill_bonus(skill) * mod / 100));
+    return (query_skill_bonus(skill) * mod / 100);
+lib/./base/living/combat_intern.c
+    sk = tp->query_skill_bonus(SK_HERB_LORE);
+lib/./base/herb.c
+	if (!(bonus = lockpicks->query_skill_bonus(SK_PICK_LOCKS)))
+    skill = bonus + tp->query_skill_bonus(SK_PICK_LOCKS) +
+	    tp->query_skill_bonus(SK_LOCK_LORE) / 20;
+lib/./base/misc/openclose.c
+    sk = tp->query_skill_bonus(SK_TRADING) + tp->query_stat_bonus(STAT_AP);
+    sk_keeper = keeper->query_skill_bonus(SK_TRADING) +
+    sk = tp->query_skill_bonus(SK_TRADING) + tp->query_stat_bonus(STAT_AP) / 2;
+    sk_keeper = keeper->query_skill_bonus(SK_TRADING) +
+lib/./base/town/shop.c
+    skill = tp->query_skill_bonus(SK_DISARM_TRAP);
+lib/./home/yavanna/moria/obj/trap/arrow_trap.c
+    skill = tp->query_skill_bonus(SK_POISON_LORE);
+lib/./home/yavanna/moria/obj/trap/trap_bolt.c
+    skill = tp->query_skill_bonus(SK_DISARM_TRAP);
+	if(roll_dice(-1) <= ob->query_skill_bonus(SK_PERCEPTION))
+lib/./home/yavanna/moria/obj/trap/activator.c
+    if ((knot_str = 40 + tp->query_skill_bonus(SK_ROPE_MASTERY) +
+    if ((temp_str = tp->query_skill_bonus(SK_ROPE_MASTERY) +
+lib/./home/seclan/incomplete/rope.c

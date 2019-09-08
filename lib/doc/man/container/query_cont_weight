@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: query_cont_weight
+ * Description:   Returns the weight of the container itself.
+ * Returns:	  Weight value
+ */
+nomask int
+query_cont_weight()

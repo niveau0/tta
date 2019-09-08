@@ -1,0 +1,9 @@
+
+/* File: /base/living/subdesc.c
+ * Function name: query_subdescs
+ * Description:   gives subdescription string for all subdescs
+ * Arguments:     ob - looking object
+ * Returns:       string, 0 if no subdescriptions  
+ */
+nomask string
+query_subdescs(object ob)

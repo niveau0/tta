@@ -1,0 +1,9 @@
+New command 'home'
+manwe
+Thu Nov  7 11:50:14 1996
+The home command allows you to set your personal homeroom path and jump to
+it.
+Usage: home <filepath> to set the desired room.
+       home (without arguments) to jump to that room.
+
+Manwe

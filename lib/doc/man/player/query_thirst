@@ -1,0 +1,8 @@
+
+/* File: /base/player/consume.c
+ * Function name: query_thirst
+ * Description:   how thirsty is the player
+ * Returs:        integer (higher -> more thirst)
+ */
+nomask int
+query_thirst()

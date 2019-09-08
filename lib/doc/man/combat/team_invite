@@ -1,0 +1,10 @@
+
+/* File: /base/living/combat.c
+ * Function name: team_invite
+ * Description:   Invites a new member to my team. This does NOT join the
+ *                member to my team. It only makes it possible for the
+ *                player to join my team.
+ * Arguments:	  ob -  The objectpointer to the invited member.
+ */
+nomask void
+team_invite(object ob)

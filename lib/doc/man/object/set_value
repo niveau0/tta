@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: set_value
+ * Description:   sets the new value of this object
+ * Arguments:     v - the value (in smallest coin value)
+ */
+nomask void
+set_value(int v)

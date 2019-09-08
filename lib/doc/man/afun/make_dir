@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: make_dir
+ * Description:   create directory
+ * Arguments:     file - directory path
+ * Returns:       1 if success, 0 else
+ */
+static nomask int
+make_dir(string file)

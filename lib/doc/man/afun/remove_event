@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/event.c
+ * Function name: remove_event
+ * Description:   stop listening to an event
+ * Arguments:     event - event type
+ *                func - function to remove from event calling list
+ *                obj - object which should stop sending an event
+ */
+static nomask void
+remove_event(int event, string func, object obj)

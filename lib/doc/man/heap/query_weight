@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_weight
+ * Description:   find out about the weight
+ * Returns:       total weight of this heap
+ */
+nomask int
+query_weight()

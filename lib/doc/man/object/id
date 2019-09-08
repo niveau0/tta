@@ -1,0 +1,9 @@
+
+/* File: /base/object.c
+ * Function name: id(string name)
+ * Description:   check if the given name matches a name of this object
+ * Arguments:     name - a string to compare with the object names
+ * Returns:       1 if found, 0 else
+ */
+nomask int
+id(string name)

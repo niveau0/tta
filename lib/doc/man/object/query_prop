@@ -1,0 +1,9 @@
+
+/* File: /base/object/props.c
+ * Function name: query_prop
+ * Description:   Find the value of a property.
+ * Arguments:	  prop - The property searched for.
+ * Returns:       The value or 0.
+ */
+nomask mixed
+query_prop(mixed prop)

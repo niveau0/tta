@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: capitalize
+ * Description:   upper case the first letter of a string
+ * Arguments:     str - string to capitalize
+ * Returns:       string
+ */
+static nomask string
+capitalize(string str)

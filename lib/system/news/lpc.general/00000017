@@ -1,0 +1,8 @@
+coordinates / moving
+manwe
+Sat Jul 26 02:32:08 1997
+Please remember: new coordinates need to be set before moving and object.
+Keep that in mind, I added it also to the manual of move() and
+set_coordinates().
+
+Manwe

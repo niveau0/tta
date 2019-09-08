@@ -1,0 +1,15 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: sprintf
+ * Description:   create a formated string
+ * Arguments:     format - string format, where:
+ *                         %s is a string (with optional size: %<size>s)
+ *                         %d is an integer (with optional size: %<size>d)
+ *                         %o is an object (with optional size: %<size>o)
+ *                         %*<size>s create a string table (the table entries
+ *                                   need to be seperated by newlinecharacters
+ *                argv - arguments to replace in format string
+ * Returns:       string, formated string
+ */
+static nomask varargs string
+sprintf(string format, mixed argv...)

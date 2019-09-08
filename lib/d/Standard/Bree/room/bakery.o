@@ -1,0 +1,13 @@
+light 25000
+height 100
+xsize 400
+ysize 600
+type 524290
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-400,200,0,})
+room_short "In a bakery"
+room_long "You are standing in a small bakery. Many sorts of breads and \ncakes are lying in cupboards and on shelves. It is very clean\nhere except of some flour covering simply everything.\nSome lanters illuminate the room completely and you can read\non a small list what you can buy here.\nYou notice an exit in the western wall and gusts of hot air coming from it.\n"
+room_exits ([1|"/d/Standard/Bree/room/bakery_back":({7|119,250,0,100,100,0,0,}),])
+objs_to_clone ({2|({2|"/d/Standard/Bree/npc/gorlam",({1|({3|-346,500,0,}),}),}),({2|"/d/Standard/Bree/obj/baker_door",({1|({3|-1,500,0,}),}),}),})
+pseudo_items ([5|1:({3|({1|"shelf",}),({1|"shelves",}),"The shelves have some fine cakes and breads on them.",}),2:({3|({1|"cupboard",}),({1|"cupboards",}),"There are fine cakes and breads in the cupboards.",}),3:({3|({1|"lantern",}),({1|"lanterns",}),"The lanterns burn with a bright light. You see that they are fasten to the\nwall and you can't get them.",}),4:({3|({1|"list",}),({1|"lists",}),"@@list_offer",}),5:({4|({3|"backroom","back","exit",}),({2|"backrooms","exits",}),"Spying through the opening you notice big ovens and much heat in the\nneighbouring room. Seemingly all breads and cakes that are for sale here are\nmanufactured there.",({3|-450,500,0,}),}),])
+offer ([0|])

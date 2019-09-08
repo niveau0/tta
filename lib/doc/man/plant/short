@@ -1,0 +1,8 @@
+
+/* File: /base/plant.c
+ * Function name: short
+ * Description:   Return the short description of the object.
+ * Returns:       string
+ */
+string
+short()

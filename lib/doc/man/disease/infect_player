@@ -1,0 +1,10 @@
+
+/* File: /base/disease.c
+ * Function name: infect_player
+ * Description:   infect a given player
+ * Arguments:     tp - the player that should become ill
+ *                rrmod - resistance modifier (positiv -> easier)
+ * Returns:       1 if infected, else 0
+ */
+nomask varargs int
+infect_player(object tp, int rrmod)

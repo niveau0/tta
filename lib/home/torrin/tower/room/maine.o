@@ -1,0 +1,12 @@
+light 100
+height 120
+xsize 480
+ysize 480
+climate 8
+type 2
+edge_base ({4|0,0,0,0,})
+room_coords ({3|480,0,0,})
+room_short "Torrin's Main Hall"
+room_long "This is the main hall of Torrin's Tower. The room continues through a giant\narchway to the west. White marble lines the floor. Black, hobbit-weaved throw\nrugs accent the marble floors as does the black curved staircase. Tall glass\nwindows line the three remaining walls.\n"
+room_exits ([2|"main":({7|119,12,0,456,96,0,0,}),"staire":({7|117,0,420,60,60,0,0,}),])
+pseudo_items ([5|1:({3|({2|"archway","arch",}),({2|"arches","archways",}),"A rounded archway.",}),2:({3|({3|"marble","floor","marble floor",}),({3|"marbles","floors","marble floors",}),"Cold, smooth marble.",}),3:({3|({3|"throw","rug","throw rug",}),({3|"throws","rugs","throw rugs",}),"Black, hobbit-weaved throw rugs. The creator took much pride in his work.",}),4:({3|({2|"stair","staircase",}),({2|"stairs","staircases",}),"A black, curved staircase leading up to the second floor.",}),5:({3|({3|"glass","window","wall",}),({3|"glasses","windows","walls",}),"Through the windows, you see clouds surrounding snow-capped mountains.",}),])

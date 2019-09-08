@@ -1,0 +1,13 @@
+light 10000
+height 100000000
+xsize 10000
+ysize 10000
+climate 7
+type 2
+edge_base ({4|-10000,-10000,-10000,-10000,})
+room_coords ({3|10000,10000,-10000,})
+room_short "In Aule's workroom"
+room_long "You are in a huge cave of enormous dimensions. It is very dark here\nand even the best light couldn't illuminate every corner. There are\nno exits here and you wonder how to leave this cave. In the middle\nof the room you see some furnitures, but it seems the only used \nthing is the table with many papers, potions and books on it. You\nknow you shouldn't be here, because this is the holy room of the\nVala Aule, and he will punish you if he finds you here.\n"
+room_exits ([0|])
+objs_to_clone ({4|({2|"/lib/npc/humanoid/orc",({1|({3|10000,10000,-20000,}),}),}),({2|"/home/aule/npc/armie",({1|({3|10000,10000,-20000,}),}),}),({2|"/home/aule/obj/statue",({1|({3|10000,10000,-20000,}),}),}),({2|"/lib/drink/well",({1|({3|10000,10000,-20000,}),}),}),})
+pseudo_items ([1|1:({3|({2|"table","desk",}),({2|"tables","desks",}),"This is a huge table with a lot of stuff on it.",}),])

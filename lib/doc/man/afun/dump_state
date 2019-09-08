@@ -1,0 +1,7 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: dump_state
+ * Description:   create a state dump of the memory
+ */
+static nomask void
+dump_state()

@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: tell_watcher
+ * Description:   Send the string from the fight to people that want see
+ * Arguments:	  The string to send
+ */
+static nomask void
+tell_watcher(mixed str)

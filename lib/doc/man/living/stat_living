@@ -1,0 +1,7 @@
+
+/* File: /base/living/stat.c
+ * Function name: stat_living
+ * Description:   gives the stats for this living
+ */
+nomask string
+stat_living()

@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: quit
+ * Description:   local quit function, so player can quit if cmdsouls bug
+ */
+static nomask int
+quit()

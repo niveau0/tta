@@ -1,0 +1,14 @@
+*-----------------------------( Builder: tell )------------------------------*
+ 
+   Type:        command
+   Usage:       tell <playername> <text>
+                
+   Description: The command 'tell' is a very useful God command that allows 
+		Immortals to communicate with anyone in the mud.  It can be 
+		used to tell to mortals and immortals alike.
+ 
+   Example:     > tell kult please don't hurt me Kult!  I'll be good!
+		You told Kult: please don't hurt me Kult!  I'll be good!
+   
+*----------------------------------------------------------------------------*
+ See also: 'tellall'

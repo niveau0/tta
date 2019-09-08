@@ -1,0 +1,9 @@
+
+/* File: /base/living/combat.c
+ * Function name: team_leave
+ * Description:   Removes this living as the leader of another
+ * Arguments:	  ob - The objectpointer to the member leaving my team
+ *                flag - if true do not 'leave' other members again 
+ */
+nomask void 
+team_leave(object ob, int flag)

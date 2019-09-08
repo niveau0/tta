@@ -1,0 +1,8 @@
+
+/* File: /base/living.c
+ * Function name: set_linkdead
+ * Description:   care for possession if connection gets lost
+ * Arguments:     i - linkdead flag
+ */
+void
+set_linkdead(int i)

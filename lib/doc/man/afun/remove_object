@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: remove_object
+ * Description:   remove an object, also removes inventory, destruct should
+ *                only be used if an error occurred here.
+ * Arguments:     obj - object to remove
+ */
+varargs void
+remove_object(object obj)

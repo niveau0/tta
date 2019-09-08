@@ -1,0 +1,9 @@
+
+/* File: /base/heap.c
+ * Function name: query_split_size
+ * Description:   find out about the heapsize before a pending move
+ *                (after split)
+ * Returns:       size of this heap
+ */
+nomask int
+query_split_size()

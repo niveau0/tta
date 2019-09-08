@@ -1,0 +1,12 @@
+light 100
+height 80
+xsize 80
+ysize 800
+climate 7
+type 4
+edge_base ({4|0,0,0,0,})
+room_coords ({3|10110,9200,0,})
+room_short "A hallway"
+room_long "As you walk into this room, which is entirely made out of black marble\nAs you stalk though this dark hallway you wonder where it may lead.\nThe ground and walls are smooth and even the ceiling is like the\nsurface of a mirror. All is made of black marble and you can't make\nout any crack between the slabs... indeed the whole hallway\nseems to be made of one huge slab of marble. Only a divine being\ncould have crated this hallway and you wonder where it leads.\n"
+room_exits ([1|"crypt":({7|110,0,0,80,80,0,0,}),])
+pseudo_items ([1|1:({3|({1|"altar",}),({1|"altars",}),"This altar might have been used for some unspeakable rituals.",}),])

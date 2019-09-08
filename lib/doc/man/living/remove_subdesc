@@ -1,0 +1,8 @@
+
+/* File: /base/living/subdesc.c
+ * Function name: remove_subdesc
+ * Description:   remove an object that creates extra description
+ * Arguments:     id - the subdescription id to remove
+ */
+nomask void
+remove_subdesc(string id)

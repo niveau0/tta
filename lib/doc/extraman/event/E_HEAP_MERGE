@@ -1,0 +1,19 @@
+Event:     E_HEAP_MERGE
+
+Called:    Whenever a heap object moves and merges with another object, or
+           a split clone is created, this event is initiated within the 
+           merging heap. If the heap doesn't move completly, argument 'heap'
+           is the heap where it splits from. If the heap is moving completly,
+           'heap' is the object that existed before at the destination but 
+           now merges and then disappears. If there was no such heap at the 
+           destination, then 'heap' is 0. 
+	   Summarized, 'heap' is always the other heap object that might be 
+           involved in the merge-process.
+
+Usage:     Add an event (see add_event), create an event handling function, 
+           that will be called if the event occurs:
+	   void function(object heap, int growSize) { ... }
+
+Arguments: object heap  - the heap that shrinks or merges 
+                          (and therefore gets removed after move)
+           int growSize - how many units transfer

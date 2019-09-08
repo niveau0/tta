@@ -1,0 +1,13 @@
+*-----------------------------( Misc: contort )------------------------------*
+
+   Type:        command
+   Usage:       contort <limb>
+                
+   Description: Lets you contort the given limb to free it from the bond.
+                One should be skilled in contortion to use this command
+                successfully.
+
+   Example:     contort right leg
+   
+*----------------------------------------------------------------------------*
+ See also: 'contortions', 'skills'

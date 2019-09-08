@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: cb_attack_object
+ * Description:   Attack someone
+ * Arguments:     ob - The object of the attack
+ */
+nomask void
+cb_attack_object(object ob)

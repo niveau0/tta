@@ -1,0 +1,8 @@
+
+/* File: /base/plant.c
+ * Function name: query_plant_data
+ * Description:   get the grow data for the plant
+ * Returns:       mapping with all grow data
+ */
+nomask mapping
+query_plant_data()

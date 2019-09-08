@@ -1,0 +1,10 @@
+
+/* File: /base/plant.c
+ * Function name: do_shrink
+ * Description:   let the plant shrink
+ * Arguments:     amount - how many plants in heap should grow
+ * Returns:       0 - the plant cannot shrink further
+ *                1 - Ok, plant grows
+ */ 
+nomask int
+do_shrink(int amount)

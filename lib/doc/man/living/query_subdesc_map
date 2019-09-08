@@ -1,0 +1,8 @@
+
+/* File: /base/living/subdesc.c
+ * Function name: query_subdesc_map
+ * Description:   gives the subdescription mapping
+ * Returns:       mapping ([ id : object, ... ])
+ */
+nomask mapping
+query_subdesc_map()

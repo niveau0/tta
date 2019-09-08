@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/tool.c
+ * Function name: roll_dice
+ * Description:   return a random value (open end roll included)
+ * Arguments:     f - flag, if negative roll is also negative open ended
+ * Returns:       integer
+ */
+static varargs nomask int
+roll_dice(int f)

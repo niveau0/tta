@@ -1,0 +1,8 @@
+
+/* File: /base/player.c
+ * Function name: set_name
+ * Description:   Name of the player. Called only at death or creation.
+ * Arguments:     n - the name
+ */
+nomask void
+set_name(string n)

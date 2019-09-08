@@ -1,0 +1,7 @@
+
+/* File: /system/weathermaster.c
+ * Function name: sunrise
+ * Description:   give different descriptions about the current sunposition
+ */
+static nomask void
+sunrise()

@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: set_max_volume
+ * Description:   Returns the maximum volume the container can hold.
+ * Returns:	  Volume value
+ */
+int
+query_max_volume()

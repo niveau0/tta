@@ -1,0 +1,18 @@
+This directory contains file that are ready to be exported to the main
+mudlib, and information about these files.
+
+file			contents
+---------------		--------------------------------------------------
+filename.export		pathname to which the file is to be copied.
+                  	revision history (i.e. why it was changed!)
+filename.doc		builder documentation for revisions.
+filename.{other}	the file to be exported.
+
+The admin is requested to review the changes, and if they are assimilated
+into the main mudlib, proceed to delete the files from this directory that
+were used so that the both coder and the admin know they were sumbitted.  The
+*.export is just information for the admin and need not be retained.
+
+Since we don't have much in the way of builder docs so far, I'm just going
+to write/revise them as I go.  These will be plain english docs that won't
+frighten non-technical people.  8')

@@ -1,0 +1,13 @@
+*-----------------------------( Builder: update )----------------------------*
+ 
+   Type:        command
+   Usage:       update <objectname>
+		upd <objectname>
+
+   Description: Update (abbreviation 'upd') removes an object from memory, so
+		it will be recompiled at next reference and newly created.
+ 
+   Example:  	update /home/erikose/obj/sword
+   
+*----------------------------------------------------------------------------*
+ See also: 'loaddir', 'load', 'updir'

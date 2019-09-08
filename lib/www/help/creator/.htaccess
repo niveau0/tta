@@ -1,0 +1,7 @@
+Options FollowSymLinks
+AuthName TTA Creators
+AuthType Basic
+AuthUserFile /home/mud/lib/syslog/cpasswd.dat
+
+require valid-user
+

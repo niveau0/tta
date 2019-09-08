@@ -1,0 +1,13 @@
+*--------------------------------( Misc: Give )------------------------------*
+
+   Type:        command
+   Usage:       give <item> to <someone|something>
+                
+   Description: If you want to transfer some of your items to someone you 
+                offer them just by giving them to someone or somthing.
+                The receiver needs to answer with the 'accept' command.
+                
+   Example:     give beer to tall elf
+                    
+*----------------------------------------------------------------------------*
+ See also: 'accept'

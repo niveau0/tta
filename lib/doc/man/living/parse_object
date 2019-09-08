@@ -1,0 +1,18 @@
+
+/* File: /base/living.c
+ * Function name: parse_object(string *cmd, int type, int *co, int d,
+ *                             object tp)
+ * Description:   this function is called by parse(), check if this object
+ *                matches the command string
+ *                here: support introduce system
+ * Arguments:     cmd - array of exploded cmd string 
+ *                type - if 1 match singular name,
+ *                       if 2 match plural name,
+ *                       if 3 match singular or plural name
+ *                co - if not zero, include distance check
+ *                d - if not zero, include distance check
+ *                tp - if not zero, include remember check
+ * Returns:       found name type
+ */
+nomask int
+parse_object(string *cmd, int type, int *co, int d, object tp)

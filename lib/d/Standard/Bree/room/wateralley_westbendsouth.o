@@ -1,0 +1,11 @@
+height 100000000
+xsize 200
+ysize 500
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-3200,800,0,})
+room_short "Bend in the Wateralley"
+room_long "At this point the road turns north in front of a single building in the west.\nEastward the road stretches to the city's center and close to the north is\nanother bend, which goes to the west. In the south is a wide lot overgrown\nwith grass and wild plants. Further to the south and the southwest limiting\nthe grassy area raises the citywall.\n"
+room_exits ([3|"grass_westbaker":({7|115,0,0,200,100000000,0,0,}),"wateralley_west2":({7|101,0,0,200,100000000,0,0,}),"wateralley_westbendnorth":({7|110,0,0,200,100000000,0,0,}),])
+pseudo_items ([1|1:({4|({4|"road to place","road to marketplace","east road","#roadToMarketplace",}),({3|"roads to place","roads to marketplace","east roads",}),"This cobbled road looks pretty worn. It leads southward, then bends to the\neast and leads further into the city.",({3|-2999,900,0,}),}),])

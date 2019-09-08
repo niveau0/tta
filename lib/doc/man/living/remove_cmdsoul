@@ -1,0 +1,9 @@
+
+/* File: /base/living/cmd.c
+ * Function name:   remove_cmdsoul(string soul)
+ * Description:	    Remove a command soul from the list.
+ * Arguments:       soul - the filename of the soul to remove
+ * Returns:         1 if successful, 0 else
+ */
+nomask int
+remove_cmdsoul(string soul)

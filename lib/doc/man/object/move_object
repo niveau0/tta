@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: move_object
+ * Description:   change the environment of an object
+ * Arguments:     dest - destination object
+ */
+static nomask void
+move_object(object dest)

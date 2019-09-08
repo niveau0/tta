@@ -1,0 +1,7 @@
+
+/* File: /base/object.c
+ * Function name: create_object
+ * Description:   redefineable constructor function
+ */
+static void
+create_object()

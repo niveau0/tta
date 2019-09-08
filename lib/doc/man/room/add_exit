@@ -1,0 +1,9 @@
+
+/* File: /base/room.c
+ * Function name: add_exit
+ * Description:   add an exit  
+ * Arguments:     file - the destination room
+ *                data - exit data array
+ */
+nomask void
+add_exit(string file, mixed data)

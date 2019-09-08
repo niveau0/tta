@@ -1,0 +1,10 @@
+
+/* File: /base/misc/subloc.c
+ * Function name: add_to_subloc
+ * Description:   Add an object to the given sublocation (sublocation
+ *                will be created if it doesn't exist)
+ * Arguments:     sloc - Name of sub location
+ *                ob - object to insert at the sublocation 
+ */
+nomask void
+add_to_subloc(string sloc, object ob)

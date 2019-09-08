@@ -1,0 +1,13 @@
+*------------------------------( Magic: Channel )----------------------------*
+
+   Type:        command
+   Usage:       channel few|some|much to <name>
+                
+   Description: Channeling is the ability to transfer mental energies 
+                between you and someone else. You may try to channel some
+    	    	of your mana to help someone.
+ 
+   Example:     channel few to arzon
+                    
+*----------------------------------------------------------------------------*
+ See also: 'channeling'

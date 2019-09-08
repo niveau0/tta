@@ -1,0 +1,7 @@
+OBJ_NO_REMOVE_MSG removed
+manwe
+Fri Jul 25 14:47:36 1997
+This property is no longer in use, it has been replaced by the E_REMOVE_TOOL
+event, please read the manual.
+
+Manwe

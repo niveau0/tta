@@ -1,0 +1,9 @@
+
+/* File: /base/player.c
+ * Function name: command
+ * Description:	  Makes the player execute a command. Handles alias expanding.
+ * Arguments:	  cmd - string containing the command
+ * Returns:	  integer, 1 success, -1 failed, 0 no such command
+ */
+nomask int
+command(string cmd)

@@ -1,0 +1,8 @@
+
+/* File: /base/player.c
+ * Function name: set_user
+ * Description:   set current user for this object, here for security
+ * Arguments:     u - the user object
+ */
+nomask void
+set_user(object u)

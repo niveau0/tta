@@ -1,0 +1,12 @@
+light 1
+height 120
+xsize 10
+ysize 10
+climate 1
+type 2
+edge_base ({4|1048576,1048576,1048576,1048576,})
+room_coords ({3|-600,0,1048576,})
+room_short "Fork's little room"
+room_long "This is the place where Fork sits when he's all alone.\nThere is a chair in the corner.\n"
+room_exits ([0|])
+pseudo_items ([1|1:({3|({2|"chair","wooden chair",}),({2|"chairs","wooden chairs",}),"A simple wooden chair to sit upon.",}),])

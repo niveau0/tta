@@ -1,0 +1,37 @@
+obj_weight 117000
+obj_volume 105300
+obj_size 87
+cmdsoul_list ({2|"/cmd/emotion/emotion","/cmd/misc/misc",})
+hp 10
+base_hp 9
+fatigue 51
+race_name "ainu"
+mana 1
+realm 7
+move_msg "walks"
+run_msg "runs"
+teleport_in "arrives in a puff of utensils"
+teleport_out "vanishes in a puff of logic"
+skill_rank ([3|603:80008,605:200020,607:30003,])
+wounds ([0|])
+bandaged ([0|])
+dev_points 305
+tmp_stats ({11|51,98,45,21,64,96,56,41,28,66,93,})
+pot_stats ({11|93,99,47,49,77,96,81,48,87,79,96,})
+tmp_stat_val ({11|0,0,0,0,0,0,0,0,0,0,0,})
+tmp_stat_t ({11|0,0,0,0,0,0,0,0,0,0,0,})
+hunger 667
+thirst 1376
+login_time 1111513183
+active_time 65478
+birth 1110982436
+password "I2EHE847wEjfI"
+path "/home/fork/."
+email "sco@openface.ca"
+last_location "/home/fork/forkroom:-600,0,2097152"
+login_from "216.46.1.65"
+auto_load ({0|})
+skill_usage ([1|605:1,])
+name "fork"
+adj ({0|})
+saved_props ([6|2000:1,2004:1,2005:"/home/fork/forkroom",4503:605,8000:17,8001:1111513183,])

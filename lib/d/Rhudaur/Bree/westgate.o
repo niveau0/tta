@@ -1,0 +1,11 @@
+height 100000000
+xsize 1000
+ysize 1000
+climate 1
+type 131072
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-21700,3000,0,})
+room_short "in front of a gate"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([2|"above_westgate":({7|117,0,0,1000,1000,0,0,}),"eastroad_west4":({7|101,0,0,1000,160,2,0,}),])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/obj/westgate",0,}),})

@@ -1,0 +1,9 @@
+
+/* File: /base/living.c
+ * Function name: catch_tell
+ * Description:   deliver message to user
+ * Arguments:     msg - the message string
+ *                no_prompt - true if no prompt should be send
+ */
+varargs void
+catch_tell(string msg, int no_prompt)

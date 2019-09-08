@@ -1,0 +1,8 @@
+
+/* File: /base/living/extra.c
+ * Function name:   set_race(string str)
+ * Description:     Sets the race name of this living.
+ * Arguments:       str - race string
+ */
+nomask void
+set_race(string str)

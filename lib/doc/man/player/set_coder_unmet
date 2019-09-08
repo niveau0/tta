@@ -1,0 +1,8 @@
+
+/* File: /base/player/met.c
+ * Function name:   set_coder_unmet(int flag)
+ * Description:     if this is a coder, he may chose to see only nonmet names
+ * Arguments:       flag - 1 if see as unmet, 0 if see as met
+ */
+nomask void
+set_coder_unmet(int flag)

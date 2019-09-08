@@ -1,0 +1,8 @@
+
+/* File: /base/weapon.c
+ * Function name: reload_weapon
+ * Description:   give the data array to reload for an weapon
+ * Returns:       data values to restore
+ */
+nomask mixed
+reload_weapon()

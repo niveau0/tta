@@ -1,0 +1,8 @@
+
+/* File: /base/player.c
+ * Function name: add_adj
+ * Description:   adjectives of the player.
+ * Arguments:     a - adjective
+ */
+nomask void
+add_adj(string a)

@@ -1,0 +1,47 @@
+		   Attaching items to other objects
+
+1. Prepare an object for attachment:
+   To allow an object to be attached to another object just set the
+   property OBJ_ATTACH_SIZE to a value that stays in relation with the
+   holding objects size.
+   E.g. if you set the attach size to 5, you can attach the item to all
+   other objects with free attach slots and a size > 5.
+
+2. Prepare an object as an attachment holder:
+   You need to inherit /system/inventory, /base/misc/attach and set a 
+   number of attach slots.
+   
+   Code example (a simple belt):
+
+	inherit "/base/object";
+	inherit "/system/inventory";  /* belt needs an inventory      */
+	                              /* for attachments              */
+	inherit "/base/misc/wear";    /* allow belt to be worn        */
+	inherit "/base/misc/attach";  /* get the attach functionality */
+	
+	#include <macros.h>
+	#include <material.h>
+	#include <properties.h>
+	#include <slots.h>
+	
+	static nomask void
+	create_object()
+	{
+	    set_name("belt");
+	    set_pname("belts");
+	    add_adj("leather");
+	    set_short("leather belt");
+	    set_pshort("leather belts");
+	    set_long("A thick leather belt with four nooses to hold items.\n");
+	    set_lwvs(0, 500, 323, 10); /* remember the size, here 10, is */
+                                       /* the maximum allowed attachment */
+				       /* size for attached items        */
+	    set_layer(LAYER_ABOVE_ALL);
+	    set_locations( ({ SLT_ABDOMEN }) );
+	    set_value(30);
+	    set_race_sizes(60, 90);
+	    add_prop(OBJ_MATERIAL, M_LEATHER);
+	    
+	    set_attach_slots(4); /* up to four items can be attached */
+	}
+

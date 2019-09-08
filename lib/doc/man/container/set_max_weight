@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: set_max_weight
+ * Description:   Set the maximum weight the container can hold.
+ * Arguments:     Weight value
+ */
+nomask void
+set_max_weight(int val)

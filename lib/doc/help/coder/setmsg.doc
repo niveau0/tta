@@ -1,0 +1,18 @@
+*---------------------------( Builder : setmsg )-----------------------------*
+ 
+   Type:        command	
+   Usage:       setmsg <text>
+                
+   Description: 'setmsg' is used to, as if you could not guess, set your 
+		messages. But what messages? There are four types (currently):
+		  magic arrival  -> setmsg mArrive <message>
+		  magic leaving  -> setmsg mLeave <message>
+                  running        -> setmsg run <message>
+                  walking        -> setmsg walk <message>
+
+   Example:     setmsg walk zooms
+		(Others see when you move)
+		Erikose zooms north.
+   
+*----------------------------------------------------------------------------*
+ See also: 'goto', 'review'

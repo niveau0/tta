@@ -1,0 +1,11 @@
+
+/* File: /base/object.c
+ * Function name: add_lwvs
+ * Description:   add a light, weight, volume and size value to the existing
+ * Arguments:     l - the light value to add (inch how far to see)
+ *                w - the weight value to add (in gram)
+ *                v - the volume value to add (in milliliter)
+ *                s - the size value to add (in inch)
+ */
+nomask void
+add_lwvs(int l, int w, int v, int s)

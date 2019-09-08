@@ -1,0 +1,12 @@
+
+/* File: /base/living/combat.c
+ * Function name: E_got_hit
+ * Description:   event: called if this living got a hit
+ * Arguments:     from - which object did the hit
+ *                ao - which object got hit
+ *                damage - how much damage was inflicted
+ *                slot - which slot got hit
+ *                w - weapon object (0 if not hit by a weapon)
+ */
+nomask void
+E_got_hit(object from, object ao, int damage, int slot, object w)

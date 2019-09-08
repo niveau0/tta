@@ -1,0 +1,9 @@
+
+/* File: /base/misc/attach.c
+ * Function name: attach_check
+ * Description:   check if an object is allowed to get attached to this_object
+ * Arguments:     ob - the object to attach
+ * Returns:       1 if allowed, else 0
+ */
+nomask int
+attach_check(object ob)

@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: member_array
+ * Description:   search for an element in an array
+ * Arguments:     elt - element to search
+ *                arr - array to search through
+ * Returns:       element index if found, else -1
+ */
+static nomask int
+member_array(mixed elt, mixed arr)

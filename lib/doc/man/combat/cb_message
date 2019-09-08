@@ -1,0 +1,11 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: cb_message
+ * Description:   prints the combat messages and deals with the damage
+ * Arguments:     attack - the slot or weapon that made the attack
+ *                aohloc - the hitlocation
+ *                         ({ slot, at, ac, th, hc, description })
+ *                diff - difference between ob and db
+ */
+private void
+cb_message(mixed attack, mixed aohloc, int diff)

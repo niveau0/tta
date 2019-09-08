@@ -1,0 +1,59 @@
+Alte ideen aus Pader:
+
+shops
+-----
+- info holen ueber MWSteuer in der jeweiligen domain
+  danach aufschlag auf preis berechnen
+
+Buergermeister (cmdsoul)
+--------------------------------
+- Geldmittel vom Schatzmeister
+- Speicherung der steuersaetze einer domain
+  - Mehrwertsteuer (wird im shop verarbeitet)
+  - Zoelle an Domaingrenzen (Grenzposten treiben ein)
+  
+- Ernennen / Absetzen
+  - Admiral, einen 
+  - Schatzmeister, einen
+  - Marshall, einen
+
+- Kriegs- bzw. Friedensdeklaration zwischen den Domains
+- Illegale Handlungen (d.h. Domaingesetze) festlegen
+  
+Admiral (cmdsoul)
+-----------------
+- Geldmittel vom Buergermeister
+- Ernennen/Absetzen
+  - Kapitaene (bis zu 10)
+- Schiffe an Kapitaene vergeben
+- Kann bis zu 10 Schiffe verwalten/besitzen
+    
+Schatzmeister (cmdsoul)
+-----------------------
+- Geldmittel aus Steuern (selbst eintreiben)
+- Bringt Steuern an Buergermeister
+
+Marschall (cmdsoul)
+-------------------
+- Bezahlung durch Buergermeister
+- Oberhaupt der Wachen
+- Kann offiziellen Domain guards einfache Befehle geben
+  - Angriff 
+  - Teambildung 
+  - Verhaftungen auftragen
+  - global setzen wie streng kontrollen sind
+- Guards ernennen/absetzen
+
+City guard (cmdsoul)
+--------------------
+- Festhalten, einsperren wenn moeglich
+
+Erzbishof (cmdsoul)
+-------------------
+- Gewaehlt von Kleriker-gilde
+- Bannen von Klerikern aus der Gilde
+- Kollekte ueberwachen
+
+Spaeter:
+--------
+- domainzugehoerigkeiten der Spieler

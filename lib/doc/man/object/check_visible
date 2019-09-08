@@ -1,0 +1,14 @@
+
+/* File: /base/object.c
+ * Function name: check_visible
+ * Description:   additional function to visible() within living.c
+ *                (to improve speed)
+ * Arguments:     ldist - the maximum distance lighted
+ *                see_invis - the level of invisible a living sees
+ *                percep - perception of looking player
+ *                co - coordinates of looking player
+ *                env - environment of looking player
+ * Returns:       1 if visible, 0 else
+ */
+nomask int
+check_visible(int ldist, int see_invis, int percep, int *co, object env)

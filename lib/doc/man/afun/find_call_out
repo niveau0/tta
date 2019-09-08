@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/call_out.c
+ * Function name: find_call_out
+ * Description:   search a pending call_out
+ * Arguments:     value - string: delayed function
+ *                        integer: call_out id
+ * Returns:       remaining delay time, else -1
+ */
+static nomask int
+find_call_out(mixed value)

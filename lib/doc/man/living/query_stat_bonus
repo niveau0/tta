@@ -1,0 +1,9 @@
+
+/* File: /base/living/stat.c
+ * Function name: query_stat_bonus
+ * Description:   how much bonus a stat gives
+ * Arguments:     stat - the stat to query
+ * Returns:       the bonus
+ */
+nomask int
+query_stat_bonus(int stat)

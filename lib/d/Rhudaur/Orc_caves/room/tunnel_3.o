@@ -1,0 +1,11 @@
+height 150
+xsize 90
+ysize 350
+type 6
+edge_base ({4|0,0,0,0,})
+room_coords ({3|350,200,0,})
+room_short "A long and very dark tunnel"
+room_long "The bad air here almost makes you vomit and you wish to leave as soon as\npossible. The northern exit leads into a bigger tunnel and a bend to the\nsouth leads east.\n"
+room_exits ([2|"dead_end_1":({7|101,0,0,90,150,0,0,}),"tunnel_2":({7|110,0,0,90,150,0,0,}),])
+objs_to_clone ({2|({2|"/lib/npc/humanoid/orc",({1|({3|352,226,0,}),}),}),({2|"/lib/weapon/one_h_c/club",({2|({3|352,226,0,}),0,}),}),})
+pseudo_items ([2|1:({4|({1|"northern exit",}),({1|"exit",}),"This tunnel end here into another, bigger one.",({3|400,550,0,}),}),2:({4|({1|"bend",}),({1|"bends",}),"The tunnel bends here to the east.",({3|440,250,0,}),}),])

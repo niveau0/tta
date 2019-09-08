@@ -1,0 +1,8 @@
+
+/* File: /system/weathermaster.c
+ * Function name: query_moon
+ * Description:   return the current moon phase
+ * Returns:       integer
+ */
+nomask int
+query_moon()

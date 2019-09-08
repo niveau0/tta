@@ -1,0 +1,17 @@
+*-------------------------------( Misc: Eat )--------------------------------*
+
+   Type:        command
+   Usage:       eat <item>
+
+   Description: Depending on your constitution your body will show you more
+                or less often, that you are hungry. 
+                'You get an inconsiderable feeling of hunger.'
+                How thirsty or hungry you are, can be also seen in your 
+                personal informations (stats).
+                Bread or other food is mostly sold in pubs, but it is also
+                possible to get meat from some dead animals.
+		If you don't eat when you body shows hunger, you will die 
+                soon by starvation.
+
+*----------------------------------------------------------------------------*
+ See also: 'drink', 'stats'

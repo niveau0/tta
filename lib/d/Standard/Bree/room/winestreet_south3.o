@@ -1,0 +1,11 @@
+height 100000000
+xsize 200
+ysize 1200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2200,-2400,0,})
+room_short "The Winestreet at the southern citygate"
+room_long "This is either the end or the beginning of the road you stand upon, depending\non the direction you will take. To the north it leads into the parts of the\ntown that are more dense occupied, but to the south it is swallowed by a big\ngate in the citywalls. There are only two houses around that catch your eye.\nAn appearantly private house that disturbes a wide grassy area to the west and\na second one on the eastern side of the road near the gate. The second\nbuilding spreads an impression of military presence that makes you assuming it\nis a guardhouse.\n"
+room_exits ([2|"southgate":({7|115,0,0,200,200,0,0,}),"winestreet_bend":({7|110,0,0,200,1000,0,0,}),])
+pseudo_items ([1|1:({4|({2|"guardhouse","building",}),({2|"guardhouses","buildings",}),"Seemingly you were right. Sturdy walls and doors, thick iron gates at the\nwindows and the signs of permanent usage show the purpose of the building. A\nplace for the soldiers that follow their orders to protect this gate and\nhereby the whole city.",({3|2400,-2250,0,}),}),])

@@ -1,0 +1,7 @@
+
+/* File: /base/living/combat.c
+ * Function name: query_bloodloss
+ * Returns:       How strong we bleed
+ */
+nomask int
+query_bloodloss()

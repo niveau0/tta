@@ -1,0 +1,11 @@
+light 30000
+height 156
+xsize 36
+ysize 120
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|414,576,0,})
+room_short "A short corridor"
+room_long "The corridor is carpeted with light brown boards. In the south it forks into a\npassage east- and another one westward. In the north you can leave the\nbuilding.\n"
+room_exits ([1|"corridor2":({7|115,0,0,36,156,0,0,}),])

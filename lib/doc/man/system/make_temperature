@@ -1,0 +1,9 @@
+
+/* File: /system/weathermaster.c
+ * Function name: make_temperature
+ * Description:   compute new temperature value
+ * Arguments:     season - current season code
+ * Returns:       string temperature description
+ */
+private string
+make_temperature(int season)

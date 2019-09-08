@@ -1,0 +1,9 @@
+light 800
+height 300
+xsize 300
+ysize 300
+type 2
+room_coords ({3|0,1200,0,})
+room_short "cubic room"
+room_long "This is a square room with exits in all six directions.\nThe frames of the exits eradiate bright light, illuminating the room quite\ngood.\nAll exits except the southern one are protected by some kind of repelling\nforce.\n"
+room_exits ([1|115:({10|"/d/Standard/Bree/room/marketplace",100,100,100,100,"/d/Standard/Bree/room/marketplace",0,0,300,300,}),])

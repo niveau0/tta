@@ -1,0 +1,13 @@
+Event:     E_ARRIVED
+
+Called:    Whenever a living is walking and arrived at the destination or
+           cannot got further somehow, an arrival event is called.
+
+Usage:     Add an event (see add_event), create an event handling function, 
+           that will be called if the event occurs:
+	   int function(object o, mixed dest, int fail, object reason) { ... }
+           
+Arguments: object o      - the walking living
+	   mixed dest    - the destination (an object or direction string)
+           int fail      - if true, the movement was blocked somehow
+           object reason - the object that cause the failure (if known, else 0)

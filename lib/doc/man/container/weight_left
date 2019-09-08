@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: weight_left
+ * Description:   Returns the weight left to fill.
+ * Returns:	  non_negative integer (the left weight)
+ */
+nomask int
+weight_left()

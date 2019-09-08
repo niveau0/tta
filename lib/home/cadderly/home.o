@@ -1,0 +1,12 @@
+light 1000
+height 100000000
+xsize 500
+ysize 500
+type 2
+edge_base ({4|1048576,1048576,1048576,1048576,})
+room_coords ({3|-600,0,1048576,})
+room_short "In the depths of Hell"
+room_long "Cadderly's workroom. Around you is a thick haze. You can\nfeel the wind pulling at your hair. A sign floats in the air\nin front of you.\n"
+room_exits ([0|])
+objs_to_clone ({2|({2|"/lib/npc/animal/rabbit",0,}),({2|"/lib/npc/animal/rabbit",0,}),})
+pseudo_items ([1|2:({3|({1|"sign",}),({1|"signs",}),"It says: 'Home Sweet Home.'",}),])

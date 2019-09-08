@@ -1,0 +1,159 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+MARKUS:
+
+card game
+
+goto zu pseudo items 
+
+alle skill checks durchsehen
+
+fuer effekte das object merken (z.B. paralyse koennen mehrere objecte sein)
+
+objecte ohne coordinaten aus raeumen entfernen (und loggen) ?
+
+fast walk mode wenn man walk/run benutzt?
+
+wear_tool, wenn spezielle slots dabei (SLT_ARM+1) dann checken ob rest auch 
+bei +1 liegt (? naja aber auch nur vielleicht)
+
+population vernueftig zaehlen bei playercreation
+
+gruppen object, heer object
+
+pull/push_cmd ins object.c, push und pull sinnig machen
+
+examples (treppen erstmal)
+
+status functionen in state.h -> BURNING(), FALLING()...
+
+workaround im user.c muss noch wech (wegen close flag)
+
+wozu sublocs? oder: wozu slots anstatt sublocs?
+
+www seiten updaten (passwdfiles verlegen, ebenso userstats)
+
+einzel object access in accessd (ein cmd dafuer machen, objaccess)
+
+fehlendes delay fuer cmds, /cmd/delay.c (emotions),  + disarm 
+
+attachte items mit ins autoload, und attach nochmal checken
+
+inventory (optional):
+abdomen: belt
+            sword, bag                  
+         trousers
+            arrows
+head:    helm
+            feder
+         brille
+         
+
+schraege raeume, abrutschen?
+
+effect restart ueberdenken, anwendung aufschreiben!!!! (HowTo)
+
+alle cmds einzeln ladbar machen, nicht includen
+
+shopkram mehr ins npc/shopkeeper packen
+
+attach move fuer neuen heap anpassen
+monster brain
+raum speichern ohne vergaengliches (food)? nach object_time() ?
+generation object
+watcher von helge
+bei shutdown raumsave als option abschaltbar
+extra atmod/obmod fuer geworfenes (in throw cmd)? (e.g. javelin_thr)
+erlernbare skills ankreuzen in liste (learncost cmd)
+zeit zuaddieren bei activem spielen (und zeiten durchrechnen, zentralisieren)
+perception check beim anschauen (look at) ob mans merkt
+
+possess... hoeren macht aerger?
+
+viele basis sachen noch mit autoload funktionen versehen
+
+help schreiben
+
+/base/object: falling(), light(), wet(), smash(), etc? 
+    (oder extra object dafuer, event gemergl)
+
+relative objectpfade beim clonen im raum
+
+auswirkung von groesse im combat
+elfengroessen zu gross?
+creator/player.c skills setzen, generation adjektive einzeln eingeben
+
+town admin 
+stadt: ~/town.txt
+/system/garbage erweitern wenn moeglich
+'normale raeume' in wilderness raeume reinlegen
+/system/weathermaster
+IMPROVE_TIME aendern, skill improve zu oft bei login???
+creator: nach coord change die coords der objecte anpassen, 
+         default hoehe setzen. move_fatigue einbauen
+walls, nur frontansicht in long anzeigen. wenn in der waterwall: absaufen!
+viele doors im raum ausprobieren
+genesung -> RECOVERY factor beachten, race.h
+resist bei spells checken -> zur zeit: zweimal attack level?
+resist balancieren und resist skills 'learn by do'
+paraden einschraenken, parade bricht aktuellen schlag ab, mood defend?
+object values/material einbauen/loggen ob alle gesetzt sind
+mixen von liquid und festen dingen? auslaufen von fluessigkeit?
+bei dispel: object in remove_spell uebergeben
+an CB_ELEMENTAL_DEFENSE denken (bei elemental attack roll)
+zyklen bei snoop und possess verhindern?
+alle mortal commands auf visible() checken
+set_deity - auf valid deity checken (bei char creation? konvertieren moeglich?)
+default startloc
+lpc-manual
+newsmaster: keywords, gnus format, abbrevs fuer group namen, global mapping
+            mit subject/author/maxarticle/deleted
+walk sehen auf kleinere entfernung begrenzen? jede action mit entfernung 
+ versehen?
+
+gaestebuch oder kommentare auf den webpages
+
+intermud mail:
+ INTERMUDLIB->send_mail(from, *to, subject, date, msg)
+    to = ({ ({ "kult", "tta" }), ({ "manwe", "tta" }) }) ...
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Learn:		Nochmal alle Skills ueberpruefen, ob sie auch die
+		entsprechenden Attribute abbekommen haben
+
+		Spell Listen lernen fertigstellen
+
+		Study von Scrolls etc fertigstellen
+
+		Lernfaktoren ausdenken und absprechen
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ALLGEMEIN
+
+Um skills zu aendern sind folgende files zu aendern:
+  /include/skills.h
+	#define SKILLNAME SKILLNUMBER (skill code definition einfuegen)
+	in mapping eine skill desc einfuegen
+		SKILLNUMMER : "skillname"
+
+  /system/learn/attribs.h
+	in mapping die noetigen stats fuer den skill bonus einfuegen
+		SKILLNUMMER : ({ STAT_, STAT_, })
+		
+  /system/learn/learn.h
+	in mapping 'LEARN_SKILL_GROUPS
+		SKILL_NUMMER : ({ SKILLGRUPPEN }) einfuegen
+	in die verschiedenen arrays die SKILLNUMMER einfuegen, abhaengig von
+		der art in der man den skill lernen kann (object, teacher
+		oder location benoetigt etc.)
+	einen 'lernfactor' auskluegeln und im mapping LEARN_FACTORS eintragen
+  /system/learn/skill_costs.h
+        basis kosten des skills eintragen
+  /system/learn/similar.h
+        gegebenenfalls bei aehnlichen skills eintragen
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

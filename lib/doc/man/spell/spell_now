@@ -1,0 +1,17 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: spell_now(int level, int knownlev, int prep,
+ *                          string target, object ob, string extra,
+ *                          string words)
+ * Description:   execute the spell without any more delay
+ * Arguments:     level - casting level
+ *                knownlev - learned spell-list level
+ *                prep - preparation time
+ *                target - target name(s)
+ *                ob - the casting object
+ *                extra - extra spell arguments
+ * Returns:       1 if successful, -1 else
+ */
+private int
+spell_now(int level, int knownlev, int prep, string target, object ob,
+	  string extra)

@@ -1,0 +1,15 @@
+
+/* File: /base/misc/damage.c
+ * Function name: damage_living
+ * Description:   compute and return damage against a living,
+ *                also call critical
+ * Arguments:     att - attacking object
+ *                ao - target object
+ *                diff - difference ob - db
+ *                at_data - attack data mapping
+ *                hloc - the hitlocation
+ *                       ({ slot, description, armortype, hit chance })
+ * Returns:       integer (damage)
+ */
+nomask int
+damage_living(object att, object ao, int diff, mapping at_data, mixed hloc)

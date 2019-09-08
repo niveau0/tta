@@ -1,0 +1,14 @@
+
+/* File: /kernel/lib/creator.c
+ * Function name: call_with_euid
+ * Description:   change euid of an object to this objects euid, call the
+ *                function and restore euid after command. Ensure that 
+ *                call_with_euid is not calling insecure objects (e.g.
+ *                objects that might be edited by non-administrators).
+ * Arguments:     ob - the object to call
+ *                func - function to call 
+ *                args - 'func' arguments
+ * Returns:       return value of function
+ */
+static nomask varargs mixed
+call_with_euid(object ob, string func, mixed args...)

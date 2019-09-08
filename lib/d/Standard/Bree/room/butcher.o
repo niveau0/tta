@@ -1,0 +1,13 @@
+light 500
+height 100
+xsize 600
+ysize 400
+type 524290
+edge_base ({4|0,0,0,0,})
+room_coords ({3|5000,-450,0,})
+room_short "The butcher"
+room_long "This is a small butchery. You can buy here many sorts of raw meat,\nsausages und cold slices. The smell of blood is in the air.\nOn a small list you can see what you can buy here.\n"
+room_exits ([0|])
+objs_to_clone ({2|({2|"/d/Standard/Bree/npc/otho",0,}),({2|"/d/Standard/Bree/obj/butcher_door",0,}),})
+pseudo_items ([2|1:({3|({4|"flesh","meat","sausage","slice",}),({2|"sausages","slices",}),"The meat seems to be very fresh.",}),2:({3|({1|"list",}),({1|"lists",}),"@@list_offer",}),])
+offer ([0|])

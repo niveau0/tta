@@ -1,0 +1,17 @@
+*-----------------------------( Builder: idle )------------------------------*
+ 
+   Type:        command
+   Usage:       idle
+                	
+   Description: The command 'idle' gives you a list of all the players
+		currently logged into the mud and their respective times 
+		of their idleness.
+		It is seperated by hour--minute--second.
+ 
+   Example:     > idle
+		Idle:
+		manwe_________0h___1m___3s
+		erikose_______0h___0m___0s
+   
+*----------------------------------------------------------------------------*
+ See also: 

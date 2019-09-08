@@ -1,0 +1,11 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: store_spell
+ * Description:   store spell data for detect/dispel/etc. spells
+ * Arguments:     c - the caster
+ *                l - level spell was casted on
+ *                t - all affected targets
+ *                d - optional spell data
+ */
+varargs void
+store_spell(object c, int l, object *t, mixed d)

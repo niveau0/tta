@@ -1,0 +1,10 @@
+
+/* File: /base/misc/wear.c
+ * Function name: E_move_worn
+ * Description:   notify movement of this object, remove it if leaving wearer
+ * Arguments:     ob - object that moved
+ *                from - old environment
+ *                to - new environment
+ */
+nomask void
+E_move_worn(object ob, object from, object to)

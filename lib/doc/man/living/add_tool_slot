@@ -1,0 +1,11 @@
+
+/* File: /base/living/slot.c
+ * Function name: add_tool_slot
+ * Description:   creates a new slot
+ * Arguments:     slot - the type + slotnumber (maybe (SLT_HAND + 3),
+ *                                              if this is third hand)
+ *                desc - a name for the toolslot ("third hand")
+ *                size - slot size (a volume that can be carried in the slot)
+ */
+nomask void
+add_tool_slot(int slot, string desc, int size)

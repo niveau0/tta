@@ -1,0 +1,10 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_hold
+ * Description:   Returns the tools hold in a specified location.
+ *                Use SLT_ALL for a list of all held tools.
+ * Arguments:	  slot - The toolslot
+ * Return:        object array
+ */
+nomask object *
+query_hold(int slot)

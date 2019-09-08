@@ -1,0 +1,8 @@
+
+/* File: /base/armor.c
+ * Function name: check_armor
+ * Description:   helps to determine if object is an armor
+ * Returns:       1 if object is an armor
+ */
+nomask int
+check_armor()

@@ -1,0 +1,11 @@
+*-------------------------------( Misc: Count )------------------------------*
+
+   Type:        command
+   Usage:       count <item>
+                
+   Description: Count something. If you count huge heaps a mathematic skill
+    	    	is useful.
+                
+   Example:     count swords
+                    
+*----------------------------------------------------------------------------*

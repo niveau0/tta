@@ -1,0 +1,9 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: concentrate
+ * Description:   check if concentration is still unbroken and
+ *                remove spell effect for targets out of range
+ * Arguments:     dist - spell range
+ */
+static void
+concentrate(int dist)

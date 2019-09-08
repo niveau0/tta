@@ -1,0 +1,8 @@
+
+/* File: /base/misc/subloc.c
+ * Function name: query_sublocs
+ * Description:   Get the current list of sublocations for this container
+ * Return:        subloc list
+ */
+nomask string *
+query_sublocs()

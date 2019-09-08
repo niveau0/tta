@@ -1,0 +1,10 @@
+
+/* File: /base/player/extra.c
+ * Function name: test_bit
+ * Description:   Test a given bit in a given group for a given domain. 
+ * Arguments:     group - which bit group
+ *                bit - which bit to test
+ * Returns:       1 if the bit was set, 0 if unset.
+ */
+nomask int
+test_bit(int group, int bit)

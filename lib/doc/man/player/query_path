@@ -1,0 +1,8 @@
+
+/* File: /base/player/extra.c
+ * Function name: query_path
+ * Description:   Gives back the path of the current directory.
+ * Returns:       The path string
+ */
+nomask string
+query_path()

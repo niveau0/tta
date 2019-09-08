@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: pour_out_cmd
+ * Description:   called if the container was tried to empty
+ * Returns:       1/-1 on success
+ */
+nomask int
+pour_out_cmd(object tp)

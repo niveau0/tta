@@ -1,0 +1,19 @@
+*-----------------------------( Builder: msg )------------------------------*
+ 
+   Type:     	command   
+   Usage:       msg
+                
+   Description: The command 'msg' is used by the Immortals to toggle entering 
+		and leaving player messages.  If you want to keep abreast of 
+		who is logging in and out, then 'msg' is the command for you.
+ 
+   Example:     > msg
+		Entering and leaving players are now shown.
+		> [Seclan - enters from 134.106.23.6]
+		> [Cadderly - logged out]
+
+		> msg
+		Entering and leaving players are no longer shown.
+   
+*----------------------------------------------------------------------------*
+ See also: 'people'

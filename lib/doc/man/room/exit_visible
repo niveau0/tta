@@ -1,0 +1,12 @@
+
+/* File: /base/room.c
+ * Function name: exit_visible
+ * Description:   check if an object is visible through an exit from 
+ *                within this room.
+ * Arguments:     p0 - viewer position (inside this room)
+ *                p1 - object position
+ *                env - object environment
+ * Returns:       1 if object is visible, else 0
+ */
+nomask int
+exit_visible(int *p0, int *p1, object env)

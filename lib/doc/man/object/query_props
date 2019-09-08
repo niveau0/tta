@@ -1,0 +1,8 @@
+
+/* File: /base/object/props.c
+ * Function name: query_props
+ * Description:   Give all the existing properties
+ * Returns:       The propertie map
+ */
+nomask mixed
+query_props()

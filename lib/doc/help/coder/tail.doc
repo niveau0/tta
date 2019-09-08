@@ -1,0 +1,13 @@
+*----------------------------( Builder: tail )-------------------------------*
+
+   Type:        command	
+   Usage:       tail [<lines>] <filename>
+                
+   Description: The command 'tail' is exactally like the UNIX command.
+		'tail' gives the last <lines> of the file specified as an 
+		argument.  This is especially useful for checking logfiles.
+ 
+   Example:     tail 25 /log/ERRORS
+   
+*----------------------------------------------------------------------------*
+ See also: 'more'

@@ -1,0 +1,10 @@
+
+/* File: /system/money.c
+ * Function name: change
+ * Description:   takes or gives money
+ * Arguments:     n - how much to change
+ *                l - on which living
+ * Returns:       1 if successful
+ */
+int
+change(int n, object l)

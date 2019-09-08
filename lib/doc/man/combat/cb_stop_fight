@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: cb_stop_fight
+ * Description:   stop fight against given enemies
+ * Arguments:     ob - the enemies
+ */
+nomask void
+cb_stop_fight(mixed ob)

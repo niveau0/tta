@@ -1,0 +1,12 @@
+light 30000
+height 156
+xsize 132
+ysize 156
+climate 1
+type 2
+cornerheight ({4|156,156,156,156,})
+room_coords ({3|552,540,156,})
+room_short "A stairway"
+room_long "You are within the second floor of a stairway going up and down.\n"
+room_exits ([3|"corridor1_3fl":({7|117,56,110,40,37,0,0,}),"corridor2_2fl":({7|119,0,0,36,156,0,0,}),"stairway1":({7|100,70,0,62,36,0,0,}),])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/2_floor_stair1",({1|({3|664,678,156,}),}),}),})

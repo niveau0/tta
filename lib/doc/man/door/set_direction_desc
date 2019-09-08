@@ -1,0 +1,8 @@
+
+/* File: /base/door.c
+ * Function name: set_direction_desc
+ * Description:   set a description for the direction
+ * Arguments:     desc - description string
+ */
+static void
+set_direction_desc(string desc)

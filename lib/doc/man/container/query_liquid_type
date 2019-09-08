@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: query_liquid_type
+ * Description:   gives the liquid 
+ * Returns:       string with the name of the liquid
+ */
+nomask string
+query_liquid_type()

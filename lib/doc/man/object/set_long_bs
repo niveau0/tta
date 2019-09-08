@@ -1,0 +1,9 @@
+
+/* File: /base/object.c
+ * Function name: set_long_bs
+ * Description:   Sets the string to return as long description and also calls
+ *                break_string first.
+ * Arguments:     long - The long description
+ */
+nomask void
+set_long_bs(string long)

@@ -1,0 +1,10 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_wield
+ * Description:   Returns the tools wieled in a specified location.
+ *                Use SLT_ALL for a list of all wielded tools.
+ * Arguments:	  slot - The toolslot
+ * Return:        object array or single weapon objectpointer
+ */
+nomask mixed
+query_wield(int slot)

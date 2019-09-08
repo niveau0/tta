@@ -1,0 +1,101 @@
+# Source list for man, parsed by mudman.el.
+# Lines beginning with # are ignored.
+# Lines ending in `:' denote beginning of a section. The text before
+# the `:' states where to put the manpages.
+# Other lines state a single source file each.
+
+/doc/man/afun:
+ /kernel/lib/call_out.c
+ /kernel/lib/comm.c
+ /kernel/lib/creator.c
+ /kernel/lib/event.c
+ /kernel/lib/file.c
+ /kernel/lib/inventory.c
+ /kernel/lib/living.c
+ /kernel/lib/simfun.c
+ /kernel/lib/tool.c
+
+/doc/man/armor:
+ /base/tool.c
+ /base/armor.c
+ /base/shield.c
+
+/doc/man/combat:
+ /base/living/combat.c
+ /base/living/combat_intern.c
+
+/doc/man/container:
+ /base/container.c
+
+/doc/man/disease:
+ /base/disease.c
+
+/doc/man/door:
+ /base/door.c
+
+/doc/man/food:
+ /base/food.c
+
+/doc/man/heap:
+ /base/heap.c
+
+/doc/man/living:
+ /base/living.c
+ /base/living/carry.c
+ /base/living/cmd.c
+ /base/living/extra.c
+ /base/living/gender.c
+ /base/living/magic.c
+ /base/living/move.c
+ /base/living/skill.c
+ /base/living/slot.c
+ /base/living/stat.c
+ /base/living/subdesc.c
+
+/doc/man/misc:
+ /base/misc/attach.c
+ /base/misc/damage.c
+ /base/misc/listen.c
+ /base/misc/openclose.c
+ /base/misc/subdesc.c
+ /base/misc/subloc.c
+ /base/misc/wear.c
+
+/doc/man/object:
+ /base/object.c
+ /base/object/item.c
+ /base/object/props.c
+ /base/object/spells.c
+
+/doc/man/player:
+ /base/player.c
+ /base/player/consume.c
+ /base/player/extra.c
+ /base/player/met.c
+ /base/player/skill.c
+ /base/player/slot.c
+
+/doc/man/plant:
+ /base/plant.c
+
+/doc/man/poison:
+ /base/poison.c
+
+/doc/man/room:
+ /base/room.c
+
+/doc/man/weapon:
+ /base/missile.c
+ /base/missile_weapon.c
+ /base/weapon.c
+
+/doc/man/spell:
+ /lib/spell/spell_base.c
+
+/doc/man/system:
+ /system/composite.c
+ /system/inventory.c
+ /system/money.c
+ /system/mudtime.c
+ /system/parse.c
+ /system/weathermaster.c

@@ -1,0 +1,11 @@
+height 100000000
+xsize 3000
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-3000,800,0,})
+room_short "The Wateralley"
+room_long "The road follows its main east-west direction and connects a large place to\nthe east with scattered dwellings to the west. The road itself is plastered\nwith cobblestones to prevent it from turning into a muddy slide in cases of\nrainy weather. Your direct line of sight westward is blocked by a building,\nbut north and south of it you spot grassy areas and, limiting them, the\ncitywall. At the southeastern end, near the large place, you see a smaller\nbuilding with a chimney that produces light grey smoke. Several houses are\nsituated direct north of the road.\n"
+room_exits ([3|"grass_westbaker":({7|115,0,0,1500,100000000,0,0,}),"marketplace":({7|101,0,0,200,100000000,0,0,}),"wateralley_westbendsouth":({7|119,0,0,200,100000000,0,0,}),])
+pseudo_items ([8|1:({4|({2|"place","large place",}),({2|"places","large places",}),"The road widens to a large cobbled place with a huge building at its southern\nside.",({3|50,900,0,}),}),2:({3|({2|"dwelling","scattered dwelling",}),({2|"dwellings","scattered dwellings",}),"There is nothing special about them, judging from this position.",}),3:({3|({1|"cobblestone",}),({2|"stones","cobblestones",}),"Hard and smooth pieces of rock that are embedded in the ground to improve\njourneys on this street.",}),4:({3|({1|"building",}),({1|"buildings",}),"Which one? The one to the west or the smaller one at the place?",}),5:({4|({1|"western building",}),({1|"western buildings",}),"As far as you can say it is made from stone and earth. Grapevine and other\ngreen plants used their chances and grew all over the walls up to the low\nroof.",({3|0,100,0,}),}),6:({4|({1|"smaller building",}),({1|"smaller buildings",}),"From here you notice an extension of the building that carries a big chimney\non its roof.",({3|3000,0,0,}),}),7:({3|({1|"house",}),({1|"houses",}),"Most probable they are homes of citizens and their families.",}),8:({4|({4|"road to place","road to marketplace","east road","#roadToMarketplace",}),({3|"roads to place","roads to marketplace","east roads",}),"This cobbled road looks pretty worn. It leads eastward to a large place.",({3|100,900,0,}),}),])

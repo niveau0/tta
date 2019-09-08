@@ -1,0 +1,97 @@
+<html>
+<head><title>The Third Age - Lpc</title></head>
+
+<body
+background="../pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="../index.html">
+<img border=0 src="../pic/tta.mini.gif" alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - Eine Einf&uuml;hrung zu LPC</h3>
+<font size=-1>
+<i>(von Manwe, Januar 1997)</i>
+</font>
+</center>
+<p>
+<hr noshade>
+
+<h4>
+<center>
+<font color="#007744"
+<b>Kapitel 3 - Variablen und Datentypen</b>
+</font>
+</center>
+</h4>
+Der Begriff einer Variablen soll hier sehr einfach erl&auml;utert
+werden. Vereinfacht gesagt sind Variablen Speicherm&ouml;glichkeiten
+im Programm f&uuml;r verschiedene Datenwerte (zum Beispiel einen
+Z&auml;hler der Stadteinwohner oder die Namen s&auml;mtlicher
+Gildenmitglieder).
+<p>
+Eine Variable bekommt einen Namen und einen Datentyp zugewiesen, bevor
+sie verwendet werden kann. Dies kann <b>global</b> geschehen, aber
+auch <b>lokal</b>.
+<p>
+Global bedeutet, die Variable (und vor allem ihr Inhalt) ist im gesamten
+LPC-Programm jeder Funktion bekannt und somit kann auch der Inhalt der
+Variablen ver&auml;ndert werden. Globale Variablen werden
+au&szlig;erhalb des Funktionsblocks angemeldet.
+<p>
+Lokale Variablen werden innerhalb einer Funktion deklariert und sind
+auch nur dieser Funktion bekannt. Wird eine lokale Variable mit dem
+gleichen Namen einer globalen versehen, so &uuml;berdeckt sie
+innerhalb der Funktion die globale, so das Zugriffe auf den Inhalt
+immer den Wert der lokalen Variable erhalten. Nach Beenden der
+Funktion ist der Inhalt der Variablen und ihr Name vergessen.
+<p>
+<h5>Wann global, wozu lokal?</h5>
+Man mag sich fragen warum man &uuml;berhaupt lokale Variablen
+einsetzen sollte, da die globalen einfacher zu handhaben sind (da sie
+im gesamten Programm verf&uuml;gbar und bekannt sind).
+<p>
+Zum einen erh&ouml;ht es die &Uuml;bersicht wenn Variablen nur dort
+angemeldet werden wo man sie auch benutzt, zum anderen sind globale
+Variablen nur erforderlich wenn bestimmte Daten f&uuml;r l&auml;ngere
+Zeit gespeichert werden sollen.
+<p>
+Nach der Abarbeitung einer Funktion werden die dort angemeldeten
+lokalen Variablen 'vergessen', womit auch wieder der Vorteil deutlich
+wird: globale Daten belegen st&auml;ndig Speicher, lokale nur
+w&auml;hrend ihrer Nutzung. 
+<p>
+Beispiele zur Deklaration.
+<p>
+Wie schon erw&auml;hnt mu&szlig; eine Variable vor ihrer Benutzung
+angemeldet werden damit sie dem Programm bekannt ist.
+<p>
+Bei der Anmeldung (oder auch Deklaration) bekommt die Variable ihren
+Namen und Datentyp. Es existieren die folgenden Datentypen in LPC:
+
+<ul>
+<li>int (ganzzahlige numerische Werte)
+<li>float (Flie&szlig;kommazahlen, nicht bei jedem Interpreter)
+<li>string (Zeichenketten)
+<li>object (Spezieller Zeiger auf ein LPC Programm)
+<li>mapping (Eine Daten-Tabelle mit verschiedenen Zugriffsindizes)
+<li>mixed (Kann jeden der obigen Datentypen enthalten)
+<li>void (Leerer Datentyp, ist nur f&uuml;r Funktionen verwendbar
+nicht aber f&uuml;r Variablen)
+</ul>
+
+Beispiele zu verschiedenen Datentypen.
+
+<center>
+<i><a href="chap4.html">Weiter</a></i>
+</center>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Jan 13, 1997</address>
+</body>
+</html>

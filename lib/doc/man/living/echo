@@ -1,0 +1,12 @@
+
+/* File: /base/living.c
+ * Function name: echo
+ * Description:   used to echo a response on cmd, can be switched off
+ * Arguments:     msg - what to echo if an echo is wanted
+ *                from - The object that is acting (important to determine
+ *                       if message can be seen), 0 does no 'senses' check
+ *                type - the message type: hear, see
+ *                dist - optional argument (distance messages can be heard)
+ */
+nomask varargs void
+echo(mixed msg, object from, int type, int dist)

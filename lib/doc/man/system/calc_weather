@@ -1,0 +1,7 @@
+
+/* File: /system/weathermaster.c
+ * Function name: calc_weather
+ * Description:   main function, calculates and outputs new weather
+ */
+static void
+calc_weather()

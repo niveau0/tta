@@ -1,0 +1,11 @@
+
+/* File: /system/weathermaster.c
+ * Function name: make_clouds
+ * Description:   create some cloud areas that drift over the world and
+ *                rain sometimes
+ * Returns:       array with cloud data
+ *                ({ ({ x, y, xmax, ymax, humidity }),
+ *                   ({ x, y, xmax, ymax, humidity }), ... })
+ */
+private int *
+make_clouds()

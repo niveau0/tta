@@ -1,0 +1,7 @@
+
+/* File: /system/weathermaster.c
+ * Function name: edit_pattern
+ * Description:   start a simple editor to edit the weather patterns
+ */
+nomask void
+edit_pattern()

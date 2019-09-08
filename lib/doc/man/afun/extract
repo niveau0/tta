@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: extract
+ * Description:   get a substring from a string
+ * Arguments:     str - string to change
+ *                first - first letter
+ *                last - last letter
+ * Returns:       string, the substring
+ */
+static nomask varargs string
+extract(string str, int first, int last)

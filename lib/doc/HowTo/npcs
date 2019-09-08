@@ -1,0 +1,40 @@
+To create an npc look at the following list, a list of functions which is
+meant as a checklist. You should call each function with desired values at
+creation. To avoid confusion you better use the same order. 
+
+For further information, check manual pages.
+
+ set_name
+ set_race
+ set_long
+ set_gender
+ add_adj
+ add_lwvs
+
+ set_tmp_stat
+   (please initialize all stats somehow)
+ set_pot_stat
+
+ set_skill_rank 
+ cb_set_parry_skill
+ set_move_msg
+ set_run_msg
+
+ set_base_hp
+ set_hp 
+   (after setting base hp)
+
+ set_skill_rank SK_MANA_DEVELOP	
+ set_mana 
+   (after setting SK_MANA_DEVELOP)
+
+ add_prop LIVE_NPC_MAX_FATIGUE
+ set_fatigue 
+   (after setting LIVE_NPC_MAX_FATIGUE)
+
+ add_tool_slot
+ set_connections
+
+Also you need to define the following functions:
+ query_attack_data
+ query_hitloc_data

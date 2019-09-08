@@ -1,0 +1,7 @@
+
+/* File: /base/living/combat.c
+ * Function name: combat_reset
+ * Description:   Reset the combat variables 
+ */
+static nomask void
+combat_reset()

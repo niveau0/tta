@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_unit_volmue
+ * Description:   gives volume of one heap unit
+ * Returns:       a units volume
+ */
+nomask int
+query_unit_volume()

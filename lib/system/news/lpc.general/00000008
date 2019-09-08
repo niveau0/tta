@@ -1,0 +1,9 @@
+/system/debug.c
+manwe
+Sun Mar  9 23:02:03 1997
+Sometimes the debugging call will be enabled in /base/object.c 
+All with read access for /syslog/DEBUG please check regulary to
+fill in missing values.
+
+Thanks
+ Manwe

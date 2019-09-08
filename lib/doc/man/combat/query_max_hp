@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat.c
+ * Function name: query_max_hp
+ * Description:   the maximum hitpoints the living can have.
+ * Returns:       The maximum.
+ */
+nomask int
+query_max_hp()

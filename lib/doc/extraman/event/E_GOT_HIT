@@ -1,0 +1,14 @@
+Event:     E_GOT_HIT
+
+Called:    Whenever an object received a hit in fight.
+
+Usage:     Add an event (see add_event), create an event handling function, 
+           that will be called if the event occurs:
+	   void function(object o, object ao, int damage, int slot,
+                         object w) { ... }
+
+Arguments: object o    - the object that made the hit
+	   object ao   - the object that has been hit
+           int damage  - the damage that has been inflicted
+           int slot    - the slot that has been hit
+           object w    - the weapon object that caused the hit (0 if no weapon)

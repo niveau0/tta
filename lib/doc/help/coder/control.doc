@@ -1,0 +1,15 @@
+*----------------------------( Builder: control )----------------------------*
+ 
+   Type:        command
+   Usage:       control <name of npc>
+                
+   Description: Get control over the actions of an npc.
+		After you have control, you can command the npc with the
+                ; character. Try ';' alone to get a help page.
+ 
+   Example:     control rabbit
+		;hop           -> the rabbit hops.
+	        ;remove         -> get rid of the control
+   
+*----------------------------------------------------------------------------*
+ See also: 'possess'

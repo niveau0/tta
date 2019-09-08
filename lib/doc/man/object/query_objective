@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name:   query_objective()
+ * Description:     Returns the objective
+ * Returns:         here: "it"
+ */
+string
+query_objective()

@@ -1,0 +1,11 @@
+
+/* File: /system/money.c
+ * Function name: make_coins
+ * Description:   Makes a certain number of coins of a certain type
+ * Argument:      num - Number of coins
+ *                type - the coin type
+ *                to - where to move the money
+ * Returns:       Objectpointer to the coins object or 0.
+ */
+object
+make_coins(int num, int type, object to)

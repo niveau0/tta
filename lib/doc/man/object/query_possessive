@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name:   query_possessive()
+ * Description:     Returns the possessive
+ * Returns:         here: "its"
+ */
+string
+query_possessive()

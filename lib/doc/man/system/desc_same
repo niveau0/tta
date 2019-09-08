@@ -1,0 +1,15 @@
+
+/* File: /system/composite.c
+ * Function name: desc_same
+ * Description:   Gives a textdescription, pluralform, if more then one,
+ *                articles are added to singular objects that do not have a
+ *                capitalized short description
+ * Arguments:     ob - object to describe
+ *                sh - the short desc
+ *                co - coordinate string
+ *                sz - number of objects with equal 'sh'
+ *                sk - mathmatics skill (number that can be seen at once)
+ * Return:        string, description
+ */
+nomask string
+desc_same(object ob, string sh, string co, int sz, int sk)

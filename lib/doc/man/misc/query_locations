@@ -1,0 +1,8 @@
+
+/* File: /base/misc/wear.c
+ * Function name: query_locations
+ * Description:   Gives the locations which are used by this equipment
+ * Returns:       integer array, the location-slots
+ */
+nomask int *
+query_locations()

@@ -1,0 +1,14 @@
+*------------------------------( Misc: bind )--------------------------------*
+
+   Type:        command
+   Usage:       bind <living> with <rope>
+                
+   Description: Binding means, you lay a rope in as many loops as possible
+		in a pattern, as complicated as possible, around a victim.
+		Lowering his limbs abilities to move until it can't perform
+		any physical action anymore.
+
+   Example:     bind alyn with chain
+   
+*----------------------------------------------------------------------------*
+ See also: 'skills', 'rope mastery'

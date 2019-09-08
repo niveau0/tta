@@ -1,0 +1,11 @@
+light 100
+height 100
+xsize 100
+ysize 100
+climate 1
+type 2
+room_coords ({3|750,-650,200,})
+room_short "A elevator"
+room_long "A room nearly square in shape. You can see a winch here.\n"
+room_exits ([0|])
+objs_to_clone ({2|({2|"/home/yavanna/moria/obj/elevator/elevator_1/elevator_door","750x-650y200z",}),({2|"/home/yavanna/moria/obj/elevator/elevator_1/winch","750x-650y200z",}),})

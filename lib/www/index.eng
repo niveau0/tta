@@ -1,0 +1,79 @@
+<HTML>
+<head><title>The Third Age</title></head>
+
+<body
+background="pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="index.c">
+<img src="pic/german.gif" border=0
+ align=middle></a>
+<font size="-2">Click hier</font>
+<br>
+
+<img src="pic/ttalogo.gif" border=0 align=middle>
+<font color="#007744">
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to </b>
+</font>
+<font size="+2">
+<b><i>The Third Age</i></b>
+</font>
+<hr noshade>
+
+<h4>
+<font color="#007744">
+What is this all about?
+</font>
+</h4>
+
+<b>
+'The third age', for short 'TTA', is a developing Mud, i.d. a kind of
+Multiuser Fantasy Game, but also a programing environment for a C/C++
+similar language.
+</b>
+<ul>
+<li><b><a href="letter/first.html">First contact</a>, how did TTA come to
+Artis? (german)</b>
+<li><b><a href="misc/map.html">
+Middleearth</a>, a part of Tolkien's world where you move in the game.</b>
+<li><b><a href="telnet://tta.artis.uni-oldenburg.de:3333/">
+Visiting</a> is possible as guest (login: 'guest').</b>
+<li><b><a href="misc/charform.html">
+Creating</a> an own character is not very useful for now.</b>
+<li><b><a href="help/index.html">
+Helppages</a> about the game.</b>
+<li><b><a href="misc/calendar.html">
+Calendar</a> of the year in middleearth.</b>
+<li><b><a href="misc/ring.eng.html">
+About</a> the stories and time setting in TTA.</b>
+<li><b><a href="cgi-bin/userlist.c">
+Userlist</a>, how many users are currently logged in.</b>
+<li><b><a href="misc/ugraph.html">
+Usergraph</a>, showing how many users were logged in.</b>
+<li><b><a href="lpcdoc/Contents.html">
+LPC-Introduction</a>, the programing language.</b>
+<li><b><a href="ftp://tta.artis.uni-oldenburg.de/pub">Here</a> you can 
+download something according to the Mud (e.g. an emacs client)</b>
+</ul>
+
+<hr noshade>
+
+<center>
+<font color="#007744">
+You are visitor COUNTER since 27.10.1997
+</font>
+</center>
+
+<p>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Oct 31, 1997</address>
+
+<p> <a href="http://www.webtechs.com/html-val-svc/">
+<img src="pic/valid_html-wilbur.gif" alt="W3C Wilbur Checked!"></a>
+
+</body>
+</html>

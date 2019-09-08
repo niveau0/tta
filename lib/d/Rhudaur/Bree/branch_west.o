@@ -1,0 +1,12 @@
+height 100000000
+xsize 1750
+ysize 2000
+climate 1
+type 131072
+edge_base ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "A large place"
+room_long "A new room. That's what you would call empty.\nThis is a test ...\n"
+room_exits ([5|"eastroad_west1":({7|119,1200,0,1000,100000000,0,0,}),"free_nw":({7|110,0,0,250,100000000,0,0,}),"free_s3w2":({7|119,0,0,1200,100000000,0,0,}),"road_north1":({7|110,250,0,750,100000000,0,0,}),"way_to_PP":({7|101,125,0,120,100000000,0,0,}),])
+objs_to_clone ({1|({2|"/lib/npc/animal/horse",({1|({3|0,54,0,}),}),}),})
+pseudo_items ([1|1:({4|({2|"north road","#123",}),({1|"roads north",}),"A wide road leading northwards into a vast grassy area.",({3|575,2100,0,}),}),])

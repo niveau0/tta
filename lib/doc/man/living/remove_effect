@@ -1,0 +1,10 @@
+
+/* File: /base/living/extra.c
+ * Function name: remove_effect
+ * Description:   remove an effect
+ * Arguments:     type - the effect type, e.g. POISON_EFFECT
+ *                path - file responsible for the effect, integer if special
+ *                       effect
+ */
+nomask void
+remove_effect(int type, mixed path)

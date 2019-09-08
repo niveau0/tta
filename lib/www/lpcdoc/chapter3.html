@@ -1,0 +1,228 @@
+<html>
+<head><title>The Third Age - Lpc-Chapter3</title></head>
+
+<body
+background="http://tta.artis.uni-oldenburg.de/~mud/pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="http://www.artis.uni-oldenburg.de/tta">
+<img border=0 src="http://tta.artis.uni-oldenburg.de/~mud/pic/tta.mini.gif" 
+alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - An introduction to lpc</h3>
+<font size=-1>
+<i>(by Descartes of Borg, 23 april 1993)</i>
+</font>
+</center>
+<p>
+<hr noshade>
+
+<center>
+<h4>
+<font color="#007744">
+Chapter 3: LPC Data Types
+</font>
+</h4>
+</center>
+
+<h4>3.1 What you should know by now</h4>
+
+LPC objects are made up of zero or more variables manipulated by one or
+more functions.  The order in which these functions appear in code is
+irrelevant.  The driver uses the LPC code you write by loading copies of
+it into memory whenever it is first referenced and additional copies
+through cloning.  When each object is loaded into memory, all the variables
+initially point to no value.  The initial function is used to give initial
+values to variables in objects.  The function for creation is called
+immediately after the object is loaded into memory.  However, if you are
+reading this textbook with no prior programming experience, you may not
+know what a function is or how it gets called.  And even if you have
+programming experience, you may be wondering how the process of functions
+calling each other gets started in newly created objects.  Before any of
+these questions get answered, however, you need to know more about what it
+is the functions are manipulating.  You therefore should thouroughly come
+to know the concept behind LPC data types.  Certainly the most boring
+subject in this manual, yet it is the most crucial, as 90% of all errors
+(excepting misplaced () and {}) involve the improper usage of LPC data
+types.  So bear through this important chapter, because it is my feeling
+that understanding this chapter alone can help you find coding much, much
+easier.
+
+<h4>3.2 Communicating with the computer</h4>
+
+You possibly already know that computers cannot understand the letters
+and numbers used by humans.  Instead, the "language" spoken by computers
+consists of an "alphabet" of 0's and 1's (power off/power on).  Certainly
+you know computers do not understand natural human languages.  But in fact,
+they do not understand the computer languages we write for them either.
+Computer languages like BASIC, C, C++, Pascal, etc. are all intermediate
+languages.  They allow you to structure your thoughts more coherently
+for translation into the 0's and 1's of the computer's languages.
+<p>
+There are two methods in which translation is done: compilation and
+interpretation.  These simply are differences between when the 
+programming language is translated into computer language.  With
+compiled languages, the programmer writes the code then uses a program
+called a compiler to translate the program into the computer's
+language.  This translation occurs before the program is run.  With
+interpreted languages however, the process of translation occurs as
+the program is being run.  Since the translation of the program is
+occurring during the time of the program's running in interpreted
+languages, interpreted languages make much slower programs than
+compiled languages.
+<p>
+The bottom line is, no matter what language you are writing in, at
+some point this has to be changed into 0's and 1's which can be
+understood by the computer.  But the variables which you store in
+memory are not simply 0's and 1's.  So you have to have a way in
+your programming languages of telling the computer whether or not
+the 0's and 1's should be treated as decimal numbers or characters or
+strings or anything else.  You do this through the use of data types.
+<p>
+For example, say you have a variable which you call 'x' and you give
+it the decimal whole number value 65.  In LPC you would do this through
+the statement:
+<p>
+<code>
+x = 65;
+</code>
+<p>
+The problem for the computer is that it does not know what '65' means when
+you tell it x = 65;.  What you think of 65, it might think of as:
+<p>
+00000000000000000000000001000001
+<p>
+But, also, to the computer, the letter 'A' is represented as:
+<p>
+00000000000000000000000001000001
+<p>
+So, whenever you instruct the computer to output "x", it must have some
+way of knowing that you want to see '65' and not 'A'.
+<p>
+The computer can tell the difference between '65' and 'A' through the use
+of data types.  A data types simply says what type of data is being stored
+by the memory location pointed to by a given variable.  Thus, each LPC
+variable has a variable type which guides conversions.  In the example
+given above, you would have had the following line somewhere in the
+code <i>before</i> the lines shown above:
+<p>
+int x;
+<p>
+This one line tells the driver that whatever value x points to, it will
+be used as the data type "int", which is short for integer, or whole
+number.  So you have a basic introduction into the reason why data types
+exist.  They exist so the driver can make sense of the 0's and 1's that
+the computer is storing in memory.
+
+<h4>3.3 The data types of LPC</h4>
+
+Normally LPMud drivers know the following data types:
+<p>
+<i>void, status, int, string, object, int *, string *, object *, mixed *</i>
+<p>
+Many drivers, but not all have the following important data types which
+are important to discuss:
+<p>
+<i>float, mapping, float *, mapping *</i>
+<p>
+And there are a few drivers with the following rarely used data types
+which are not important to discuss:
+<p>
+<i>function, enum, struct, char</i>
+
+<h4>3.4 Simple data types</h4>
+
+This introductory textbook will deal with the data types <i>void, status,
+int, float, string, object</i> and <i>mixed</i>.  You can find out about the
+more complex data types like <i>mappings</i> and <i>arrays</i> in the
+intermediate textbook.  This chapter deals with the two simplest data types
+(from the point of view of the LPC coder), <i>int</i> and <i>string</i>.
+<p>
+An <i>int</i> is any whole number.  Thus 1, 42, -17, 0, -10000023 are all
+type <i>int</i>. 
+A <i>string</i> is one or more alphanumeric characters.  Thus "a", "we are
+borg", "42", "This is a string" are all <i>strings</i>.  Note that
+<i>strings</i> are always enclosed in "" to allow the driver to distinguish
+between the <i>int</i> 42 and the <i>string</i> "42" as well as to
+distinguish between variable names (like x) and <i>strings</i> by the same
+names (like "x"). 
+<p>
+When you use a variable in code, you must first let the driver know
+what type of data to which that variable points.  This process is
+called <b>declaration</b>.  You do this at the beginning of the function
+or at the beginning of the object code (outside of functions before all
+functions which use it).  This is done by placing the name of the data type
+before the name of the variable like in the following example:
+<pre>
+void
+add_two_and_two() 
+{
+    int x;
+    int y;
+
+    x = 2;
+    y = x + x;
+}
+</pre>
+Now, this is a complete function.  The name of the function is 
+<code>add_two_and_two()</code>.  The function begins with the declaration
+of an <i>int</i> variable named x followed by the declaration of an
+<i>int</i> variable named y.  So now, at this point, the driver now has two
+variables which point to <i>null</i> values, and it expects what ever
+values end up there to be of type <i>int</i>.
+<p>
+A note about the data types <i>void</i> and <i>status</i>:<br>
+<i>void</i> is a trivial data type which points to nothing.  It is not used
+with respect to variables, but instead with respect to functions.  You
+will come to understand this better later.  For now, you need only
+understand that it points to no value.  
+<p>
+The data type <i>status</i> is a boolean data type.  That is, it can only have
+1 or 0 as a value.  This is often referred to as being true or false.
+[Type <i>status</i> does not exist for DGD, ed.]
+
+<h4>3.5 Chapter summary</h4>
+
+For variables, the driver needs to know how the 0's and 1's the computer
+stores in memory get converted into the forms in which you intend them
+to be used.  The simplest LPC data types are <i>void, status, int,</i> and
+<i>string</i>.<p>
+You do not use variables of type <i>void</i>, but the data type does come
+into play with respect to functions.  In addition to being used for
+translation from one form to the next, data types are used in determining
+what rules the driver uses for such operations as +, -, etc.  For example,
+in the expression 5+5, the driver knows to add the values of 5 and 5
+together to make 10.<p>
+With <i>strings</i> however, the rules for <i>int</i>
+addition make no sense.  So instead, with "a"+"b", it appends "b" to the
+string "a" so that the final string is "ab".  Errors can thus result if you
+mistakenly try to add "5"+5.  Since <i>int</i> addition makes no sense with
+<i>strings</i>, the driver will convert the second 5 to "5" and use string
+addition.  The final result would be "55".  If you were looking for 10, you
+would thereforehave ended up with erroneous code.<p>
+Keep in mind, however, that in most instances, the driver will not do
+something so useful as coming up with "55".  It comes up with "55" cause it
+has a rule for adding a <i>string</i> to an <i>int</i>, namely to treat the
+<i>int</i> as a <i>string</i>.  In most cases, if you use a data type for
+which an operation or function is not defined (like if you tried to divide
+"this is" by "nonsense"), the driver will barf and report an error to you.
+<p>
+
+<a href="mailto:borg@imaginary.com">George Reese</a> (Descartes of Borg), 
+12 july 1993
+<p>
+
+<center>
+<i><a href="chapter4.html">Next Chapter</a></i>
+</center>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Dec 01, 1996</address>
+</body>
+</html>

@@ -1,0 +1,8 @@
+
+/* File: /base/living/gender.c
+ * Function name:   query_gender_string
+ * Description:     Gives back a string that contains the gender of a living
+ * Returns:         The string
+ */
+nomask string
+query_gender_string()

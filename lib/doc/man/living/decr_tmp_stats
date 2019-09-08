@@ -1,0 +1,9 @@
+
+/* File: /base/living/stat.c
+ * Function name: decr_tmp_stats
+ * Description:   Decrement the temp stat counters and remove 
+ *		  the additions as they time out.
+ * Arguments:     stat - the stat that needs check
+ */
+static nomask void
+decr_tmp_stats(int stat)

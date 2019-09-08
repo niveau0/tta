@@ -1,0 +1,12 @@
+Event:     E_WEAR
+
+Called:    Whenever a living object wields an item.
+
+Usage:     Add an event (see add_event), create an event handling function, 
+           that will be called if the event occurs:
+	   int function(object tp, object ob) { ... }
+
+	   if the function returns an integer != 0, wielding is forbidden.
+
+Arguments: object tp - the living that wields the object
+           object ob - the item to wield

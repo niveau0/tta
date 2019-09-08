@@ -1,0 +1,9 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: cb_remove_boni
+ * Description:   remove combat boni and mali
+ * Arguments:     ids - array of bonus ids to remove, see <combat.h>
+ *                val - array of indices to remove
+ */
+nomask varargs void
+cb_remove_boni(int *ids, mixed val)

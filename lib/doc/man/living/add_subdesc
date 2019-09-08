@@ -1,0 +1,10 @@
+
+/* File: /base/living/subdesc.c
+ * Function name: add_subdesc
+ * Description:   add an object that creates extra description
+ * Arguments:     id - integer id of the extra description
+ *                     (see <description.h>)
+ *                ob - the object to call for the description
+ */
+nomask void
+add_subdesc(string id, object ob)

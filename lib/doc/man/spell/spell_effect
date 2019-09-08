@@ -1,0 +1,13 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: spell_effect(int level, mixed targets, object tp,
+ *                             string extra)
+ * Description:   redefinable spell effect function, called if spell is
+ *                successfully casted
+ * Arguments:     level - the casting level
+ *                targets - all targeted objects
+ *                tp - the caster
+ *                extra - optional extra information
+ */
+varargs void
+spell_effect(int level, mixed targets, object tp, string extra)

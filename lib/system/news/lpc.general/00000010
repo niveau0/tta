@@ -1,0 +1,10 @@
+replaced query_listen()
+manwe
+Mon Apr 21 21:50:16 1997
+The function query_listen was obsolete (just an alias for 
+query_event(E_MSG))
+There is now a new macro in /include/macros.h called LISTEN(object)
+This macro has the same functionality as object->query_listen() before.
+Please use it, all occurences of query_listen() have been changed.
+
+Manwe

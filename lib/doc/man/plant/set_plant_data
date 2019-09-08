@@ -1,0 +1,8 @@
+
+/* File: /base/plant.c
+ * Function name: set_plant_data
+ * Description:   sets the grow data for the plant
+ * Arguments:     m - mapping with all grow data
+ */
+nomask void
+set_plant_data(mapping m)

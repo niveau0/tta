@@ -1,0 +1,48 @@
+
+Aenderungen am besten ueber ctrl-x 4 a in Changelog eintragen!!
+
+-Macht der Schneider eigentlich Sonderanfertigungen?->selbst einbauen?
+ ->Skill 'tailoring' abwarten?
+-Wir brauchen eine /base/brain_frame.c oder /base/brain.c, die alle Zugriffe
+ auf die eigentlichen Brainfunktionen regelt, gemaess der mentalen Werte
+ time-stamps statt call-outs
+-Huhn soll alles angreifen und fressen, was kleiner als [Groesse] ist :)
+ -> faellt unter /base/brains/targetting.c
+-lightmask macht einen non_met-> Wie realisieren?->auf disguise warten ?
+-Man soll Objekte auf den Tisch legen koennen->benoetige "PUT ->ON<-"
+ ->modifiztes seat.c?(put <ob> on <obj>/lay [obj] on <obj>/sit on <obj>)
+ ->Regal bauen
+-ein Bett herstellen->SLEEP IN ? modifiztes seat.c
+-parser verarbeitet LIGHT ALL TORCHES nicht korrekt
+-Turmtuer zuende machen -> in den Raumcode einarbeiten :)
+-/system/creator/creator.h: Help fuer Parent?
+-Verkokeln von Buechern vornehmen
+-humanoid.c sollen da hitslots fuer Augen, usw. rein?
+-eine Treppe durch >mehrere< Raeume - Query_range() + Objekt in jedem Raum ins
+ Inv aufnehmen?
+-Seil entwerfen und programmieren
+ -pull_cmd modifizen?
+ -neues Event ? E_FORCE_MOD ?
+ -/base/rope/knot.c einbauen -> Knoten fuers Inventar
+ -Knoten sollen aufgehen koennen -> SKILL_ROPEMASTERY
+ -long() noch besser machen(nicht einfach short() nehmen)
+ -was, wenn angeknotete Sachen verschwinden, ohne losgeknotet worden zu sein?
+ -Wann kann ein Seil noch reissen? (laenge) -> KNOT_DIST
+ wenn seillaenge nach reissen < KNOT_DIST => Seil verschwindet, wird zu Muell
+ -rope.c nach /lib/misc/special? (wie das Gate)
+ -binding muss noch als Befehl rein
+ -aufnehmen/ablegen-Probleme?
+
+-'wield' auf bestimmte Koerperteile
+-/base/surface.c noch machen ?
+-tower.c aufbauen
+-die drei(?) Positionen fuers anknoten noch das Help-File einbauen
+-LIVE_LOST_ROUNDS=1, obwohl mehrfach getrunken wurde?
+-relative Filenamen fuer /lib/misc/special/window.c look_window() erlauben
+-an /system/learn.c (magic) arbeiten
+-die help-page fuer Waende zaubern genauer erklaeren (in die quotas rein)
+-einen Schreiner in Bree einbauen
+-range of sight in 'stats' anzeigen
+-armor/ an die neuen protections anpassen -> Markus fragen:
+ wie unterscheidet man tragen/schuetzen?
+-

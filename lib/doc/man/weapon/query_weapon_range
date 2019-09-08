@@ -1,0 +1,8 @@
+
+/* File: /base/missile_weapon.c
+ * Function name: query_weapon_range
+ * Description:   gives maximum shoot range of missile weapon
+ * Returns:       integer
+ */
+nomask int
+query_weapon_range()

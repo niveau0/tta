@@ -1,0 +1,7 @@
+
+/* File: /base/room.c
+ * Function name: load
+ * Description:   load the room
+ */
+void
+load()

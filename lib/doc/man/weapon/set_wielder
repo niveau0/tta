@@ -1,0 +1,8 @@
+
+/* File: /base/weapon.c
+ * Function name: set_wielder
+ * Description:   Set the wielder of this object
+ * Arguments:     w - The wielder object
+ */
+void
+set_wielder(object w)

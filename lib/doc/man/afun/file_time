@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: file_time
+ * Description:   gives file time
+ * Arguments:     file - filepath
+ * Returns:       integer
+ */
+static nomask int
+file_time(string file)

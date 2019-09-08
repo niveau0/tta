@@ -1,0 +1,11 @@
+height 90
+xsize 500
+ysize 500
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|-20200,4500,0,})
+room_short "In a small building"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/home/alyn/cila","-20200x4500y0z",}),})
+pseudo_items ([4|1:({4|({1|"southern window",}),({1|"southern windows",}),"A small window set into the southern wall right next to the door.",({3|-19950,4500,25,}),}),2:({4|({1|"western window",}),({1|"western windows",}),"A big window set into the western wall.",({3|-20200,4750,25,}),}),3:({4|({1|"northern window",}),({1|"northern windows",}),"A big window set into the northern wall",({3|-19750,4999,25,}),}),4:({4|({1|"eastern window",}),({1|"eastern windows",}),"A big window set into the eastern wall.",({3|-19701,4750,25,}),}),])

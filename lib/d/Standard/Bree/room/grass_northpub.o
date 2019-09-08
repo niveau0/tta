@@ -1,0 +1,12 @@
+height 100000000
+xsize 750
+ysize 1600
+climate 1
+type 8192
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|1300,1700,2,})
+room_short "A grassy area"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([1|"grass_westpub":({7|115,0,0,80,99999998,0,0,}),])
+objs_to_clone ({1|({2|"/d/Standard/Bree/room/pub/obj/yard_door",({1|({3|1426,1700,2,}),}),}),})
+pseudo_items ([1|1:({4|({2|"window","kitchenwindow",}),({1|"windows",}),"@@look_window:/lib/misc/special/window|You take a look through the windowpane ...\n|/d/Standard/Bree/room/pub/back",({3|1600,1700,2,}),}),])

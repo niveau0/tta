@@ -1,0 +1,15 @@
+
+/* File: /base/heap.c
+ * Function name: move_heap
+ * Description:   Move the whole heap or a split of this to a new destination.
+ * Arguments:	  dest - Object to move to
+ * Returns:       (definitions see <move.h>)
+ *                MOVE_OK     - Success.
+ *	          MOVE_NODEST - No destination.
+ *	          MOVE_NOGET  - The object can't be picked up.
+ *	          MOVE_2HEAVY - The object is to heavy.
+ *	          MOVE_2BIG   - The object is to big.
+ *	          MOVE_NOCONT - The object is not a container.
+ */
+nomask int
+move_heap(object dest)

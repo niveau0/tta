@@ -1,0 +1,7 @@
+
+/* File: /base/living.c
+ * Function name: reset_extra_desc
+ * Description:   removes all extra descriptions
+ */
+nomask void
+reset_extra_desc()

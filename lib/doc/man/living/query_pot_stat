@@ -1,0 +1,9 @@
+
+/* File: /base/living/stat.c
+ * Function name:   query_pot_stat()
+ * Description:     Gives the value of a specific potential stat
+ * Arguments:       stat: The index in the array of stats
+ * Returns:         The value of a stat, -1 on failure.
+ */
+nomask int
+query_pot_stat(int stat)

@@ -1,0 +1,8 @@
+
+/* File: /base/disease.c
+ * Function name: query_interval
+ * Description:   gives call_out interval
+ * Returns:       int
+ */
+int
+query_interval()

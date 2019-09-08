@@ -1,0 +1,25 @@
+*------------------------------( Builder: ls )-------------------------------*
+ 
+   Type:        command
+   Usage:       ls [-<options>] [<path>]
+   Options:     f - show only files
+         	d - show only directories
+         	p - show path
+         	t - sort by file time
+         	s - sort by size
+         	l - show long info
+         	h - this help
+		
+   Description: Like the UNIX command, 'ls' stands for listing of files.
+		It is used by the programmers to see the contents of a 
+                directory. Each file marked with an asterisk (*) is currently
+		compiled and loaded to memory.
+ 
+   Example:  	ls -l /home/erikose/room
+		ls -h
+                ls /doc/b*
+                ls -tf /d
+   
+*----------------------------------------------------------------------------*
+ See also: 'access', 'cp,', 'cd', 'mkdir', 'mv', 'pwd', 'rm', 'rmdir', 
+	   'sanction', 'updir'

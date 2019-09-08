@@ -1,0 +1,9 @@
+
+/* File: /base/room.c
+ * Function name: query_edge_base
+ * Description:   return z-position of room edge
+ * Arguments:     edge, see definitions within <room.h>
+ * Returns:       integer or array (if querying all edges)
+ */
+nomask mixed
+query_edge_base(int edge)

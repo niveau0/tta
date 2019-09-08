@@ -1,0 +1,10 @@
+
+/* File: /base/living/slot.c
+ * Function name: remove_tool_slot
+ * Description:   removes a tool-slot
+ * Arguments:     slot - slot-id (slottype + slotnumber)
+ *                flag - true if hitloc should stay (e.g. unusable slots
+ *                       will be removed but still possible to hit them)
+ */
+nomask varargs void
+remove_tool_slot(int slot, int flag)

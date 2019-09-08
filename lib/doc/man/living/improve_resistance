@@ -1,0 +1,8 @@
+
+/* File: /base/living/skill.c
+ * Function name: improve_resistance
+ * Description:   raise the resistance skills after raising a 'level'
+ *                (see /base/player.c autosave)
+ */
+static nomask void
+improve_resistance()

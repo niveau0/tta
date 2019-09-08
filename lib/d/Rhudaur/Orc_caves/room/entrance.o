@@ -1,0 +1,11 @@
+height 150
+xsize 200
+ysize 400
+type 4
+edge_base ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "The beginning of a cave"
+room_long "You entered a huge room. South from here you recognize the open entrance\nnorth a narrow and dark tunnel. The walls are very slick and a strange\nsmell let you almost vomit. Some strange noises of maybe human beeings\ncan be heard from the north.\n"
+room_exits ([1|"tunnel_1":({7|110,50,0,100,150,0,0,}),])
+objs_to_clone ({1|({2|"/lib/npc/humanoid/orc",({1|({3|0,0,0,}),}),}),})
+pseudo_items ([2|1:({3|({2|"wall","walls",}),({1|"walls",}),"The walls are made of a hard black stone and they are very slicky.",}),2:({4|({1|"tunnel",}),({1|"tunnels",}),"A dark and narrow tunnel",({3|70,400,0,}),}),])

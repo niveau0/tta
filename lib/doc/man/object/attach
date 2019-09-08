@@ -1,0 +1,10 @@
+
+/* File: /base/object.c
+ * Function name: attach
+ * Description:   move this object to the attach inventory of another object
+ * Arguments:	  dest - destination object 
+ * Returns:       MOVE_OK     - Success.
+ *	          MOVE_NODEST - No destination.
+ */
+nomask int
+attach(object dest)

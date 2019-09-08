@@ -1,0 +1,13 @@
+light 20000
+height 100
+xsize 400
+ysize 600
+type 524290
+edge_base ({4|0,0,0,0,})
+room_coords ({3|5200,200,0,})
+room_short "The tailor"
+room_long "Wonderful. This shop is nearly completly filled with the finest clothes.\nSure you will find anything you want for every size and every\nbodypart. You are standing in one of the famost shops of this region.\nOn a large sign you see the price list of this shop.\n"
+room_exits ([0|])
+objs_to_clone ({2|({2|"/d/Standard/Bree/npc/fritan",({1|({3|5250,500,0,}),}),}),({2|"/d/Standard/Bree/obj/tailor_door",({1|({3|5599,500,0,}),}),}),})
+pseudo_items ([1|1:({3|({2|"sign","list",}),({2|"signs","lists",}),"@@list_offer",}),])
+offer ([4|"/lib/armor/cloth/dwarven_underwear":({5|15,"cotton underwear(dwarven size)",15,220,896371730,}),"/lib/armor/cloth/elven_underwear":({5|15,"cotton underwear(elven size)",15,250,896371730,}),"/lib/armor/cloth/hobbit_underwear":({5|60,"cotton underwear(hobbit size)",60,150,896371730,}),"/lib/armor/cloth/human_underwear":({5|50,"cotton underwear(human size)",50,180,896371730,}),])

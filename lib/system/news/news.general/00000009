@@ -1,0 +1,12 @@
+new command 'cleanup'
+manwe
+Mon Feb 17 14:38:33 1997
+cleanup is a new command to clean rooms which have been saved already.
+Possible options: -l and -s.
+-l removes also npc, -s saves the room after cleaning.
+
+E.g. 
+  'cleanup -l -s'
+removes all non-player objects from a room and saves it.
+
+Manwe

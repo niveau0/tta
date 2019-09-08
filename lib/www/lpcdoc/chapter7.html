@@ -1,0 +1,507 @@
+<html>
+<head><title>The Third Age - Lpc-Chapter7</title></head>
+
+<body
+background="http://tta.artis.uni-oldenburg.de/~mud/pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="http://www.artis.uni-oldenburg.de/tta">
+<img border=0 src="http://tta.artis.uni-oldenburg.de/~mud/pic/tta.mini.gif" 
+alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - An introduction to lpc</h3>
+<font size=-1>
+<i>(by Descartes of Borg, 23 april 1993)</i>
+</font>
+</center>
+<p>
+<hr noshade>
+
+<center>
+<h4>
+<font color="#007744">
+Chapter 7: Flow Control
+</font>
+</h4>
+</center>
+
+<h4>7.1 Review of variables</h4>
+
+Variables may be manipulated by assigning or changing values with the
+expressions =, +=, -=, ++, --.  Those expressions may be combined with
+the expressions -, +, *, /, %.  However, so far, you have only been
+shown how to use a function to do these in a linear way.  For example:
+<pre>
+int
+hello(int x) 
+{
+    x--;
+    write("Hello, x is " + x + ".\n");
+    return x;
+}
+</pre>
+ 
+is a function you should know how to write and understand.  But what
+if you wanted to write the value of x only if x = 1?  Or what if
+you wanted it to keep writing x over and over until x = 1 before
+returning?  LPC uses flow control in exactly the same way as C and C++.
+<p>
+
+<h4>7.2 The LPC flow control statements</h4>
+
+LPC uses the following expressions:
+<pre>
+if(expression) 
+    instruction;
+
+if(expression) 
+    instruction;
+else
+    instruction;
+ 
+if(expression) 
+    instruction;
+else if(expression)
+    instruction;
+else 
+    instruction;
+ 
+while(expression) 
+    instruction;
+ 
+do 
+{ 
+    instruction; 
+} while(expression);
+ 
+for (initialize values; test expression; instruction)
+{  
+    instructions 
+}
+
+switch(expression) 
+{
+  case constant:
+      instruction; 
+      break;
+  default:
+      instruction;
+}
+</pre> 
+
+Before we discuss these, first something on what is meant by expression and
+instruction.  An expression is anything with a value like a variable,
+a comparison (like x &gt; 5, where if x is 6 or more, the value is 1, else the
+value is 0), or an assignment (like x += 2).  An instruction can be any
+single line of lpc code like a function call, a value assignment or
+modification, etc.
+<p> 
+You should know also the operators &&, ||, ==, !=, and !.  These are the
+logical operators.  They return a nonzero value when true, and 0 when false.
+Make note of the values of the following expressions:
+<pre>
+(1 && 1)    value: 1  	(1 and 1)
+(1 && 0)    value: 0  	(1 and 0)
+(1 || 0)    value: 1  	(1 or 0)
+(1 == 1)    value: 1  	(1 is equal to 1)
+(1 != 1)    value: 0  	(1 is not equal to 1)
+(!1)        value: 0  	(not 1)
+(!0)        value: 1  	(not 0)
+</pre>
+ 
+In expressions using &&, if the value of the first item being compared
+is 0, the second is never tested even.  When using ||, if the first is
+true (1), then the second is not tested.
+ 
+<h4>7.3 if()</h4>
+
+The first expression to look at that alters flow control is <b>if()</b>.
+Take a look at the following example: 
+<p>
+<pre>
+ 1  void 
+ 2  reset() 
+ 3  {
+ 4 	int x;
+ 5 
+ 6 	::reset();
+ 7 	x = random(100);
+ 8 	if (x > 50) 
+ 9 	    set_search_func("floorboards", "search_floor");
+10  }
+</pre>
+ 
+The line numbers are for reference only.<p>
+
+Line 4, a variable is declared (of type int called x).<br>
+Line 5 is aesthetic whitespace to clearly show where the declarations end
+and the function code begins.  The variable x is only available to the
+function reset().<br>
+Line 6 makes a call to the room.c version of reset().<br>
+Line 7 uses the driver efun random() to return a random number between
+0 and the parameter minus 1.  So here we are looking for a number between
+0 and 99.<br>
+Line 8, we test the value of the expression (x > 50) to see if it is true
+or false.  If it is true, then it makes a call to the room.c function
+set_search_func().  If it is false, the call to set_search_func() is never
+executed.<br>
+Line 10 is the end of the function and returns driver control to the
+calling function (the driver itself in this case) without returning any value.
+<p>
+If you had wanted to execute multiple instructions instead of just the one,
+you would have done it in the following manner:
+<pre>
+if (x > 50) 
+{
+    set_search_func("floorboards", "search_floor");
+    if (!present("beggar", this_object()))
+        make_beggar();
+}
+</pre>
+Notice the { } encapsulate the instructions to be executed if the test
+expression is true.  In the example, again we call the room.c function.
+<p>
+Next, there is another if() expression that tests the truth of the
+expression (!present("beggar",this_object())). The ! in the test expression
+negates the truth of the expression which follows it.  In this case, it
+changes the truth of the efun present(), which will return the object that
+is a beggar if it is in the room (this_object()), or it will return 0 if
+there is no beggar in the room.
+<p>
+So if there is a beggar still living in the room, (present("beggar",
+this_object())) will have a value equal to the beggar object (data type
+object), otherwise it will be 0.  The ! will change a 0 to a 1, or any
+nonzero value (like the beggar object) to a 0. Therefore, the expression
+(!present("beggar", this_object())) is true if there is no beggar in the
+room, and false if there is. 
+<p>
+So, if there is no beggar in the room, then it calls the function you
+define in your room code that makes a new beggar and puts it in the
+room (If there is a beggar in the room, we do not want to add yet another
+one :).
+<p> 
+Of course, if() often comes with ands or buts :).  In LPC, the formal
+reading of the if() statement is:
+<pre>
+if (expression) 
+{ 
+    set of instructions 
+}
+else if (expression) 
+{
+    set of instructions 
+}
+else 
+{
+    set of instructions 
+}
+</pre>
+ 
+This means:
+<p> 
+If expression is true, then do these instructions. Otherwise, if this
+second expression is true, do this second set. And if none of those were
+true, then do this last set.
+<p> 
+You can use if() alone:
+<pre>
+if (x > 5)
+    write("Foo.\n");
+</pre>
+with an else if():
+<pre>
+if (x > 5)
+    write("X is greater than 5.\n");
+else if (x > 2)
+    write("X is less than 6, but greater than 2.\n");
+</pre>
+or the whole lot of them as listed above.  You can have any number of
+else if()'s in the expression, but you must have one and only one
+if() and at most one else.  Of course, as with the beggar example,
+you may nest if() statements inside if() instructions.
+ 
+<h4>7.4 The statements: while() and do {} while()</h4>
+
+Syntax:
+<pre>
+while(expression) 
+{
+    set of instructions 
+}
+
+do 
+{
+    set of instructions
+} while(expression);
+</pre>
+ 
+These allow you to create a set of instructions which continue to execute
+so long as some expression is true.  Suppose you wanted to set a variable
+equal to a player's level and keep subtracting random amounts of either
+money or hit points from a player until that variable equals 0 (so that
+player's of higher levels would lose more).  You might do it this way:
+ 
+<pre>
+ 1  int x;
+ 2
+ 3  x = (int)this_player()->query_level(); /* this has yet to be explained */
+ 4  while(x > 0)
+ 5  {
+ 6      if (random(2))
+ 7          this_player()->add_money("silver", -random(50));
+ 8      else 
+ 9          this_player()->add_hp(-(random(10));
+10      x--;
+11  }
+</pre>
+ 
+The expression this_player()->query_level() in line 3 is a mudlib dependent
+thing (here it get the players level and puts the value in x).
+<p>
+In line 4, we start a loop that executes so long as x is greater than 0.
+Another way we could have done this line would be:
+<pre>
+while(x) {
+</pre>
+This would run as long as x is true (not zero). The problem with that would
+be if you later made a change to the function and x gets somehow a value
+below 0 (which is also true and the loop would run forever).<br>
+In line 6, a random value of 0 or 1 is taken to determine if the player
+should lose money or hitpoints. If the random value is true (in this case
+1) the player will lose money (line 7), else he will lose a random value of
+hitpoints (line 9).<br>
+In line 10, x is decreased by 1, so the loop will run again as long as x is
+not 0.
+<p> 
+You might, however, want to test an expression <i>after</i> you execute the
+loop body at least one time.  For instance, in the above, if you wanted to
+execute the instructions at least once for everyone, even if their level is
+below the test level:
+<pre> 
+int x;
+
+x = (int)this_player()->query_level();
+do 
+{
+    if (random(2)) 
+        this_player()->add_money("silver", -random(50));
+    else 
+        this_player()->add_hp(-random(10));
+    x--;
+} while(x > 0);
+</pre>
+ 
+This is a rather bizarre example, being as few muds have level 0 players.
+And even still, you could have done it using the original loop with
+a different test.  Nevertheless, it is intended to show how a do { } while()
+works.
+<p>
+As you see, instead of initiating the test at the beginning of the
+loop (which would immediately exclude some values of x), it tests after
+the loop has been executed.  This assures that the instructions of the loop
+get executed at least one time, no matter what x is.
+ 
+<h4>7.5 for() loops</h4>
+
+Syntax:
+<pre>
+for (initialize values; test expression; instruction) 
+{
+    instructions 
+}
+</pre>
+ 
+<i>initialize values:</i><br>
+This allows you to set starting values of variables which will be used
+in the loop.  This part is optional.
+<p> 
+<i>test expression:</i><br>
+Same as the expression in if() and while().  The loop is executed
+as long as this expression (or expressions) is true. You must have a
+test expression.
+<p> 
+<i>instruction:</i><br>
+An expression (or expressions) which is to be executed at the end of each
+loop.  This is optional.
+<p> 
+<i>Note:</i>
+<pre>
+for(; expression; ) 
+{
+}
+
+is exactly the same as
+
+while(expression) 
+{
+}
+</pre>
+
+Example:
+<pre>
+1  int x;
+2
+3  for(x=(int)this_player()->query_level(); x&gt;; x--) 
+4  {
+5      if (random(2)) 
+6          this_player()->add_money("silver", -random(50));
+7      else 
+8          this_player()->add_hp(-random(10));
+9  }
+</pre>
+ 
+This for() loop behaves <i>exactly</i> like the while() example.
+Additionally, if you wanted to initialize 2 variables:
+<pre>
+for(x=0, y=random(20); x&lt;; x++) 
+{
+    write(x+"\n"); 
+}
+</pre>
+Here, we initialize 2 variables, x and y, and we separate them by a
+comma.  You can do the same with any of the 3 parts of the for()
+expression.
+<p>
+ 
+<h4>7.6 The statement: switch()</h4>
+
+Syntax:
+<pre>
+switch(expression) 
+{
+  case constant:
+      instructions
+  case constant: 
+      instructions
+  case constant:
+      instructions
+  default: 
+      instructions
+}
+</pre>
+ 
+This is functionally much like if() expressions, and much nicer to the
+CPU, however most rarely used because it looks so complicated. But it is not.
+<p> 
+First off, the expression is not a test.  The cases are tests.  A English
+sounding way to read:
+<pre>
+ 1  int x;
+ 2
+ 3  x = random(5);
+ 4  switch(x) 
+ 5  {
+ 6    case 1:
+ 7        write("X is 1.\n");
+ 8    case 2:
+ 9        x++;
+10    default: 
+11        x--;
+12  }
+13  write(x+"\n");
+</pre>
+is like:
+<p> 
+set variable x to a random number between 0 and 4.<br>
+In case 1 of variable x write its value, add 1 to it and subtract 1.<br>
+In case 2 of variable x, add 1 to its value and then subtract 1.<br>
+In other cases subtract 1.<br>
+Write the value of x.
+<p>
+switch(x) basically tells the driver that the variable x is the value
+we are trying to match to a case.
+<p>
+Once the driver finds a case which matches, that case <i>and all following
+cases</i> will be acted upon.  You may break out of the switch statement
+as well as any other flow control statement with a <i>break</i> instruction in
+order only to execute a single case.  But that will be explained later.
+The default statement is one that will be executed for any value of
+x so long as the switch() flow has not been broken. 
+ 
+<h4>7.7 Altering the flow of functions and flow control statements</h4>
+
+The instructions <i>return, continue, break</i> alter the natural flow of
+things as described above.
+<p>
+<i>return</i>
+<p>
+no matter where it occurs in a function, will cease the execution of that
+function and return control to the function which called the one the
+return statement is in.  If the function is <i>not</i> of type void, then a
+value must follow the return statement, and that value must be of a
+type matching the function.  An absolute value function would look
+like this:
+<pre>
+int 
+absolute_value(int x) 
+{
+    if (x>-1)
+        return x;
+    else
+        return -x;
+}
+</pre>
+ 
+In the second line, the function ceases execution and returns to the calling
+function because the desired value has been found if x is a positive
+number.
+<p> 
+<i>continue</i>
+<p>
+is most often used in for() and while statements.  It serves to stop the
+execution of the current loop and send the execution back to the beginning
+of the loop.  For instance, say you wanted to avoid division by 0:
+<pre>
+x = 4;
+while(x > -5) 
+{
+    x--;
+    if (!x)
+        continue;
+    write((100 / x) + "\n");
+}
+write("Done.\n")
+</pre>
+
+If x ever gets 0, it is catched by the if() and execution is passed again
+to the loops beginning, without executing the division.
+<p>
+<i>break</i>
+<p>
+This one ceases the function of a flow control statement.  No matter
+where you are in the statement, the control of the program will go
+to the end of the loop.  So, if in the above examples, we had
+used <i>break</i> instead of <i>continue</i>, the output would have stopped
+after x reached 0 and the execution would continue with the "Done" output.
+ 
+<h4>7.8 Chapter summary</h4>
+This chapter covered one hell of a lot, but it was stuff that needed to
+be seen all at once.  You should now completely understand if(), for(),
+while(), do{} while() and switch(), as well as how to alter their flow
+using <i>return, continue,</i> and <i>break</i>.  Effeciency says if it can
+be done in a natural way using switch() instead of a lot of if() else
+if()'s, then by all means do it.  You were also introduced to the idea of
+calling functions in other objects.  That however, is a topic to be
+detailed later. You now should be completely at ease writing simple rooms
+(if you have read your mudlib's room building document), simple monsters,
+and other sorts of simple objects.
+<p>
+
+<a href="mailto:borg@imaginary.com">George Reese</a> (Descartes of Borg), 
+12 july 1993
+<p>
+
+<center>
+<i><a href="chapter8.html">Next Chapter</a></i>
+</center>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Dec 01, 1996</address>
+</body>
+</html>

@@ -1,0 +1,221 @@
+// ARMOR
+// ====================================================================
+
+// Shield
+// --------------------------------------------------------------------
+/lib/armor/shield/hide_shield.c:    				100
+/lib/armor/shield/human_shield.c:  				2000
+
+// Body
+// --------------------------------------------------------------------
+/lib/armor/cloth/dwarven_underwear.c:    	  		50
+/lib/armor/cloth/elven_underwear.c
+/lib/armor/cloth/hobbit_underwear.c
+/lib/armor/cloth/human_underwear.c
+
+/lib/armor/s_leather/dwarven_jerkin.c
+/lib/armor/s_leather/elven_jerkin.c
+/lib/armor/s_leather/hobbit_jerkin.c:   			100
+/lib/armor/s_leather/human_jerkin.c
+
+/lib/armor/r_leather/dwarven_breastplate.c
+/lib/armor/r_leather/elven_breastplate.c
+/lib/armor/r_leather/hobbit_breastplate.c
+/lib/armor/r_leather/human_breastplate.c:  			450
+
+/lib/armor/chain/dwarven_chain_shirt.c
+/lib/armor/chain/elven_chain_shirt.c:   			1500
+/lib/armor/chain/hobbit_chain_shirt.c
+/lib/armor/chain/human_chain_shirt.c
+
+/lib/armor/chain/dwarven_full_chain.c
+/lib/armor/chain/elven_full_chain.c:    			6500
+/lib/armor/chain/hobbit_full_chain.c
+/lib/armor/chain/human_full_chain.c
+
+/lib/armor/plate/dwarven_plate.c: 				20000
+/lib/armor/plate/elven_plate.c
+/lib/armor/plate/hobbit_plate.c
+/lib/armor/plate/human_plate.c
+
+// Helmet
+// --------------------------------------------------------------------
+/lib/armor/s_leather/small_helmet.c:   				145
+/lib/armor/s_leather/helmet.c:         				150
+/lib/armor/r_leather/leather_helmet.c: 				250
+/lib/armor/plate/plate_helmet.c
+/lib/armor/plate/small_plate_helmet.c: 				400
+
+// Greaves
+// --------------------------------------------------------------------
+/lib/armor/s_leather/dwarven_leg_greaves.c
+/lib/armor/s_leather/elven_leg_greaves.c
+/lib/armor/s_leather/hobbit_leg_greaves.c
+/lib/armor/s_leather/human_leg_greaves.c
+/lib/armor/r_leather/dwarven_leg_greaves.c
+/lib/armor/r_leather/elven_leg_greaves.c
+/lib/armor/r_leather/hobbit_leg_greaves.c
+/lib/armor/r_leather/human_leg_greaves.c:			100
+
+// Bracer
+// --------------------------------------------------------------------
+/lib/armor/s_leather/bracer.c:  				100
+/lib/armor/r_leather/bracer.c:  				150
+
+// Gloves
+// --------------------------------------------------------------------
+/lib/armor/s_leather/dwarven_glove_l.c
+/lib/armor/s_leather/dwarven_glove_r.c
+/lib/armor/s_leather/elven_glove_l.c
+/lib/armor/s_leather/elven_glove_r.c
+/lib/armor/s_leather/human_glove_l.c
+/lib/armor/s_leather/human_glove_r.c
+/lib/armor/s_leather/hobbit_glove_l.c
+/lib/armor/s_leather/hobbit_glove_r.c :  			65
+
+/lib/armor/r_leather/dwarven_gauntlet_r.c
+/lib/armor/r_leather/dwarven_gauntlet_l.c
+/lib/armor/r_leather/elven_gauntlet_r.c
+/lib/armor/r_leather/elven_gauntlet_l.c
+/lib/armor/r_leather/hobbit_gauntlet_r.c
+/lib/armor/r_leather/hobbit_gauntlet_l.c
+/lib/armor/r_leather/human_gauntlet_r.c
+/lib/armor/r_leather/human_gauntlet_l.c:   			100
+
+// Boots
+// --------------------------------------------------------------------
+/lib/armor/r_leather/dwarven_boot.c
+/lib/armor/r_leather/elven_boot.c
+/lib/armor/r_leather/hobbit_boot.c
+/lib/armor/r_leather/human_boot.c:				150
+
+
+// WEAPONS
+// ====================================================================
+
+// One hand slash
+// --------------------------------------------------------------------
+/lib/weapon/one_h_s/dagger.c:					300
+/lib/weapon/one_h_s/handaxe.c:					500
+/lib/weapon/one_h_s/shortsword.c:				700
+/lib/weapon/one_h_s/scimitar.c:					1000
+/lib/weapon/one_h_s/maingauche.c:				1200
+/lib/weapon/one_h_s/falchion.c:					1500
+/lib/weapon/one_h_s/broadsword.c
+/lib/weapon/one_h_s/longsword.c:				1800
+/lib/weapon/one_h_s/rapier.c:					2200
+
+// One hand crush
+// --------------------------------------------------------------------
+/lib/weapon/one_h_c/club.c:					1
+/lib/weapon/one_h_c/whip.c:					200
+/lib/weapon/one_h_c/mace.c:					600
+/lib/weapon/one_h_c/warhammer.c:				1500
+/lib/weapon/one_h_c/morningstar.c:				1600
+
+// Polearm
+// --------------------------------------------------------------------
+/lib/weapon/polearm/spear.c:					230
+/lib/weapon/polearm/javelin.c:					300
+/lib/weapon/polearm/lance.c:					500
+/lib/weapon/polearm/polearm.c:					1400
+
+// Bows
+// --------------------------------------------------------------------
+/lib/weapon/bow/composite_bow.c:				1700
+/lib/weapon/bow/light_crossbow.c:				1900
+
+// Ammo
+// --------------------------------------------------------------------
+/lib/weapon/bow/ammo/arrow.c
+/lib/weapon/bow/ammo/bolt.c:					1
+
+// Throwing
+// --------------------------------------------------------------------
+/lib/weapon/throw/bola.c:					500
+
+// Two handed
+// --------------------------------------------------------------------
+/lib/weapon/two_h/quarterstaff.c:				5
+/lib/weapon/two_h/battle_axe.c:					1300
+/lib/weapon/two_h/warmattock.c:					1500
+/lib/weapon/two_h/flail.c:					1900
+/lib/weapon/two_h/2h_sword.c:					2000
+
+
+// Furniture
+// ====================================================================
+/lib/furniture/chair.c:						2
+/lib/furniture/bed.c
+/lib/furniture/table.c:						30
+/lib/furniture/wardrobe.c:					40
+/lib/furniture/bench.c:						50
+
+
+// Food
+// ====================================================================
+/lib/food/egg.c:						3
+/lib/food/apple.c:						5
+/lib/food/bread_500g.c:						20
+/lib/food/meat.c:						45
+/lib/food/cake_400g.c:						50
+/lib/food/seaweed.c:						70
+/lib/food/steak.c:						125
+/lib/food/lembas_50g.c:						250
+/lib/food/filet.c:						325
+
+
+// Drink
+// ====================================================================
+/lib/drink/beerkeg.c:						12
+/lib/drink/winebottle.c:					13
+/lib/drink/flask.c:						17
+/lib/drink/vial.c:						20
+/lib/drink/waterskin.c:						30
+
+
+// Books
+// ====================================================================
+/lib/book/poison.c:						3000
+
+
+// Traps
+// ====================================================================
+/lib/trap/bear_trap.c:						500
+
+
+// Container
+// ====================================================================
+/lib/misc/container/chicken_eggshell.c:				1
+/lib/misc/container/large_bag.c:				7
+/lib/misc/container/sack_50lb.c:				8
+/lib/misc/container/purse.c
+/lib/misc/container/chest.c:					10
+/lib/misc/container/large_backpack.c:				22
+/lib/misc/container/quiver.c:					30
+/lib/misc/container/bucket.c:					40
+/lib/misc/container/pot.c:					70
+
+
+// Light
+// ====================================================================
+/lib/misc/light/torch.c
+/lib/misc/light/lamp_wick.c
+/lib/misc/light/wood.c
+/lib/misc/light/candle.c:					1
+/lib/misc/light/oil_lamp.c:					140
+
+
+// Equipment
+// ====================================================================
+/lib/misc/equipment/ladder.c:					3
+/lib/misc/equipment/small_belt.c:				20
+/lib/misc/equipment/belt.c:					30
+/lib/misc/equipment/oil_flask.c:				40
+/lib/misc/equipment/chain.c:					60
+/lib/misc/equipment/lock_pick.c:				100
+/lib/misc/equipment/bow_string.c:				160
+/lib/misc/equipment/saw.c:					230
+/lib/misc/equipment/fletching_set.c:				250
+/lib/misc/equipment/saddle.c:					500
+/lib/misc/equipment/aid_package.c:				950

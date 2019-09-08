@@ -1,0 +1,8 @@
+/*
+ * Function name: set_this_player
+ * Description:   set the current active living object, returned by 
+ *                this_player().
+ */
+
+ This is no longer a function but a macro call within the global include file
+ (/kernel/include/global.h)

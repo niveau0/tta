@@ -1,0 +1,10 @@
+
+/* File: /base/object.c
+ * Function name: set_coordinates
+ * Description:   set the coordinates for this object.
+ *                Remember: coordinates have to be set before a move
+ *                          if the destination is a room.
+ * Arguments:     c - the coordinates, array of x,y,z
+ */
+nomask void
+set_coordinates(int *c)

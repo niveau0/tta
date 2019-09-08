@@ -1,0 +1,11 @@
+light 5000
+height 200
+xsize 200
+ysize 200
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|10000,10000,-10000,})
+room_short "Gwaihirs home"
+room_long "This is Gwaihirs room.\nPretty empty, isn't it?\n"
+room_exits ([0|])

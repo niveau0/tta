@@ -1,0 +1,11 @@
+
+/* File: /system/composite.c
+ * Function name: composite_unseen
+ * Description:   create a description-string for a certain player,
+ *                also adds an extra description for invisible objects.
+ * Arguments:     a - objects to describe
+ *                tp - player object
+ * Returns:       description string
+ */
+nomask string
+composite_unseen(object *a, object tp)

@@ -1,0 +1,26 @@
+*-------------------------------( Magic: Cast )------------------------------*
+
+   Type:        command
+   Usage:       cast '<power> <realm> <list> <spell>' <direction|target>
+
+   Description: Cast is the command to invoke spells. Casting spells is 
+                complex because you need to know the correct syllables
+                to invoke a useful spell.
+                The spell formula (without the target, see above) must be
+		enclosed in quotes: '...'
+                The first component is the power syllable, then the magic
+                realm, then the spell list where the spell can be found,
+                and last the spell name. Some spells need an additional
+                component, e.g. a spell to enhance your language skill must
+                know which language.
+                Depending on the type of spell you need to specify a target
+		or a direction. A direction is given as a distance to your 
+		current position, e.g. 1n2e means 1 feet north and 2 feet 
+		east of yourself.
+                
+   Example:     cast 'en cha cor hle' me
+    	    	  this is the correct formula to cast a spell on 
+    	    	  yourself (if you know that spell of course)
+                    
+*----------------------------------------------------------------------------*
+ See also: 'prepare', 'cancel'

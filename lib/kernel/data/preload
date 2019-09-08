@@ -1,0 +1,20 @@
+# all files to preload at startup
+/system/learn.c
+/system/garbage.c
+/system/weathermaster.c
+/cmd/coder/coder.c
+/cmd/emotion/emotion.c
+/cmd/misc/misc.c
+/base/room.c
+/base/player.c
+
+# open ports now
+/kernel/net/port/telnet.c
+/kernel/net/port/tcp.c
+/kernel/net/port/ftp.c
+#/kernel/net/port/resolve.c DGD has query_ip_name now
+/kernel/net/port/http.c
+/kernel/net/port/imud1.c
+/kernel/net/port/imud2.c
+/kernel/net/port/mapport.c
+/kernel/net/intermud/imudd.c

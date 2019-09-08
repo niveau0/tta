@@ -1,0 +1,8 @@
+
+/* File: /base/living/stat.c
+ * Function name: reduce_development_points
+ * Description:   remove some dev pts
+ * Arguments:     r - how much to reduce
+ */
+nomask void
+reduce_development_points(int r)

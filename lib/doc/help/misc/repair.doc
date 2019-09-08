@@ -1,0 +1,14 @@
+*-------------------------------( Misc: Repair )-----------------------------*
+
+   Type:        command
+   Usage:       repair <item>
+                
+   Description: You fix a jagged blade, put a new string on your bow and 
+		just make your weapon as good as new. You should have
+		knowledge about the material of the weapon you want to
+		repair. A hammer is recommended if you want to work on metal. 
+                
+   Example:     repair dagger
+   
+*----------------------------------------------------------------------------*
+See also: 'metal craft', 'wood craft', 'skills'

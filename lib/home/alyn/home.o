@@ -1,0 +1,13 @@
+light 28000
+height 100
+xsize 400
+ysize 400
+climate 1
+type 2
+edge_base ({4|400,400,400,400,})
+room_coords ({3|3000,3000,400,})
+room_short "Alyn's home"
+room_long "This is the cosy hut of Alyn. The walls are made of polished oakwood with two\nround windows set into them. One is to the north and one is to the south. The\nfloor and the ceiling are made of polished oakwood, too. There seems to be no\nother exit from this room.\n"
+room_exits ([0|])
+objs_to_clone ({3|({2|"/lib/furniture/table",({1|({3|3000,3000,800,}),}),}),({2|"/lib/furniture/chair",({1|({3|3000,3000,800,}),}),}),({2|"/lib/furniture/chair",({1|({3|3000,3000,800,}),}),}),})
+pseudo_items ([2|1:({4|({4|"northern","round","wooden","window",}),({4|"northern","round","wooden","windows",}),"This round wooden window is set into the northern wall, about half a meter\nabove the floor. It is roughly one meter in diameter and provides a nice view\ninto the woods outside.",({3|3200,3400,420,}),}),2:({4|({4|"southern","round","wooden","window",}),({4|"southern","round","wooden","windows",}),"This round wooden window is set into the southern wall, about half a meter\nabove the floor. It is roughly one meter in diameter. You see only trees if\nyou peer out of it.",({3|3200,3000,420,}),}),])

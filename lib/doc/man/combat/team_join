@@ -1,0 +1,9 @@
+
+/* File: /base/living/combat.c
+ * Function name: team_join
+ * Description:   adds a member to a team
+ * Arguments:	  ob - The objectpointer to the new member of my team
+ *                flag - if true do not 'join' other members again 
+ */
+nomask void
+team_join(object ob, int flag)

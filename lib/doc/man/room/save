@@ -1,0 +1,7 @@
+
+/* File: /base/room.c
+ * Function name: save
+ * Description:   save the room
+ */
+nomask void
+save()

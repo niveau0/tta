@@ -1,0 +1,9 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: query_targets
+ * Description:   gives current affected targets of this spell
+ * Returns:       object array
+ */
+
+object *
+query_targets()

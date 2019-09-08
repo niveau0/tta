@@ -1,0 +1,8 @@
+
+/* File: /base/disease.c
+ * Function name: query_infected
+ * Description:   gives all infected players
+ * Returns:       mapping
+ */
+nomask mapping
+query_infected()

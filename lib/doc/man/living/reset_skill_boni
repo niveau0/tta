@@ -1,0 +1,7 @@
+
+/* File: /base/living/skill.c
+ * Function name: reset_skill_boni
+ * Description:   resets all skill boni for new calculation
+ */
+nomask void
+reset_skill_boni()

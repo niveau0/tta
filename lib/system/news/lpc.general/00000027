@@ -1,0 +1,11 @@
+armor protection
+manwe
+Tue Jun  9 02:24:35 1998
+It's now possible to set special protection slot for an armor.
+E.g. if you want to create a magic ring not only protecting the finger
+(nonsense of course ;) you just set extra protection slots.
+Default (if you never call set_protection()) are the locations where
+the armor is worn.
+See set_protection and query_protection.
+
+Manwe

@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: query_move_fatigue
+ * Description:   gives fatigue value when moving in this room
+ * Returns:       integer, default 1
+ */
+int
+query_move_fatigue()

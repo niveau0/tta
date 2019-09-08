@@ -1,0 +1,13 @@
+
+/* File: /base/living/extra.c
+ * Function name: add_effect
+ * Description:   set an effect. If the path is just an integer effect-id
+ *                (see also effects.h) to store special effects, 'count' is
+ *                not needed.
+ * Arguments:     type - the effect type, e.g. POISON_EFFECT
+ *                path - a file responsible for the effect or
+ *                       integer code for effect reason/source <see effects.h>
+ *                count - how long are we infected (effect specific)
+ */
+nomask void
+add_effect(int type, mixed path, int count)

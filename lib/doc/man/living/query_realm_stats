@@ -1,0 +1,8 @@
+
+/* File: /base/living/magic.c
+ * Function name: query_realm_stat
+ * Description:   get the responsible stat for our realm
+ * Returns:       array of stats
+ */
+nomask int *
+query_realm_stats()

@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: exclude_array
+ * Description:   remove some array elements from an array
+ * Arguments:     arr - array to change
+ *                first - first element to exclude
+ *                last - last element to exclude
+ * Returns:       array, the reduced array
+ */
+static nomask mixed
+exclude_array(mixed arr, int first, int last)

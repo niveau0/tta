@@ -1,0 +1,10 @@
+
+/* File: /base/living/stat.c
+ * Function name:   set_tmp_stat(int stat, int val)
+ * Description:     Sets the value of a specific stat to a new value.
+ * Arguments:       stat: The index in the stat array
+ *                  val:  The value that the stat is set to
+ * Returns:         The value of the stat, 0 if failed.
+ */
+nomask int
+set_tmp_stat(int stat, int val)

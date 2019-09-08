@@ -1,0 +1,10 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: cb_no_melee_attack
+ * Description:   determine if this living is able to attack 'ob' in
+ *                melee combat
+ * Arguments:     ob - who to attack
+ * Returns:       1 if melee attack is not possible
+ */
+nomask int
+cb_no_melee_attack(object ob)

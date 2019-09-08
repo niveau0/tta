@@ -1,0 +1,10 @@
+
+/* File: /base/living/carry.c
+ * Function name: add_fill
+ * Description:   here: prevent livings from being filled with liquid
+ *                original function in /base/container
+ * Arguments:     f - liquid amount
+ * Returns:       0
+ */
+nomask int
+add_fill(int f)

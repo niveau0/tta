@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat.c
+ * Function name: set_hp
+ * Description:   Set the hit points of the living to a certain amount.
+ * Arguments:     h: The amount to set.
+ */
+nomask void
+set_hp(int h)

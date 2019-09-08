@@ -1,0 +1,9 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: query_data
+ * Description:   gives additional casting spell data, this is different
+ *                for every spell
+ * Returns:       mixed
+ */
+mixed
+query_data()

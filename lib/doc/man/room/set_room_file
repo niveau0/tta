@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: set_room_file
+ * Description:   set the path of the .o file
+ * Arguments:     f - filename
+ */
+nomask string
+set_room_file(string f)

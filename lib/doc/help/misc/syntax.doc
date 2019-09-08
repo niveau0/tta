@@ -1,0 +1,21 @@
+*-------------------------------( Misc: Syntax )-----------------------------*
+
+   This is an explanation of the help syntax and how to read it.
+   
+   The help pages and direct command help (if you input something useless)
+   uses a special syntax to give as much help as possible.
+
+   Example: typing only 'cast' results in 
+
+            > cast '<power> <realm> <list> <spell>' <target|direction>
+   
+   Special letters:
+    < >    - all words between < > need to be replaced by something. 
+             E.g. <name> requires a name as replacement.
+    |      - an alternative possibility.  In the example you may replace 
+      	     the last < > with a target OR a direction.
+    [ ]    - an optional argument. E.g. [name] shows you that you may give
+             the word 'name' as argument or nothing, but [<name>] means
+             you may give _a_name_ as argument or nothing.
+   
+*----------------------------------------------------------------------------*

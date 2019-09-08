@@ -1,0 +1,8 @@
+
+/* File: /base/living/move.c
+ * Function name:   query_move_msg()
+ * Description:     Gives the walking message of this living.
+ * Returns:         The message string
+ */
+nomask string
+query_move_msg()

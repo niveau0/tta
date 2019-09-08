@@ -1,0 +1,11 @@
+*------------------------------( Builder: ilist )----------------------------*
+
+   Type:        command
+   Usage:       ilist <ipname>
+                
+   Description: List the currently open channels of some specified ipname.
+
+   Example:     ilist tta
+   
+*----------------------------------------------------------------------------*
+ See also: 'istatus', 'ijoin', 'ileave', 'imsg', 'itell', 'iwho'

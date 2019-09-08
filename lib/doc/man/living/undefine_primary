@@ -1,0 +1,9 @@
+
+/* File: /base/living/cmd.c
+ * Function name: undefine_primary
+ * Description:   remove a primary called function
+ * Arguments:     func - primary called function
+ *                obj - primary called object 
+ */
+nomask void
+undefine_primary(string func, mixed obj)

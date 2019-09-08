@@ -1,0 +1,9 @@
+
+/* File: /base/living/combat.c
+ * Function name: add_unconscious
+ * Description:   sets the unconscious time for a living
+ * Arguments:     t - time how long to stay unconscious
+ * Returns:       1 if success
+ */
+nomask int
+add_unconscious(int t)

@@ -1,0 +1,11 @@
+
+/* File: /base/object.c
+ * Function name: check_audible
+ * Description:   additional function to can_hear() within living.c
+ *                (to improve speed)
+ * Arguments:     dist - the maximum distance noise can be heard
+ *                co - coordinates of listening player
+ * Returns:       1 if visible, 0 else
+ */
+nomask int
+check_audible(int dist, int *co)

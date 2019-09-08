@@ -1,0 +1,17 @@
+*------------------------------( Misc: cook )--------------------------------*
+
+   Type:        command
+   Usage:       cook <recipe name> with <cooking container>
+                
+   Description: Lets you prepare food or a potion according to
+                the prescription given as the <recipe name>. You 
+                need a <cooking container> and the appropriated 
+                ingredients to succeed. This command is most usefull
+                in conjuction with the skill "cookery".
+                
+                
+   Example:     cook dragonsoup with iron pot
+                cook potion of healing with brass cauldron
+   
+*----------------------------------------------------------------------------*
+ See also: 'skills','cookery'

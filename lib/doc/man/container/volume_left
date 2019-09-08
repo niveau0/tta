@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: volume_left
+ * Description:   Returns the volume left to fill.
+ * Returns:	  non_negative integer (the left volume)
+ */
+nomask int
+volume_left()

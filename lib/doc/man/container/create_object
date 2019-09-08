@@ -1,0 +1,7 @@
+
+/* File: /base/container.c
+ * Function name: create_object
+ * Description:   Create the container (constructor)
+ */
+static nomask void
+create_object()

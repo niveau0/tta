@@ -1,0 +1,7 @@
+
+/* File: /base/player/extra.c
+ * Function name: set_last_location
+ * Description:   set the last location of a player
+ */
+static nomask void
+set_last_location()

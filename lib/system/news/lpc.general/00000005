@@ -1,0 +1,7 @@
+all_inventory -> inventory
+manwe
+Sun Nov 17 00:17:49 1996
+I renamed function 'all_inventory' to 'inventory'. Also added some more
+functionality, please read the manual.
+
+Manwe

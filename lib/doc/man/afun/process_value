@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/tool.c
+ * Function name: process_value
+ * Description:   process Value By Function Call stringformat
+ * Arguments:     arg - VBFC string, format:
+ *                      "@@function:path|optinonal argument|...@@"
+ * Returns:       return value of function, else 'arg' string
+ */
+static nomask mixed
+process_value(string arg)

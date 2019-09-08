@@ -1,0 +1,9 @@
+
+/* File: /base/door.c
+ * Function name: query_door_id
+ * Description:   gives door id, must be unique within each room and
+ *                must equal the connected door's id (if there is one).
+ * Returns:       int
+ */
+nomask int
+query_door_id()

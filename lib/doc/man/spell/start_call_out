@@ -1,0 +1,10 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: start_call_out
+ * Description:   start a callout. start a call_out within clone from master
+ * Arguments:     fun - callout function
+ *                delay - delay in seconds
+ *                arg - optinal argument
+ */
+varargs void
+start_call_out(string fun, int delay, mixed arg)

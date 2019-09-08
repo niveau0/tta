@@ -1,0 +1,9 @@
+height 100000000
+xsize 300
+ysize 600
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "You are in a small, dark woodland area"
+room_long "You see a tall, wooden door infront of you.\nThere is a metal knocker on the door.\nThere are words engraved on the door,\nThey say 'House of Elrond'.\n"
+room_exits ([1|"home2":({7|110,300,0,0,100000000,0,0,}),])
+objs_to_clone ({6|({2|"/lib/weapon/one_h_s/dagger","0&&0x0y0z",}),({2|"/lib/weapon/one_h_s/broadsword","0&&0x0y0z",}),({2|"/lib/weapon/two_h/2h_sword","0&&0x0y0z",}),({2|"/lib/weapon/two_h/quarterstaff","0&&0x0y0z",}),({2|"/lib/weapon/one_h_s/longsword","0&&0x0y0z",}),({2|"/lib/weapon/one_h_s/rapier","0&&0x0y0z",}),})

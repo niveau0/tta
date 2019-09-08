@@ -1,0 +1,10 @@
+
+/* File: /system/mudtime.c
+ * Function name: time_get_string
+ * Description:   Make a sophisticated human-readable non-numerical
+ *                description of how late it is.
+ * Arguments:     arr - array as returned by TIMEARRAY
+ * Returns:       a string 
+ */
+string
+time_get_string(int *arr)

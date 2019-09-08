@@ -1,0 +1,8 @@
+
+/* File: /base/misc/openclose.c
+ * Function name: set_lock_difficulty
+ * Description:   how difficult is the lock to pick
+ * Arguments:     d - difficulty
+ */
+static nomask void
+set_lock_difficulty(int d)

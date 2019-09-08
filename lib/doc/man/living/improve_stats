@@ -1,0 +1,7 @@
+
+/* File: /base/living/stat.c
+ * Function name: improve_stats
+ * Description:   called for every improve phase to increase the stats
+ */
+static nomask void
+improve_stats()

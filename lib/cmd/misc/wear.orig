@@ -1,0 +1,77 @@
+/*
+ * Function name: wear
+ * Description:   wear an object
+ * Arguments:     str - what to wear or objects still to go
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+nomask int
+wear(mixed str, object tp)
+{
+    int    sz;
+    string prep;
+    object ob, *obj;
+    mixed  result;
+    
+    if (!str)
+    {
+	tp->catch_tell("Wear what?\n");
+	return -1;
+    }
+    if (pointerp(str))
+    {
+	obj = str & tp->query_hold(SLT_ALL);
+	if (!(sz = sizeof(obj)))
+	    return -1;
+    }
+    else
+    {
+	if (!(sz = sizeof(obj = parse(str, tp->query_hold(SLT_ALL), 0))))
+	{
+	    tp->catch_tell("You don't hold such equipment.\n");
+	    return -1;
+	}
+    }
+    ob = obj[0];
+    if (stringp(result = tp->wear_tool(ob)))
+    {
+	prep = ob->wear_preposition();
+	tp->catch_tell(BS("You wear the " + ob->short() + " " + prep +
+			  " your " + result + ".\n", 77, 0));
+	tell_objects(LISTEN(E(tp)) - ({ tp }),
+		     ({ QCTNAME(tp), " wears ", QNAME(ob), " " + prep +
+			    " the " + result + ".\n" }), MSG_SEE, tp);
+    }
+    else
+    {
+	str = 0;
+	switch (result)
+	{
+	  case 0:
+	      str = "You cannot wear the " + ob->short() + ".\n";
+	      break;
+	  case -1:
+	      str = "The " + ob->short() + " doesn't fit your body.\n";
+	      break;
+	  case -2:
+	      str = "The " + ob->short() + " is too big.\n";
+	      break;
+	  case -3:
+	      str = "The " + ob->short() +
+		     " cannot be worn, something is in the way.\n";
+	      break;
+	  case -4:
+	      str = "The " + ob->short() + " is already worn.\n";
+	      break;
+	  case -5:
+	      str = "The " + ob->short() + " is too small.\n";
+	      break;
+	}
+	if (str)
+	    tp->catch_tell(str);
+    }
+    if (sz > 1)
+	tp->add_command(({ this_object(), "wear", obj[1..] }));
+    tp->change_int_prop(LIVE_LOST_ROUNDS, 1);
+    return 1;
+}

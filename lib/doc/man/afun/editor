@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: editor
+ * Description:   send an editor command to the DGD builtin 'ed'.
+ * Arguments:     cmd - command to send
+ * Returns:       string
+ */
+static nomask string
+editor(string cmd)

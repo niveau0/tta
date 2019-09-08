@@ -1,0 +1,13 @@
+*--------------------------------( Misc: Typo )------------------------------*
+
+   Type:        command
+   Usage:       typo <text>
+                
+   Description: This is an out of character command. If you encounter a 
+    	    	typing error you could help to find it. Just stand in the 
+    	    	room where you have found the 'typo' and describe it.
+                
+   Example:     typo 'the greeen lamp' should be 'the green lamp'
+                    
+*----------------------------------------------------------------------------*
+ See also: 'bug', 'idea', 'ooc'

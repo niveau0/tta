@@ -1,0 +1,10 @@
+
+/* File: /base/living/slot.c
+ * Function name: remove_tool
+ * Description:   Remove a tool from a toolslot
+ * Arguments:	  tool - The tool
+ *                flag - 1 if only removed but not dropped
+ * Return:        1 if success, 0 else
+ */
+nomask varargs int
+remove_tool(object tool, int flag)

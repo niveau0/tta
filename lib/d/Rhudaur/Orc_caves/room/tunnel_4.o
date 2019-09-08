@@ -1,0 +1,10 @@
+height 200
+xsize 150
+ysize 1700
+type 6
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|1500,650,0,})
+room_short "A long and dark tunnel"
+room_long "The tunnel runs from north to south. To the south it ends into a bend that\nleads west and to the north you run into a west-east crossing. On the east\nside there is an entrance to a larger cave while a small narrow tunnel \nbegins in the west wall. The smell is incredible and it seems that someone\nor something is living inside here.\n"
+room_exits ([4|"tunnel_2":({7|115,0,0,150,200,0,0,}),"tunnel_5":({7|110,0,0,150,200,0,0,}),"tunnel_6":({7|119,500,0,90,100,0,0,}),"watch_room_1":({7|101,750,0,120,200,0,0,}),])
+pseudo_items ([4|1:({4|({1|"south end",}),({1|"bend",}),"The bend leads to the west.",({3|1550,650,0,}),}),2:({4|({1|"crossing",}),({1|"weat-east crossing",}),"The tunnel ends here in new tunnel that leads east to west.",({3|1550,2350,0,}),}),3:({4|({2|"cave","entrance",}),({1|"larger cave",}),"This is an entrance to a cave.",({3|1650,1460,0,}),}),4:({4|({1|"small tunnel",}),({1|"narrow tunnel",}),"A small tunnel leading to the west.",({3|1500,1200,0,}),}),])

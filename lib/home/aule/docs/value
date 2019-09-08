@@ -1,0 +1,509 @@
+    set_value(2000);
+lib/./lib/armor/shield/human_shield.c
+    set_value(100);
+lib/./lib/armor/shield/hide_shield.c
+    set_value(20000);
+lib/./lib/armor/plate/elven_plate.c
+    set_value(20000);
+lib/./lib/armor/plate/human_plate.c
+    set_value(20000);
+lib/./lib/armor/plate/hobbit_plate.c
+    set_value(20000);
+lib/./lib/armor/plate/dwarven_plate.c
+    set_value(400);
+lib/./lib/armor/plate/plate_helmet.c
+    set_value(400);
+lib/./lib/armor/plate/small_plate_helmet.c
+    set_value(1500);
+lib/./lib/armor/chain/dwarven_chain_shirt.c
+    set_value(1500);
+lib/./lib/armor/chain/human_chain_shirt.c
+    set_value(1500);
+lib/./lib/armor/chain/hobbit_chain_shirt.c
+    set_value(1500);
+lib/./lib/armor/chain/elven_chain_shirt.c
+    set_value(6500);
+lib/./lib/armor/chain/hobbit_full_chain.c
+    set_value(6500);
+lib/./lib/armor/chain/dwarven_full_chain.c
+    set_value(6500);
+lib/./lib/armor/chain/human_full_chain.c
+    set_value(6500);
+lib/./lib/armor/chain/elven_full_chain.c
+    set_value(145);
+lib/./lib/armor/s_leather/small_helmet.c
+    set_value(100);
+lib/./lib/armor/s_leather/dwarven_leg_greaves.c
+    set_value(100);
+lib/./lib/armor/s_leather/elven_leg_greaves.c
+    set_value(100);
+lib/./lib/armor/s_leather/hobbit_bracer.c
+    set_value(100);
+lib/./lib/armor/s_leather/hobbit_leg_greaves.c
+    set_value(65);
+lib/./lib/armor/s_leather/elven_glove_l.c
+    set_value(100);
+lib/./lib/armor/s_leather/human_leg_greaves.c
+    set_value(65);
+lib/./lib/armor/s_leather/human_glove_l.c
+    set_value(65);
+lib/./lib/armor/s_leather/dwarven_glove_l.c
+    set_value(100);
+lib/./lib/armor/s_leather/human_jerkin.c
+    set_value(65);
+lib/./lib/armor/s_leather/elven_glove_r.c
+    set_value(65);
+lib/./lib/armor/s_leather/hobbit_glove_l.c
+    set_value(65);
+lib/./lib/armor/s_leather/human_glove_r.c
+    set_value(65);
+lib/./lib/armor/s_leather/dwarven_glove_r.c
+    set_value(65);
+lib/./lib/armor/s_leather/hobbit_glove_r.c
+    set_value(100);
+lib/./lib/armor/s_leather/dwarven_jerkin.c
+    set_value(100);
+lib/./lib/armor/s_leather/elven_jerkin.c
+    set_value(100);
+lib/./lib/armor/s_leather/hobbit_jerkin.c
+    set_value(150);
+lib/./lib/armor/s_leather/helmet.c
+    set_value(100);
+lib/./lib/armor/s_leather/bracer.c
+    set_value(250);
+lib/./lib/armor/r_leather/leather_helmet.c
+    set_value(150);
+lib/./lib/armor/r_leather/hobbit_bracer.c
+    set_value(100);
+lib/./lib/armor/r_leather/elven_leg_greaves.c
+    set_value(100);
+lib/./lib/armor/r_leather/dwarven_leg_greaves.c
+    set_value(450);
+lib/./lib/armor/r_leather/elven_breastplate.c
+    set_value(100);
+lib/./lib/armor/r_leather/human_leg_greaves.c
+    set_value(100);
+lib/./lib/armor/r_leather/hobbit_leg_greaves.c
+    set_value(450);
+lib/./lib/armor/r_leather/dwarven_breastplate.c
+    set_value(450);
+lib/./lib/armor/r_leather/hobbit_breastplate.c
+    set_value(450);
+lib/./lib/armor/r_leather/human_breastplate.c
+    set_value(150);
+lib/./lib/armor/r_leather/hobbit_boot.c
+    set_value(150);
+lib/./lib/armor/r_leather/human_boot.c
+    set_value(100);
+lib/./lib/armor/r_leather/dwarven_gauntlet_r.c
+    set_value(100);
+lib/./lib/armor/r_leather/dwarven_gauntlet_l.c
+    set_value(100);
+lib/./lib/armor/r_leather/elven_gauntlet_r.c
+    set_value(100);
+lib/./lib/armor/r_leather/elven_gauntlet_l.c
+    set_value(100);
+lib/./lib/armor/r_leather/hobbit_gauntlet_r.c
+    set_value(100);
+lib/./lib/armor/r_leather/hobbit_gauntlet_l.c
+    set_value(100);
+lib/./lib/armor/r_leather/human_gauntlet_r.c
+    set_value(100);
+lib/./lib/armor/r_leather/human_gauntlet_l.c
+    set_value(150);
+lib/./lib/armor/r_leather/bracer.c
+    set_value(150);
+lib/./lib/armor/r_leather/dwarven_boot.c
+    set_value(150);
+lib/./lib/armor/r_leather/elven_boot.c
+    set_value(50);
+lib/./lib/armor/cloth/human_underwear.c
+    set_value(50);
+lib/./lib/armor/cloth/elven_underwear.c
+    set_value(50);
+lib/./lib/armor/cloth/hobbit_underwear.c
+    set_value(50);
+lib/./lib/armor/cloth/dwarven_underwear.c
+    set_value(500);
+lib/./lib/weapon/one_h_s/handaxe.c
+    set_value(1500);
+lib/./lib/weapon/one_h_s/falchion.c
+    set_value(300);
+lib/./lib/weapon/one_h_s/dagger.c
+    set_value(700);
+lib/./lib/weapon/one_h_s/shortsword.c
+    set_value(1000);
+lib/./lib/weapon/one_h_s/scimitar.c
+    set_value(1800);
+lib/./lib/weapon/one_h_s/longsword.c
+    set_value(2200);
+lib/./lib/weapon/one_h_s/rapier.c
+    set_value(1000);
+lib/./lib/weapon/one_h_s/broadsword.c
+    set_value(1200);
+lib/./lib/weapon/one_h_s/maingauche.c
+    set_value(600);
+lib/./lib/weapon/one_h_c/mace.c
+    set_value(200);
+lib/./lib/weapon/one_h_c/whip.c
+    set_value(1500);
+lib/./lib/weapon/one_h_c/warhammer.c
+    set_value(1);
+lib/./lib/weapon/one_h_c/club.c
+    set_value(1600);
+lib/./lib/weapon/one_h_c/morningstar.c
+    set_value(500);
+lib/./lib/weapon/polearm/lance.c
+    set_value(230);
+lib/./lib/weapon/polearm/spear.c
+    set_value(1400);
+lib/./lib/weapon/polearm/polearm.c
+    set_value(300);
+lib/./lib/weapon/polearm/javelin.c
+    set_value(1700);
+lib/./lib/weapon/bow/composite_bow.c
+    set_value(1);
+lib/./lib/weapon/bow/ammo/arrow.c
+    set_value(1);
+lib/./lib/weapon/bow/ammo/bolt.c
+    set_value(1900);
+lib/./lib/weapon/bow/light_crossbow.c
+    set_value(500);
+lib/./lib/weapon/throw/bola.c
+    set_value(1900);
+lib/./lib/weapon/two_h/flail.c
+    set_value(5);
+lib/./lib/weapon/two_h/quarterstaff.c
+    set_value(1300);
+lib/./lib/weapon/two_h/battle_axe.c
+    set_value(2000);
+lib/./lib/weapon/two_h/2h_sword.c
+    set_value(1500);
+lib/./lib/weapon/two_h/warmattock.c
+    set_value(30);
+lib/./lib/furniture/table.c
+    set_value(2);
+lib/./lib/furniture/chair.c
+    set_value(50);
+lib/./lib/furniture/bench.c
+    set_value(40);
+lib/./lib/furniture/wardrobe.c
+    set_value(30);
+lib/./lib/furniture/bed.c
+    set_value(20);
+lib/./lib/food/bread_500g.c
+    set_value(5);
+lib/./lib/food/apple.c
+    set_value(3);
+lib/./lib/food/egg.c
+    set_value(250);
+lib/./lib/food/lembas_50g.c
+    set_value(50);
+lib/./lib/food/cake_400g.c
+    set_value(45);
+lib/./lib/food/meat.c
+    set_value(325);
+lib/./lib/food/filet.c
+    set_value(70);
+lib/./lib/food/seaweed.c
+    set_value(125);
+lib/./lib/food/steak.c
+    set_value(20);
+lib/./lib/drink/vial.c
+    set_value(2000);
+lib/./lib/drink/well.c
+    set_value(30);
+lib/./lib/drink/waterskin.c
+    set_value(17);
+lib/./lib/drink/flask.c
+    set_value(12);
+lib/./lib/drink/beerkeg.c
+    set_value(13);
+lib/./lib/drink/winebottle.c
+    set_value(180000);
+lib/./lib/flora/herb/hugburtun.c
+    set_value(3000);
+lib/./lib/book/poison.c
+    set_value(500);
+lib/./lib/trap/bear_trap.c
+    set_value(7);
+lib/./lib/misc/container/large_bag.c
+    set_value(70);
+lib/./lib/misc/container/pot.c
+    set_value(40);
+lib/./lib/misc/container/bucket.c
+    set_value(22);
+lib/./lib/misc/container/large_backpack.c
+    set_value(8);
+lib/./lib/misc/container/sack_50lb.c
+    set_value(10);
+lib/./lib/misc/container/purse.c
+    set_value(10);
+lib/./lib/misc/container/chest.c
+    set_value(30);
+lib/./lib/misc/container/quiver.c
+    set_value(1);
+lib/./lib/misc/container/chicken_eggshell.c
+    set_value(1);
+lib/./lib/misc/light/candle.c
+    set_value(140);
+lib/./lib/misc/light/oil_lamp.c
+    set_value(1);
+lib/./lib/misc/light/torch.c
+    set_value(1);
+lib/./lib/misc/light/lamp_wick.c
+    set_value(1);
+lib/./lib/misc/light/wood.c
+    set_value(3);
+lib/./lib/misc/equipment/ladder.c
+    set_value(60);
+lib/./lib/misc/equipment/chain.c
+    set_value(500);
+lib/./lib/misc/equipment/saddle.c
+    set_value(100);
+lib/./lib/misc/equipment/lock_pick.c
+    set_value(230);
+lib/./lib/misc/equipment/saw.c
+    set_value(40);
+lib/./lib/misc/equipment/oil_flask.c
+    set_value(30);
+lib/./lib/misc/equipment/belt.c
+    set_value(20);
+lib/./lib/misc/equipment/small_belt.c
+    set_value(250);
+lib/./lib/misc/equipment/fletching_set.c
+    set_value(950);
+lib/./lib/misc/equipment/aid_package.c
+    set_value(160);
+lib/./lib/misc/equipment/bow_string.c
+    set_value(500);
+lib/./lib/misc/special/sundial.c
+    set_value(100000);
+lib/./lib/misc/special/tower_clock.c
+    set_value(5);
+lib/./lib/misc/special/log_heap.c
+    set_value(100);
+lib/./lib/misc/misc/skin.c
+set_value(int v)
+	    ob->set_value(blood);
+	    ob->set_value(level);
+lib/./lib/spell/cha/closed/drip/velar.c
+    set_value(60);
+lib/./d/Standard/obj/statue.c
+    set_value(120);
+lib/./d/Standard/Bree/room/pub/obj/pub_stair.c
+    set_value(20);
+lib/./d/Standard/Bree/room/pub/obj/pub_ladder.c
+    set_value(6);
+lib/./d/Standard/Bree/room/pub/obj/pub_key.c
+    set_value(6);
+lib/./d/Standard/Bree/obj/cell1_key.c
+    set_value(6);
+lib/./d/Standard/Bree/obj/cell2_key.c
+    set_value(6);
+lib/./d/Standard/Bree/obj/cell3_key.c
+    set_value(6);
+lib/./d/Standard/Bree/obj/cell4_key.c
+    set_value(6);
+lib/./d/Standard/Bree/obj/cell5_key.c
+    set_value(6);
+lib/./d/Standard/Bree/obj/cell6_key.c
+    set_value(6);
+lib/./d/Standard/Bree/obj/jail_key.c
+    set_value(6);
+lib/./d/Standard/Bree/obj/baker_key.c
+    set_value(8);
+lib/./d/Standard/Bree/obj/grocer_key.c
+    set_value(5);
+lib/./d/Standard/Bree/obj/butcher_key.c
+    set_value(5);
+lib/./d/Standard/Bree/obj/tailor_key.c
+    set_value(10);
+lib/./d/Standard/Bree/obj/smith_key.c
+    set_value(2000);
+lib/./d/Standard/Bree/obj/spring.c
+    set_value(15);
+lib/./d/Standard/Bree/obj/town_key.c
+    set_value(150);
+lib/./d/Rhudaur/Bree/Prancing_Pony/obj/1_floor_stair.c
+    set_value(150);
+lib/./d/Rhudaur/Bree/Prancing_Pony/obj/2_floor_stair1.c
+    set_value(150);
+lib/./d/Rhudaur/Bree/Prancing_Pony/obj/2_floor_stair2.c
+    set_value(150);
+lib/./d/Rhudaur/Bree/Prancing_Pony/obj/3_floor_stair2.c
+    set_value(150);
+lib/./d/Rhudaur/Bree/Prancing_Pony/obj/3_floor_stair1.c
+ * Function name: set_value
+set_value(int v)
+lib/./base/object.c
+    set_value(COIN_VALUES[tmp]);
+lib/./base/coins.c
+	set_value(v);
+lib/./base/plant.c
+    set_value(1);
+	set_value(0);
+    set_value(0);
+lib/./base/light.c
+    set_value(1);
+lib/./home/aule/obj/eceru.c
+    set_value(300000);
+lib/./home/aule/obj/amulet.c
+    set_value(60);
+lib/./home/aule/obj/statue.c
+    set_value(100000);
+lib/./home/aule/obj/ring_fire.c
+    set_value(100000);
+lib/./home/aule/obj/ring_cold.c
+    set_value(100000);
+lib/./home/aule/obj/ring_elec.c
+    set_value(111800);
+lib/./home/aule/obj/twin_sword_1.c
+    set_value(111800);
+lib/./home/aule/obj/twin_sword_2.c
+    set_value (5000);
+lib/./home/yavanna/obj/staff.c
+    set_value(0);
+lib/./home/yavanna/moria/obj/trap/arrow_trap.c
+    set_value(1);
+lib/./home/yavanna/moria/obj/trap/trap_bolt.c
+    set_value(0);
+lib/./home/yavanna/moria/obj/trap/activator.c
+    set_value(1700);
+lib/./home/yavanna/moria/obj/weapon/crossbow.c
+    set_value(100000);
+lib/./home/mandos/ring_fire.c
+    set_value(100);
+lib/./home/sheira/boar_meal.c
+    set_value(1);
+lib/./home/gothmog/lib/throne.c
+    set_value(5700);
+lib/./home/alyn/elb.c
+    set_value(5000);
+lib/./home/alyn/magical_shortsword.c
+    set_value(1);
+lib/./home/alyn/eceru.c
+    set_value(30);
+lib/./home/alyn/quiver.c
+    set_value(100);
+lib/./home/alyn/black_elven_jerkin_f.c
+    set_value(30);
+lib/./home/alyn/leather_shortsword_scabbard.c
+    set_value(30);
+lib/./home/alyn/elven_slip_f.c
+    set_value(130);
+lib/./home/alyn/black_s_leather_elven_boot_r.c
+    set_value(80);
+lib/./home/alyn/black_leather_elven_skirt.c
+    set_value(100);
+lib/./home/alyn/black_leather_elven_pants.c
+    set_value(130);
+lib/./home/alyn/black_s_leather_elven_boot_l.c
+    set_value(100);
+lib/./home/alyn/hobbit_linen_pants.c
+    set_value(50);
+lib/./home/alyn/hobbit_linen_shirt.c
+    set_value(60);
+lib/./home/alyn/hobbit_cotton_vest.c
+    set_value(1000);
+lib/./home/seclan/armor/lightcape.c
+    set_value(1300);
+lib/./home/seclan/armor/lightrobe.c
+    set_value(800);
+lib/./home/seclan/armor/lightglove.c
+    set_value(800);
+lib/./home/seclan/armor/lightshoe.c
+    set_value(8);
+lib/./home/seclan/container/pouch.c
+    set_value(7);
+lib/./home/seclan/container/big_bucket.c
+    set_value(15);
+lib/./home/seclan/container/nolock_chest.c
+    set_value(1);
+lib/./home/seclan/container/chicken_eggshell.c
+    set_value(20);
+lib/./home/seclan/container/elf_coffin.c
+    set_value(3);
+lib/./home/seclan/incomplete/table.c
+    set_value(1500);
+lib/./home/seclan/incomplete/lightmask.c
+    set_value(30);
+lib/./home/seclan/incomplete/bed.c
+    set_value(5);
+lib/./home/seclan/incomplete/book.c
+    set_value(70);
+lib/./home/seclan/incomplete/oven.c
+    set_value(30);
+lib/./home/seclan/incomplete/rope.c
+    set_value(1);
+lib/./home/seclan/room/tower/object/sphere.c
+    set_value(5);
+lib/./home/seclan/room/tower/object/tower_key.c
+    set_value(100);
+lib/./home/seclan/room/tower/object/stair_bedroom.c
+    set_value(100);
+lib/./home/seclan/room/tower/object/stair_storeroom.c
+    set_value(100);
+lib/./home/seclan/room/tower/object/stair_library.c
+    set_value(100);
+lib/./home/seclan/room/tower/object/stair_living.c
+    set_value(100);
+lib/./home/seclan/room/tower/object/stair_entrance.c
+    set_value(30);
+lib/./home/seclan/food/cheese.c
+    set_value(3);
+lib/./home/seclan/food/chicken_egg.c
+    set_value(5);
+lib/./home/seclan/book/book_todo.c
+    set_value(1);
+lib/./home/andraax/eceru.c
+    set_value(2);
+lib/./home/andraax/roll_25g.c
+    set_value(20000);
+lib/./home/andraax/2h_nodachi_eog.c
+    set_value(10000);
+lib/./home/andraax/1h_katana_eog.c
+    set_value(5000);
+lib/./home/andraax/1h_wakizashi_eog.c
+    set_value(400);
+lib/./home/andraax/small_plate_helmet.c
+    set_value(450);
+lib/./home/andraax/medium_plate_helmet.c
+    set_value(3);
+lib/./home/yirel/egg.c
+    set_value(1);
+lib/./home/yirel/chicken_eggshell.c
+    set_value(5);
+lib/./home/yirel/apple.c
+    set_value(325);
+lib/./home/yirel/filet.c
+    set_value(45);
+lib/./home/yirel/meat.c
+    set_value(100);
+lib/./home/gwaihir/shield.c
+    set_value(300);
+lib/./home/gwaihir/dagger.c
+    set_value(1000);
+lib/./home/gwaihir/broadsword.c
+    set_value(1500);
+lib/./home/olorin/staff.c
+    set_value(10000);
+lib/./home/olorin/glamdring.c
+    set_value(10000);
+lib/./home/olorin/narya.c
+    set_value(5);
+lib/./home/torrin/tower/weapon/staff.c
+    set_value(30);
+lib/./home/torrin/tower/lib/furniture/bed.c
+    set_value(50);
+lib/./home/torrin/tower/lib/furniture/bench.c
+    set_value(40);
+lib/./home/torrin/tower/lib/furniture/wardrobe.c
+    set_value(30);
+lib/./home/torrin/tower/lib/furniture/glasstable.c
+    set_value(2);
+lib/./home/torrin/tower/lib/furniture/le_chair.c
+    set_value(0);
+lib/./home/torrin/tower/obj/r_pillow.c
+    set_value(0);
+lib/./home/torrin/tower/obj/s_pillow.c

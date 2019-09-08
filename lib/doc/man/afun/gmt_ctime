@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: gmt_ctime
+ * Description:   gives the same output as ctime() but GMT
+ * Arguments:     t - time value in seconds since 1970
+ * Returns:       time description string
+ */
+nomask string
+gmt_ctime(int t)

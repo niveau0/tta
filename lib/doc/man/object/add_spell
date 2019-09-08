@@ -1,0 +1,8 @@
+
+/* File: /base/object/spells.c
+ * Function name: add_spell
+ * Description:   stores all spells active on this object for later usage
+ * Arguments:     ob - spellfile clone
+ */
+nomask void
+add_spell(object ob)

@@ -1,0 +1,9 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_protection
+ * Description:   Returns the protecting tools for the given slot
+ * Arguments:	  slot - The toolslot to query
+ * Return:        object array
+ */
+nomask object *
+query_protection(int slot)

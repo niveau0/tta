@@ -1,0 +1,11 @@
+w+/syslog/exec
+r-/www
+r-/system
+r-/syslog
+r-/players
+r-/kernel
+r-/home
+r-/config
+r-/cmd
+r-/bin
+r+/

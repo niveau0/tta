@@ -1,0 +1,15 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: do_spell
+ * Description:   start casting a spell
+ * Arguments:     level - the level the spell will be casted
+ *                knownlev - the level the spell list has be learned to
+ *                target - target name(s)
+ *                ob - the object casting
+ *                extra - extra spell arguments
+ *                words - the spell formula
+ * Returns:       1 if successful, -1 else
+ */
+nomask int
+do_spell(int level, int knownlev, string target, object ob, string extra,
+	 string words)

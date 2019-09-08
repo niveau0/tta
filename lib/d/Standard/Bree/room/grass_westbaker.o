@@ -1,0 +1,11 @@
+height 100000000
+xsize 1700
+ysize 1200
+climate 1
+type 4096
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|-3200,-400,0,})
+room_short "A grassy area"
+room_long "This large place is overgrown with short grass and lies in the western part of\nthe town, judged by the citywall that stretches along the western border of\nthe area. At the eastern edge of the grassy plain you notice two houses and a\nsmall alley between them that goes east. A bigger road is found at the\nnorthern part, where it leads in an east-western direction until it turns\nnorth in front of a building. To the west you cannot recognize too much as the\naforementioned citywall thwarts every attempt to look further. Another also\nvacant area of grass lies to the southeast and the inevitable citywall towers\nbehind it.\n"
+room_exits ([3|"baker_road":({7|101,450,0,150,100000000,0,0,}),"wateralley_west2":({7|110,200,0,1500,100000000,0,0,}),"wateralley_westbendsouth":({7|110,0,0,200,100000000,0,0,}),])
+pseudo_items ([2|1:({4|({1|"alley",}),({1|"alleys",}),"You see a small alley leading eastward.",({3|-1450,125,0,}),}),2:({4|({1|"bend",}),({1|"bends",}),"The road along the northern limit of the grassy plain converts into a bend\nnorthward. ",({3|-3100,850,0,}),}),])

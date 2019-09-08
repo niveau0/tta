@@ -1,0 +1,9 @@
+
+/* File: /base/misc/subloc.c
+ * Function name: remove_from_to_subloc
+ * Description:   removes an object from the given sublocation
+ * Arguments:     sloc - Name of sub location
+ *                ob - object to insert at the sublocation 
+ */
+nomask void
+remove_from_subloc(string sloc, object ob)

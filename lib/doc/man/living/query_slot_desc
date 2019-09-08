@@ -1,0 +1,9 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_slot_desc
+ * Description:   returns a slot description
+ * Arguments:     slot - the slot
+ * Returns:       the description
+ */
+nomask string
+query_slot_desc(int slot)

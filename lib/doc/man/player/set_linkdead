@@ -1,0 +1,8 @@
+
+/* File: /base/player.c
+ * Function name: set_linkdead
+ * Description:   cares for linkdeath message and possession if link gets lost
+ * Arguments:     i - true or false
+ */
+nomask void
+set_linkdead(int i)

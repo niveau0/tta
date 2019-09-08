@@ -1,0 +1,11 @@
+light 30000
+height 156
+xsize 372
+ysize 36
+climate 1
+type 2
+cornerheight ({4|156,156,156,156,})
+room_coords ({3|180,540,156,})
+room_short "An east-west corridor"
+room_long "In the west you notice the corridor turning southward and eastward it is\nending at a stairway. The walls are carpeted with light brown boards and\nseveral nearly unseeable lamps give off quite an amount of light.\n"
+room_exits ([2|"corridor1_2fl":({7|119,0,0,36,156,0,0,}),"stairway2":({7|101,0,0,36,156,0,0,}),])

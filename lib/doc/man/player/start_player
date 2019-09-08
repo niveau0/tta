@@ -1,0 +1,8 @@
+
+/* File: /base/player.c
+ * Function name: start_player
+ * Description:   called if an existing player enters the game
+ * Arguments:     n - the players name
+ */
+void
+start_player(string n)

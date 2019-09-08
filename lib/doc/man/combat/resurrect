@@ -1,0 +1,7 @@
+
+/* File: /base/living/combat.c
+ * Function name: resurrect
+ * Description:   puts this living back to live
+ */
+nomask void
+resurrect()

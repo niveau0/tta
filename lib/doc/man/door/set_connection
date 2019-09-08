@@ -1,0 +1,9 @@
+
+/* File: /base/door.c
+ * Function name: set_connection
+ * Description:   set the doors connection and its id
+ * Arguments:     room - room file
+ *                id - door id
+ */
+nomask void
+set_connection(string room, int id)

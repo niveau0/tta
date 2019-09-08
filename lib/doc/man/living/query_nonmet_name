@@ -1,0 +1,8 @@
+
+/* File: /base/living.c
+ * Function name: query_nonmet_name
+ * Description:   Gives the name of this living to players who have not met
+ * Returns:       string
+ */
+nomask string
+query_nonmet_name()

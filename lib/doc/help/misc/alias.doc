@@ -1,0 +1,17 @@
+*-------------------------------( Misc: Alias )------------------------------*
+
+   Type:        command
+   Usage:       alias <abbrev> <command>
+	        alias -l
+	        alias -d <abbrev>
+                
+   Description: (Re)define or remove an abbreviation from your alias list.
+                To show all your aliases use 'alias -l'.
+		Use the '$'-sign to execute your previous command again.
+
+   Example:     alias ga get all    - Make 'ga' an abbrev. for 'get all'
+    	    	alias ga get apple  - Redefine 'ga', now its 'get apple'   
+    	    	alias -d ga         - Remove the abbreviation 'ga'
+		$                   - do the previous command again
+
+*----------------------------------------------------------------------------*

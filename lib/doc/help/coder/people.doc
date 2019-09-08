@@ -1,0 +1,26 @@
+*----------------------------( Builder: people )-----------------------------*
+ 
+   Type:	command        
+   Usage:       people
+                
+   Description: The command 'people' is an enhanced version of the 'who' 
+		command.  'People' gives a much greater amount of information
+ 		(divided thusly):
+
+		Idleflag  Name   Type   IPaddress   Current region or room
+ 
+		Where 'type' is of the following:
+		 A - administration
+		 C - creator (creating new code)
+		 B - builder (build area with the room creator)
+		 M - mortal, player character
+   Example:     
+	> people
+	There are now 3 players (3 active) 0.04 cmd/s, 0 npc cmd/s
+  	  Frodo       M  150.53.61.10  Rhudaur
+  	I Erikose     B  152.3.61.1    Home (erikose)
+  	  Seclan      C  134.106.23.6  Home (seclan)
+  	I Manwe       A  134.106.22.9  Home (manwe)
+   
+*----------------------------------------------------------------------------*
+ See also: 'who', 'msg', 'idle', 'finger'

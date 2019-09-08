@@ -1,0 +1,9 @@
+
+/* File: /system/money.c
+ * Function name: short_desc
+ * Description:   translates amount into money short description string
+ * Arguments:     n - how much money 
+ * Returns:       string
+ */
+string
+short_desc(int n)

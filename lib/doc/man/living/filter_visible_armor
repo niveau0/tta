@@ -1,0 +1,10 @@
+
+/* File: /base/living/slot.c
+ * Function name: filter_visible_armor
+ * Description:   filters all objects which cannot be seen, because all
+ *                their slots are covered by clothes in a layer over them
+ *                (see slots.h)
+ * Returns:       object array, the worn objects that can be seen
+ */
+nomask object *
+filter_visible_armor()

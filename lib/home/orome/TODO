@@ -1,0 +1,21 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+OLAF:
+
+Bei den Waffen: - skill-support property auf vernuenftige Werte setzen
+		- evtl. bessere long_descs schreiben
+		- skill-support fuer thrown weapons
+		- missile weapons
+
+Spellfumbles: 	- spell klappt geht aber woanders hin
+	      	- messies an die environment
+		- messies ueberarbeiten und QCTNAME und possessive benutzten
+
+Spellcriticals: - spell geht weiter und trifft andere
+		- spell stunned alles im Umkreis von 5'
+
+Waffencriticals: - komplett ueberarbeiten und vor allem Abfragen auf Dinge die
+		   gewieldet oder geweared sind (nicht einfach pauschal
+		   removen bei critischen treffern)
+
+Skill-kosten:   - magical-balls haben keinen targeting-skill

@@ -1,0 +1,14 @@
+*------------------------------( Moving: swim )------------------------------*
+
+   Type:        command
+   Usage:       swim <direction>
+                
+   Description: Lets you swim in the given direction. You try to remain 
+                on the surface. If you want to go down you should dive.
+                The skill swimming is required to use this command 
+                successfully.
+                
+   Example:     swim east
+   
+*----------------------------------------------------------------------------*
+ See also: 'dive', 'diving', 'skills', 'swimming'

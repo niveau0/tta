@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: add_heap_size
+ * Description:   adds some units to this heap
+ * Arguments:     num - the units to add
+ */
+nomask void
+add_heap_size(int num)

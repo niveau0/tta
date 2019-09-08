@@ -1,0 +1,10 @@
+
+/* File: /base/misc/listen.c
+ * Function name: start_listen
+ * Description:   begin listening
+ * Arguments:     ob - optional object to listen to, defaults to this_object
+ *                    (e.g. listen to messages which are heard by a coin
+ *                     requires start_listen(coinobject))
+ */
+nomask varargs void
+start_listen(object ob)

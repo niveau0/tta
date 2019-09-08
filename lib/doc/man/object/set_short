@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: set_short
+ * Description:   Sets the string to return for short description.
+ * Arguments:     short - The short description
+ */
+void
+set_short(string short)

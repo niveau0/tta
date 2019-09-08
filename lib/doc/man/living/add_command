@@ -1,0 +1,9 @@
+
+/* File: /base/living/cmd.c
+ * Function name: add_command
+ * Description:   add a cmd to the cmdqueue. this can be used to add
+ *                special cmds continuation (see next_command()).
+ * Arguments:     arg - cmd value to add to cmdqueue
+ */
+nomask void
+add_command(mixed arg)

@@ -1,0 +1,11 @@
+
+/* File: /base/misc/subdesc.c
+ * Function name: subdesc
+ * Description:   return the subdescription for a subdesc id
+ * Arguments:     ob - the object to describe (where the subdesc was added)
+ *                for_ob - the object looking 
+ *                descid - a unique subdescription id (see <description.h>)
+ * Returns:       string
+ */
+nomask string
+subdesc(object ob, object for_ob, string descid)

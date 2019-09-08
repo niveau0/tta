@@ -1,0 +1,12 @@
+light 30000
+height 156
+xsize 72
+ysize 120
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|450,567,0,})
+room_short "A little rooom"
+room_long "You see a room with a single window in its northern wall. Dark brown wood has\nbeen cut into boards and fixed to the walls. Now these boards seem to be\nnearly polished by attempts of cleaning and objects rubbing over them.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/hob1_door",({1|({3|486,567,0,}),}),}),})

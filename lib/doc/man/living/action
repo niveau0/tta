@@ -1,0 +1,10 @@
+
+/* File: /base/living/cmd.c
+ * Function name:   action(string cmd, string str)
+ * Description:     Try to find and perform a command.
+ * Arguments:       cmd - the command
+ *                  arg - the argument string
+ * Returns:         command return value
+ */
+static nomask int
+action(string cmd, string arg)

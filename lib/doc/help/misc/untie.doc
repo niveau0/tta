@@ -1,0 +1,12 @@
+*------------------------------( Misc: untie )-------------------------------*
+
+   Type:        command
+   Usage:       untie <object> from <rope>
+                
+   Description: Opening a knot might be a quite difficult action, if a real
+		master has made it. So it could take some time.
+
+   Example:     untie horse from rope
+   
+*----------------------------------------------------------------------------*
+ See also: 'knot', 'rope mastery'

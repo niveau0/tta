@@ -1,0 +1,10 @@
+height 100000000
+xsize 200
+ysize 600
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2800,-1000,0,})
+room_short "The Winestreet"
+room_long "You stand upon a part of the street that continues its way straight to the\nnorth. A glance in the opposite direction reveals that just south from here\nthe road starts a slow bend first to the west and then back to its main\ndestination, the southern citygate. East and west you see only vacant, grassy\nareas, but to the southwest directly at the bend, there seems to be a house\nthat is opened to travellers.\n"
+room_exits ([2|"cross_wine_juice":({7|110,0,0,200,1000,0,0,}),"winestreet_bend_east":({7|115,0,0,200,100000000,0,0,}),])

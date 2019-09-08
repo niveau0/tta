@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/event.c
+ * Function name: add_event
+ * Description:   add this object to an event list
+ * Arguments:     event - event type
+ *                func - function to call in this object if this event occurs
+ *                obj - object which should send events to this object
+ */
+static nomask void
+add_event(int event, string func, object obj)

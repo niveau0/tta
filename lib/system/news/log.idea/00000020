@@ -1,0 +1,5 @@
+/home/seclan/room/tower/laboratory
+seclan
+Tue May 12 16:54:24 1998
+allow wildcards in the ADDSPELL-arguments. Example: addspell cha * (this
+would add all spells from the 'cha'-realm. :)

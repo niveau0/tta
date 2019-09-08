@@ -1,0 +1,9 @@
+
+/* File: /base/living/slot.c
+ * Function name: add_equipment
+ * Description:   help function to easy equip npcs
+ * Arguments:     path - the file to add
+ * Returns:       object (the cloned equipment)
+ */
+nomask object
+add_equipment(string path)

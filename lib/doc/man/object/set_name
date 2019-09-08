@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: set_name
+ * Description:   Sets main the name of the object
+ * Arguments:	  name - the new name
+ */
+void
+set_name(string name)

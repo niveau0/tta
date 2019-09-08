@@ -1,0 +1,8 @@
+
+/* File: /base/door.c
+ * Function name: set_status 
+ * Description:   set door status (open, locked, etc.)
+ * Arguments:     st - status (see <door.h>)
+ */
+nomask void
+set_status(int st)

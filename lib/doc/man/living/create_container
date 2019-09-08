@@ -1,0 +1,7 @@
+
+/* File: /base/living.c
+ * Function name: create_container
+ * Description:   Create the living object. (constructor)
+ */
+static nomask void
+create_container()

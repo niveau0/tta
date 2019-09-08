@@ -1,0 +1,13 @@
+
+/* File: /base/armor.c
+ * Function name: E_got_hit
+ * Description:   notify hit on this armor
+ * Arguments:     o - object that made the hit
+ *                ao - object that has been hit
+ *                damage - the inflicted damage
+ *                slot - the slot that has been hit
+ *                w - the object that caused the hit
+ */
+
+nomask void
+E_got_hit(object o, object ao, int damage, int slot, object w)

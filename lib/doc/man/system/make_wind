@@ -1,0 +1,9 @@
+
+/* File: /system/weathermaster.c
+ * Function name: make_wind
+ * Description:   compute new wind value
+ * Arguments:     season - current season code
+ * Returns:       string, wind description
+ */
+private string
+make_wind(int season)

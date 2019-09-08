@@ -1,0 +1,11 @@
+*------------------------------( Builder: iwho )-----------------------------*
+
+   Type:        command
+   Usage:       iwho <ipname>
+                
+   Description: Send a 'remote who' request to a specified ipname. 
+
+   Example:     iwho tta
+   
+*----------------------------------------------------------------------------*
+ See also: 'istatus', 'ijoin', 'ileave', 'imsg', 'ilist', 'itell'

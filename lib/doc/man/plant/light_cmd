@@ -1,0 +1,7 @@
+
+/* File: /base/plant.c
+ * Function name: light_cmd
+ * Description:   burn the plant
+ */	
+nomask int
+light_cmd()

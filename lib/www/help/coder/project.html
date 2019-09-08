@@ -1,0 +1,63 @@
+<!doctype html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head><title>The Third Age - Help <i>project</i></title></head>
+
+<body
+background="../../pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="../../index.html">
+<img border=0 src="../../pic/tta.mini.gif"
+alt="TTA" align=left></a>
+<br><center>
+<h3>The Third Age - Help <i>project</i></h3>
+</center>
+
+<br>
+
+<hr noshade>
+
+
+<pre> 
+   Type:        command
+   Usage:       project &lt;projectname&gt;|list|own
+	        project &lt;projectname&gt; c
+	        project &lt;projectname&gt; d &lt;description&gt;
+	        project &lt;projectname&gt; D
+	        project &lt;projectname&gt; a &lt;member to add&gt;
+	        project &lt;projectname&gt; r &lt;member to remove&gt;
+	        project &lt;projectname&gt; + &lt;access to add&gt;
+	        project &lt;projectname&gt; - &lt;access to remove&gt;
+	        project &lt;membername&gt; q
+                
+   Description: the project command is for communication with the project
+		manager. You can 'list' all projects, list your 'own' 
+		projects or change the status of existing projects.
+                  If you created a project by yourself you can change the 
+		projects fileaccess as long you have the fileaccess you
+		want to add. 
+		  Everyone with a higher level may also change the project
+		values or remove it. 
+   Options:     c    create a project
+                d    set a project description
+                D    delete a project
+                a    add someone to a project
+                r    remove someone from a project
+                +/-  change fileaccess of a project
+                q    query the projects of someone
+ 
+   Example:     project list
+                project Bree 
+		project own
+		project doc + r+/doc
+
+</pre><hr><pre> See also: 'access'
+</pre><hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Oct 16, 2001 </address>
+</body>
+</html>

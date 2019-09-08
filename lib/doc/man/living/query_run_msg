@@ -1,0 +1,8 @@
+
+/* File: /base/living/move.c
+ * Function name:   query_run_msg()
+ * Description:     Gives the normal running message of this living.
+ * Returns:         The message string
+ */
+nomask string
+query_run_msg()

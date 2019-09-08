@@ -1,0 +1,8 @@
+file_name removed
+manwe
+Thu Nov 28 18:25:10 1996
+The function file_name has been removed for speed reasons, file_name was just
+an alias for object_name (compatibilty reasons in old mudlibs).
+You need to use object_name now (same use as file_name, see the manual)
+
+Manwe

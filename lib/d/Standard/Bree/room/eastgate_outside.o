@@ -1,0 +1,8 @@
+height 100000000
+xsize 700
+ysize 350
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|9400,-100,0,})
+room_short "The more or less tamed wilderness ;)"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([1|"eastgate":({7|119,100,0,150,200,0,0,}),])

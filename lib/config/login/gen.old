@@ -1,0 +1,130 @@
+static void
+background()
+{
+    switch (random(100))
+    {
+      case 0:
+	  /* +1 spell adder */
+	  break;
+      case 1:
+	  /* +10 skill bonus */
+	  break;
+      case 2:
+	  /* +15 skill bonus */
+	  break;
+      case 3:
+	  /* language */
+	  break;
+      case 4:
+	  /* stat greater */
+	  break;
+      case 5:
+	  /* high range voice */
+	  break;
+      case 6:
+	  /* nightvision */
+	  break;
+      case 7:
+	  /* better hearing, LIVE_NOISE_REDUCTION negativ */
+	  break;
+      case 8:
+	  /* quick concentrate */
+	  break;
+      case 9:
+	  /* different colored eyes, see invis */
+	  break;
+      case 10:
+	  /* lycantropy */
+	  break;
+      case 11:
+	  /* allergy, better resistance against a realm */
+	  break;
+      case 12:
+	  /* spellist */
+	  break;
+      case 13:
+	  /* loyal pet */
+	  break;
+      case 14:
+	  /* item */
+	  break;
+      default:
+	  /* money */
+	  break;
+    }
+}
+
+static string
+social_rank()
+{
+    string rank_str, sex;
+
+    if (player->query_gender() == G_FEMALE)
+	sex = "daughter";
+    else
+	sex = "son";
+    
+    switch (random(112))
+    {
+      case 0..20:
+	rank_str = ("You are the " + sex + " of a rural craftsman.\n");
+	if (random(100) < 3)
+	    rank_str += ("You own a house.\n");
+	player->set_social_rank(RURAL_CRAFTSMAN);
+	break;
+      case 21..38:
+	rank_str = ("You are the " + sex + " of a municipal craftsman.\n");
+	if (random(100) < 3)
+	    rank_str += ("You own a house.\n");
+	player->set_social_rank(MUNICIPAL_CRAFTSMAN);
+	break;
+      case 39..54:
+	rank_str = ("You are the " + sex + " of a farmer.\n");
+	if (random(100) < 3)
+	    rank_str += ("You own a house.\n");
+	player->set_social_rank(FARMER);
+	break;
+      case 55..70:
+	rank_str = ("You are a vagabond.\n");
+	player->set_social_rank(VAGABOND);
+	break;
+      case 71..82:
+	rank_str = ("You are the " + sex + " of a wealthy craftsman.\n");
+	if (random(100) < 6)
+	    rank_str += ("You own a house.\n");
+	player->set_social_rank(WEALTHY_CRAFTSMAN);
+	break;
+      case 83..93:
+	rank_str = ("You are the " + sex + " of a wealthy farmer.\n");
+	if (random(100) < 6)
+	    rank_str += ("You own a house.\n");
+	player->set_social_rank(WEALTHY_FARMER);
+	break;
+      case 94..99:
+	rank_str = ("You are an escaped slave.\n");
+	player->set_social_rank(ESCAPED_SLAVE);
+	break;
+      case 100..102:
+	rank_str = ("You are a released slave.\n");
+	player->set_social_rank(RELEASED_SLAVE);
+	break;
+      case 103..108:
+	rank_str = ("You are a noble adventurer.\n");
+	if (random(100) < 4)
+	    rank_str += ("You own a house.\n");
+	player->set_social_rank(NOBLE_ADVENTURER);
+	break;
+      case 109..111:
+	rank_str = ("You are a wealthy citizen of noble descent.\n" + 
+		    "You own a house.\n");
+	player->set_social_rank(WEALTHY_CITIZEN);
+	break;
+      default:
+	error("Bad social rank");
+    }
+    
+    if (random(100) < 1)
+	rank_str += ("You have just gained a legacy.\n");
+    
+    return rank_str;
+}

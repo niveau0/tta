@@ -1,0 +1,8 @@
+
+/* File: /base/disease.c
+ * Function name: query_level
+ * Description:   gives disease level
+ * Returns:       int
+ */
+int
+query_level()

@@ -1,0 +1,13 @@
+*--------------------------------( Misc: Skin )------------------------------*
+
+   Type:        command
+   Usage:       skin <corpse>
+                
+   Description: You try to get the skin of a dead corpse with a sharp weapon.
+		To make a succes you should be confident with the weapon
+		and the fauna.
+                
+   Example:     skin corpse of a rat
+   
+*----------------------------------------------------------------------------*
+See also: 'fauna lore', 'skills'

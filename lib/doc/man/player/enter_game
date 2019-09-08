@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: enter_game
+ * Description:   Enter the player into the game
+ */
+static nomask void
+enter_game()

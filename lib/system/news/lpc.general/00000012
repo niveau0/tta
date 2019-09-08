@@ -1,0 +1,9 @@
+remove_event
+manwe
+Thu May 15 13:04:06 1997
+remove_event has changed. Needs now another argument, the function which 
+should no longer be called from the event handler.
+This was done to allow different functions to be called in one object if
+the same event occurs.
+
+Manwe

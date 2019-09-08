@@ -1,0 +1,9 @@
+
+/* File: /base/room.c
+ * Function name: calc_z_coordinate
+ * Description:   calculate the valid z value for given x and y coordinates
+ * Arguments:     co - the coordinates of an object
+ * Returns:       integer, the z coordinate of that object
+ */
+nomask int
+calc_z_coordinate(int *co)

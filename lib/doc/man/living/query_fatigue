@@ -1,0 +1,8 @@
+
+/* File: /base/living/extra.c
+ * Function name:   query_fatigue()
+ * Description:     Gives the amount of fatigue points of a living
+ * Returns:         The number of fatigue points
+ */
+nomask int
+query_fatigue()

@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_unit_light
+ * Description:   gives light of one heap unit
+ * Returns:       a units light
+ */
+nomask int
+query_unit_light()

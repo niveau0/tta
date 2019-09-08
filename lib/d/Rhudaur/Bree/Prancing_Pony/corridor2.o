@@ -1,0 +1,13 @@
+light 30000
+height 156
+xsize 372
+ysize 36
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|180,540,0,})
+room_short "A corridor"
+room_long "The corridor is carpeted with light brown boards. At its eastern end you see a\nstair going up and another, smaller, corridor going south at the stairs\nbottom.\nIn the middle between the eastern and the western end you notice a further\ncorridor leading northward.\n"
+room_exits ([3|"corridor1":({7|119,0,0,36,156,0,0,}),"corridor3":({7|110,234,0,36,156,0,0,}),"stairway1":({7|101,0,0,36,156,0,0,}),])
+objs_to_clone ({5|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/hob1_door",({1|({3|486,575,0,}),}),}),({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/but_bed_door",({1|({3|483,540,0,}),}),}),({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/bedroom_door",({1|({3|336,575,0,}),}),}),({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/litt_din_door",({1|({3|201,575,0,}),}),}),({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/priv_din_door",({1|({3|345,540,0,}),}),}),})
+pseudo_items ([3|1:({3|({1|"corridor",}),({1|"",}),"The eastern corridor or the middle corridor?",}),2:({4|({1|"middle corridor",}),({1|"corridors",}),"You take a short look into the corridors beginning and can't make out\ndifferences to this one. Light brown boards and little oil lamps everywhere.",({3|432,580,0,}),}),3:({4|({1|"eastern corridor",}),({1|"corridors",}),"It seems to be another version of this corridor. Size, appearance, light, all\nthe same.",({3|570,535,0,}),}),])

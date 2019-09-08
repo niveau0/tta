@@ -1,0 +1,8 @@
+
+/* File: /base/player/extra.c
+ * Function name: query_login_from
+ * Description:   shows from which site the player is logged in
+ * Returns:       A string with the site name.
+ */
+nomask string
+query_login_from()

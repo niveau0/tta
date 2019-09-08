@@ -1,0 +1,9 @@
+
+/* File: /base/object.c
+ * Function name: add_reload
+ * Description:   add a function to restore/save data
+ * Arguments:     reload - the function to query for the reload data
+ *                reinit - the function to call for setting the data
+ */
+nomask void
+add_reload(string reload, string init)

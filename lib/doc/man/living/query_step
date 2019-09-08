@@ -1,0 +1,8 @@
+
+/* File: /base/living/move.c
+ * Function name: query_step
+ * Description:   how fast does this living walk
+ * Returns:       integer, step length (inch)
+ */
+int
+query_step()

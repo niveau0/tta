@@ -1,0 +1,25 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+source $DIR/../config/env
+
+#!/bin/sh
+
+cd /home/niveau0/tta/lib/doc/man
+
+if [ ! -f .lock-remake ]
+then
+	echo running... > .lock-remake
+
+	echo -n Removing old man files...
+	find . -mindepth 2 -exec rm {} \;
+	echo done.
+	echo Building fresh man files...
+	emacs -batch -l /home/niveau0/emacs/mudman.el -f mudman-make
+	echo Copying kfun-docs from dgd/doc/kfun
+	cp /home/niveau0/tta/dgd/doc/kfun/* kfun/.
+	rm -f kfun/*.orig
+	rm -f kfun/*.nonet
+	echo done.	
+	
+	rm .lock-remake
+fi

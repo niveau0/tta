@@ -1,0 +1,8 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_reconnect
+ * Description:   get the reconnection to a slot
+ * Arguments:     slot - the slot
+ */
+nomask int
+query_reconnect(int slot)

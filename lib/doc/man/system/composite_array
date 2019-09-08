@@ -1,0 +1,13 @@
+
+/* File: /system/composite.c
+ * Function name: composite_array
+ * Description:   creates a description-array
+ * Arguments:     a - array of the objects to describe
+ *                all - if true, include also no-show objects
+ * Returns:       A description array of the format:
+ *                ({ name, nonmet_name, unseen name }), ", ",
+ *                ({ name, nonmet_name, unseen name }), " and ",
+ *                ({ name, nonmet_name, unseen name })
+ */
+nomask varargs string *
+composite_array(object *a, int all)

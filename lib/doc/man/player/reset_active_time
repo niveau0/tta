@@ -1,0 +1,7 @@
+
+/* File: /base/player/extra.c
+ * Function name: reset_active_time
+ * Description:   sets the active-time to 0
+ */
+static nomask void
+reset_active_time()

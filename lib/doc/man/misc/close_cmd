@@ -1,0 +1,10 @@
+
+/* File: /base/misc/openclose.c
+ * Function name: close_cmd
+ * Description:   called if someone tries to close this container
+ * Arguments:     str - optional argument (e.g. with white key)
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+int
+close_cmd(string str, object tp)

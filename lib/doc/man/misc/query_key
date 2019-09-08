@@ -1,0 +1,8 @@
+
+/* File: /base/misc/openclose.c
+ * Function name: query_key
+ * Description:   returns the keyfile if this container has a lock
+ * Returns:       string, key filename
+ */
+nomask string
+query_key()

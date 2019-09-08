@@ -1,0 +1,9 @@
+
+/* File: /base/misc/subloc.c
+ * Function name: query_subloc
+ * Description:   Give the contents of a specific sublocation
+ * Arguments:     sloc - sublocation
+ * Returns:       array of objects within the subloc
+ */
+nomask object *
+query_subloc(string sloc)

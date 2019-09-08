@@ -1,0 +1,11 @@
+
+/* File: /base/misc/attach.c
+ * Function name: attach_filter
+ * Description:   this function can be overwritten to have a filter
+ *                functionality. If the filter function returns 0 for an
+ *                object, the object cannot be attached.
+ * Arguments:     ob - the object to check
+ * Returns:       integer
+ */
+int
+attach_filter(object ob)

@@ -1,0 +1,9 @@
+
+/* File: /base/door.c
+ * Function name: room_desc
+ * Description:   gives the description added to the rooms description
+ * Arguments:     tp - acting living
+ * Returns:       string
+ */
+nomask string
+room_desc(object tp)

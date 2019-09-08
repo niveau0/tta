@@ -1,0 +1,9 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: stop_concentrate
+ * Description:   called if any event disturbs the concentration
+ * Arguments:     id - callout id
+ *                tp - the living that concentrates
+ */
+void
+stop_concentrate(int id, object tp)

@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat.c
+ * Function name: notify_kill
+ * Description:   This function is called when this object killed someone
+ * Arguments:     liv - The living (object) that was killed.
+ */
+void
+notify_kill(object liv)

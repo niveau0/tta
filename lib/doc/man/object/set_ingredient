@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: set_ingredient
+ * Description:   mark this object as an ingredient of the given type
+ * Arguments:     type - type descriptor (see ingredients.h)
+ */
+nomask void
+set_ingredient(string type)

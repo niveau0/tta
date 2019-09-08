@@ -1,0 +1,8 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: query_desc
+ * Description:   gives spell description string, used for online help
+ * Returns:       string
+ */
+string
+query_desc()

@@ -1,0 +1,11 @@
+light 30000
+height 156
+xsize 36
+ysize 432
+climate 1
+type 2
+cornerheight ({4|156,156,156,156,})
+room_coords ({3|144,144,156,})
+room_short "A corridor"
+room_long "The corridor itself is leading in north- and southward. At its ends it bends\neast. Light brown boards are covering the walls.\n"
+room_exits ([2|"corridor2_2fl":({7|101,396,0,36,156,0,0,}),"corridor5_2fl":({7|115,0,0,36,156,0,0,}),])

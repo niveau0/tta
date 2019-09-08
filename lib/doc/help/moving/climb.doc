@@ -1,0 +1,12 @@
+*-----------------------------( Moving: climb )-----------------------------*
+
+   Type:        command
+   Usage:       climb <direction>
+                
+   Description: Lets you climb in the given direction (mostly up). One
+                should be skilled in climbing if using this command.
+                
+   Example:     climb east
+   
+*----------------------------------------------------------------------------*
+ See also: 'climbing', 'skills'

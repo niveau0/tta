@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/tool.c
+ * Function name: direct_approach
+ * Description:   try to move a living up to melee distance
+ * Arguments:     tp - moving living
+ *                ob - living to move to
+ * Returns:       1 if success, 0 else
+ */
+static nomask int
+direct_approach(object tp, object ob)

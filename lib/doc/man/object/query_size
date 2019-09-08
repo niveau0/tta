@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: query_size
+ * Description:   gives the size value of this object
+ * Returns:       integer, the size
+ */
+int
+query_size()

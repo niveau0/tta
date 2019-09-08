@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: query_light
+ * Description:   Returns the light status in this container
+ * Returns:	  Light value
+ */
+nomask int
+query_light()

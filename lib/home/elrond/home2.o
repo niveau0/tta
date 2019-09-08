@@ -1,0 +1,8 @@
+height 100000000
+xsize 10
+ysize 10
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|300,600,0,})
+room_short "In a new room"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([1|"home":({7|115,0,0,0,100000000,0,0,}),])

@@ -1,0 +1,10 @@
+height 150
+xsize 170
+ysize 90
+type 6
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|440,200,0,})
+room_short "A dead end of the tunnel"
+room_long "Now you know where the bad smell comes from. Sudden creatures used this\nroom as a toilet and you almost slip into the mess. The only exit here\nis to the west where the air is much better then here.\n"
+room_exits ([1|"tunnel_3":({7|119,0,0,90,150,0,0,}),])
+pseudo_items ([1|1:({3|({1|"mess",}),({1|"shit",}),"Phew. You never saw such a stinking mess on one place.",}),])

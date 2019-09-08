@@ -1,0 +1,7 @@
+
+/* File: /base/living/combat.c
+ * Function name: decay
+ * Description:   let this object (if dead) decay to dust
+ */
+nomask void
+decay()

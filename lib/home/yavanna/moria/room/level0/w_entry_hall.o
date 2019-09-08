@@ -1,0 +1,10 @@
+height 120
+xsize 1680
+ysize 1680
+climate 7
+type 2
+room_coords ({3|750,-644,200,})
+room_short "The west-entry of Moria"
+room_long "You are standing in the western entry-hall of Khazad-dum. The ground\nis covered with the dust of the centuries.\n"
+room_exits ([0|])
+objs_to_clone ({2|({2|"/lib/misc/light/torch","0x601y0z",}),({2|"/home/yavanna/moria/obj/elevator/elevator_1/elevator_door","750x-644y200z",}),})

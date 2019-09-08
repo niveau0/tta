@@ -1,0 +1,15 @@
+enter_env/leave_env
+manwe
+Sat May 17 16:38:12 1997
+Both functions are useless now, they won't be called any longer by move().
+Use the E_MOVE event instead.
+E.g.:
+in create() do: add_event(E_MOVE, "function-name", this_object());
+
+where 'function-name' is the function that will be called if the object
+is moved. Also read the manual page about E_MOVE.
+
+Manwe
+
+PS: this will require some doors to be repaired. Most have been changed
+    already.

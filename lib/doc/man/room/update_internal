@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: update_internal
+ * Description:   updates the internal light
+ * Arguments:     l - light difference
+ */
+nomask void
+update_internal(int l)

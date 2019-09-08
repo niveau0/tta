@@ -1,0 +1,16 @@
+
+/* File: /base/living/slot.c
+ * Function name: wear_tool
+ * Description:   wear a tool (on a specified slot)
+ * Arguments:	  tool - the tool object
+ *                pref_slot - if specified, the slot to wear the tool on
+ * Returns:       location string
+ *                -1 if tool does not fit
+ *                -2 if tool is too big
+ *                -3 if something is already occupying slot
+ *                -4 if already worn
+ *                -5 if tool is too small
+ *                -6 if wear failed by unknown reason
+ */
+nomask varargs mixed
+wear_tool(object tool, int pref_slot)

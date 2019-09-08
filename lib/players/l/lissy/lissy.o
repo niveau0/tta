@@ -1,0 +1,32 @@
+obj_weight 96000
+obj_volume 86400
+obj_size 83
+cmdsoul_list ({2|"/cmd/emotion/emotion","/cmd/misc/misc",})
+hp 6
+base_hp 6
+fatigue 19
+race_name "ainu"
+move_msg "walks"
+run_msg "runs"
+teleport_in "arrives in a puff of smoke."
+teleport_out "disappears in a puff of smoke."
+skill_rank ([3|603:50005,605:200020,607:60006,])
+wounds ([0|])
+bandaged ([0|])
+dev_points 305
+tmp_stats ({11|58,68,94,59,25,42,64,31,29,95,99,})
+pot_stats ({11|61,84,98,87,60,91,66,43,37,97,99,})
+tmp_stat_val ({11|0,0,0,0,0,0,0,0,0,0,0,})
+tmp_stat_t ({11|0,0,0,0,0,0,0,0,0,0,0,})
+gender 1
+login_time 1111593271
+birth 1111593135
+password "mDKtLXaO0kV.M"
+email "ulrich@esche@mol-med.uni-freiburg.de"
+last_location "/d/Standard/room/ooc/general:0,300,2097152"
+login_from "132.230.161.19"
+auto_load ({0|})
+skill_usage ([2|605:3,607:2,])
+name "lissy"
+adj ({0|})
+saved_props ([3|4503:605,8000:17,8001:1111593271,])

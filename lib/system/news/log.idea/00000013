@@ -1,0 +1,7 @@
+/d/Rhudaur/Bree/branch_west
+seclan
+Wed Dec  3 12:19:24 1997
+New skill: 'tailoring' This should include the making/smithing of
+clothing/armor as well as changing the size of existing armor. Depending on
+the working-material it should use either LEATHER-, WOOD- or METAL-CRAFT to
+determine the values of the result.

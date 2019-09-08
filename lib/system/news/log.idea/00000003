@@ -1,0 +1,10 @@
+No room_long for racers
+seclan
+Wed Jul 23 14:43:18 1997
+What about not showing the whole room description, if you frequently pass an
+exit?
+Example: Somebody runs through a lot of rooms. Instead of printing always the
+whole roomdescription, the program could look, if the last passing of an exit
+happened less than a second ago. If it is that way, the program just prints
+the short description and items/players/npcs. I've seen this method in another
+MUD and found it quite useful.

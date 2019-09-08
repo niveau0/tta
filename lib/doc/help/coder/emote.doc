@@ -1,0 +1,18 @@
+*-----------------------------( Builder: emote )-----------------------------*
+ 
+   Type:        command
+   Usage:       emote <text>
+		: <text>  
+                
+   Description: ':' is the alias for a God's emote command.  This means
+		that you type in any text that you want after the ':'.  
+		To use it properly, ':' resolves to be your name.  
+		Please do NOT abuse this command and taunt mortals.
+ 
+   Example:    	> : tests the emote command.
+		You emote: Erikose tests the emote command.
+		(Others see)
+		Erikose tests the emote command. 	
+   
+*----------------------------------------------------------------------------*
+ See also: 'es', 'eh'

@@ -1,0 +1,10 @@
+Event:     E_DEATH
+
+Called:    Whenever a living object dies.
+
+Usage:     Add an event (see add_event), create an event handling function, 
+           that will be called if the event occurs:
+	   void function(object who, object killer) { ... }
+
+Arguments: object who    - the living that died
+           object killer - the killing object

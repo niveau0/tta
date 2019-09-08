@@ -1,0 +1,11 @@
+
+/* File: /base/player.c
+ * Function name: query_presentation
+ * Description:   Gives a presentation of the living in one line. Including
+ *                name, race, guild titles and experience level.
+ *                This should only be displayed to met players.
+ * Arguments:     tp - the living that wants to know presentation string
+ * Returns:       The description string
+ */
+nomask string
+query_presentation(object tp)

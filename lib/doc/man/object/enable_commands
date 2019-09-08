@@ -1,0 +1,7 @@
+
+/* File: /base/object.c
+ * Function name: enable_commands
+ * Description:   mark this object as living
+ */
+static nomask void
+enable_commands()

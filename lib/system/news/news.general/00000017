@@ -1,0 +1,9 @@
+new command 'project'
+manwe
+Sat May 10 20:29:01 1997
+The project manager has replaced the need for individual read/write access
+now. Now you can check via 'project list' what projects there are and with
+'project own' you see where you are member. You get the read/write access
+of each project you are member of (summarized with the 'access' cmd).
+
+Manwe

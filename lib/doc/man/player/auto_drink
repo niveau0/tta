@@ -1,0 +1,7 @@
+
+/* File: /base/player/consume.c
+ * Function name: auto_drink
+ * Description:   try to find something drinkable and drink it
+ */
+nomask void
+auto_drink()

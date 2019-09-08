@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat.c
+ * Function name: query_invited
+ * Description:   Give back an array of players who are invited
+ * Returns:       array
+ */
+nomask object *
+query_invited()

@@ -1,0 +1,17 @@
+*-------------------------------( Moving: Run )------------------------------*
+
+   Type:        command
+   Usage:       run <direction>
+	  	run <item|person>
+
+   Description: Start to run into a specified direction, you will keep on
+                running until you are to tired, something blocks your way 
+                or you just 'stop'. 
+		You may also run to someone/something.
+                
+   Example:     run west
+		run 1n2e
+		run finduilas
+   
+*----------------------------------------------------------------------------*
+ See also: 'walk'

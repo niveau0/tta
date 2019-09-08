@@ -1,0 +1,283 @@
+    if (!(SECURITY)->finger_player(name))
+    filename= (string)SECURITY->
+    if (!SECURITY->valid_write(filename,this_player()->query_real_name()))
+	SECURITY->do_debug("destruct",ob);
+	if (objectp(o = SECURITY->finger_player(who)))
+	check = SECURITY->query_wiz_list( WIZ_N[x] );
+	check = SECURITY->query_domain_members(CAP(what));
+		      "(" + SECURITY->query_domain_max(CAP(what)) + ") ###")+
+DW/./home/endora/olddir/toolsoul.c
+    if (SECURITY->query_domain_number(creator(this_object()))>=0)
+DW/./home/sildavia/workroom2.c
+    filename= (string)SECURITY->
+	SECURITY->do_debug("destruct",ob);
+DW/./home/cordavan/toolsoul.c
+    filename= (string)SECURITY->
+	SECURITY->do_debug("destruct",ob);
+DW/./home/neniel/toolsoul.c
+  if (wizlev = (int) (SECURITY->wiz_level(ob->query_real_name()))) {
+  SECURITY->add_player(ob);
+DW/./config/race/create/ghost_player.c
+    SECURITY->add_def_start_loc(str);
+    SECURITY->add_temp_start_loc(str);
+    if (SECURITY->query_domain_number(dname) <= 0)
+    if (SECURITY->query_wiz_dom(pname) && SECURITY->query_wiz_dom(pname)!="")
+	tp->catch_tell(SECURITY->expel_wizard_from_domain(pname) + "\n");
+    tp->catch_tell(SECURITY->domain_add_wizard(dname, pname) + "\n");
+    return (int)SECURITY->lockout_site(str);
+    this_player()->catch_tell(SECURITY->make_domain(dname, lord) + "\n");
+    this_player()->catch_tell(SECURITY->remove_domain(arg) + "\n");
+    this_player()->catch_tell(sprintf("%*76s\n", implode(SECURITY->query_list_def_start(str), "\n")) + "\n");
+    this_player()->catch_tell(sprintf("%*76s\n", implode(SECURITY->query_list_temp_start(str), "\n")) + "\n");
+DW/./cmd/wiz_cmd_arch.c
+    this_player()->catch_tell(SECURITY->accept_application(name) + "\n");
+  if (!HMASTER) SECURITY->load_house_master();
+    if (SECURITY->query_wiz_level(wizname) <= lev)
+    tp->catch_tell(SECURITY->change_wiz_level(wizname, lev) + "\n");
+  this_player()->catch_tell((string)SECURITY->deny_application(name) + "\n");
+  if (!SECURITY->exist_player(wizname)) {
+ this_player()->catch_tell(SECURITY->expel_wizard_from_domain(wizname) + "\n");
+    if (!HMASTER) SECURITY->load_house_master();
+    domain = SECURITY->query_wiz_dom(this_interactive()->query_real_name());
+	tp->catch_tell("Current maximum: " + SECURITY->query_domain_max(domain) +
+	tp->catch_tell(SECURITY->set_domain_max(n_num, domain) + "\n");
+	      SECURITY->query_domain_max(args[0]) + " wizards.\n");
+  if (!HMASTER) SECURITY->load_house_master();
+  if (!SECURITY->exist_player(wizname)) {
+  if (SECURITY->query_wiz_level(wizname) >= lev) {
+  this_player()->catch_tell(SECURITY->change_wiz_level(wizname, lev) + "\n");
+DW/./cmd/wiz_cmd_lord.c
+    if (SECURITY->exist_player(name))
+    wtype = WIZ_TYPE(SECURITY->query_wiz_level(this_interactive()->
+	rval = SECURITY->banish(name, 2);
+	rval = SECURITY->banish(name, 0);
+	rval = SECURITY->banish(name, 0);
+	rval = SECURITY->banish(name, 1);
+    this_player()->catch_tell(SECURITY->leave_domain() + "\n");
+  if (argc == 2 && WIZ_TYPE((int)SECURITY->query_wiz_level(geteuid(
+    efflevel = (int)SECURITY->query_wiz_level(geteuid(demon));
+    dom = (string)SECURITY->query_wiz_dom(by);
+	WIZ_TYPE((int)SECURITY->query_wiz_level(on)) > WIZ_LORD)
+	if ((string)SECURITY->query_domain_lord(dom) == by)
+	    if (dom == (string)SECURITY->query_wiz_dom(on))
+	dom == (string)SECURITY->query_wiz_dom(on))
+	SECURITY->set_sanctioned(name, sanctioned);
+	if ((!SECURITY->query_wiz_level(argv[0])) &&
+		if (WIZ_TYPE(SECURITY->query_wiz_level(argv[0])) < WIZ_NORMAL)
+		if (WIZ_TYPE(SECURITY->query_wiz_level(name)) < WIZ_LORD)
+                if (WIZ_TYPE(SECURITY->query_wiz_level(name)) < WIZ_LORD)
+	    SECURITY->set_sanctioned(name, sanctioned);
+    if (!SECURITY->master_shutdown(shuter->query_prop(SHUT_REASON)))
+    if (ob == find_object(SECURITY))
+	    tp->catch_tell(SECURITY + " was updated and reloaded.\n");
+    file = (string)SECURITY->query_wiz_path(str) + "/log";
+DW/./cmd/wiz_cmd_normal.c
+    filename= (string)SECURITY->
+	SECURITY->do_debug("destruct",ob);
+DW/./cmd/toolsoul.c
+  if (object_name(previous_object()) != SECURITY)
+  if (!(level = (int)SECURITY->query_wiz_level(id)))
+  level = (int)SECURITY->query_wiz_level(geteuid());
+DW/./base/living/cmdhooks.c
+  if (!CALL_BY(SECURITY))
+  if (!CALL_BY(SECURITY) || !pl_name)
+DW/./base/player_sec.c
+	    SECURITY->valid_write(mainpath, who_told_us[i], "write_file") &&
+	    SECURITY->valid_read(file, who_told_us[i], "read_file"))
+DW/./root/docmake.c
+#define SECURITY _MASTER_OB
+#define CALLED_BY_SECURITY (object_name(previous_object()) == SECURITY)
+DW/./include/std.h
+    INIT_SECURITY();
+DW/./kernel/lib/auto.c
+#define INIT_SECURITY()    init_security()
+DW/./kernel/lib/auto/prototypes.h
+  if (!_MASTER_OB->exist_player(name)) {
+  if (!_MASTER_OB->valid_write(filename, geteuid())) {
+DW/./home/cordavan/toolsoul.c
+  if (!_MASTER_OB->exist_player(name)) {
+  if (!_MASTER_OB->valid_write(filename, geteuid())) {
+DW/./home/neniel/toolsoul.c
+  if (!_MASTER_OB->load_player()) {
+DW/./config/race/create/ghost_player.c
+  if (!(_MASTER_OB->valid_read(path, tp))) {
+DW/./cmd/std/ls.c
+  master = find_object(_MASTER_OB);
+DW/./cmd/std/exec.c
+  _MASTER_OB->note_bug(str);
+    _MASTER_OB->commune_log("COMMUNE TO " + capitalize(wiz) + ": "+ mess);
+  _MASTER_OB->note_idea(str);
+  _MASTER_OB->note_praise(str);
+  _MASTER_OB->commune_log("REPLY TO " + capitalize(wiz) + ": " + str);
+  _MASTER_OB->note_sysbug(str);
+  _MASTER_OB->note_sysidea(str);
+  _MASTER_OB->note_typo(str);
+  _MASTER_OB->show_news();
+    if (_MASTER_OB->exist_player(ob_intro->query_real_name()) &&
+  call_other(_MASTER_OB, "note_" + type, text);
+DW/./cmd/std/misc_cmd.c
+  return (int)_MASTER_OB->block_site(str);
+  _MASTER_OB->list_call_outs();
+DW/./cmd/wiz_cmd_arch.c
+    data = _MASTER_OB->query_access_data(args[0]);
+    if (_MASTER_OB->change_access(args[0], args[1], args[2]))
+  level = (int)_MASTER_OB->query_wiz_level(geteuid(ob));
+  _MASTER_OB->list_applications(domain);
+  this_player()->catch_tell(_MASTER_OB->apply_to_domain(domain) + "\n");
+    str = (string) _MASTER_OB->query_wiz_path(tp->query_real_name());
+    if (_MASTER_OB->valid_read(current_path, this_object()))
+    ob = (object)_MASTER_OB->finger_player(str);
+      tp->catch_tell(break_string(implode(_MASTER_OB->query_domain_list(),
+  str3 = (string)_MASTER_OB->query_wiz_chl(str1);
+  str2 = (string)_MASTER_OB->query_wiz_dom(str1);
+    str3 = (string)_MASTER_OB->query_domain_lord(str2);
+  str3 = (string)_MASTER_OB->query_wiz_chd(str1);
+    ob = (object)_MASTER_OB->finger_player(str);
+    warr = _MASTER_OB->query_domain_members(domain);
+    lord = _MASTER_OB->query_domain_lord(domain);
+    nmem = _MASTER_OB->query_domain_max(domain) - sizeof(warr);
+    result = _MASTER_OB->query_wiz_path(domain) + "/open/finger_info";
+    arr = (string *)_MASTER_OB->query_wiz_list(WIZ_N[w_type]);
+  n_home = (string)_MASTER_OB->wiz_home(str);
+    result = _MASTER_OB->list_player(0);
+    result = _MASTER_OB->list_player(1);
+    result = _MASTER_OB->list_player(2);
+    result = _MASTER_OB->list_player(0);
+  this_player()->catch_tell((string)_MASTER_OB->regret_application(dom) +"\n");
+	str = implode((mixed *) _MASTER_OB->query_list_def_start(), ", ");
+	if (ob = _MASTER_OB->finger_player(str)) {
+		if (ob = _MASTER_OB->finger_player(str)) {
+        if (!_MASTER_OB->exist_player(b)) {
+        if (!_MASTER_OB->exist_player(str)) {
+DW/./cmd/wiz_cmd_apprentice.c
+  if (!_MASTER_OB->exist_player(name)) {
+  if (!_MASTER_OB->valid_write(filename, geteuid())) {
+DW/./cmd/toolsoul.c
+      (object_name(previous_object()) != _MASTER_OB &&
+  if (!_MASTER_OB->query_wiz_level(geteuid(this_object())))
+DW/./base/living/savevars.c
+  _MASTER_OB->load_wiz_souls();
+DW/./base/living/cmdhooks.c
+ * Description:     _MASTER_OB needs to be able to do set_name. This
+  if (previous_object() != find_object(_MASTER_OB))
+    path = (string) _MASTER_OB->query_wiz_path(query_real_name());
+  return (string) _MASTER_OB->query_wiz_dom(query_real_name()); /* domain; */
+ *                  _MASTER_OB
+  if (previous_object() != find_object(_MASTER_OB))
+		_MASTER_OB->check_def_start_loc(str) < 0))
+  if (str && _MASTER_OB->check_temp_start_loc(str) < 0)
+ *                  may only be called from the _MASTER_OB
+  if (previous_object() != find_object(_MASTER_OB))
+  num = _MASTER_OB->query_domain_number(euid); /* If euid == domain */
+    num = _MASTER_OB->query_domain_number(_MASTER_OB->query_wiz_dom(euid));
+  num = _MASTER_OB->query_domain_number(euid); /* If euid == domain */
+    num = _MASTER_OB->query_domain_number(_MASTER_OB->query_wiz_dom(euid));
+  num = _MASTER_OB->query_domain_number(dom);
+    retval = _MASTER_OB->query_wiz_pretitle(this_object()) + " ";
+DW/./base/player/savevars_sec.c
+  _MASTER_OB->save_player();
+  _MASTER_OB->remove_player(this_object());
+DW/./base/player/cmd_sec.c
+  _MASTER_OB->load_player();      /* Load the saved player data */
+       _MASTER_OB->check_def_start_loc(query_default_start_location()) < 0))
+      _MASTER_OB->check_temp_start_loc(query_temp_start_location()) >= 0) {
+      !_MASTER_OB->valid_force(geteuid(previous_object()),
+DW/./base/player_sec.c
+	if (_MASTER_OB->valid_read(exarg, this_player()->query_real_name()))
+DW/./lib/format.c
+  x = _MASTER_OB->query_wizards();
+  y = _MASTER_OB->query_mortals();
+DW/./d/Arches/obj/user_stats.c
+    l = _MASTER_OB->query_wiz_level(geteuid(previous_object()));
+DW/./root/master/fob.c
+  if (_MASTER_OB->check_newplayer(query_ip_number(this_object()))==1) {
+  if (_MASTER_OB->query_domain_number(str) >= 0) {
+  if (_MASTER_OB->exist_player(str) &&
+      (temp = _MASTER_OB->finger_player(str))) {
+    if (_MASTER_OB->check_newplayer(query_ip_number(this_object()))==2) {
+    if (_MASTER_OB->exist_player(str)) {
+    if (_MASTER_OB->query_wiz_level(str)) {
+      _MASTER_OB->check_newplayer(query_ip_number(this_object())) == 2) {
+  level = _MASTER_OB->query_wiz_level(name);
+  if (_MASTER_OB->query_wiz_level(name))
+  oklev = (int)_MASTER_OB->query_wiz_level(name);
+  _MASTER_OB->add_player(ob);
+  if (_MASTER_OB->query_wiz_level(pl_name))
+  i = _MASTER_OB->query_mortals();
+DW/./root/login.c
+  _MASTER_OB->master_shutdown("armageddon");
+DW/./root/armageddon.c
+  who = _MASTER_OB->finger_player(name);
+  who = _MASTER_OB->finger_player(name);
+  who = _MASTER_OB->finger_player(name);
+  who = _MASTER_OB->finger_player(name);
+DW/./root/purger.c
+    if (!_MASTER_OB->exist_player(recp_new[i])) {
+  if (_MASTER_OB->query_wiz_level(from)) {
+    return _MASTER_OB->query_wiz_list(WIZ_N[member_array(alias, WIZ_T)]);
+		   _MASTER_OB->query_domain_list()) >= 0)
+    return _MASTER_OB->query_domain_members(capitalize(alias));
+DW/./root/mailmaster.c
+  if (!_MASTER_OB->exist_player(name))
+  if (!_MASTER_OB->exist_player(name))
+  if (!_MASTER_OB->query_wiz_level(name))
+DW/./root/commenter.c
+#define WIZ_EXIST(w)          (_MASTER_OB->query_wiz_level(w))
+#define ADMIN_LIST            ( _MASTER_OB->query_wiz_list(WIZ_KEEPER) + \
+			        _MASTER_OB->query_wiz_list(WIZ_ARCH) )
+#define ADD_ACCESS(wiz, a)    ( _MASTER_OB->change_access(wiz, "a", a) )
+#define RM_ACCESS(wiz, a)     ( _MASTER_OB->change_access(wiz, "r", a) )
+#define UPDATE_ACCESS(wiz)    ( _MASTER_OB->update_access_file(wiz) )
+DW/./root/project.h
+    domain_id = _MASTER_OB->query_domain_number(ploder[1]) * 100;
+DW/./include/explore.h
+#define SECURITY _MASTER_OB
+DW/./include/std.h
+    return _MASTER_OB->query_wiz_path(name) + "/" +
+    if (_MASTER_OB->query_domain_number(parts[1]) < 0)
+    if (_MASTER_OB->query_wiz_path(parts[2]) ==
+DW/./sys/filepath.c
+      _MASTER_OB->query_wiz_level(lock_files[path])) {
+DW/./sys/lock.c
+#define _MASTER_OB    "/root/master"          /* master object */
+DW/./kernel/include/global.h
+    if (!_MASTER_OB->valid_read(path, player))
+    if (!_MASTER_OB->valid_write(path, player))
+	if (_MASTER_OB->query_wiz_level(player->geteuid()) > 0)
+	if (_MASTER_OB->query_wiz_level(player->geteuid()) < 1)
+DW/./kernel/lib/driver.c
+    _MASTER_OB->add_call_out(this_object());
+DW/./kernel/lib/auto/call_out.c
+  if (object_name(this_object()) == _MASTER_OB)
+  if ( (type == V_WRITE && !_MASTER_OB->valid_write(file, this_object())) ||
+       (type != V_WRITE && !_MASTER_OB->valid_read(file, this_object())) )
+DW/./kernel/lib/auto/file.c
+    _MASTER_OB->npc_command();
+    _MASTER_OB->command_done();
+DW/./kernel/lib/auto/living.c
+      !_MASTER_OB->valid_destruct(this_object(), target))
+  if (fname != _LOGIN_OB && fname != _MASTER_OB &&
+DW/./kernel/lib/auto/simfun.c
+  if (!_MASTER_OB->valid_possess(demon, victim))
+  if (!_MASTER_OB->valid_possess(breaker, victim) ||
+  if (!_MASTER_OB->valid_snoop(euid, spy, victim))
+    if (current != spy && !_MASTER_OB->valid_snoop(euid, spy, current))
+      _MASTER_OB->query_wiz_level(euid) >= DETECT_SNOOP_LEVEL)
+DW/./kernel/lib/auto/comm.c
+#define _ACCESS_WRITE(f,o,func) _MASTER_OB->valid_read(f, o)
+#define _ACCESS_READ(f,o,func) _MASTER_OB->valid_write(f, o)
+    _MASTER_OB->set_root_uid(); /* first change back to root */
+    _MASTER_OB->set_root_uid(); /* first change back to root */
+DW/./kernel/lib/ls.c
+      _MASTER_OB->remove_player(player); /* fix people list */
+DW/./kernel/net/user.c
+#define IMMORTAL_LEVEL(s) _MASTER_OB->query_wiz_level(s)
+DW/./kernel/net/udp.old/udp.h
+#define _ACCESS_READ(f,o,func) _MASTER_OB->valid_read(f, o)
+#define _ACCESS_WRITE(f,o,func) _MASTER_OB->valid_write(f, o)
+    _MASTER_OB->set_root_uid(); /* first change back to root */
+	  if (!_MASTER_OB->exist_player(command[1]))
+DW/./kernel/net/ftpd.c
+#define LOG_CALL_OUTS        /* log callouts in _MASTER_OB */
+#define EXEC_COST _MASTER_OB /* where to log exec cost (if defined) */
+DW/./kernel/config/config.h

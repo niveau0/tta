@@ -1,0 +1,9 @@
+
+/* File: /base/misc/attach.c
+ * Function name: show_attached
+ * Description:   return a description string for all attached items
+ * Arguments:     tp - the looking living
+ * Returns:       string, 0 if nothing visible
+ */
+nomask string
+show_attached(object tp)

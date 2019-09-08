@@ -1,0 +1,8 @@
+
+/* File: /base/object/props.c
+ * Function name: add_state
+ * Description:   set state bit(s) for this object (property LIVE_STATE) 
+ * Arguments:     s - the bit(s) to set (see <state.h>)
+ */
+nomask void
+add_state(int s)

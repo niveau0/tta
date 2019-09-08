@@ -1,0 +1,8 @@
+
+/* File: /base/object/spells.c
+ * Function name: remove_spell
+ * Description:   remove one spell on this object 
+ * Arguments:     ob - the spellfile clone
+ */
+nomask void
+remove_spell(object ob)

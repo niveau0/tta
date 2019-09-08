@@ -1,0 +1,15 @@
+
+/* File: /base/object.c
+ * Function name: parse_object
+ * Description:   this function is called by parse(), check if this object
+ *                matches the command string
+ * Arguments:     cmd - array of exploded cmd string 
+ *                type - if 1 match singular name,
+ *                       if 2 match plural name,
+ *                       if 3 match singular or plural name
+ *                co - if not zero, include distance check
+ *                d - if not zero, include distance check
+ * Returns:       found name type
+ */
+varargs int
+parse_object(string *cmd, int type, int *co, int d)

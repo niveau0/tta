@@ -1,0 +1,10 @@
+
+/* File: /base/room.c
+ * Function name: search_exit
+ * Description:   check if an exit is passed
+ * Arguments:     dir - direction
+ *                co - new object coordinates
+ * Returns:       object, exit room if found, else 0
+ */
+nomask object
+search_exit(int dir, int *co)

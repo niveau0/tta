@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/tool.c
+ * Function name: present
+ * Description:   search an object in an inventory
+ * Arguments:     item - item name or object pointer to search
+ *                obj - object to search in (inventory)
+ * Returns:       object if found, 0 else
+ */
+static nomask object
+present(mixed item, object obj)

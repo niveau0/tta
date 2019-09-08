@@ -1,0 +1,12 @@
+light 20
+height 111
+xsize 10
+ysize 10
+climate 6
+type 2
+room_coords ({3|-600,0,1048576,})
+room_short "Tulkas room"
+room_long "You are in a room with walls made from granite and although there is no\nvisible source of light, the room is well lit.\n"
+room_exits ([0|])
+objs_to_clone ({7|({2|"/lib/furniture/table","-600x0y1048576z",}),({2|"/lib/furniture/chair","-600x0y1048576z",}),({2|"/lib/book/poison","-600x0y1048576z",}),({2|"/base/coins","1,7&&-600x0y1048576z",}),({2|"/base/coins","8,6&&-600x0y1048576z",}),({2|"/base/coins","1,5&&-600x0y1048576z",}),({2|"/base/coins","1,3&&-600x0y1048576z",}),})
+pseudo_items ([3|1:({4|({2|"chair"," leather chair",}),({2|"chair"," leather chair",}),"A large wooden frame with polstered leather to allow the user to sit\ncomfortably.",({3|601,1,1048576,}),}),2:({4|({2|"desk"," huge desk",}),({2|"desk"," huge desk",}),"A large, wooden desk with a feather on a scroll on it.",({3|602,0,1048576,}),}),3:({4|({1|"bookstand",}),({1|"bookstand",}),"A wooden bookstand, but there is no book on it.",({3|605,5,1048576,}),}),])

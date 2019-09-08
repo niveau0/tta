@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: start_new_player
+ * Description:   called after creation of a new player
+ */
+nomask void
+start_new_player()

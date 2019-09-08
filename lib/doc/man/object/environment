@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: environment
+ * Description:   give surrounding container of this object
+ * Returns:       object, 0 if no environment
+ */
+nomask object
+environment()

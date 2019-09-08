@@ -1,0 +1,12 @@
+height 200
+xsize 400
+ysize 150
+climate 1
+type 262144
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|9000,0,0,})
+room_short "In front of the citygate"
+room_long "Massive stone looms over your head in this tunnel that passes through the\nwall. The roughly hewn stoneblocks pile up north and south. Westward you might\nenter the town, but eastward you can step through the gate and enter the more\nor less tamed wilderness.\n"
+room_exits ([2|"eastgate_outside":({7|101,0,0,150,200,0,0,}),"wateralley_east3":({7|119,0,0,150,200,0,0,}),])
+objs_to_clone ({1|({2|"/d/Standard/Bree/obj/eastgate",({1|({3|9399,75,0,}),}),}),})
+pseudo_items ([1|1:({3|({2|"wall"," stoneblock",}),({2|"walls","stoneblocks",}),"Huge metal hinges are attached to the stone on both sides of the tunnel.",}),])

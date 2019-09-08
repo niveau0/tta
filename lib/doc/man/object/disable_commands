@@ -1,0 +1,7 @@
+
+/* File: /base/object.c
+ * Function name: disable_commands
+ * Description:   mark this object as non-living
+ */
+static nomask void
+disable_commands()

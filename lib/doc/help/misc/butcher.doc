@@ -1,0 +1,14 @@
+*------------------------------( Misc: Butcher )-----------------------------*
+
+   Type:        command
+   Usage:       butcher <corpse>
+                
+   Description: Butcher some meat from a dead corpse. You need the skills
+		fauna lore and the weapon skill to make a success. Good
+		cooks get better meat then bad ones. Remember that you need
+		a sharp weapon to butcher with.
+                
+   Example:     butcher corpse
+   
+*----------------------------------------------------------------------------*
+See also: 'fauna lore', 'skills'

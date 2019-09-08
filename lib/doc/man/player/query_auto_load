@@ -1,0 +1,9 @@
+
+/* File: /base/player/extra.c
+ * Function name: query_auto_load
+ * Description:   Gives back the array of strings with objects to autoload
+ *                when the player enters the game.
+ * Returns:       An array of strings describing what objects to load.
+ */
+nomask mixed
+query_auto_load()

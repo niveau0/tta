@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: reset_split
+ * Description:   call to reset the split size so nothing will be left
+ *                behind if heap is moved
+ */
+nomask void
+reset_split()

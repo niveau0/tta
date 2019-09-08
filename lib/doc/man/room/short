@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: short
+ * Description:   describe the room briefly
+ * Returns:       string holding the short description of the room.
+ */
+nomask string 
+short()

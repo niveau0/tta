@@ -1,0 +1,16 @@
+*-----------------------------( General help )------------------------------*
+
+   There are a lot help pages you can refer to but to avoid confusion you 
+   should read the 'syntax' help page first.
+
+   Usage to get help is: help <topic>
+                    e.g. help syntax
+	
+   To get a list of topics sorted by the following aspect, try help for:
+      background,   communication,    magic,      moving, 
+      skills,       combat,           misc,       rules
+
+   also you can list all topics with:
+      help topics
+
+*---------------------------------------------------------------------------*

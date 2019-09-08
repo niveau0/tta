@@ -1,0 +1,14 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: directed_damage(object tp, object tar, int diff, int clev,
+ *                                mapping at_modifier, mapping ob_modifier)
+ * Description:   compute and do damage for a directed spell
+ * Arguments:     tp - the caster
+ *                tar - target
+ *                diff - difference ob-db
+ *                clev - casting level
+ *                at_data - attack data mapping
+ * Returns:       integer damage , -1 if missed
+ */
+static void
+directed_damage(object tp, object tar, int diff, int clev, mapping at_data)

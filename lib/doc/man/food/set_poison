@@ -1,0 +1,10 @@
+
+/* File: /base/food.c
+ * Function name: set_poison
+ * Description:   attach a poison effect to this food item
+ * Arguments:     file - the poison file (see /lib/poison/)
+ *                mod - resistance roll modifier
+ *                       (where a value < 0 is harder to resist)
+ */
+nomask void
+set_poison(string file, int mod)

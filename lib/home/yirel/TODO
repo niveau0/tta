@@ -1,0 +1,10 @@
+Project: food_waste
+-------------------
+Create some standard waste objects for standard foods (bones, apple cores, etc).
+Update standard foods code to generate these waste products.
+
+Project: food_rot
+-----------------
+Add rot state quantities to reload mechanism.
+Prevent decaying food items from using the heap mechanism somehow.
+Come up with some decay mechanism for food.

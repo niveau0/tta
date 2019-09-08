@@ -1,0 +1,11 @@
+height 100000000
+xsize 13700
+ysize 1000
+climate 1
+type 131072
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-20700,3000,0,})
+room_short "on a wide road"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([11|"above_westgate":({7|119,0,160,1000,99999840,0,0,}),"eastroad_west3":({7|101,0,0,500,100000000,0,0,}),"free_n2w":({7|110,12200,0,1500,100000000,0,0,}),"free_n2w2":({7|110,11300,0,900,100000000,0,0,}),"free_n2w3":({7|110,7700,0,3600,100000000,0,0,}),"free_n2w4":({7|110,5450,0,2250,100000000,0,0,}),"free_n2w5":({7|110,700,0,4750,100000000,0,0,}),"free_s1w5":({7|115,700,0,13000,100000000,0,0,}),"westgate":({7|119,0,0,1000,160,2,0,}),"westguard_south":({7|110,200,0,500,100000000,0,0,}),"westguard_west":({7|110,0,0,200,100000000,0,0,}),])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/obj/westgate",0,}),})

@@ -1,0 +1,10 @@
+
+/* File: /system/composite.c
+ * Function name: coord_suffix
+ * Description:   creates a distance description of the form: [XnYe]
+ * Arguments:     source - the source coordinates (player coordinates)
+ *                dest - target coordinates
+ * Returns:       description in feet
+ */
+nomask string
+coord_suffix(int *source, int *dest)

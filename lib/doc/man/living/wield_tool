@@ -1,0 +1,13 @@
+
+/* File: /base/living/slot.c
+ * Function name: wield_tool
+ * Description:   wield a tool
+ * Arguments:	  tool - the tool object
+ * Returns:       location string if success
+ *                -1 if tool does not fit
+ *                -2 if tool is too big
+ *                -3 if already wielded
+ *                -4 if wield failed by unknown reason
+ */
+nomask mixed
+wield_tool(object tool)

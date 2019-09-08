@@ -1,0 +1,625 @@
+Thu Jul 10 19:44:43 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/master/project.c, cmd/builder/info.c (project): added query
+      option to get all projects someone belongs to.
+
+Wed Jul  2 17:05:44 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living/cmd.c: hmm, miscsoul and emotionsoul euid of the player
+      again, so it must be cared for security with the soul code. Euid was
+      needed for modify_alias. Possibly a better solution would be to
+      store the actual user somewhere (or user this_interactive?).
+  
+Sun May 25 20:18:26 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/misc/openclose.c: support for open/close/lock/unlock/pick
+      command.
+  
+  * kernel/lib/living.c (query_primary): fixed reference insecurity,
+      inserted array copy - [..]
+
+Fri May 23 00:18:28 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/misc/combat.c (shoot): fixed shoot messages, so arrows get noticed
+      even if shot from a hidden position. 
+
+  * cmd/misc/look.c (look_at): 'cleaned' function.
+
+  * base/misc/attach.c: finished attach support, also changed look command
+      to work with attached items.
+
+Thu May 22 19:39:52 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/misc/wear.c: now a module, wear.c can be inherited so an object
+      can be worn. /base/equipment.c has been removed.
+
+Wed May 21 20:08:46 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/misc/attach.c, cmd/misc/itemactions.c: started to write
+      attach/detach support module.
+
+Tue May 20 18:11:09 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/include/global.h): added combat events.
+
+  * base/npc/humanoid.c: added more slots.
+  
+  * base/*, lib/*: changed more files to work with the combat changes.
+  
+  * rewrote /base/weapon.c, /base/armor.c, changed to the new combat
+      behaviour (weapon stores an attack data mapping now, armor only the
+      armor type).
+  
+  * base/living/natural_obmod.c removed.
+  
+  * include/combat.h now holds all attack modifiers and ob modifiers for
+      each weapon against each armor. The armor doesn't hold the critical
+      threshold anymore, now the weapon will store a threshold, ob-modifier
+      and damage-modifier against each armor type. 
+
+Sun May 18 21:28:56 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/garbage.c: only remove clones, not master objects (to prevent
+      recompilation).
+
+Sat May 17 16:19:39 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/builder/info.c: changed manual() function. Now manuals are read
+      from /doc/man and /doc/extraman. /doc/man is the autocreated manual,
+      /doc/extraread are manually written manuals ;) like the event and
+      property descriptions.
+  
+  * base/player.c: removed move_inv event adding for the player
+      itself. Was used to notify coder of incoming objects, but this
+      happened twice, the room also notifies the player of moving
+      objects.
+
+Thu May 15 12:34:11 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * removed enter_env and leave_env from move(). Now only using E_MOVE
+      event.
+  
+  * kernel/sys/driver.c (swapper): added swapout() call. will be invoked
+      each _SWAPCHUNK created objects. 
+
+  * cmd/misc/combat.c: implemented disarm command. Currently only supports
+      disarming of items (liek traps).
+
+Wed May 14 17:52:25 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/file.c (read_lines): removed bug in backward search of
+      read_lines. Wrong offset adding.
+
+  * include/stdproperties.h: renamed file to properties.h
+
+Sun May 11 00:14:58 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/delay.c, kernel/net/user.c: added delay table for each cmd, so
+      simple cmds take no more time and special cmds can take longer than
+      one second.
+  
+  * base/living/cmd.c: splitted souls into souls and codersouls. miscsoul
+      and emotionsoul don't get the euid of the player anymore.
+  
+  * renamed some more definitions and functions, soul_call is now
+      call_with_euid. 
+
+  * renamed all creator_xx() functions to coder_xx(). There are now only 4
+      levels left, mortal, builder, creator and admin.
+
+  * base/living/combat_intern.c: moved cb_damage() to /base/misc/damage.c,
+      some functions to get item damage will follow.
+
+Sat May 10 17:49:57 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/master/statistics.c: people-cmd shows no more the levels but a
+      letter which indicates the type of coder.
+
+  * cmd/emotion/emotion_main.c (soul_check_cmd): '<cmd> all' only accesses
+      livings now.
+
+  * root/newsmaster.c (delete_note): its now allowed for everyone to
+      delete notes in log.* groups.
+
+  * cmd/builder/info.c (project): installed project-cmd to communicate
+      with the project manager of the master-object.
+
+  * root/master/project.c (update_access): 
+
+  * system/debug.c: moved to /base/debug.c so log() will write to /log,
+      not /syslog.
+
+Tue May  6 23:23:42 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/sys/editor.c: reparied emergency save of 'ed'. Lost 'ed' files
+      are now saved as /home/codername/.ed_filename. Where filename is the
+      last path component of the edited file.
+
+  * cmd/builder/*: splitted soul into more then one file, clone from /base
+      is now forbidden.
+
+Sun Apr 27 18:04:38 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * list_files.c (ls): included option 'h', showing a help page.
+
+Tue Apr 22 00:14:34 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/newsmaster.c,cmd/misc/other.c: bugs and typos are now logged via
+      post_log() function in the newsmaster.
+
+Mon Apr 21 20:56:08 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/room.c: renamed query_exit() to query_exits().
+
+Wed Apr 16 14:43:48 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/master/access.c (valid_read): allow personal objects to read in
+      personal home directory.
+
+Tue Apr 15 00:30:55 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/town/shop.c: 'names' are no longer saved, but created after
+      loading the offer.
+
+  * root/creator/create_base.c: added 'jump' cmd, to move within the edit
+      room.
+
+Mon Apr 14 23:45:27 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * lib/spell/spell_base.c (do_spell): added extra description (casting),
+      which appears while someone does a spell.
+
+Wed Apr  9 19:26:04 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/misc/magic.c: removed command 'spell', now handled by command
+      'spells'.	
+
+  * base/room.c, root/creator/create_base.c: changed exit data structure,
+      there is now a 6. field which indicates if the exit its open or
+      closed.
+
+Mon Apr  7 17:21:43 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/login.c: race file 'ainu' is forced now for builders/creators.
+
+  * cmd/misc/manipulate_items.c (put): removed the need for the container
+      to be in the inventory of the player.
+
+Wed Mar 26 16:20:33 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/sys/driver.c: use now only destruct_object() in recompile to
+      avoid possible infinite loops by remove_object().
+
+Tue Mar 18 21:36:56 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/player.c: removed call to add_adj for gender.
+  
+  * base/living.c, base/living/gender.c: added another query_adjs() which
+      overloads base/object.c to add the gender. Removed add_adj call in
+      set_gender(). 
+
+Mon Mar 17 20:04:36 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/creator/create_base.c: added exit removal, added 'return'
+      command, added support for relative exitpaths.
+
+Fri Mar  7 18:43:15 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/builder/other.c (cleanup, money): cleanup no longer removes doors,
+      new command money to create coins.
+
+  * system/debug.c (debug_object): replaced /include/debug.h with this
+      file. Just a simple method to check for missing object values.
+
+  * root/master.c, kernel/sys/driver.c: global_obj (used in finger_player)
+      is removed in master now, if master gets destructed. 'ed' writing
+      is now logged in /syslog.
+
+Sun Feb 16 22:18:02 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * object.c (move_now): if destination is room, skip remove_tool.
+
+  * base/living/slot.c (add_tool): now returns move error code.
+
+Mon Jan 27 14:29:48 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/newsmaster.c: added 'R' command.
+
+Wed Jan 15 22:57:40 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/newsmaster.c: added 'edit' option for newsreader.
+
+Sun Jan 12 19:43:26 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/simfun.c: moved type_to_string from soul to auto-object.
+
+  * cmd/builder/other.c (props): new command to show properties of an object.
+
+Sat Jan  4 18:01:35 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/net/udp/*: fixed timeout bug, sending 'QQ' as code for query now.
+
+Mon Dec 30 21:13:11 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * list_files.c (ls): fixed a bug in 'ls'. Code reviewed.
+
+Sun Dec 15 17:00:09 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/simfun.c: fixed upgrading of objects.
+
+Thu Nov 28 17:15:48 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/net/udp.c: added @info cmd, removed @ping. Most commands now
+      start timeout check.
+
+  * kernel/lib: removed file_name and object_name from
+      auto-object. Changed all occurences of file_name to object_name.
+
+  * base/door.c: added relative filepath support for 'other_room'.
+  
+  * root/mailmaster.c (display_mail): <cr> now only shows unread mail.
+
+Mon Nov 25 17:26:36 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/player.c (set_linkdead): added call to save(). 
+
+  * kernel/net/user.c (close): removed call to save(). 
+
+Tue Nov 19 20:21:25 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * changed all old function headers in auto object (e.g. NAME: etc.) to
+      standard format to get nice manuals.
+
+  * kernel/lib/file.c: log() now logs in /syslog also for /cmd files.
+  
+  * udp.c: added 'reopen' call_out if udp port was closed by any network
+      error (which happened someday, *shrug*).
+
+Mon Nov 18 19:07:46 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/misc/moving.c, base/stairs.c: made first version of staircase and
+      added up/down command to misc-soul.
+
+  * renamed log_file to log. Files from /root or /system directory now log
+      in /syslog.
+
+Sat Nov 16 20:28:01 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * renamed all occurences of function all_inventory to inventory
+
+  * include/macros.h: changed macros, so program_name is used.
+  
+  * kernel/lib/simfun.c (program_name): added function program_name(),
+      returns master-object filename.
+
+Thu Nov 14 21:19:19 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/builder/udp.c: added @leave and channel user list.
+  
+  * cmd/builder/other.c: sanction clear removes now snooper (if snoop was
+      allowed by santioning).
+
+  * root/garbage.c: started writing the garbage collector.
+
+Tue Nov 12 13:47:16 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/login.c (notify_creators): added message of connection attempt.
+  
+  * kernel/sys/driver.c (runtime_error): added rlimits for catch_tell
+      call.
+  
+  * kernel/lib/comm.c (possession): fixed recursive snooping bug.
+
+Sun Nov 10 02:19:14 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/builder/udp.c, kernel/net/udp/*: added some more cmds.
+
+Thu Nov  7 12:50:46 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living/move.c: bugfix, coordinates now argument to move living
+
+  * cmd/builder/*: new commands 'home' and 'resurrect'.
+  
+  * root/master.c (config_dead_soul): 'souls' get the euid of their former
+      body, so creatorcmds are still possible.
+
+Wed Nov  6 13:29:29 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * dgd/ is now kernel/.
+
+Mon Nov  4 12:58:39 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/creator/create_base.c, base/room.c: added parent roompath
+      variable to support base wilderness room as container of 'son'rooms.
+
+  * base/disease.c (spread_disease): added spread_disease, so diseases may
+      infect livings in range of ill living.
+
+  * base/living/extra.c (resistance_roll): changed resistance-value to
+      skill_rank as replacement for level.
+
+  * base/player.c (quit): oops, quit was missing a save call.
+
+Sat Nov  2 00:02:18 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * dgd/lib/file.c (tail): added second optional argument (number of lines
+      to display). Max. lines (TAIL_LINES) is defined in config.h.
+
+  * base/player.c: call improve_skills also if not logged in for a longer
+      time. Use logout time as resting time.
+
+  * root/learn.c (improve_skills): checking RESTING_START and SLEEP_START
+      if any of these is above certain time, try to improve the used skills.
+
+  * dgd/sys/driver.c (prepare_dump): added function to handle precompiled
+      objects before state dump is saved.
+
+  * cmd/builder/other.c: optimized manual().
+
+  * base/shop.c: added appearance bonus for trading.
+
+Fri Nov  1 12:29:41 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * system/*: move dgd/lib/parse.c and stuff from include/global to
+      system/. Also changed root/master/access.h to allow read permissions
+      in system/ as 'Creator'.
+
+  * dgd/lib/simfun.c: cadderly convinced me to remove strlen from
+      autoobject. Replaced all occurences of strlen with a pre-check for
+      not initialized string variables.
+
+  * dgd/lib/*: replaced PRIVILEGED() check with Dworkins idea. Instead of
+      changing a variable it is now checking the resource limits.
+
+  * dgd/lib/*: Changed ARGCHECK macro to BADARG, personally I prefer to
+      see the 'if' before the BADARG, instead of putting it into the macro. 
+
+  * dgd/lib/event.c: added call_event to cause an event.
+
+  * cmd/misc/*, root/learn/learn.h: added call to skill_usage for skill
+      using cmds. changed some learn factors.
+
+  * root/learn.c, base/player/skill.c: changed improve_skill to
+      improve_skills, this will be called after a longer rest/sleep. All
+      used skills will be tested, according to the difficulty factor.
+
+  * root/master/access.h: added read access in /d/ for all builders.
+
+  * dgd/net/udp/*: fixed some more bugs, added channel closing and channel
+      name to output of messages.
+
+Thu Oct 31 19:00:19 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * dgd/net/udp/*, cmd/builder/udp.c: implemented 'open channel', 'message
+      sending', 'channel query', 'iplist', 'channel join'
+      functions. Available via @-cmds.
+
+Wed Oct 30 02:18:22 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living/slot.c (query_hold, query_worn): fixed bug, now removes
+      '0' from array and returns always an array.
+
+Tue Oct 29 00:41:24 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/master/access.c, dgd/lib/file.c (log_file): removed valid_log
+      again, added timestring and filename to loginfo. Also old logs get
+      an increasing suffix, so no log gets lost.
+
+  * base/living/slot.c (remove_tool_slot): don't lose worn things if
+     hitloc is not removed.
+
+  * include/debug.h: added more debug definitions and the support in the
+      related files.
+
+  * root/weathermaster.c (calc_weather): added wind.
+
+Mon Oct 28 14:21:10 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living/combat.c (add_bloodloss): inserted 'Tetanus' check for
+      each bloodloss addition.
+
+  * cmd/misc/other.c (who): reinstalled 'who' command, now only possible for
+      creators or mortals in ooc-areas.
+
+  * base/living/slot.c (set_wound): fixed a small bug, connected slots
+      were set to unusable even if they were damaged somehow else.
+
+  * dgd/lib/file.c, root/master/access.c: added valid_log, to check if
+      log_file is allowed.
+
+  * base/player.c (autosave): added stat improving after a predefined while
+      of active playing. Also adds new development points. Active play time
+      can be gathered if not logged in, but much slower. This replaced the
+      level raising by exp.
+      (set_linkdead): adds active time if player relogs
+
+  * level and experience points have been removed. Players will improve
+      with time and skills only.
+
+Fri Oct 11 00:33:28 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * /base/board.c, /root/newsmaster.c, /cmd/misc/manipulate_items.c: added
+      write cmd, boards seems to be fully functional now (?)
+
+Wed Oct  2 18:15:43 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/builder/other.c (whereis): added 'whereis' to find occurance of a
+      given command.
+
+  * include/global.composite.c: COMPOSITE_UNSEEN and COMPOSITE are showing
+      the full heap size, but COMPOSITE_ADD_UNSEEN now only the split
+      size, i.e. the size that is moving.
+
+  * cmd/misc/manipulate_items.c: added accept command, giving is now only
+      possible if the items are accepted.
+  
+Thu Sep 26 14:50:09 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * other.c (toggle): added option 'pager' to set the chunk for displaying
+      with 'more'.
+
+  * root/master/access.c: destruction is now allowed/forbidden via
+      valid_destruct.
+
+Thu Sep 19 16:32:25 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * dgd/sys/driver.c: added time output in error log.
+
+  * dgd/lib/simfun.c (remove_object): the basic functionality (removing
+      inventory) of remove_object is now in auto object.
+
+Tue Sep 17 12:52:29 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/misc/skill.c (hide): added hiding of items
+
+  * include/composite.h: added new macro COMPOSITE_UNSEEN(o, p), where 'o'
+      are the objects to describe and 'p' is a living object. This
+      replaced some COMPOSITE_ADD_UNSEEN calls, so inventory can be shown
+      'compressed' instead of showing each item seperatly for visible check.
+
+  * include/debug.h: this file is used to turn different debug mechanisms
+      on and off.
+
+Sat Sep 14 18:53:49 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/misc/*: changed all function calls, this_player() is now always
+      second argument for each cmd-function.
+
+  * root/learn.c (learncost_cmd): It's now possible to show learncost for
+      a single skill.
+
+Mon Sep  9 23:34:33 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * renamed most occurences of Valar/Maiar to Creator/Builder to have a
+      neutral base if the lib gets ever released.
+
+Fri Sep  6 00:01:55 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/shop.c: keeper checks range now before selling and buying.
+
+  * base/herb.c: fixed analyse name by adding parse_object.
+
+  * base/living/move.c (move_living): add riding. also changed
+      cmd/misc/moving.c and base/mount.c to support riding.
+
+  * cmd/misc/magic: casting takes fatigue now. 
+
+Thu Sep  5 16:48:41 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living/combat.c (decay): using now room coordinates, so objects
+      will fall 'to the ground' if dead player was hovering.
+
+  * base/wall.c: seems to be finished as standard wall support.
+
+  * config/race/*: fixed guest character and ghost.
+
+  * base/player/extra_player.c (set_birth): can only be changed by player
+      creator. 
+
+Wed Sep  4 00:11:24 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * crit_*.c: all criticals include now crit.h, added macros to have less
+      work with criticals and a better overview in the files.
+
+  * base/living/combat_intern.c: added combat events: E_ATTACK,
+      E_ATTACKED_BY, E_DID_MELEE_HIT, E_GOT_MELEE_HIT.
+
+  * base/living.c: added query_met_name to have non-named npc's
+      unknown. set_tell_flags removed. added add_tell_flags,
+      remove_tell_flags. blinding and paralysation now done as effect. 
+
+  * dgd/lib/user.c (receive_message): trailing spaces in command are now
+      removed.
+
+  * dgd/lib/tool.c (parse): added distance check if argument is 'all'.
+
+  * cmd/misc/other.c, cmd/misc/see.c (toggle, see): without argument
+      showing current status now.
+
+Tue Sep  3 15:15:47 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/player: restart of effects renamed to restart_effects, one loop
+      for all effects now.
+
+  * dgd/lib/simfun.c (change_ticks): new function, to call objects with
+      changed ticks.
+
+  * cmd/misc/other.c: help system changed. There is now a helpindex
+      mapping to find the directory of the help page. Removed 'who'
+      command. Needs to reappear in ooc-rooms.
+
+  * cmd/misc/other.c, base/player/met_player.c: removed 'introduce'
+      command, removed saved intro-string. This can be done more roleplay
+      like with 'say'.
+
+  * cmd/misc/moving.c: removed 'approach', added 'walk'.
+
+Mon Sep  2 00:06:53 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * include/state.h: new state MOUNT, used if sitting on a horse.
+
+  * dgd/sys/driver.c (path_write): editor write is now logged in /log/EDITOR.
+
+  * root/mailmaster.c (group_reply): added group reply command.
+
+  * root/mailmaster.c, cmd/builder/other.c: added 'from' command to list the
+      current mail.
+
+  * cmd/builder/list_files.c (ls): debugged ls command, removed
+      senseless options.
+
+  * root/login.c: added reminder of 'news', protected set_user.
+
+  * base/object/props.c: added add_state, delete_state, query_state.
+
+  * room.c, cmd/misc/moving.c (walk): blocking is now an event (E_BLOCK).
+
+Sun Sep  1 20:36:26 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/builder/other.c (do_idle): faster code, no catch_tell for each
+      player anymore.
+
+Fri Aug 30 17:10:33 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/misc/misc_main.c: added mount, dismount cmd. /base/mount.c still
+      not finished.
+
+Thu Aug 29 02:29:30 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/mailmaster.c (reply_to_mail): added reply command.
+  (forward_mail): added forward command.
+
+  * dgd/std/editor.c, /dgd/net/user.c: enabled dgd editor, added an 'ed'
+      command.
+
+Wed Aug 28 03:42:56 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/master/access.c: added recreation of std ftp access if
+      UPDATE_ACCESS is defined (master.c). Access changes are now logged
+      in /log/UPDATE_ACCESS.
+      (valid_write, valid_read): now take 3rd argument, the function that
+      called the validation function.
+
+  * dgd/lib/creator.c: domainname uid removed, creator uid removed. All
+      objects get uid "0" now, except /root/ files. Creators get their name
+      as uid/euid from login object.
+
+  * root/master/*, root/login.c: removed all domain code. Domains are no
+      longer used as administration segment. creator home directory
+      changed to /home/creatorname.
+
+  * dgd/net/user.c (receive_message): if player is already one second idle
+      the next command is executed without delay.
+
+Tue Aug 27 21:19:03 1996  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/shop.c: removed keeper_file, only object is used. keeper_talk
+      cares now for language of keeper.
+
+  * root/creator/create_base.c: exit coordinates are now checked if valid,
+      keeperfile-edit removed, npc shopkeepers should add themself to the
+      shopfile.
+
+  * root/master/access.c (valid_write): rooms may save themself now in
+      /d/Domainname/... 
+

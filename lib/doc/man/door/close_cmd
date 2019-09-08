@@ -1,0 +1,10 @@
+
+/* File: /base/door.c
+ * Function name: close_cmd
+ * Description:   handle close cmd
+ * Arguments:     str - command arguments
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+int
+close_cmd(string str, object tp)

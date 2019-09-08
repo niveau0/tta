@@ -1,0 +1,10 @@
+
+/* File: /base/living/extra.c
+ * Function name:   can_hear(object ob, int d)
+ * Description:     checks if this object can hear another object
+ * Arguments:       ob - object to hear
+ *                  d - the distance something can be heard
+ * Returns:         1 if hearing, else 0
+ */   
+nomask int
+can_hear(object ob, int d)

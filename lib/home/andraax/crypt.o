@@ -1,0 +1,13 @@
+light 20
+height 150
+xsize 300
+ysize 300
+climate 7
+type 4
+edge_base ({4|0,0,0,0,})
+room_coords ({3|10000,10000,0,})
+room_short "You entered a large and cold crypt"
+room_long "As you walk into this room, which is entirely made out of black marble\nyou hesitate a moment in awe. Then the cold athmosphere creeps up your\nspine. The utter silence and the pulsating red veins of the marble are\nvery disturbing and make you feel uneasy. perhaps you shouldn't have\ncome here?\n"
+room_exits ([1|"hallway":({7|115,110,0,80,80,0,0,}),])
+objs_to_clone ({1|({2|"/home/andraax/elf_skeleton",0,}),})
+pseudo_items ([1|1:({3|({1|"altar",}),({1|"altars",}),"This altar might have been used for some unspeakable rituals.",}),])

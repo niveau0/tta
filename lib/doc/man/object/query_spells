@@ -1,0 +1,8 @@
+
+/* File: /base/object/spells.c
+ * Function name: query_spells
+ * Description:   gives all connected spell objects
+ * Returns:       mapping
+ */
+nomask object *
+query_spells()

@@ -1,0 +1,11 @@
+light 100
+height 100000000
+xsize 1200
+ysize 1200
+climate 7
+type 2
+room_coords ({3|750,-644,-200,})
+room_short "Elevator Hall"
+room_long "A great hall, covered with dust.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/home/yavanna/moria/obj/elevator/elevator_1/elevator_door","750x-644y-200z",}),})

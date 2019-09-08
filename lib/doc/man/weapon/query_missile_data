@@ -1,0 +1,8 @@
+
+/* File: /base/missile_weapon.c
+ * Function name: query_missile_data
+ * Description:   give the weapon data for missile attacks
+ * Returns:       mapping
+ */
+nomask mapping
+query_missile_data()

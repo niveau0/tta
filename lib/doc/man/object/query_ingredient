@@ -1,0 +1,9 @@
+
+/* File: /base/object.c
+ * Function name: query_ingredient
+ * Description:   check if this is an ingredient of the given type
+ * Arguments:     type - ingredient type (see ingredients.h)
+ * Returns:       1 if this is such an ingredient, 0 else
+ */
+nomask int
+query_ingredient(string type)

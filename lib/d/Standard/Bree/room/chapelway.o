@@ -1,0 +1,11 @@
+height 100000000
+xsize 2600
+ysize 200
+climate 1
+type 393216
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-4800,2400,0,})
+room_short "The Chapelway"
+room_long "You spot the road bending south as you turn your sight westward. Also you\nnotice the citywall all along the north of the road and the building at the\neastern end of it. A single building has been placed on the narrow space\nbetween wall and road, giving shelter and protection to its inhabitants.\nLooking again toward the building in the east you recognize a large area of\nuneven ground behind it.\nThe southern direction reveals none too interesting facts. Some buildings, a\nroad with a bend in it and spottable between and behind them grass and in the\ndistance the citywall that made its way from here around the whole town.\n"
+room_exits ([1|"/d/Standard/Bree/room/chapelway_bend":({7|119,0,0,200,100000000,0,0,}),])
+pseudo_items ([1|1:({3|({2|"ground"," uneven ground",}),({2|"grounds"," uneven grounds",}),"You see standing stones and wooden crosses of all type and size. Plants stand\nthere and all together gives you the familiar sight of a cemetary.",}),])

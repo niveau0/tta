@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: fix_saved_props
+ * Description:   construct the mapping of saved properties
+ */
+static nomask int
+fix_saveprop_list()

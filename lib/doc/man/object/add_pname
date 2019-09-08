@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: add_pname
+ * Description:   adds the pluralform of a name 
+ * Arguments:	  name - the pname to add
+ */
+void
+add_pname(string pname)

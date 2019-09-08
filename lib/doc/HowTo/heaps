@@ -1,0 +1,41 @@
+		     The heap object (/base/heap)
+
+The heap object is an old invention. The idea behind heaps is to have
+just one object in memory (one clone) which represents a 'heap' and
+stores a counter. The counter describes how many 'virtual' objects are
+within the heap. This is only possible for very similar objects that
+don't change there properties compared to other objects of their kind.
+
+Example:
+coins are very similar to each other except their material
+   (copper, gold...) 
+but coins are very memory wasting if they are handled each as a
+single object. So the solution is a heap. The /base/coins.c object is
+implemented as a heap object that differs only the type of coin.
+So if someone own 20 golden coins, internally he/she holds only one
+heap object storing a counter of 20.
+Thats the idea behind heaps, but how to handle this by code.
+The following will be some hints what you have to remember if you want
+to implement a new heap object.
+
+If a part of a heap is dropped, the heap will be split automatically
+into two objects. If the splitted part enters a destination where the
+same heap type is already present, the moving one will join this heap
+and destruct the remaining no longer used object. So the heap object
+cares for the fact that there is only one heap at the same position.
+
+Heaps need an id (see set_heap_id) which must be unique and shared
+between all heaps of the same type. The standard way to care for a
+unique id is using the filename (set_heap_id(MASTER)).
+
+Important is:
+heaps must know their new coordinates before moving them
+to a new destination. This is necessary because if a heap enters a
+room, like said above, it joins an already present heap of the same
+type, _but_ only if this heap is at the same position. So your moving
+heap needs to know its new coordinates before it moves.
+
+To find out more about heaps see the manuals, 'man heap/'.
+
+Manwe
+

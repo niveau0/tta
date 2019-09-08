@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: query_room_file
+ * Description:   gives related room file
+ * Returns:       file path
+ */
+nomask string
+query_room_file()

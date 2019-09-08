@@ -1,0 +1,5 @@
+Poisons:
+        - Paralyse effect (check & msg)
+        - Unconscious length
+        - msg do not check uncon
+        - dying of poison

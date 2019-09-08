@@ -1,0 +1,13 @@
+light 30000
+height 156
+xsize 96
+ysize 144
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|180,396,0,})
+room_short "In a small room"
+room_long "This small room evaporates the odor of food and cooked meals. You see stoves,\ncupboards and a lot of dishes, clean and dirty.\nA small window in the eastern wall gives sight onto a backyard and hill rising\nbehind it.\nLetting your sight move along the eastern wall you see a large fireplace,\ndominating the northeastern corner of the room..\n"
+room_exits ([0|])
+objs_to_clone ({2|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/kitchen_door",({1|({3|180,432,0,}),}),}),({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/kitchyard_door",({1|({3|275,411,0,}),}),}),})
+pseudo_items ([2|1:({4|({2|"window","small window",}),({2|"windows","small windows",}),"@@look_window:/lib/misc/special/window|Four little windowpanes are set into the wall. They seem to be more decorative\nthan having a real purpose. Peering outside you see a yard:\n|/d/Rhudaur/Bree/Prancing_Pony/yard",({3|275,430,30,}),}),2:({4|({1|"fireplace",}),({1|"fireplaces",}),"Stones and metalparts are combined to a useful cooking device. In the lower\npart of the fireplace yout see coals and wood burning hot and without smoke.\nDirect above the fire is a grate and above this one you see hooks and staves\nwaiting to carry the flesh that shall be prepared.",({3|275,450,30,}),}),])

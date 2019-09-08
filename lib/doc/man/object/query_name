@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: query_name
+ * Description:   Gives the main name of the object
+ * Returns:       string
+ */
+nomask string
+query_name()

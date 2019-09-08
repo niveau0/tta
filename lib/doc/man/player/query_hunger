@@ -1,0 +1,8 @@
+
+/* File: /base/player/consume.c
+ * Function name: query_hunger
+ * Description:   how hungry is the player
+ * Returs:        integer (higher -> more hunger)
+ */
+nomask int
+query_hunger()

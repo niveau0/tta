@@ -1,0 +1,9 @@
+
+/* File: /base/living/extra.c
+ * Function name:   can_see(object ob)
+ * Description:     checks if this object can see another object
+ * Arguments:       ob - object to see
+ * Returns:         1 if visible, else 0
+ */   
+nomask int
+can_see(object ob)

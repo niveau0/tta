@@ -1,0 +1,8 @@
+height 100000000
+xsize 400
+ysize 400
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-8000,1500,0,})
+room_short "The western wilderness"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([1|"westgate":({7|101,100,0,200,180,0,0,}),])

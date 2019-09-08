@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: heap_search_equal
+ * Description:   function to find same heaps
+ * Arguments:     dest - where (e.g. room object) to search for same heaps
+ */
+nomask object
+heap_search_equal(object dest)

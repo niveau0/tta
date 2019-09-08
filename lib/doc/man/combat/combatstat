@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: combatstat
+ * Description:   info page about combat status
+ * Returns:       string description
+ */
+nomask string
+combatstat()

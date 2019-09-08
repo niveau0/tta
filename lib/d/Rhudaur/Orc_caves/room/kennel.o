@@ -1,0 +1,10 @@
+height 300
+xsize 500
+ysize 1000
+type 4
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|500,1450,0,})
+room_short "The kennel"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/d/Rhudaur/Orc_caves/obj/watch_door",({1|({3|815,1451,0,}),}),}),})

@@ -1,0 +1,10 @@
+
+/* File: /base/living/slot.c
+ * Function name: slot_space
+ * Description:   return the free size of the slot
+ * Arguments:	  slot - which slot to ask
+ *                tool - an object that shouldn't count
+ * Returns:       the left size
+ */
+nomask varargs int
+slot_space(int slot, object tool)

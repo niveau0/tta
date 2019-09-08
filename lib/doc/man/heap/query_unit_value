@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_unit_value
+ * Description:   gives value of one heap unit
+ * Returns:       a units value
+ */
+nomask int
+query_unit_value()

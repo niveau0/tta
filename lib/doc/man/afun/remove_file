@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: remove_file
+ * Description:   delete a file 
+ * Arguments:     file - file path
+ * Returns:       1 if success, 0 else
+ */
+static nomask int
+remove_file(string file)

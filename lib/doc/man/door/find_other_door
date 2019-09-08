@@ -1,0 +1,8 @@
+
+/* File: /base/door.c
+ * Function name: find_other_door
+ * Description:   find the connected door
+ * Returns:       object
+ */
+nomask object
+find_other_door()

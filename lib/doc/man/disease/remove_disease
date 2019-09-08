@@ -1,0 +1,8 @@
+
+/* File: /base/disease.c
+ * Function name: remove_disease
+ * Description:   remove a disease
+ * Arguments:     tp - the player to heal
+ */
+void
+remove_disease(object tp)

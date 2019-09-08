@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: implode
+ * Description:   concat a string array, seperated by a pattern
+ * Arguments:     arr - array to concat
+ *                pat - concat pattern
+ * Returns:       string
+ */
+static nomask string
+implode(mixed arr, string pat)

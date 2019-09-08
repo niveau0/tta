@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: query_volume
+ * Description:   gives the volume value of this object
+ * Returns:       integer, the volume
+ */
+int
+query_volume()

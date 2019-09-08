@@ -1,0 +1,14 @@
+light
+manwe
+Mon Jan 27 14:29:12 1997
+/include/mudtime.h now contains a definition for day and night light-values.
+DAYLIGHT and NIGHTLIGHT.
+
+all in all lightvalue has now changed to its final semantic:
+each lightunit (i.d. integer 1 is one lightunit) allows one inch view
+distance.
+That means, light 3000 equals view distance 3000 inch.
+But you may notice that someone carring a lightsource can be seen up to the
+maximum sight-distance of the viewer. 
+
+Manwe

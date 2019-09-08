@@ -1,0 +1,8 @@
+
+/* File: /base/plant.c
+ * Function name: set_max_phase
+ * Description:   sets maximum number of grow/shrink phases
+ * Arguments:     m - maximum grow phases
+ */
+static nomask void
+set_max_phase(int m)

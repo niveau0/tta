@@ -1,0 +1,10 @@
+
+/* File: /base/room.c
+ * Function name: collision
+ * Description:   check if some object is blocking someones way
+ * Arguments:     co - coordinates of moving object
+ *                nco - coordinates where object wants to be after move
+ * Returns:       object, the blocker else 0
+ */
+nomask object
+collision(int *co, int *nco)

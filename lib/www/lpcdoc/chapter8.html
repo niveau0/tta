@@ -1,0 +1,155 @@
+<html>
+<head><title>The Third Age - Lpc-Chapter8</title></head>
+
+<body
+background="http://tta.artis.uni-oldenburg.de/~mud/pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="http://www.artis.uni-oldenburg.de/tta">
+<img border=0 src="http://tta.artis.uni-oldenburg.de/~mud/pic/tta.mini.gif" 
+alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - An introduction to lpc</h3>
+<font size=-1>
+<i>(by Descartes of Borg, 23 april 1993)</i>
+</font>
+</center>
+<p>
+<hr noshade>
+
+<center>
+<h4>
+<font color="#007744">
+Chapter 8: The data type "object"
+</font>
+</h4>
+</center>
+
+<h4>8.1 Review</h4>
+
+You should now be able to do anything so long as you stick to calling
+functions within your own object.  You should also know, that at the
+bare minimum you can get the create() function in your object called to
+start just by loading it into memory.<p>
+You are also acquainted with the data types <i>void, int,</i> and
+<i>string</i>. 
+ 
+<h4>8.2 Objects as data types</h4>
+
+In this chapter you will be acquainted with a more complex data type,
+<i>object</i>.  An object variable points to a real object loaded into the
+driver's memory.  You declare it in the same manner as other data types:
+<pre>
+object ob;
+</pre>
+It differs in that you cannot use +, -, +=, -=, *, or / (what would it
+mean to divide a monster by another monster?).  And since efuns like
+say() and write() only want strings or integer, you cannot write() or
+say() them (again, what would it mean to say a monster?).
+<p>
+But you can use them with some other of the most important efuns on any
+LPMud.
+ 
+<h4>8.3 The efun: this_object()</h4>
+This is an efun which returns an object in which the function being executed
+exists.  In other words, in a file, this_object() refers to the object your
+file is in whether the file gets cloned itself or inherited by another file.
+It is often useful when you are writing a file which is getting inherited
+by another file.  Say you are writing your own living.c which gets
+inherited by player.c and monster.c, but never used alone.  You want to log 
+the function set_level() if it is a player's level being set (but you do not
+care if it is a monster).
+You might do this:
+<pre>
+void 
+set_level(int x) 
+{
+    if (this_object()->is_player())
+        log_file("levels", "foo\n");
+    level = x;
+}
+</pre>
+ 
+Since is_player() is not defined in living.c or anything it inherits,
+just using <code>if (is_player())</code> will result in an error since the
+driver does not find that function in your file or anything it inherits.
+<p>
+this_object() allows you to access functions which may or may not be
+present in any final products because your file is inherited by others
+without resulting in an error.
+ 
+<h4>8.4 Calling functions in other objects</h4>
+
+This of course introduces us to the most important characteristic of
+the object data type.  It allows us to access functions in other objects.
+In previous examples you have been able to find out about a player's level,
+reduce the money they have, and how much hp they have.
+Calls to functions in other objects may be done in two ways:
+<pre>
+object->function(parameters);
+call_other(object, "function", parameters);
+</pre>
+Example:
+<pre>
+this_player()->add_money("silver", -5);
+call_other(this_player(), "add_money", "silver", -5);
+</pre>
+ 
+In some (very loose sense), the game is just a chain reaction of function
+calls initiated by player commands.  When a player initiates a chain of
+function calls, that player is the object which is returned by the function
+this_player().  So, since this_player() can change depending on who
+initiated the sequence of events, you want to be very careful as to where
+you place calls to functions in this_player().
+ 
+<h4>8.5 Adding objects to your rooms</h4>
+
+And now, using the data type object, you can add monsters to your rooms
+(even if this is an ugly example):
+<pre>
+object ob;
+
+ob = clone_object("/base/living"); /* make a copy of the standard living */
+ob->set_name("guard");
+ob->set_short("Town guard");
+ob->set_long("He guards Praxis from nothingness.\n");
+ob->set_gender("male");
+ob->set_race("human");
+ob->move(room_object);
+</pre>
+Now, this will be wildly different on most muds.  The last act in most muds
+is to call move() in the monster object to move it to the room.
+
+<h4>8.6 Chapter summary</h4>
+At this point, you now have enough knowledge to code some basic stuff.  Of
+course, as I have been stressing all along, you really need to read the
+documents on building for your mud, as they detail which functions exist in
+which types of objects for you to call.
+<p>
+At this point you should get busy trying example stuff.  Right now code
+yourself a small area. Make extensive use of the special functions coded in
+your mud's room.c (search the docs for obscure ones no one else seems to
+use). Add lots of neat actions.
+<p>
+Create weapons which have magic powers which gradually fade away.  All of
+this you should be able to work out now.  Once this becomes routine for
+you, it will be time to move on to intermediate stuff.  Note that few
+people actually get to the intermediate stuff. If you have played at all,
+you notice there are few areas on the mud which do what I just told you you
+should be able to do.
+<p>
+
+<a href="mailto:borg@imaginary.com">George Reese</a> (Descartes of Borg), 
+12 july 1993
+<p>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Dec 01, 1996</address>
+</body>
+</html>

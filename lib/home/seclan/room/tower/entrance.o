@@ -1,0 +1,13 @@
+light 35000
+height 120
+xsize 300
+ysize 300
+climate 1
+type 2
+cornerheight ({4|120,120,120,120,})
+room_coords ({3|0,0,120,})
+room_short "Entrance room"
+room_long "Walls made from blackness and a flickering column are your first impressions.\nThe walls are polished and you fail to make a scratch into them. They feel\nwarm to the touch. The column stands in the middle of the room raising from\nthe black floor to the likewise dark ceiling.\nA second glance shows an oval carving in the eastern wall, the only region\nwhere the smoothness of the walls is disturbed.\n"
+room_exits ([2|"livingroom":({7|117,112,112,75,75,0,0,}),"storeroom":({7|100,112,112,75,75,0,0,}),])
+objs_to_clone ({1|({2|"/home/seclan/room/tower/object/stair_entrance",({1|({3|150,150,120,}),}),}),})
+pseudo_items ([1|1:({4|({2|"column","pillar",}),({2|"columns","pillars",}),"Lights, sparks and flashes wander beneath the column's surface and illuminate\nthe surroundings with a bright but flickering light. It is impossible to\ntouch it due to an invisible force that makes your limbs glide off.",({3|150,150,120,}),}),])

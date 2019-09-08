@@ -1,0 +1,7 @@
+
+/* File: /base/living/combat.c
+ * Function name: bloodloss_event
+ * Description:   controls bleeding
+ */
+static nomask void
+bloodloss_event()

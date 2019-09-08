@@ -1,0 +1,9 @@
+
+/* File: /base/living/extra.c
+ * Function name:   query_max_fatigue()
+ * Description:     Calculates the maximum number of fatigue points that
+ *                  the living can have.
+ * Returns:         The maximum.
+ */
+nomask int
+query_max_fatigue()

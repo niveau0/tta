@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/comm.c
+ * Function name: possession
+ * Description:   take control over someone
+ * Arguments:     whom - living to control
+ *                bywhom - possessing living
+ * Returns:       1 if success, 0 else
+ */
+static nomask int
+possession(object whom, object bywhom)

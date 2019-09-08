@@ -1,0 +1,11 @@
+
+/* File: /base/object/item.c
+ * Function name: query_item
+ * Description:   query item data for a given item id, -1 gives the whole item
+ *                mapping
+ * Arguments:     id - item id
+ * Returns:       array, ({ names, plural names, description, coordinates })
+ *                notify that the coordinates field is optional
+ */
+nomask mixed
+query_item(int id)

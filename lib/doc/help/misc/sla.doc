@@ -1,0 +1,12 @@
+*-------------------------------( Misc: sla )--------------------------------*
+
+   Type:        command
+   Usage:       sla [on|off]
+                
+   Description: This command toggles wether you use your spatial 
+                location awareness or not.
+                
+   Example:     sla on
+   
+*----------------------------------------------------------------------------*
+ See also: 'skills','spatial location aware'

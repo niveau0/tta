@@ -1,0 +1,8 @@
+
+/* File: /base/player/extra.c
+ * Function name: set_prompt
+ * Description:   configure prompt output
+ * Arguments:     flags - what should be prompted
+ */
+nomask void
+set_prompt(int flags)

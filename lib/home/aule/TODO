@@ -1,0 +1,11 @@
+- in /base/brain/prefs-> range weapons ueberpruefen, ob Geschosse da sind!!!
+- in math.h gw=(formel) ...
+- base/weapon -> event E_MOVE noch gebrauchen ?
+- critical4 (heat fertig machen)
+- preise fuer herbs ?? (hugburdingsda als einziges)
+- spells ess/base/flad -> alle slots ueberpruefen (brechende augen, entparalyse  , usw) und dann noch messages fuer im raum anwesende, sowie spell-datas
+  noch mal ueberpruefen
+- sind Leute auch taub, wenn beide Ohren SLOT_UNUSABLE sind ? (ebenso augen)
+- ALLE poisons+curses+diseases auf catch_tell  ueberpruefen
+- spell peer/alo weitermachen
+

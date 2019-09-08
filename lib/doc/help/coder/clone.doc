@@ -1,0 +1,18 @@
+*------------------------------( Builder: clone )----------------------------*
+ 
+   Type:        command
+   Usage:       clone <path> [<heapsize>]
+                c <path> [<heapsize>]
+
+   Description: Create a clone of an object. This is not allowed for objects
+		in the /base directory. The object will appear in your 
+		inventory if it can be carried, else in the room where you 
+		are. If the object is a heap-object you can add an additional
+		heap size.
+		'c' is an abbreviation for clone.
+ 
+   Example:     clone /lib/misc/light/torch
+		c /lib/food/bread_500g 5
+   
+*----------------------------------------------------------------------------*
+ See also: 'destruct'

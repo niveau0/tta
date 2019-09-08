@@ -1,0 +1,10 @@
+
+/* File: /base/misc/openclose.c
+ * Function name: open_cmd
+ * Description:   called if someone tries to open this container
+ * Arguments:     str - optional argument (e.g. with white key)
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+int
+open_cmd(string str, object tp)

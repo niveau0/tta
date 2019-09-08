@@ -1,0 +1,11 @@
+height 100000000
+xsize 200
+ysize 500
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-3200,1300,0,})
+room_short "Bend in the Wateralley"
+room_long "This is the northern part of the bend. At this point the road travels further\nwest and also a bit southward. To the southwest, direct beside the road,\nstands a single house and several more of them stretch along the road in the\neast where it returned to its course eastward. Roughly north and northeast\nfrom here you recognize an east-west road and a church where it is leading to.\n"
+room_exits ([2|"wateralley_west3":({7|119,300,0,200,100000000,0,0,}),"wateralley_westbendsouth":({7|115,0,0,200,100000000,0,0,}),])
+pseudo_items ([1|1:({4|({4|"road to place","road to marketplace","south road","#roadToMarketplace",}),({3|"roads to place","roads to marketplace","south roads",}),"This cobbled road looks pretty worn. It leads southward, then bends to the\neast and leads further into the city.",({3|-3200,1200,0,}),}),])

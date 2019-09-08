@@ -1,0 +1,9 @@
+
+/* File: /system/money.c
+ * Function name: total
+ * Description:   calculates the total amount of money on a living
+ *                (in copperbits)
+ * Arguments:     who - calculates whose money?              
+ */
+int
+total(object who)

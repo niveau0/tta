@@ -1,0 +1,8 @@
+c++ comment-style
+manwe
+Wed Oct  2 16:31:10 1996
+c++ comments are now possible.
+E.g.
+// this is a one line comment
+
+Manwe

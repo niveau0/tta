@@ -1,0 +1,12 @@
+
+/* File: /base/player/met.c
+ * Function name:   add_remembered(string name, string rname)
+ * Description:     Adds a living to those whom we want to remember.
+ * Arguments:       str - Realname of living that we want to remember.
+ *                  rname - remember-name of living that we want to remember.
+ * Returns:         -1 if at limit for remember,
+ *                  1 if remember ok,
+ *                  2 if already known
+ */
+nomask int
+add_remembered(string name, string rname)

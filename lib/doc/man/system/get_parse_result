@@ -1,0 +1,8 @@
+
+/* File: /system/parse.c
+ * Function name: get_parse_result
+ * Description:   get the amount of items that matched for last parse call
+ * Returns:       integer
+ */
+nomask int
+get_parse_result()

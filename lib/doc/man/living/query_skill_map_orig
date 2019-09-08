@@ -1,0 +1,8 @@
+
+/* File: /base/living/skill.c
+ * Function name: query_skill_map_orig
+ * Description:   Gives the whole unmodified skill map
+ * Returns:       mapping
+ */
+nomask mapping
+query_skill_map_orig(int skill)

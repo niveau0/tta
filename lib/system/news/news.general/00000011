@@ -1,0 +1,15 @@
+room creator updates
+manwe
+Mon Mar 17 20:12:01 1997
+A new command 'return' teleports back to the edit-room if you left it
+un'done'.
+Its not possible to remove exits instead of adding them after specifing
+the offsets.
+An exitpath can now be 'relative', e.g. if you are editing a room within
+directory /home/manwe and want to connect it to another room
+directory, you can use just the relative pathname.
+
+Example: to connect /home/manwe/home with /home/ulmo/test the exitpath
+         is:  ../ulmo/test
+
+Manwe

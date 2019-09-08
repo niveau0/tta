@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: get_dir
+ * Description:   read directory contents
+ * Arguments:     file - directory path to read
+ * Returns:       array, directory contents
+ */
+static nomask string *
+get_dir(string file)

@@ -1,0 +1,9 @@
+/base/npc
+manwe
+Thu May 15 22:36:25 1997
+There is a new base directory, /base/npc. There will be basic configurations
+for different npc types, like undead, humanoids, shopkeeper, demons...
+Please use (inherit) one of these files if you are working on similar 
+npcs.
+
+Manwe

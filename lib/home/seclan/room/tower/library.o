@@ -1,0 +1,12 @@
+light 35000
+height 120
+xsize 300
+ysize 300
+climate 3
+type 2
+edge_base ({4|480,480,480,480,})
+room_coords ({3|0,0,480,})
+room_short "A library"
+room_long "As you look around you see a plain black ceiling and a plain black floor.\nBetween them stands a column of pure light. Furthermore you notice that really\nevery place at the walls is covered with shelves, boards and other facilities\nto hold and contain books in a good state. This seems to be inteded, judged by\nthe dry climate in here. The quietness of this room and the steady light of\nthe column will surely support an intensive study in every way.\n"
+room_exits ([2|"bedroom":({7|100,112,112,75,75,0,0,}),"laboratory":({7|117,112,112,75,75,0,0,}),])
+objs_to_clone ({1|({2|"/home/seclan/room/tower/object/stair_library",({1|({3|112,112,960,}),}),}),})

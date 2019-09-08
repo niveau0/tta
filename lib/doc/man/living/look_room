@@ -1,0 +1,8 @@
+
+/* File: /base/living.c
+ * Function name: look_room
+ * Description:   show the description of a room and its contents
+ * Arguments:     room - the room tp looks at
+ */
+nomask void
+look_room(object room)

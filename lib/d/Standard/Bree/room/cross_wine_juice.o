@@ -1,0 +1,10 @@
+height 100000000
+xsize 200
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2800,-400,0,})
+room_short "The crossing of Winestreet and Juiceway"
+room_long "Separating from the main street a road leads west towards a large building.\nThe road goes along the southern side of a house that lies northwest of you.\nMore to the north you see another, bigger crossing and in the southern\ndirection you spot houses in a bend of the street. Behind the houses you see\nthe citywall and even parts of the southern citygate.\n"
+room_exits ([3|"juiceway":({7|119,0,0,200,1000,0,0,}),"winestreet_south":({7|110,0,0,200,1000,0,0,}),"winestreet_south2":({7|115,0,0,200,1000,0,0,}),])

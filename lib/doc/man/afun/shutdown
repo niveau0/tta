@@ -1,0 +1,7 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: shutdown
+ * Description:   shutdown DGD
+ */
+static nomask void
+shutdown()

@@ -1,0 +1,14 @@
+*-----------------------------( Builder: loaddir )---------------------------*
+ 
+   Type:        command
+   Usage:       loaddir <path>
+
+   Description: Load (i.e. compile) an whole directory. If the objects to
+                load have been compiled before, the create() function won't 
+		be executed again and no data values change, but the code 
+		gets recompiled.
+ 
+   Example:  	loaddir /home/erikose/obj/
+   
+*----------------------------------------------------------------------------*
+ See also: 'load', 'update', 'updir'

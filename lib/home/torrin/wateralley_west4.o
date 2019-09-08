@@ -1,0 +1,10 @@
+height 100000000
+xsize 2300
+ysize 200
+climate 1
+type 262144
+room_coords ({3|-7200,1600,0,})
+room_short "The Wateralley"
+room_long "This is the most western part of the town, where the citywall raises closely\nand entering as well as leaving the city is possible by a big opening within\nit. The road beneath you passes this gate to the west and to the east it\nenters the cluttered center of the city. Looking around you see the\ncitywall, with a small zone of green before it, disappearing into a\nsoutheastern direction on one hand and leaving north with a bend to the east\nthen on the other hand. Not far from that bend sits a little house that has\napparently been made from the same stones as the citywall. You cannot resist\nthe thought that it belongs to the construction of the wall.\nAt a second glance eastwards you notice a crossing where a small road splits\noff northwards.\n"
+room_exits ([3|"cross_chapel_water":({7|110,2200,0,100,100000000,0,0,}),"wateralley_west3":({7|101,0,0,200,100000000,0,0,}),"westgate":({7|119,0,0,200,200,0,0,}),])
+pseudo_items ([1|1:({4|({1|"crossing",}),({1|"crossings",}),"The offgoing road is more a village trail then a well made road, but probably\nthere is a reason for it.",({3|-4900,1700,0,}),}),])

@@ -1,0 +1,15 @@
+*----------------------------( Builder: more )-------------------------------*
+
+   Type:        command	
+   Usage:       more [<line>] <filename>
+                
+   Description: The command 'more' is exactally like the UNIX command.
+		'more' lets you page through the given file.  It accepts 
+		numerical input in a large file to go to a particular line 
+		in the file.  It also accepts a startline as optional
+	 	argument.
+ 
+   Example:     more 110 /base/object.c
+   
+*----------------------------------------------------------------------------*
+ See also: 'tail', 'toggle'

@@ -1,0 +1,11 @@
+
+/* File: /base/room.c
+ * Function name: query_leaving_room
+ * Description:   decide if new coordinates are within this room
+ * Arguments:     co - coordinates to test
+ * Returns:       new room object for leaving,
+ *                this room object if not leaving,
+ *                0 if no exit found
+ */
+nomask object
+query_leaving_room(int *co)

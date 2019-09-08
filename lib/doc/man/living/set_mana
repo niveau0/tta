@@ -1,0 +1,8 @@
+
+/* File: /base/living/magic.c
+ * Function name:   set_mana(int sp)
+ * Description:     Set mana points that a living has (up to double of maximum)
+ * Arguments:       sp - The new amount of mana points.
+ */
+static nomask void
+set_mana(int sp)

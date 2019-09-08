@@ -1,0 +1,12 @@
+Event:     E_REMOVE_TOOL
+
+Called:    Whenever a living object removes, drops or unwields an item.
+
+Usage:     Add an event (see add_event), create an event handling function, 
+           that will be called if the event occurs:
+	   int function(object tp, object ob) { ... }
+	   
+           if the function returns an integer != 0, removing is forbidden.
+
+Arguments: object tp - the living that removes the tool
+           object ob - the item that gets removed

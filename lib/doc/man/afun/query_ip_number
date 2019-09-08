@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: query_ip_number
+ * Description:   give ipnumber of an interactive user
+ * Arguments:     obj - object to query
+ * Returns:       string, ipnumber
+ */
+static nomask varargs string
+query_ip_number(object obj)

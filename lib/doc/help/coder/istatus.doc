@@ -1,0 +1,11 @@
+*----------------------------( Builder: istatus )----------------------------*
+
+   Type:        command
+   Usage:       istatus
+                
+   Description: List all udp connections.
+
+   Example:     istatus
+   
+*----------------------------------------------------------------------------*
+ See also: 'iwho', 'ijoin', 'ileave', 'imsg', 'ilist', 'itell'

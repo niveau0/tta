@@ -1,0 +1,8 @@
+
+/* File: /base/weapon.c
+ * Function name: query_wielder
+ * Description:   If this object is wielded or not
+ * Returns:       object who wields this object, else 0
+ */
+nomask object
+query_wielder()

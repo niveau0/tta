@@ -1,0 +1,8 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: remove_spell
+ * Description:   stop a spell effect
+ * Arguments:     t - optional target object, if 0 spell is totally removed
+ */
+varargs void
+remove_spell(object t)

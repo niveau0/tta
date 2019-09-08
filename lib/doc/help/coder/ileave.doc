@@ -1,0 +1,12 @@
+*-----------------------------( Builder: ileave )----------------------------*
+
+   Type:        command
+   Usage:       ileave <channelname>
+                
+   Description: Leave an udp channel. You need to specify the channelname 
+		which can be listed with the 'ilist' cmd.
+
+   Example:     ileave talk
+   
+*----------------------------------------------------------------------------*
+ See also: 'istatus', 'ijoin', 'ilist', 'imsg', 'itell', 'iwho'

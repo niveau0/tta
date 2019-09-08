@@ -1,0 +1,8 @@
+
+/* File: /base/weapon.c
+ * Function name: init_weapon
+ * Description:   initialize stored data of the weapon
+ * Arguments:     data - array with reloading data
+ */
+nomask void
+init_weapon(mixed data)

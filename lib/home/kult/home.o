@@ -1,0 +1,11 @@
+light 200
+height 100000000
+xsize 10
+ysize 10
+type 2
+edge_base ({4|1048576,1048576,1048576,1048576,})
+room_coords ({3|-600,0,1048576,})
+room_short "The halls of Manwe"
+room_long "These halls look like those of Manwe, high above on the Taniquetil, highest\nmountain of Arda. This is the place where he is often sitting on his throne,\nwatching the fate of men and elves - or would be, if this was the REAL\nhall of Manwe.\n"
+room_exits ([0|])
+pseudo_items ([1|1:({3|({1|"throne",}),({1|"thrones",}),"It's in Manwe's real hall, but it's currently not there.",}),])

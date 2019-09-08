@@ -1,0 +1,7 @@
+
+/* File: /base/player/skill.c
+ * Function name: reset_skill_usage
+ * Description:   reset skill usage mapping to 0
+ */
+nomask void
+reset_skill_usage()

@@ -1,0 +1,8 @@
+
+/* File: /base/food.c
+ * Function name: query_poison
+ * Description:   give the poison attached to this food object, if any
+ * Returns:       string, the poison file
+ */
+nomask string
+query_poison()

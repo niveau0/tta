@@ -1,0 +1,9 @@
+
+/* File: /system/weathermaster.c
+ * Function name: make_humidity
+ * Description:   compute new humidity value, includes rain and fog handling
+ * Arguments:     season - current season code
+ * Returns:       string humidity description
+ */
+private string
+make_humidity(int season)

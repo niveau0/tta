@@ -1,0 +1,12 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: change_ticks
+ * Description:   change resource limits for a function
+ * Arguments:     ob - object to call
+ *                ticks - new ticks
+ *                func - function to call in 'ob'
+ *                args - function arguments
+ * Returns:       return value of 'func'
+ */
+static nomask varargs mixed
+change_ticks(mixed ob, int ticks, string func, mixed args...)

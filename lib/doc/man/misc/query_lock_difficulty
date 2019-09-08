@@ -1,0 +1,8 @@
+
+/* File: /base/misc/openclose.c
+ * Function name: query_lock_difficulty
+ * Description:   how difficult is the lock to pick
+ * Returns:       integer, difficulty
+ */
+nomask int
+query_lock_difficulty()

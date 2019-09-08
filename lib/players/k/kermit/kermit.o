@@ -1,0 +1,29 @@
+obj_weight 39000
+obj_volume 35100
+obj_size 42
+cmdsoul_list ({0|})
+hp 9
+base_hp 8
+race_name "ainu"
+move_msg "walks"
+run_msg "runs"
+teleport_in "arrives in a puff of smoke."
+teleport_out "disappears in a puff of smoke."
+skill_rank ([1|607:200020,])
+wounds ([0|])
+bandaged ([0|])
+dev_points 335
+tmp_stats ({11|60,87,28,85,77,35,39,47,40,28,68,})
+pot_stats ({11|83,90,48,95,78,46,65,60,59,52,88,})
+tmp_stat_val ({11|0,0,0,0,0,0,0,0,0,0,0,})
+tmp_stat_t ({11|0,0,0,0,0,0,0,0,0,0,0,})
+login_time 1111277708
+birth 1111277682
+password "GlKUhymaO76zY"
+email "kermit@aeternum-mud.de"
+last_location "/home/manwe/home:-396,0,44"
+login_from "82.82.191.219"
+auto_load ({0|})
+name "kermit"
+adj ({0|})
+saved_props ([2|4503:607,8001:1111277708,])

@@ -1,0 +1,9 @@
+
+/* File: /base/living/stat.c
+ * Function name: query_stat_race_bonus
+ * Description:   gives the race bonus for a stat
+ * Arguments:     stat - the stat
+ * Returns:       the race bonus for the stat
+ */
+nomask int
+query_stat_race_bonus(int stat)

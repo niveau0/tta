@@ -1,0 +1,12 @@
+Event:     E_CHANGE_ENV
+
+Called:    Whenever an object is changing its environment while moving,
+	   this event is called.
+
+Usage:     Add an event (see add_event), create an event handling function, 
+           that will be called if the event occurs:
+	   void function(object o, object from, object to) { ... }
+
+Arguments: object o    - the object that _has_been_ moved
+           object from - the former environment
+           object to   - the new environment

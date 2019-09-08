@@ -1,0 +1,11 @@
+
+/* File: /base/container.c
+ * Function name: update_internal
+ * Description:   Updates the light, weight and volume of things inside
+ *                also updates a possible environment.
+ * Arguments:     l: Light diff.
+ *		  w: Weight diff.
+ *		  v: Volume diff.
+ */
+nomask void
+update_internal(int l, int w, int v)

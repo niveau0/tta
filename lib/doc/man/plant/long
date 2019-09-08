@@ -1,0 +1,8 @@
+
+/* File: /base/plant.c
+ * Function name: long
+ * Description:   Describe the object
+ * Returns:	  string
+ */
+string
+long()

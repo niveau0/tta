@@ -1,0 +1,12 @@
+
+/* File: /base/room.c
+ * Function name: query_exits
+ * Description:   Gives a list of the possible exits from this room.
+ * Returns:       ([ roomfile : ({ direction, xoffset, yoffset,
+ *                            width, height, status, object }), 
+ *                   ... ])
+ *                where 'direction' is the direction code, like 'w' for 'west'
+ *                and 'status' is the status of the exit (see room.h)
+ */
+nomask mapping
+query_exits()

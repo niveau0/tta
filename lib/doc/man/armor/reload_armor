@@ -1,0 +1,8 @@
+
+/* File: /base/armor.c
+ * Function name: reload_armor
+ * Description:   give the data array to reload for an armor
+ * Returns:       data values to restore
+ */
+nomask mixed 
+reload_armor()

@@ -1,0 +1,13 @@
+
+/* File: /base/object/item.c
+ * Function name: add_item 
+ * Description:   add a pseudo item 
+ * Arguments:     n - item names
+ *                pn - item plural names
+ *                desc - item description
+ *                id - item id, the number of the item
+ *                co - optional coordinates for special locations
+ *                     (e.g. smaller exits within a room)
+ */
+nomask varargs void
+add_item(string *n, string *pn, string desc, int id, int *co)

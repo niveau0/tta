@@ -1,0 +1,8 @@
+
+/* File: /base/disease.c
+ * Function name: query_subdesc_id
+ * Description:   gives name of subdesc
+ * Returns:       string
+ */
+string
+query_subdesc_id()

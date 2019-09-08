@@ -1,0 +1,77 @@
+<html>
+<head><title>The Third Age - CharacterForm</title></head>
+
+<body
+background="../pic/back.jpg"
+text="#000000"
+link="#701000"vlink="#406000"
+alink="#003300"
+>
+
+<a href="../index.html">
+<img border=0 src="../pic/tta.mini.gif" alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - Character Form</h3>
+</center>
+<br>
+
+<hr noshade>
+
+<form action="../cgi-bin/character.c"
+ method=post>
+
+<strong>!!! Note that TTA is in development phase !!!<br>
+Not much to do for players, except testing. But we accept builders and
+creators.<br>
+If you like to work on TTA, please note that within your description.
+</strong>
+<p>
+An email is important to play here (e.g. we need to send you a password).<br>
+<b>Your email:</b><input type=text name="EMAIL" size=40>
+<p>
+Please choose a fantasy like name for your character.<br>
+<b>Character name:</b><input type=text name="NAME" size=35>
+<p>
+Choose a short description how your character should look like.<br>
+<b>Description:</b><input type=text name="DESC" size=40>
+<p>
+The gender has no effect on your abilities. Female characters might be a bit
+smaller in bodysize.<br>
+<b>Gender:</b>
+<input checked type=radio name="GENDER" value=male> male
+<input type=radio name="GENDER" value=female> female
+<p>
+Please read the help about talents and realms first. It is not always possible
+to belong to a certain magic realm without <em>magic</em> talent, even if you 
+could choose all here.<br>
+<b>Race:</b>
+<select
+name="RACE"><option>arcticman<option>dunedan<option>dwarf<option>
+halfelf<option>hobbit
+<option>noldo<option selected>northman<option>sinda<option>variag
+<option>woodelf</select>
+<b>Talent:</b>
+<select name="TALENT"><option>academic<option>art
+<option>athletic<option selected>craft<option>magic<option>nature</select>
+<b>Realm:</b>
+<select name="REALM"><option selected>cha<option>ess<option>men<option>arc
+</select>
+<p>
+If you play an experienced character you have the advantage of an established
+person with more starting equipment, a job, etc. However, your former life is
+not in your hands, this takes effect in your currently learned skills.<br>
+<b>Career:</b>
+<input checked type=radio name="CAREER" value=begin> beginner
+<input type=radio name="CAREER" value=expert> experienced
+<p>
+
+<input type=submit value="Send choices">
+<input type=reset value="Reset">
+</form>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Mar 9, 1997</address>
+</body>
+</html>

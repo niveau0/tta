@@ -1,0 +1,10 @@
+height 100
+xsize 650
+ysize 90
+type 6
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|850,1150,0,})
+room_short "A short and narrow tunnel"
+room_long "You see some big footsteps on the floor and recognize some dried blood\nat the wall. The thought of going on makes you ill and shiver when you here\nthe noises from the west, where the tunnel opens into a room. To the\neast it stops in a larger north-west tunnel.\n"
+room_exits ([2|"tunnel_4":({7|101,0,0,90,100,0,0,}),"watch_room_2":({7|119,0,0,90,100,0,0,}),])
+pseudo_items ([4|1:({4|({2|"room","opening",}),({2|"rooms","openings",}),"A small room begins here.",({3|850,1200,0,}),}),2:({4|({1|"north-west tunnel",}),({1|"larger tunnel",}),"A larger tunnel that runs from north to south.",({3|1500,1200,0,}),}),3:({3|({2|"blood","stain",}),({1|"stains",}),"The reddish tone has become darker, more a brown or black. The splat is quite\nlarge, making you assume that whatever or whoever spent the bodyfluid died\ndue to this process.",}),4:({3|({1|"footstep",}),({1|"footsteps",}),"This is only a crude impression in the dirty sand. To be honest, this MIGHT\nbe a footstep, but then it would belong to a living equal to a pretty strong\nand 'massive' human.",}),])

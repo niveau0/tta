@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_heap_size
+ * Description:   find out about the heap size
+ * Returns:       size of this heap
+ */
+int
+query_heap_size()

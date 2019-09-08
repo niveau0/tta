@@ -1,0 +1,331 @@
+1999-12-15  seclan@tta  <ranslog@informatik.uni-oldenburg.de>
+
+  * removed a bug from /base/light.c which caused the message: 'Something
+      of someone fades'.
+
+1999-05-31  seclan@tta  <ranslog@informatik.uni-oldenburg.de>
+
+  * thinking it over I decided to remove the 'surface-changes' from
+    move_object and set_coordinates until I have time for a full implementation
+
+1999-04-05  seclan@tta  <ranslog@informatik.uni-oldenburg.de>
+
+  * base/object.c (move_object): modified to work with OBJ_LYING_ON Property
+
+  * base/object.c (set_coordinates): modified to work with OBJ_LYING_ON Property
+
+  * base/misc/drop.c (try_put_on): added function to work with in cmd/misc/put.c
+
+  * cmd/misc/put.c (put): modified to work also with 'put <object> on <object'>
+
+1999-04-04  seclan@tta  <ranslog@informatik.uni-oldenburg.de>
+
+  * object.c (move_object): added an error-message for put inot itself
+
+  * properties.h (OBJ_LYING_ON): added, for object, which lies on a surface
+
+1999-03-14  seclan@tta  <ranslog@informatik.uni-oldenburg.de>
+
+  * base/object/burn.c added and inherited in /base/object.c
+
+1998-11-23  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/file.c (cat): 'index out of range' bug fixed.
+
+1998-11-19  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * HowTo/attach: added help how to create attachment code
+
+  * cmd/misc/get.c: fixed detachment of items.
+
+1998-10-19  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/include/event.h, base/object.c: added new event-type, now
+      called from move_object if and only if environment changes.
+
+1998-10-15  Seclan@tta  <ranslog@informatik.uni-oldenburg.de>
+
+  * Added the command 'follow' in /cmd/misc/misc.c and /cmd/misc/follow.c
+  
+  * base/object.c (move_object): Prevented move_object() from working, if
+      start and target-environment are identical -> erranously called
+      E_MOVE events corrected.
+
+1998-10-09  Seclan@tta  <ranslog@informatik.uni-oldenburg.de>
+  
+  * Removed direction description for doors that are not open.
+  
+1998-07-21  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/sys/accessd.c, cmd/coder/project.c: added project
+      descriptions. 
+
+  * kernel/sys/systemd/statistics.c, cmd/coder/errorstat.c: logging of
+      runtime/compile errors and a display cmd installed.
+
+  * cmd/misc/accept.c: check whole room for offers after 'accept all'.
+
+1998-07-20  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/herb.c, base/food.c: changed skill check for analyse_cmd, added
+      poison support for food.
+
+  * cmd/misc/stats.c: installed description for own size.
+
+1998-07-17  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living/subdesc.c: installed description of strength and size for
+      others if looking at someone. 
+
+1998-07-14  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/simfun.c (sprintf): added Ulyssess@morisot's sprintf fix.
+
+1998-06-19  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/include/event.h, base/heap.c: new event E_HEAP_MERGE, see
+      manual about usage, config_split is now declared nomask and could
+      be replaced by an event function if needed. Also debugged some other
+      heap problems and fixed cmds to use the changes.
+
+1998-05-04  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/book.c: added edit support for the write-cmd, book data is now
+      stored within .o datafile in same directory like the book.
+
+1998-04-29  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/simfun.c, kernel/sys/driver.c: saving all rooms now before
+      shutdown.
+
+1998-04-17  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living/move.c: added better fatigue support.
+
+  * cmd/misc/moving.c, base/room.c: finished step command, also added a
+      function to /base/room.c which, if called, returns the nearest
+      border coordinates of a room according to the given waypoints.
+
+1998-02-19  Aule@tta <freddy@diamant.informatik.uni-oldenburg.de>
+
+  * renamed /include/herb.h to /include/analyse.h
+  
+1998-02-13  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living.c, base/living/extra.c: removed *_tell_flags() functions,
+      new function init_msg_flags() withing extra.c to init the message
+      events, removal of msg events is now handled within
+      add/remove_effect(). Npc's no longer get message-events as default,
+      this needs to be done individually by calling init_msg_flags().
+
+1998-01-20  Aule@tta <freddy@diamant.informatik.uni-oldenburg.de>
+
+  * /base/armor.c and /base/weapon.c: armors and weapons now receive damage
+      that will be stored and reloaded
+  
+  * /cmd/coder/cleanup.c: objects with the OBJ_NO_GET property will only
+      be removed with the new -f option
+  
+  * /cmd/misc/toggle.c: new toggle auto_drink and auto_eat
+  
+1998-01-19  Aule@tta <freddy@diamant.informatik.uni-oldenburg.de>
+  
+  * cmd/misc/accept.c: now you can accept items somebody wants to give you
+      by name
+  
+1997-12-15  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+ 
+  * www/cgi-bin/character.c: fixed www-character creation. also added the
+      races 'dwarf' and 'hobbit'.
+
+  * kernel/net/httpd.c: added POST method, not tested for all cases, but
+      works for the character generation script.
+
+1997-12-05  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/ls.c, kernel/net/ftpd.c: fixed ls.c so ange-ftp of emacs
+      shows correct renaming. Changed ftpd.c to start with ascii transfer
+      mode (binary-start clashed with older emacs versions).
+
+1997-12-04  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/misc/subdesc.c, include/description.h: object to hold general
+      subdescriptions for all objects. Useful macros added to
+      description.h
+
+  * base/plant.c: allowed arrays for (plural)names and adjectives.
+
+1997-11-25  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/inventory.c: inventory support removed, all within mudlib
+      now (/base/object.c and /system/inventory.c)
+
+Tue Nov 18 23:46:34 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/room.c: different room height for each corner and the
+      center. Corner height is an interpolation of the surrounding
+      rooms.
+  
+  * base/misc/cook.c: cooking support file.
+
+  * driver.c (compile_error, runtime_error): improved error output. 
+
+Tue Nov 11 14:57:34 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living.c (query_nonmet_name): removed the gender string from
+      nonmet name if the living is not an individual (like rabbits).
+
+Fri Oct 31 15:21:26 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/net/httpd.c (receive_message): all files with .c extension will
+      be executed now, not only cgi-bin/*.c files.
+
+Tue Oct 28 17:12:08 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/sys/accessd.c (change_access): installed snoop/force
+      permission-adding. 
+
+  * kernel/sys/accessd.c (update_access): shorten access file if there is
+      global read/write access, so it will be a bit more readable and not
+      to slow.
+
+  * kernel/sys/driver.c, cmd/coder/file.c: output of compile error to
+      current user. Removed extra output of compile error in file commands
+      which caused double output.
+
+Mon Oct 27 21:09:52 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/filepath.c, kernel/lib/ls.c: again some bug fixes.
+
+Wed Oct 22 14:00:14 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/sys/driver.c, kernel/lib/file.c, kernel/lib/ls.c: write_file
+      stores the editor now in a file called .editors within each
+      directory. The last editor is displayed with ls -l (long list). The
+      .editors file can only be written by the driver object.
+
+Mon Oct 13 19:17:02 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/misc/other.c, cmd/misc/look.c: added detailed inventory and toggle
+      between short and detailed. Removed 'see' command, now all handled
+      by 'toggle' command.
+
+Thu Oct  9 20:25:38 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * ftpd.c (parse_comm): bugfix for mget: added option -1 to 'ls'-call if
+      no other options specified, 
+
+  * kernel/lib/ls.c: added option -1 to list each file in a seperate line.
+
+Mon Oct  6 20:54:33 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * file.c (more_file): more command allows now wildcards.
+
+Wed Sep 17 11:47:22 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/net/user.c (receive_message): moved cmddelay-functionality to
+      /base/living/cmd.c
+
+Fri Sep 12 21:56:28 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/coder/other.c, base/player/extra.c: 'sanction' functionality
+      removed, sharing fileaccesss can be done by project's.
+
+  * kernel/sys/driver.c (initialize): removing /tmp files at reboot.
+
+  * base/player/consume.c (consume): no more hunger/thirst within the
+      OOCAREA.
+
+Wed Sep 10 13:59:45 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/simfun.c (gmt_ctime): new function, same like ctime()
+      except that it gives a time description for GMT.
+
+Fri Aug 22 04:12:38 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living/cmd.c, kernel/lib/living.c: moved primary action
+      functionality and command handling from auto object to living
+      object. There is no need for all objects to execute
+      cmdsoul-cmds. 'alive' flag remains in auto object to care for
+      correct inventory update.
+
+Sun Aug  3 00:22:47 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/coder/*: combined builder and creator soul to one coder soul.
+
+Sat Aug  2 21:31:47 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/lib/creator.c (_F_seteuid): calls reload_access now in accessd
+      if euid changes.
+
+  * cmd/builder/file.c (cd): fixed wildcard usage.
+
+Thu Jul 31 17:54:51 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * rewrote base/heap.c no more callouts, less splitting.
+
+  * seperate access levels for snooping and forcing. Force level is also
+      valid for possession.
+
+  * lpc-ftpd code cleaned and installed. /system/ls.c rewritten for ftpd
+      and made it inheritable by cmdsoul.
+
+  * Major changes. Whole root directory moved to /system and
+      /kernel. /root/master.c is now /kernel/sys/systemd.c. Access has
+      been extracted from systemd.c to accessd.c
+
+Sat Jul 26 02:05:16 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/living/subdesc.c: support for sub descriptions, might be
+      extracted if needed.
+  
+  * base/misc/subloc.c: subloc support extracted.
+
+Fri Jul 25 23:52:50 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * kernel/sys/global.c: functions to check for same thread.
+
+Thu Jul 24 22:55:18 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * cmd/misc/other.c (alias): changed syntax of alias cmd.
+
+Wed Jul 23 00:17:39 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * root/master/statistic.c, kernel/net/resolve.c: implemented host name
+      resolver for people list.
+
+  * system/parse.c: allows now to use 'and' and comma seperated items,
+      also removes article 'the'.
+
+Thu Jul 17 00:25:11 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * base/*: removed IS_CLONE checks from master objects, sometimes objects
+      need to check something in the master file (e.g. object value in
+      shops) 
+
+  * base/town/shop.c: debugged buying, added supports in
+      base/npc/shopkeeper.c 
+
+Tue Jul 15 13:53:38 1997  Manwe@tta  <tle@tta.artis.uni-oldenburg.de>
+
+  * /doc/ChangeLog.Aug96-Jul97: splitted change log file.
+
+  * base/mount.c (long): added rider to long description.
+
+  * base/object.c (check_visible): minimum sight distance, if there is any
+      light.
+
+  * root/creator/player.c: player creation removes application files now
+      if new player has been saved.
+
+  * base/heap.c: new move function, changed lib to support the new heap.
+
+  * base/living/extra.c: test_can_see, test_can_hear renamed (can_see,
+      can_hear).
+
+  * system/inventory.c, base/living.c, root/creator/*: support for new
+      exit format added.
+
+  * base/room.c, include/room.h, include/math.h: new exit format. new
+      function exit_visible supporting line-of-sight through exits.
+

@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: query_max_weight
+ * Description:   Returns the maximum weight the container can hold.
+ * Returns:	  Weight value
+ */
+int
+query_max_weight()

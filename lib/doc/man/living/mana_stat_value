@@ -1,0 +1,7 @@
+
+/* File: /base/living/magic.c
+ * Function name: mana_stat_value
+ * Description:   how much mana to get for each skill rank
+ */
+nomask int
+mana_stat_value()

@@ -1,0 +1,8 @@
+
+/* File: /base/living/magic.c
+ * Function name:   query_mana()
+ * Description:     Gives the number of mana points that the living has
+ * Returns:         The number of mana points.
+ */
+nomask int
+query_mana()

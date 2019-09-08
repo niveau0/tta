@@ -1,0 +1,12 @@
+
+/* File: /system/composite.c
+ * Function name: composite
+ * Description:   creates a description-string for a certain
+ *                player. No visible check!
+ * Arguments:     a - Array of the objects to describe
+ *                tp - looking player
+ * Returns:       A description string on the format:
+ *                desc1, desc2 and desc3
+ */
+nomask string
+composite(object *a, object tp)

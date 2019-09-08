@@ -1,0 +1,14 @@
+NAME
+        close_user  - closes the associated connection
+
+SYNOPSIS
+        void close_user()
+
+
+DESCRIPTION
+        Close the connection that is associated with the this object, 
+	regardless of the type of connection.
+
+SEE ALSO
+        kfun/open_port, kfun/users, kfun/ports, kfun/connect
+

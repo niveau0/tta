@@ -1,0 +1,9 @@
+light 100000
+height 100000000
+xsize 10
+ysize 10
+type 2
+room_coords ({3|0,0,0,})
+room_short "The void"
+room_long "There is absolutely nothing at all around you.\n"
+room_exits ([0|])

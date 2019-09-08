@@ -1,0 +1,1 @@
+inherit "../gilo/rihl";

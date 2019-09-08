@@ -1,0 +1,8 @@
+
+/* File: /base/living/carry.c
+ * Function name:   query_max_weight()
+ * Description:	    Calculate the maximum weight this living can budge.
+ * Returns:         The maximum weight.
+ */
+int
+query_max_weight()

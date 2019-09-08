@@ -1,0 +1,12 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: cat
+ * Description:   show part of file
+ * Arguments:     file - file path
+ *                from - first line where to start reading
+ *                num - number of lines to read
+ *                tp - living to show contents to
+ * Returns:       1 if success, 0 else
+ */
+static nomask varargs int
+cat(string file, int from, int num, object tp)

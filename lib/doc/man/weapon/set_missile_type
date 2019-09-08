@@ -1,0 +1,16 @@
+
+/* File: /base/missile.c
+ * Function name: set_missile_type
+ * Description:   Set the kind of missile this is
+ * Arguments:     t - missile type, see <weapon.h>
+ */
+void
+set_missile_type(int t)
+
+/* File: /base/missile_weapon.c
+ * Function name: set_missile_type
+ * Description:   Set the kind of missile this is
+ * Arguments:     t - missile type, see <weapon.h>
+ */
+void
+set_missile_type(int t)

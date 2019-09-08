@@ -1,0 +1,14 @@
+
+/* File: /base/missile_weapon.c
+ * Function name: set_missile_data
+ * Description:   Set the weapon data for missile attacks:
+ *                skill, at modifier, ob_modifier, fumble range
+ * Arguments:     sk - weapon skill
+ *                am - at modifier
+ *                     ({ damage mod, 5 critical thresholds,(skin...plate)
+ *                       critical types of this weapon })
+ *                om - base ob modifier
+ *                f - fumble range
+ */
+nomask void
+set_missile_data(int sk, mixed am, int om, int f)

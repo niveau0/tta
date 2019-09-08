@@ -1,0 +1,11 @@
+
+/* File: /base/object.c
+ * Function name: set_lwvs
+ * Description:   sets the light, weight, volume and size value of this object
+ * Arguments:     l - the new light value (inch how far to see)
+ *                w - the new weight value (in gram)
+ *                v - the new volume value (in milliliter)
+ *                s - the new size value (in inch)
+ */
+nomask void
+set_lwvs(int l, int w, int v, int s)

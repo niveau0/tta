@@ -1,0 +1,11 @@
+
+/* File: /base/object/props.c
+ * Function name: change_int_prop
+ * Description:   increase a property
+ *                Only works if property is an integer
+ * Arguments:	  prop - The property string to be added.
+ *                val - The value to add
+ * Returns:       1 if success
+ */
+nomask int
+change_int_prop(mixed prop, int val)

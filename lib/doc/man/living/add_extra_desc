@@ -1,0 +1,8 @@
+
+/* File: /base/living.c
+ * Function name: add_extra_desc
+ * Description:   add an extra description to the short
+ * Arguments:     desc - the extra description
+ */
+nomask void
+add_extra_desc(string desc)

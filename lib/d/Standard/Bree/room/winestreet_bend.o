@@ -1,0 +1,11 @@
+height 100000000
+xsize 600
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2200,-1200,0,})
+room_short "Western bend of the Winestreet"
+room_long "This bend lies close to the southern citygate where it leads to. Only a short\ndistance to the south you see the walls coming from east and west, joining to\nhold this heavy gate that protects this town. The road also expands to the\neast, but starts a northward turn soon. To the north and northeast you\nrecognize alot of buildings, the heart of this settlement. \n"
+room_exits ([2|"winestreet_bend_east":({7|101,0,0,200,100000000,0,0,}),"winestreet_south3":({7|115,0,0,200,1000,0,0,}),])
+pseudo_items ([2|1:({4|({2|"citygate","gate",}),({2|"citygates","gates",}),"Dark and solid the big gate rests within the stonewalls that surround the\ncity. Knowing about the weakness a door will mean to a wall, the citizens\nseemingly made a great effort to compensate this.",({3|2300,-1210,0,}),}),2:({4|({2|"wall","citywall",}),({2|"walls","citywalls",}),"Its top high above the buildings of the town itself and made from hard rock,\nthe citywall promises a good protection against any harm from the wilderness.",({3|2300,-1210,0,}),}),])

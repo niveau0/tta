@@ -1,0 +1,10 @@
+height 99999840
+xsize 1000
+ysize 1000
+climate 1
+type 131072
+cornerheight ({4|80,53,160,160,})
+room_coords ({3|-21700,3000,160,})
+room_short "above a place in front of a gate"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([2|"eastroad_west4":({7|101,0,0,1000,99999840,0,0,}),"westgate":({7|100,0,0,1000,1000,0,0,}),])

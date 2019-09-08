@@ -1,0 +1,8 @@
+/base/food.c
+Yirel@tta 98/1/? (unfinished)
+Added waste product production capapbility to food. 
+ * set_waste_product() - specify waste product to produce
+			(i.e. eggshells, apple cores, orange rinds)
+ * set_waste_mult() - specify how many products per unit food
+			(i.e. two half-eggshells per egg)
+ * create_waste() - maskable function to create this waste

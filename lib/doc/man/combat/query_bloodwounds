@@ -1,0 +1,7 @@
+
+/* File: /base/living/combat.c
+ * Function name: query_bloodwouds
+ * Returns:       where we bleed
+ */
+nomask mapping
+query_bloodwounds()

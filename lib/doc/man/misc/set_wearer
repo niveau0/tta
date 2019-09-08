@@ -1,0 +1,8 @@
+
+/* File: /base/misc/wear.c
+ * Function name: set_wearer
+ * Description:   Set the wearer of this object
+ * Arguments:     The wearer object
+ */
+void
+set_wearer(object w)

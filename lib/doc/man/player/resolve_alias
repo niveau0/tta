@@ -1,0 +1,9 @@
+
+/* File: /base/player/extra.c
+ * Function name: resolve_alias
+ * Description:   check command for alias and expand
+ * Arguments:     cmd - the command given by the player
+ * Returns:       the expanded command if alias, else command not modified
+ */
+nomask string
+resolve_alias(string cmd)

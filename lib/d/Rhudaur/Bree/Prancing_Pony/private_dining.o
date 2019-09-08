@@ -1,0 +1,13 @@
+light 30000
+height 156
+xsize 138
+ysize 90
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|276,450,0,})
+room_short "A diningroom"
+room_long "You see a small room with a fireplace at its western end, a window within the\nsouthern wall and light brown boards covering most of the masonry.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/priv_din_door",({1|({3|345,539,0,}),}),}),})
+pseudo_items ([1|1:({4|({1|"window",}),({1|"windows",}),"@@look_window:/lib/misc/special/window|A wooden frame is holding four strong, though amazingly transparent, panes.\nBeyond the window you see:\n|/d/Rhudaur/Bree/Prancing_Pony/yard",({3|336,450,30,}),}),])

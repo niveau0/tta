@@ -1,0 +1,8 @@
+
+/* File: /base/living.c
+ * Function name: remove_extra_desc
+ * Description:   removes an extra description
+ * Arguments:     desc - the extra description
+ */
+nomask void
+remove_extra_desc(string desc)

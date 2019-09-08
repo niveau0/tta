@@ -1,0 +1,457 @@
+<html>
+<head><title>The Third Age - Lpc-Chapter6</title></head>
+
+<body
+background="http://tta.artis.uni-oldenburg.de/~mud/pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="http://www.artis.uni-oldenburg.de/tta">
+<img border=0 src="http://tta.artis.uni-oldenburg.de/~mud/pic/tta.mini.gif" 
+alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - An introduction to lpc</h3>
+<font size=-1>
+<i>(by Descartes of Borg, 23 april 1993)</i>
+</font>
+</center>
+<p>
+<hr noshade>
+
+<center>
+<h4>
+<font color="#007744">
+Chapter 6: Variable Handling
+</font>
+</h4>
+</center>
+
+<h4>6.1 Review</h4>
+By now you should be able to code some simple objects using your muds
+standard object library.  Inheritance allows you to use functions defined
+in those objects without having to go and define yourself.  In addition,
+you should know how to declare your own functions.  This chapter will teach
+you about the basic elements of LPC which will allow you to define your own
+functions using the manipulation of variables.
+
+<h4>6.2 Values and objects</h4>
+
+Basically, what makes objects on the mud different are two things:
+<ul>
+<li>Some have different functions
+<li>All have different values
+</ul>
+
+Now, all player objects have the same functions.  They are therefore
+differentiated by the values they hold.  For instance, the player named
+"Forlock" is different from "Descartes" <i>at least</i> in that they have
+different values for the variable <i>name</i>, those being "descartes" and
+"forlock".
+<p>
+Therefore, changes in the game involve changes in the values of the objects
+in the game.  Functions are used to name specific process for manipulating
+values.  For instance, the <code>create()</code> function is the function
+whose process is specifically to initialize the values of an object.
+Within a function, it is specifically things called instructions which are
+responsible for the direct manipulation of variables.
+
+<h4>6.3 Local and global variables</h4>
+
+Like variables in most programming language, LPC variables may be declared
+as variables "local" to a specific function, or "globally" available
+to all functions.  Local variables are declared inside the function which
+will use them.  No other function knows about their existence, since
+the values are only stored in memory while that function is being executed.
+A global variable is available to any function which comes after its
+declaration in the object code.  Since global variables take up RAM for
+the entire existence of the object, you should use them only when
+you need a value stored for the entire existence of the object.
+Have a look at the following 2 bits of code:
+<pre>
+int x;
+
+int 
+query_x()
+{
+    return x; 
+}
+
+void 
+set_x(int y)
+{
+    x = y; 
+}
+
+--------------------
+
+void 
+set_x(int y)
+{
+    int x;
+
+    x = y;
+    write("x is set to x"+x+" and will now be forgotten.\n");
+}
+</pre>
+
+In the first example, x is declared 'outside' of any functions, and therefore
+will be available to any function declared after it.  In that example,
+x is a <b>global</b> variable.
+<p>
+In the second example, x is declared inside the function
+<code>set_x()</code>.  It only exists while the function
+<code>set_x()</code> is being executed.  Afterwards, it ceases to exist.
+In that example, x is a <b>local</b> variable.
+
+<h4>6.4 Manipulating the values of variables</h4>
+
+Instructions to the driver are used to manipulate the values of variables.
+An example of an instruction would be:
+<pre>
+x = 5;
+</pre>
+
+The above instruction is self-explanatory.  It assigns to the variable
+x the value 5.  However, there are some important concepts in involved
+in that instruction which are involved in instructions in general.
+The first involves the concept of an expression.  An expression is
+any series of symbols which have a value.  In the above instruction,
+the variable x is assigned the value of the expression 5.  Constant
+values are the simplest forms in which expressions can be put.  A constant
+is a value that never changes like the <i>int</i> 5 or the <i>string</i>
+"hello". The last concept is the concept of an operator.  In the above
+example, the assignment operator = is used.
+<p>
+There are however many more operators in LPC, and expressions can get
+quite complex.  If we go up one level of complexity, we get:
+<pre>
+y = 5;
+x = y + 2;
+</pre>
+
+The first instruction uses the assignment operator to assign the value
+of the constant expression 5 to the variable y.  The second one
+uses the assignment operator to assign to x the value of the expression
+(y+2) which uses the addition operator to come up with a value which
+is the sum of the value of y and the value of the constant expression 2.
+Sound like a lot of hot air?
+<p>
+In another manner of speaking, operators can be used to form complex
+expressions.  In the above example, there are two expressions in the
+one instruction <code>x = y + 2;</code>
+<ul>
+<li>the expression <code>y + 2</code>
+<li>the expression <code>x = y + 2</code>
+</ul>
+
+As stated before, all expressions have a value.  The expression y+2 has the
+value of the sum of y and 2 (here, 7); The expression x = y + 2 <i>also</i>
+has the value of 7. So operators have two important tasks:
+<ol>
+<li>They <i>may</i> act upon input like a function.
+<li>They evaluate as having a value themselves.
+</ol>
+
+Now, not all operators do what 1 does.  The = operators does act upon
+the value of 7 on its right by assigning that value to x.  The operator
++ however does nothing.  They both, however, have their own values.
+
+<h4>6.5 Complex expressions</h4>
+
+As you may have noticed above, the expression x = 5 <i>itself</i> has a value
+of 5.  In fact, since LPC operators themselves have value as expressions,
+they can allow you to write some really convoluted looking nonsense like:
+<pre>
+i = ( (x = sizeof(tmp = users())) 
+       ? --x 
+       : sizeof(tmp = children("/std/monster")) - 1)
+</pre>
+
+which says basically:
+<p>
+assing to tmp the array returned by the efun <code>users()</code>, then
+assign to x the value equal to the number of elements to that array.  If
+the value of the expression assigning the value to x is true (not 0), then
+assign x by 1 and assign the value of x-1 to i.  If x is false though,
+then set tmp to the array returned by the efun <code>children()</code>, and
+then assign to i the value of the number of members in the array tmp - 1.
+<p>
+Would you ever use the above statement? I doubt it.  However you might
+see or use expressions similar to it, since the ability to consolidate
+so much information into one single line helps to speed up the execution of
+your code.  A more often used version of this property of LPC operators
+would be something like:
+<pre>
+x = sizeof(tmp = users());
+while(i--) 
+    write((string)tmp[i]->query_name() + "\n");
+</pre>
+instead of writing something like:
+<pre>
+tmp = users();
+x = sizeof(tmp);
+for(i=0; i&lt;x; i++)
+     write((string)tmp[i]->query_name() + "\n");
+</pre>
+
+Things like <code>for(), while()</code>, arrays and such will be explained
+later. But the first bit of code is more concise and it executed faster.
+<p>
+<b>Note</b>:
+<p>
+A detailed description of basic LPC operators follows the chapter summary.
+
+<h4>6.6 Chapter Summary</h4>
+
+You now know how to declare variables and understand the difference between
+declaring and using them globally or locally.  Once you become familiar
+with your driver's efuns, you can display those values in many different
+ways.  In addition, through the LPC operators, you know how to change
+and evaluate the values contained in variables.  This is useful of course
+in that it allows you to do something like count how many apples have
+been picked from a tree, so that once all apples have been picked, no
+players can pick more.  Unfortunately, you do not know how to have
+code executed in anything other than a linear fashion.  In other words,
+hold off on that apple until the next chapter, cause you do not know
+how to check if the apples picked is equal to the number of apples in the
+tree.  You also do not know about the special function <code>init()</code>
+where you give new commands to players [Not in TTA-Mudlib, ed.].  But you
+are almost ready to code a nice, fairly complex area.
+
+<h4>6.7 LPC operators</h4>
+
+This section contains a detailed listing of the simpler LPC operators,
+including what they do to the values they use (if anything) and the value
+that they have.
+<p>
+The operators described here are:
+<pre>
+=     +     -     *     /    %    +=    -=    *=   /=    %=
+--    ++    ==    !=    >    <    >=    <=    !    &&    ||
+->    ?:
+</pre>
+
+Those operators are all described in a rather dry manner below, but it is best
+to at least look at each one, since some may not behave <i>exactly</i> as
+you think.  But it should make a rather good reference guide.
+<p>
+<table border=1 width="100%" cellspacing=2 cellpadding=1>
+<caption>
+Operators
+</caption>
+<tr>
+<th>Symbol
+<th>Name
+<th>Example
+<th>Explanation
+</tr>
+<tr>
+<td align=center>=
+<td align=center>assignment
+<td align=center>x = 5
+<td>It takes the value of any expression on the right and assigns it to the
+variable on the left.  Note that you must use a single variable on the
+left, as you cannot assign values to constants or complex expressions.
+</tr>
+<tr>
+<td align=center>+
+<td align=center>addition
+<td align=center>x + 7
+<td>It takes the value of the expression on the right and adds it to the
+value of the expression on the left. For values of type <i>int</i>, this
+means the numerical sum.  For <i>strings</i>, it means that they are
+concatenaded ("ab" is the value of "a" + "b").
+</tr>
+<tr>
+<td align=center>-
+<td align=center>subtraction
+<td align=center>x - 3
+<td>Same characteristics as addition, except it subtracts. With strings:
+"a" is the value of "ab" - "b" [This does not work with DGD, ed.].
+</tr>
+<tr>
+<td align=center>*
+<td align=center>multiplication
+<td align=center>x * 7
+<td>Same as with adding and subtracting except that it does not work for
+strings. 
+</tr>
+<tr>
+<td align=center>/
+<td align=center>division
+<td align=center>x / 4
+<td>Same as with multiplication, except it divides.
+</tr>
+<tr>
+<td align=center>%
+<td align=center>modulo
+<td align=center>x % 4
+<td>Same as with division, except it gives the division remainder.
+</tr>
+<tr>
+<td align=center>+=
+<td align=center>additive assignment
+<td align=center>x += 3
+<td>It takes the value of the variable on the left and the value of the
+expression on the right, adds them together and assigns the sum to the
+variable on the left. According to the example, if x was 2, x will be 5.
+</tr>
+<tr>
+<td align=center>-=
+<td align=center>subtraction assignment
+<td align=center>x -= 3
+<td>Same as with +=, except it subtracts.
+</tr>
+<tr>
+<td align=center>*=
+<td align=center>multiplication assignment
+<td align=center>x *= 8
+<td>Same as with +=, except it multiplies
+</tr>
+<tr>
+<td align=center>/=
+<td align=center>division assignment
+<td align=center>x /= 2
+<td>Same as with +=, except it divides.
+</tr>
+<tr>
+<td align=center>%=
+<td align=center>modulo assignment
+<td align=center>x %= 2
+<td>Same as with /=, except it gives the division remainder.
+</tr>
+<tr>
+<td align=center>++
+<td align=center>post/pre-increment
+<td align=center>x++<br>++x
+<td>++ changes the value (here of x) by increasing it by 1. However, the
+value of the expression depends on where you place the ++.  ++x is the
+pre-increment operator.  This means that it performs the increment
+<i>before</i> giving a value. x++ is the post-increment operator.  It
+evalutes before incrementing x.
+</tr>
+<tr>
+<td align=center>--
+<td align=center>post/pre-decrement
+<td align=center>x--<br>--x
+<td>Same as with ++, except it subtracts 1.
+</tr>
+<tr>
+<td align=center>==
+<td align=center>equality
+<td align=center>x == 5
+<td>Comparison between the two values (here x and 5). The value is true if
+both are equal.
+</tr>
+<tr>
+<td align=center>!=
+<td align=center>inequality
+<td align=center>x != 5
+<td>Comparison between the two values (here x and 5). The value is true if
+both are <i>not</i> equal.
+</tr>
+<tr>
+<td align=center>&gt;
+<td align=center>greater than
+<td align=center>x &gt; 3
+<td>Compare both values (here x and 3), evaluates to true if the left
+value is greater than the right.
+</tr>
+<tr>
+<td align=center>&lt;
+<td align=center>less than
+<td align=center>x &lt; 3
+<td>Compare both values (here x and 3), evaluates to true if the left
+value is less than the right.
+</tr>
+<tr>
+<td align=center>&gt;=
+<td align=center>greater than or equal
+<td align=center>x &gt;= 3
+<td>Compare both values (here x and 3), evaluates to true if the left
+value is greater or equal to the right.
+</tr>
+<tr>
+<td align=center>&lt;=
+<td align=center>greater than or equal
+<td align=center>x &lt;= 3
+<td>Compare both values (here x and 3), evaluates to true if the left
+value is less or equal to the right.
+</tr>
+<tr>
+<td align=center>&&
+<td align=center>logical And
+<td align=center>x && y
+<td>If the right value and left value are non-zero, the result is true.
+If either are false, then the result is false.
+</tr>
+<tr>
+<td align=center>||
+<td align=center>logical Or
+<td align=center>x || y
+<td>Same as with &&, except only one of the values must be true for it to
+evaluate as true.  It is only false if both values indeed are false.
+</tr>
+<tr>
+<td align=center>!
+<td align=center>negation
+<td align=center>!x
+<td>If the value (here x) is true, then !x is false and vice versa.
+</tr>
+<tr>
+<td align=center>-&gt;
+<td align=center>call_other() shortcut
+<td align=center>foo->bar()
+<td>Calls the function 'bar' in the object 'foo'. 'foo' must be an
+objectpointer [or on TTA a filename of an object to load (which is then
+done by the driver), ed.]. If the called function does not exist simply 0
+is returned and no error occurs.
+</tr>
+<tr>
+<td align=center>?:
+<td align=center>conditional 
+<td align=center>x ? y : z
+<td>If the leftmost value (here x) is true it will evaluate the expression
+to the value of the middle (here y), else to the rightmost (here z). 
+</tr>
+</table>
+<p>
+A note on equality:
+<p>
+A very nasty error people make, that is often difficult to debug, is the
+error of placing a = symbol where you mean ==.  Since operators return
+values, they both make sense when being evaluated. In other words, no error
+occurs.  But they have very different values.  For example:
+<p>
+<pre>
+if(x == 5) 
+
+if(x = 5)
+</pre>
+<p>
+The value of x == 5 is true if the value of x is 5, false otherwise.<br>
+The value of x = 5 is 5 (and therefore always true).
+<p>
+The if statement is looking for the expression in ( ) to be either true or
+false, so if you had = and meant ==, you would end up with an expression
+that is always true.  And you would pull your hair out trying to figure out
+why things were not happening like they should :)
+<p>
+
+<a href="mailto:borg@imaginary.com">George Reese</a> (Descartes of Borg), 
+12 july 1993
+<p>
+
+<center>
+<i><a href="chapter7.html">Next Chapter</a></i>
+</center>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Dec 01, 1996</address>
+</body>
+</html>

@@ -1,0 +1,9 @@
+/d/Rhudaur/Bree/branch_west
+seclan
+Fri Aug 22 16:45:20 1997
+Right now, the question wether an object is burning or not is answered by
+calling query_burning() in this object. I think it will be difficult to
+light objects, that haven't inherited /base/light, like a cloak, or a book.
+But these objects definately SHOULD burn. What about including /base/light
+in /base/objects? Or can this part of code be inherited during runtime,
+when it is needed?

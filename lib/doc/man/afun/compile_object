@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: compile_object
+ * Description:   load and therefore compile an object, also recompile code
+ *                of an already loaded object without losing data
+ *                (if successful)
+ * Arguments:     arg - file path of object to clone
+ * Returns:       object
+ */
+static nomask object
+compile_object(string arg)

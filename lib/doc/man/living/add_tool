@@ -1,0 +1,10 @@
+
+/* File: /base/living/slot.c
+ * Function name: add_tool
+ * Description:   puts a tool into a slot, no matter if occupied
+ * Arguments:	  tool - the tool object
+ *                slot - which slot to use
+ * Returns:       move error code, 0 if success
+ */
+nomask int
+add_tool(object tool, int slot)

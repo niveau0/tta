@@ -1,0 +1,16 @@
+more bug
+eonwe
+Mon Nov 23 20:57:15 1998
+more /lib/flora/oak.c bugs   
+
+Invalid array range
+     197 receive_message    /kernel/net/user (#197)
+     341 add_command        /base/living/cmd (/config/race/ainu/ainu#260)
+     276 command            /base/player (/config/race/ainu/ainu#260)
+     196 action             /base/living/cmd (/config/race/ainu/ainu#260)
+     145 call_with_euid     /kernel/lib/auto (/config/race/ainu/ainu#260)
+     229 do_command         /cmd/coder/coder
+      32 more_file          /cmd/coder/coder
+     528 more               /kernel/lib/auto (/cmd/coder/coder)
+     471 cat                /kernel/lib/auto (/config/race/ainu/ainu#260)
+

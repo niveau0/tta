@@ -1,0 +1,10 @@
+*------------------------------( Misc: Appraise )----------------------------*
+
+   Type:        command
+   Usage:       appraise <object>
+                
+   Description: Appraise the weight, volume and value of someone/something.
+                
+   Example:     appraise lamp
+   
+*----------------------------------------------------------------------------*

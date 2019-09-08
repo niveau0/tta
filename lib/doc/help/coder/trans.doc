@@ -1,0 +1,13 @@
+*-----------------------------( Builder: trans )-----------------------------*
+ 
+   Type:        command
+   Usage:       trans <player>
+                
+   Description: The command 'trans' is used to transfer a player from the
+		room that they are in to the room where you are. 
+ 
+   Example:     > trans erikosejr
+   		Erikosejr arrives in a puff of smoke.
+
+*----------------------------------------------------------------------------*
+ See also: 'goto'

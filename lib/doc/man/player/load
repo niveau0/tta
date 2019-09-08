@@ -1,0 +1,9 @@
+
+/* File: /base/player.c
+ * Function name: load
+ * Description:   function to call to load a player
+ *                only allowed if called by master (used in finger_player)
+ * Arguments:     n - name of player to load
+ */
+nomask void
+load(string n)

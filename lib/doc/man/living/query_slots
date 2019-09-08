@@ -1,0 +1,8 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_slots
+ * Description:   returns an array containing all slots of this living
+ * Returns:       array of integers
+ */
+nomask int *
+query_slots()

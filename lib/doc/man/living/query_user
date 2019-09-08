@@ -1,0 +1,8 @@
+
+/* File: /base/living.c
+ * Function name: query_user
+ * Description:   gives current user for this object
+ * Returns:       the user object
+ */
+nomask object
+query_user()

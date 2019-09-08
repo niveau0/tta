@@ -1,0 +1,9 @@
+
+/* File: /base/room.c
+ * Function name: set_exit_status
+ * Description:   change the exit flag for open or closed exit
+ * Arguments:     exit - pathname of the exit
+ *                s - new status, see query_exits
+ */
+nomask void
+set_exit_status(string exit, int s)

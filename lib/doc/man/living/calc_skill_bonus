@@ -1,0 +1,8 @@
+
+/* File: /base/living/skill.c
+ * Function name: calc_skill_bonus
+ * Description:   calculates the new skill bonus if skill has changed
+ * Arguments:     skill - the skill
+ */
+nomask void
+calc_skill_bonus(int skill)

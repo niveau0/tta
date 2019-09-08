@@ -1,0 +1,8 @@
+
+/* File: /base/living/carry.c
+ * Function name:   query_max_volume()
+ * Description:	    Calculate the maximum volume this living can budge.
+ * Returns:         The maximum volume.
+ */
+int
+query_max_volume()

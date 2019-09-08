@@ -1,0 +1,12 @@
+
+/* File: /base/room.c
+ * Function name: determine_border_coords
+ * Description:   determine the nearest border-coordinates for the
+ *                given arguments
+ * Arguments:     oco - 'to come from' coordinates
+ *                co - 'to go to' coordinates
+ *                dir - direction to check
+ * Returns:       new coordinates, 0 if not possible or unchanged
+ */
+nomask int *
+determine_border_coords(int *oco, int *co, string dir)

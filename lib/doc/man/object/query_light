@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: query_light
+ * Description:   gives the light value of this object
+ * Returns:       integer, lightvalue
+ */
+int
+query_light()

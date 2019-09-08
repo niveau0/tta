@@ -1,0 +1,11 @@
+*-----------------------------( Combat: Wield )------------------------------*
+
+   Type:        command
+   Usage:       wield <item>
+                where <item> is the name of the tools you want to wield.
+                
+   Description: Put some tool into a proper position for usage. E.g. take
+                your sword at its grip, so you are ready for battle.
+   
+*----------------------------------------------------------------------------*
+ See also: 'unwield'

@@ -1,0 +1,43 @@
+   Bree town map     V1.2
+   
+Scale: X <- approx. 400 inch north-south  
+       ^
+       |
+    approx. 400 inch east-west
+
+   				 * * * *
+   			      *  ,,,,,,, *
+    * * * * * * * * * * * * *  ,,, Jai ,,, *
+    * ,,,,,, Hou ,,,, ++++++ ,,,,   =   ,,,, *
+    *, Gua ======== Cha ++++ ,, Gua = Hou ,,,, * * * * *
+    * ,,,, = Hou ,,,, ++++++ ,,,,   =  ,,,,,,,, Hou ,,,, *
+   ::============ Hou  ,,,,,,,, Hou = Hou ,,,,,  = ,,,,,,, * * * *
+    * ,,,,,,    = Hou Hou   Pub     =   ,,,, Hou = Hou ,,,,,,,,, *
+      * ,,,,PrP ==========\\\\\ Hou =Hou ,Hou,,  =  ,,,,,,,,,,,, *
+   	* ,,,,,,,,,,, Bak \\M\\===========,, Tai = Smi Hou Inn , *
+   	  * * ,,,,,,, ====\\\\\ Hou = Hou========================::
+   	     * ,,,,,, Hou |Twh|====== ,,,Gro But,,,Hou,,,,,, Gua,*
+   	       * ,,,,,,,,,+---+,,,, = ,,,,,,,,,, * * * * * * * * *
+   		 * ,,,,,,,,, Hou ==== Inn ,,,,*
+   		   * ,,,,,,,,,,, = Hou ,,,,*
+   		     * ,,,,, Hou = Gua ,,*
+   		       * ,,,,,,, = ,,, *
+   			  * * * :::* *
+   
+   
+  + - cemetery		Bak - Bakery	Pub - Pub	But - Butcher
+  , - grass		-400,200,0	1400,1200,0	5000,-450,0
+  * - City wall		400*600*100	400*500*190	600*400*100
+ :: - Gate
+  = - Street		Cha - Chapel    Gua -Guardhouse	Gro - Grocery
+							3800,-450,0
+							600*400*100
+
+  \M\ - Marketplace	Inn - Inn	Smi - Smithy	Tai - Tailor
+	0,0,0		
+	2000*1200*outs	
+
+			Twh - Townhall	Jai - Jail	PrP - Prancing Pony
+
+
+			Hou - House

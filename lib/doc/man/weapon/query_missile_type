@@ -1,0 +1,16 @@
+
+/* File: /base/missile.c
+ * Function name: query_missile_type
+ * Description:   what kind of missile is this?
+ * Returns:       integer
+ */
+nomask int
+query_missile_type()
+
+/* File: /base/missile_weapon.c
+ * Function name: query_missile_type
+ * Description:   what kind of missile is this?
+ * Returns:       integer
+ */
+nomask int
+query_missile_type()

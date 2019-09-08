@@ -1,0 +1,21 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+source $DIR/../config/env
+
+work_dir=$TTA_MUD_DIR/lib
+cd $work_dir
+rm -f TAGS
+DIRS="base cmd config include kernel lib system"
+echo Scanning directories to rebuild tags files...
+
+for DIR in $DIRS;
+do
+	echo -n "${DIR}.."
+	etags -C -S -a `find ./${DIR}/* -type f -name "*.[ch]" -print`
+done
+
+chmod 660 TAGS
+
+echo done.
+echo
+echo New tags file complete.

@@ -1,0 +1,46 @@
+NAME
+	send_datagram - send a message on the datagram channel
+  OR      
+        send_datagram - send a datagram
+
+
+SYNOPSIS
+	int send_datagram(string message)
+  OR 
+        int send_datagram(string data, string destination, int port)
+
+
+
+DESCRIPTION
+	This function has to different implementations: The first part in
+        each section reffers to the original implementation of Dworking, the
+        second part describes the behaviour of the function of the network
+        package. Sorry for the confusion, but as there is only one available
+        at a time, it shouldn't be big a problem. 
+
+	Send a message on the datagram channel of a binary user object.  At
+	least one message must have been received on the same channel before
+	this function can be used.  The return value is the length of the
+	message if it could be sent, or 0 otherwise.
+	No more than one datagram can be sent per user object during each
+	thread.
+  OR 
+	Send a UDP datagram to the specified host and udp port.  No hostname
+        lookup is done so the destination must be an ip number.
+        Only udp port objects can use this function.
+
+	The length of the sent datagram is returned, or 0 if the 
+        datagram could not be sent.
+
+ERRORS
+	An error will result if the current object has no datagram channel.
+  OR 
+        An error will result if the object is not an udp port object.
+
+
+SEE ALSO
+	kfun/query_ip_name, kfun/query_ip_number, kfun/send_message,
+	kfun/this_user, kfun/users
+  OR
+	kfun/open_port, kfun/send_message, kfun/connect
+

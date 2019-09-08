@@ -1,0 +1,8 @@
+
+/* File: /base/living/cmd.c
+ * Function name: query_primary
+ * Description:   give all primary functioncalls added on this object
+ * Returns:       array, primary functions and objects
+ */
+nomask mixed
+query_primary()

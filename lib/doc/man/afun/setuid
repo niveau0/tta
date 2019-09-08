@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/creator.c
+ * Function name: setuid
+ * Description:   set user id (only root)
+ * Arguments:     id - the new user id
+ *                obj - the object to change
+ */
+static nomask varargs void
+setuid(string id, object obj)

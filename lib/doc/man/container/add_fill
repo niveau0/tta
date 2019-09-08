@@ -1,0 +1,9 @@
+
+/* File: /base/container.c
+ * Function name: add_fill
+ * Description:   add/sub amount, liquid type must be set before
+ * Arguments:     f - how much to fill/empty
+ * Returns:       how much can be filled/removed
+ */
+int
+add_fill(int f)

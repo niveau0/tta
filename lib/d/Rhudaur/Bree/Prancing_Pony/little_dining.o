@@ -1,0 +1,12 @@
+light 30000
+height 156
+xsize 114
+ysize 108
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|144,576,0,})
+room_short "A little dining room"
+room_long "This room is nearly a cube by its size. The walls are covered with small light\nbrown boards and this design is only interrupted by a window and a fireplace\nwithin the northern one.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/litt_din_door",({1|({3|201,576,0,}),}),}),})

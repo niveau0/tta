@@ -1,0 +1,11 @@
+height 150
+xsize 200
+ysize 300
+type 6
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|650,1150,0,})
+room_short "A small chamber"
+room_long "You entered a small, with some furnitures equipped room. It is very dirty\nhere and the smell makes you shiver. Somebody drawed some ugly pictures\non the walls and many small animals like bugs, spiders and mice are\nrunning around your feet. A small tunnel begins at the southern end of the\neast wall, where you can leave the room.\n"
+room_exits ([1|"tunnel_6":({7|101,0,0,90,100,0,0,}),])
+objs_to_clone ({6|({2|"/lib/furniture/wardrobe",({1|({3|849,1395,0,}),}),}),({2|"/lib/furniture/chair",({1|({3|758,1395,0,}),}),}),({2|"/lib/furniture/chair",({1|({3|758,1449,0,}),}),}),({2|"/lib/furniture/table",({1|({3|704,1449,0,}),}),}),({2|"/lib/furniture/bench",({1|({3|650,1449,0,}),}),}),({2|"/d/Rhudaur/Orc_caves/obj/watch_door",({1|({3|815,1449,0,}),}),}),})
+pseudo_items ([2|1:({4|({2|"tunnel","small tunnel",}),({1|"tunnels",}),"A small and narrow tunnel leads out of here.",({3|850,1200,0,}),}),2:({3|({3|"bug","spider","mouse",}),({3|"bugs","spider","mice",}),"These animals never saw the sunlight you know in the first second you see\nthem.",}),])

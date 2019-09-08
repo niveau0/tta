@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: init_saved_props
+ * Description:   add the values of all saved properties
+ */
+static nomask void
+init_saved_props()

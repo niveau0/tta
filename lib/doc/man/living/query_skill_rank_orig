@@ -1,0 +1,10 @@
+
+/* File: /base/living/skill.c
+ * Function name:   query_skill_rank_orig()
+ * Description:     Gives the value of a specific skillrank without temporal
+ *                  changes.
+ * Arguments:       skill - The number of the skill to check
+ * Returns:         The value of the skill
+ */
+nomask int
+query_skill_rank_orig(int skill)

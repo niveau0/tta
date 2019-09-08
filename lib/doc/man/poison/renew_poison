@@ -1,0 +1,9 @@
+
+/* File: /base/poison.c
+ * Function name: renew_poison(object tp)
+ * Description:   do something if the living gets again poisoned while still
+ *                suffering from _this_ poison
+ * Arguments:     tp - poisoned living
+ */
+static void
+renew_poison(object tp)

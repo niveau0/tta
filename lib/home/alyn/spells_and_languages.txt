@@ -1,0 +1,108 @@
+Spells and Magical Languages
+============================
+
+AIONION
+-------
+
+
+AISTHASIS
+---------
+
+ANATHEMA
+--------
+
+ASEBEIA
+-------
+
+ASTER
+-----
+assists: light based spells
+spell list: cha anar
+
+CHAOS
+-----
+
+CONSCIOUSNESS
+-------------
+assists: analyse and detect spells
+spell list: cha dec 
+
+EARTHBLOOD
+----------
+
+EIRENAY
+-------
+
+GNOSIS
+------
+
+GRAPHAY
+-------
+assists: spells concerning signs or symbols
+spell: cha syc curu
+
+HUDATOS
+-------
+
+IHYAMA
+------
+assists: healing and cure spells
+spell lists: cha cor, cha drip
+
+IRUARIC
+-------
+
+KUBEIA
+------
+
+LOGOS
+-----
+assists: sound based spells
+spell list: cha sou
+
+PARAPATEO
+---------
+
+PETRA
+-----
+assists: spells that protect from certain magic and spells that
+         create obstacles out of water or earth
+spell lists: cha brel, cha dri
+
+PNEUMATIKOS
+-----------
+assists: summon spells
+spell: cha sumo malec
+
+PORNEIA
+-------
+
+PUROSIS
+-------
+
+QADOSH
+------
+assists: spells concerning the primal urges of living beings
+spell lists: cha wek, cha nhar
+
+SKOTIA
+------
+
+SOMA
+----
+
+SPOUDAZO
+--------
+
+THANATOS
+--------
+
+TOTEM
+-----
+assists: spells that control animal behaviour
+spell: cha nat mirc
+
+XZULOU
+------
+assists: spells concerning plants
+spells: cha nat glar, cha nat hro

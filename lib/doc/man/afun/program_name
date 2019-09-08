@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: program_name
+ * Description:   gives program name for a clone or master object
+ * Arguments:     obj - object to query
+ * Returns:       string
+ */
+static nomask string
+program_name(object obj)

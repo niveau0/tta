@@ -1,0 +1,9 @@
+
+/* File: /base/door.c
+ * Function name: set_open_close_prefix
+ * Description:   set description prefixes
+ * Arguments:     o - the open description prefix, defaults to "open"
+ *                c - the closed description prefix, defaults to "closed"
+ */
+nomask void
+set_open_close_prefix(string o, string c)

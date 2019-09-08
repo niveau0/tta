@@ -1,0 +1,7 @@
+
+/* File: /base/plant.c
+ * Function name: do_seed
+ * Description:   let the plant seed itself
+ */	
+void
+do_seed()

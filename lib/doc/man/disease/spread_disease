@@ -1,0 +1,9 @@
+
+/* File: /base/disease.c
+ * Function name: spread_disease
+ * Description:   check if players around will be affected by the disease
+ * Arguments:     p - infection per mille (1000 will affect all people)
+ *                tp - living that is spreading the virus
+ */
+nomask void
+spread_disease(int p, object tp)

@@ -1,0 +1,7 @@
+new include file
+manwe
+Wed Oct 22 19:41:31 1997
+Events have been extracted from the global include file. If you want to use
+events (like in the macro LISTEN()), you have to include event.h now.
+
+Manwe

@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: set_room
+ * Description:   Connects a room to the internals of the container.
+ * Arguments:	  room: The room object
+ */
+nomask void
+set_room(object room)

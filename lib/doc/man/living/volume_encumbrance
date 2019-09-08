@@ -1,0 +1,8 @@
+
+/* File: /base/living/carry.c
+ * Function name:   volume_encumbrance()
+ * Description:     Calculate how encumbered we are in volume
+ * Returns:         integer, encumbrance in percent
+ */
+nomask int
+volume_encumbrance()

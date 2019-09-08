@@ -1,0 +1,13 @@
+*------------------------------( Misc: Toggle )-----------------------------*
+
+   Type:        command
+   Usage:       toggle
+                
+   Description: Switch different things on or off.  Try out by just typing 
+                'toggle'.
+
+   Example:     toggle echo
+                This enables the command echoing so you get a more detailed 
+                answer to your commands.
+   
+*----------------------------------------------------------------------------*

@@ -1,0 +1,17 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: parse_targets(string str, int max, int dist, int ttype,
+ *                              int *co, object tp)
+ * Description:   parse visible spell targets
+ * Arguments:     str - string to parse
+ *                max - maximum number of targets allowed
+ *                dist - maximum distance to target
+ *                ttype - target type (only livings, objects, etc. )
+ *                level - casting level
+ *                co - players coordinates
+ *                tp - casting player
+ * Returns:       array of valid targets
+ */
+varargs object *
+parse_targets(string str, int max, int dist, int ttype, int level,
+	      int *co, object tp)

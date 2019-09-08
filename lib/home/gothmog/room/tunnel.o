@@ -1,0 +1,12 @@
+light 240
+height 120
+xsize 60
+ysize 200
+climate 2
+type 6
+edge_base ({4|0,0,0,0,})
+room_coords ({3|80,-200,0,})
+room_short "In a dark tunnel"
+room_long "This is a long tunnel leading towards an great hall in \nthe north. It's lit by several torches, which are mounted to the \nwall on both sides. Ghostly shadows are flickering through this passage.\n"
+room_exits ([1|"/home/gothmog/home":({7|110,0,0,60,120,0,0,}),])
+pseudo_items ([2|1:({3|({1|"torch",}),({1|"torches",}),"Flickering torches are firmly attached to the wall, \nheld by iron brackets.",}),2:({3|({1|"shadow",}),({1|"shadows",}),"Shadows are performnig a ghostly dance on the walls, \nbut you can't find their source.",}),])

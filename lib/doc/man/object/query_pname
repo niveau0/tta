@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: query_pname
+ * Description:   Gives the main plural name of the object
+ * Returns:       string
+ */
+nomask string
+query_pname()

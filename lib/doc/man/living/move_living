@@ -1,0 +1,17 @@
+
+/* File: /base/living/move.c
+ * Function name: move_living
+ * Description:   moves a living with arrival and depart message
+ * Arguments:     dest - where to move
+ *                co - new coordinates
+ *                dir - which direction
+ *                how - the way living moves: MOVE_WALK 
+ *                                            MOVE_TELEPORT
+ *                                            MOVE_SNEAK 
+ *                                            MOVE_RUN
+ *                                            MOVE_RIDE
+ *                                            MOVE_STEP
+ * Returns:       the return of move(), -1 is 'too tired'
+ */
+int
+move_living(object dest, int *co, string dir, int how)

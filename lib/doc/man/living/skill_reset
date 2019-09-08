@@ -1,0 +1,7 @@
+
+/* File: /base/living/skill.c
+ * Function name: skill_reset
+ * Description:   set some default values, init arrays
+ */
+static nomask void 
+skill_reset()

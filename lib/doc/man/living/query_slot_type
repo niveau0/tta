@@ -1,0 +1,9 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_slot_type
+ * Description:   returns all slots according to given slot type
+ * Arguments:     type - the slot type to query
+ * Returns:       array or 0
+ */
+nomask int *
+query_slot_type(int type)

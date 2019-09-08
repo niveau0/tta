@@ -1,0 +1,8 @@
+
+/* File: /base/player/extra.c
+ * Function name: set_birth
+ * Description:   sets the birthtime at first login
+ * Arguments:     t - the time
+ */
+nomask void
+set_birth(int t)

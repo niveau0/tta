@@ -1,0 +1,9 @@
+
+/* File: /system/composite.c
+ * Function name: composite_words
+ * Description:   give a composite string of the form xx, xx, xx and xx
+ * Arguments:     wlist - a list of strings to concat
+ * Returns:       the concatenation string
+ */
+nomask string
+composite_words(string *wlist)

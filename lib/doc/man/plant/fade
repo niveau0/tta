@@ -1,0 +1,7 @@
+
+/* File: /base/plant.c
+ * Function name: fade
+ * Description:   called when fire burned the plant
+ */
+static nomask void
+fade()

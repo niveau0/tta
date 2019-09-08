@@ -1,0 +1,10 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_worn
+ * Description:   Returns the tools worn in a specified location.
+ *                Use SLT_ALL for a list of all worn tools.
+ * Arguments:	  slot - The toolslot
+ * Return:        object array
+ */
+nomask object *
+query_worn(int slot)

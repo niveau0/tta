@@ -1,0 +1,11 @@
+
+/* File: /base/heap.c
+ * Function name: config_split
+ * Description:	  sets all the main vars for this heap to function.
+ *		  This is called before inserting this heap into the game
+ * Arguments:	  num - heap size for this heap
+ *		  orig - 'Father-heap'
+ *		  co - coordinates of 'Father-heap'
+ */
+nomask void
+config_split(int num, object orig, int *co)

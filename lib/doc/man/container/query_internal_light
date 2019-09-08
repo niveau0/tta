@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: query_internal_light
+ * Description:   Returns the lightvalue of object internal to this container
+ * Returns:	  Lightvalue
+ */
+nomask int
+query_internal_light()

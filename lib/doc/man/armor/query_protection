@@ -1,0 +1,8 @@
+
+/* File: /base/armor.c
+ * Function name: query_protection
+ * Description:   Gives the locations which are protected by this armor
+ * Returns:       integer array, the protection-slots
+ */
+nomask int *
+query_protection()

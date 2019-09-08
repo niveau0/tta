@@ -1,0 +1,8 @@
+
+/* File: /base/living/cmd.c
+ * Function name: next_command
+ * Description:   process cmdqueue, execute next cmd in queue, called by
+ *                call_out()
+ */
+static nomask void
+next_command()

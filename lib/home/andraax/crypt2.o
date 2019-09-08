@@ -1,0 +1,10 @@
+height 120
+xsize 120
+ysize 120
+climate 8
+type 4
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|10090,10300,0,})
+room_short "A pitch black room."
+room_long "You shiver as you see through the darkness. The walls are covered\nwith mystical symbols drawn on them with blood. Even though the\ndried blood seems to fall off the wall again on some parts there\nstill seems to be some magical power in these runic symbols.\nWhoever could use such runes, must be rather powerful. You shiver\nat the thought of meeting this being.\n"
+room_exits ([1|"crypt":({7|115,0,0,120,120,0,0,}),])

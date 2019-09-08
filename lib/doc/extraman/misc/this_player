@@ -1,0 +1,11 @@
+/*
+ * Function name: this_player
+ * Description:   returns the current active living object, no matter if
+ *                npc or interactive user. Notice that this_player is undefined
+ *                within functions called by delay (call_out) and that the
+ *                value is changed via set_this_player.
+ * Returns:       object
+ */
+
+ This is no longer a function but a macro call within the global include file
+ (/kernel/include/global.h)

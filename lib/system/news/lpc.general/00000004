@@ -1,0 +1,11 @@
+reload
+manwe
+Thu Nov 14 18:36:29 1996
+The reload (rl) command now tries update only code of the chosen object,
+all data in global variables will remain untouched.
+If you want a full reload (i.e. destruct the old object and clone a new)
+use option -n.
+Example: rl red ball
+         rl -n red ball
+
+Manwe

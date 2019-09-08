@@ -1,0 +1,67 @@
+*---------------------------( Builder: Climate )-----------------------------*
+
+   The climate in the world of Middle-Earth in the third age differed
+   from region to region. For 'The Third Age', we adopted the climate 
+   chart made by Karen Wynn Fonstad in her 'The Atlas of Middle-Earth'
+   mapped on the different regions taken from 'Middle Earth - The Wizards'
+   by ICE. Please keep up to these restrictions when you choose a climate
+   for your room.
+   
+   Region        |   Winter    |   Summer   |  Climate   |  Specials
+   --------------|-------------|------------|------------|------------
+   Lindon        |mild         |mild        |medium humid|
+   Numeriador    |south: mild  |both: mild  |medium      |
+ 		 |north: cold  |            |            |
+   Forochel      |south: strong|south: cold |cold        |
+ 		 |north: ice   |north: ice  |cold arid   |
+   Arthedain     |south: mild  |both: mild  |medium      |east: foggy
+ 		 |north: cold  |            |            |
+   The Shire     |mild         |mild        |medium      |
+   Cardolan      |mild         |mild        |medium      |
+   Angmar        |strong       |cold        |cold humid  |foggy
+   Rhudaur       |south: mild  |both: mild  |medium      |foggy
+ 		 |north: cold  |            |            |
+   Hollin        |mild         |mild        |humid       |
+   Dunland       |mild         |mild        |humid       |
+   Enedhwaith    |mild         |mild        |humid       |
+   Old Pukelland |mild         |mild        |humid       |
+   Gundabad      |strong       |cold        |humid       |
+   High Pass     |cold         |mild        |humid       |mountains
+   Redhorn Gate  |cold         |mild        |humid       |mountains
+   Gap of Isen   |mild         |mild        |humid       |
+   Anduin Vales  |both: cold   |south: warm |humid       |
+   Wold&Foothills|             |north: mild |humid       |
+   Fangorn       |cold         |warm        |humid       |
+   Rohan         |mild         |warm        |humid       |
+   Gr Mt. Narrows|strong       |cold        |humid       |
+   Woodland Realm|cold         |mild        |humid       |
+   w Mirkwood    |cold         |mild        |humid       |
+   h Mirkwood    |cold         |mild        |humid       |
+   s Mirkwood    |cold         |mild        |humid       |
+   Brown Lands   |cold         |mild        |humid       |foggy
+   Dagorlad      |cold         |mild        |humid       |foggy
+   Withered Heath|ice          |ice         |polar       |
+   n Rhovanion   |south: cold  |south: mild |humid       |
+ 		 |north: strong|north: cold |humid       |
+   s Rhovanion   |cold         |mild        |humid       |
+   Iron Hills    |strong       |cold        |humid       |mountains
+   Dorwinion     |cold         |mild        |humid       |
+   Horse Plains  |south: mild  |south: warm |arid        |
+ 		 |north: cold  |north: mild |humid       |
+   Old Pukel Gap |mild         |warm        |humid       |
+   Andrast       |both: mild   |south: warm |humid       |
+ 		 |             |north: mild |humid       |
+   Anfalas       |mild         |warm        |humid       |
+   Lamedon       |mild         |warm        |humid       |
+   Belfalas      |mild         |hot         |arid        |
+   Lebennin      |mild         |hot         |arid        |
+   Anorien       |mild         |warm        |humid       |
+   Ithilien      |mild         |warm        |humid       |
+   Harondor      |mild         |hot         |arid        |
+   Khand         |warm         |hot         |arid        |
+   Imlad Morgul  |mild         |warm        |humid       |
+   Udun          |mild         |warm        |arid        |dark influence
+   Gorgoroth     |mild         |warm        |arid        |dark influence
+   Nurn          |mild         |warm        |arid        |dark influence
+ 
+*----------------------------------------------------------------------------*

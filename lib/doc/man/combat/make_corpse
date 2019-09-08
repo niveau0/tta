@@ -1,0 +1,9 @@
+
+/* File: /base/living/combat.c
+ * Function name: make_corpse
+ * Description:   redefineable corpse function
+ * Returns:       0 - no special corpse at death
+ *                1 - don't create normal corpse
+ */
+static int
+make_corpse()

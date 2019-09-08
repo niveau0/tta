@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: add_adj
+ * Description:   add adjective
+ * Arguments:	  adj - adjective to add
+ */
+void
+add_adj(string adj)

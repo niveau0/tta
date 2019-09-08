@@ -1,0 +1,22 @@
+*--------------------------( Communication: Mail )---------------------------*
+
+   In certain  places in the world  you may a  find post - office or  other    
+   institutions willing to accept your mail and  deliver it to the intended
+   receiver.  
+
+   The mailtext editor understands the following commands:
+
+   ~?      displays the following help:
+
+   **      Finish text.
+   ~q      Cancel text.
+   ~l      Show complete text.
+   ~L      Show complete text with line numbers.
+   ~a x    Append after line x.
+   ~i x    Insert before line x.
+   ~A      Append at end of text.
+   ~I      Insert before top of text.
+   ~d x    Delete Line x.
+   ~d x y  Delete Lines from x to y.
+
+*----------------------------------------------------------------------------*

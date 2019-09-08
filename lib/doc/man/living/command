@@ -1,0 +1,9 @@
+
+/* File: /base/living/cmd.c
+ * Function name: command
+ * Description:   execute a command
+ * Arguments:     cmd - command to process
+ * Returns:       1 if success, -1 else, 0 if not found
+ */
+int
+command(string cmd)

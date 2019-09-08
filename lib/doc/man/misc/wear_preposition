@@ -1,0 +1,8 @@
+
+/* File: /base/misc/wear.c
+ * Function name: wear_preposition
+ * Description:   gives a prepostion for the wearing output
+ * Returns:       default preposition string, "on"
+ */
+string
+wear_preposition()

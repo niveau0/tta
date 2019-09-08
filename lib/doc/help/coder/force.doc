@@ -1,0 +1,17 @@
+*----------------------------( Builder: force )------------------------------*
+ 
+   Type:        command
+   Usage:       force <playername> <command>
+                
+   Description: The command 'force' is used by Immortals to force players
+		to do the <command> argument.  
+		** NOTE ** NO GOD SHOULD EVER FORCE A PLAYER TO DO ANYTHING 
+		WITHOUT ASKING FIRST AND RECEIVING PERMISSION, with the 
+		exception of your tester.  ABUSE OF THIS COMMAND WILL MOST
+		CERTAINLY LAND YOU IN HOT WATER WITH THE ADMINISTRATION OF TTA.
+ 
+   Example:     > force erikosejr smile
+		Erikosejr smiles happily.
+   
+*----------------------------------------------------------------------------*
+ See also: 

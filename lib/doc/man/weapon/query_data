@@ -1,0 +1,8 @@
+
+/* File: /base/weapon.c
+ * Function name: query_data
+ * Description:   give the weapon data
+ * Returns:       mapping
+ */
+nomask mapping
+query_data()

@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: set_pname
+ * Description:   Sets the main pluralname of the object
+ * Arguments:	  name - the pname to add
+ */
+void
+set_pname(string pname)

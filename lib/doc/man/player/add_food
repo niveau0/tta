@@ -1,0 +1,9 @@
+
+/* File: /base/player/consume.c
+ * Function name: add_food
+ * Description:   satisfy the stomach of the player
+ * Arguments:     f - how much food to add
+ * Returns:       how much of given amount can be eaten
+ */
+nomask int
+add_food(int f)

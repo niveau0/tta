@@ -1,0 +1,9 @@
+
+/* File: /base/object.c
+ * Function name: reload_data
+ * Description:   give an array of all data that must be restored after
+ *                reloading the object (after new login or reboot)
+ * Returns:       array
+ */
+nomask mixed *
+reload_data()

@@ -1,0 +1,18 @@
+
+/* File: /base/living.c
+ * Function name: catch_msg(mixed msg, object from, int type,
+ *                          int dist, int no_prompt))
+ * Description:   This function is called for every message sent to this
+ *                living that includes met/nonmet/unseen
+ * Arguments:     msg - Message to tell the player, could be string or pointer
+ *                      ({ ({ object, met, nonmet, unseen }), string, ... }) to
+ *                      encourage the met/nonmet system
+ *                      Pointer messages will be cut (break_string).
+ *                from - The object that is acting (important to determine
+ *                       if message can be seen), 0 does no 'senses' check
+ *                type - the message type: hear, see
+ *                dist - optional argument (distance messages can be heard)
+ *                no_prompt - true if no prompt should be send
+ */
+nomask varargs void
+catch_msg(mixed msg, object from, int type, int dist, int no_prompt)

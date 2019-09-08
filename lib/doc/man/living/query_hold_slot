@@ -1,0 +1,10 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_hold_slot
+ * Description:   Returns the slot in which the object is held
+ *                used for correct heap splitting
+ * Arguments:	  ob - the object to query
+ * Return:        integer slot
+ */
+nomask int
+query_hold_slot(object ob)

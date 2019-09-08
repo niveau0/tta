@@ -1,0 +1,10 @@
+
+/* File: /base/door.c
+ * Function name: unlock_cmd
+ * Description:   handle unlock cmd
+ * Arguments:     str - command arguments
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+int
+unlock_cmd(string str, object tp)

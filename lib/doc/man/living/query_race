@@ -1,0 +1,7 @@
+
+/* File: /base/living/extra.c
+ * Function name:   query_race()
+ * Description:     Gives the race name of this living
+ */
+nomask string
+query_race()

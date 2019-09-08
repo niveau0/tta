@@ -1,0 +1,12 @@
+*--------------------------------( Misc: Idea )------------------------------*
+
+   Type:        command
+   Usage:       idea <text>
+                
+   Description: This is an out of character command. If you have an idea
+		to make the MUD better describe it.
+                
+   Example:     idea the dragon should use fire spells
+                    
+*----------------------------------------------------------------------------*
+ See also: 'bug', 'typo', 'ooc'

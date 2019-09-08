@@ -1,0 +1,12 @@
+*-----------------------------( Moving: jump )-------------------------------*
+
+   Type:        command
+   Usage:       jump <direction>
+                
+   Description: Lets you leap in the given direction. Being skilled in
+                jumping makes it easier to use this command.
+                
+   Example:     jump south
+   
+*----------------------------------------------------------------------------*
+ See also: 'jumping', 'skills'

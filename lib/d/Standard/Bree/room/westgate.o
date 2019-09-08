@@ -1,0 +1,12 @@
+height 200
+xsize 400
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-7600,1600,0,})
+room_short "In front of the citygate"
+room_long "Thick and robust the wall stands around you. It is constructed from roughly\nhewn stoneblocks piling up until they join above you, forming this way for an\neasy passage through the citywall. The only ways to leave this tunnel are\nwestwards to the world outside and eastwards straight into the city's heart.\n"
+room_exits ([2|"wateralley_west4":({7|101,0,0,200,200,0,0,}),"westgate_outside":({7|119,0,0,200,180,2,0,}),])
+objs_to_clone ({1|({2|"/d/Standard/Bree/obj/westgate",0,}),})
+pseudo_items ([3|1:({3|({3|"wall","stone","stoneblock",}),({3|"walls","stones","stoneblocks",}),"The blocks consist of a dark grey stone. Although only hewn pretty roughly on\nthe outside, the gaps between the single stones are so tight that you cannot\neven push a fingernail into them. You see the huge metal hinges of the\ncitygate which are set into the wall in the western part of the tunnel.",}),2:({3|({3|"city","city's heart","heart",}),({3|"cities","city's hearts","hearts",}),"Through the eastern opening of the wall you notice houses scattered along a\nroad leading eastward to a large place. Though hindered by the buildings, you\nmake out other roads, going off the place. They lead south-, and further\neastward.",}),3:({4|({4|"road to place","road to marketplace","east road","#roadToMarketplace",}),({3|"roads to place","roads to marketplace","east roads",}),"This cobbled road looks pretty worn. It leads eastward into a city.",({3|-7100,1700,0,}),}),])

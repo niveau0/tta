@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: object_time
+ * Description:   gives object creation/compile time
+ * Arguments:     obj - object to query
+ * Returns:       integer, time
+ */
+static nomask int
+object_time(object obj)

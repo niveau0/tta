@@ -1,0 +1,8 @@
+
+/* File: /base/living/magic.c
+ * Function name:   add_mana(int sp)
+ * Description:     Add a certain amount of mana points (up to double maximum)
+ * Arguments:       sp - The number of mana points to change.
+ */
+nomask void
+add_mana(int sp)

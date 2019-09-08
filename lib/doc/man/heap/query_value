@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_value
+ * Description:   find out about the volume
+ * Returns:       total value of this heap
+ */
+nomask int
+query_value()

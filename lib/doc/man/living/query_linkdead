@@ -1,0 +1,8 @@
+
+/* File: /base/living.c
+ * Function name: query_linkdead
+ * Description:   default false, npcs are never linkdead
+ * Returns:       0
+ */
+int
+query_linkdead()

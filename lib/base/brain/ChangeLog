@@ -1,0 +1,5 @@
+Wed Oct 29 15:45:24 1997  Jan Schormann  <Jan.Schormann@informatik.uni-oldenburg.de>
+
+	* findway2.c (brain_find_way): altered function documentation
+	(brain_approach): documentation
+

@@ -1,0 +1,8 @@
+
+/* File: /base/player/skill.c
+ * Function name: query_skill_usage
+ * Description:   gives the skill usage mapping
+ * Returns:       mapping
+ */
+nomask mapping
+query_skill_usage()

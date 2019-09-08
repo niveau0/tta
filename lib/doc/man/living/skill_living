@@ -1,0 +1,9 @@
+
+/* File: /base/living/skill.c
+ * Function name: skill_living
+ * Description:   show all learned skills with their boni
+ * Arguments:     arg - the name of one group or 'all' for all groups
+ * Returns:       string of the requested skillgroups and their boni
+ */
+nomask string
+skill_living(string arg)

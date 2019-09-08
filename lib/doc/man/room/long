@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: long
+ * Description:   describe the room 
+ * Returns:       string holding the long description of the room.
+ */
+string
+long()

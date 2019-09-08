@@ -1,0 +1,8 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: start_concentrate
+ * Description:   start concentrating on a spell effect
+ * Arguments:     dist - distance, check every 15 seconds
+ */
+void
+start_concentrate(int dist)

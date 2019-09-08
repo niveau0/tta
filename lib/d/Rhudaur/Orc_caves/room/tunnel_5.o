@@ -1,0 +1,9 @@
+height 250
+xsize 3500
+ysize 200
+type 4
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|180,2350,0,})
+room_short "A very long and dark tunnel"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([1|"tunnel_4":({7|115,1320,0,150,200,0,0,}),])

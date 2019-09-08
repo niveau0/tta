@@ -1,0 +1,10 @@
+anstehende Schritte:
+
+- Aufruf bei erstem erhaltenem Schlag
+- Gegner wahrnehmen (living? - vielleicht ne trap)
+- Entfernung abschaetzen
+- Staerke des Gegners: Ruestung(Waffe) des Gegners einbeziehen ?
+- eigenen "Angstfaktor" -> Kampf, Flucht oder ergeben ?
+( - laut enfernung -> deckung suchen ? )
+- (Offensiv- und Defensiv) Magie und/oder Fernkampfwaffe oder auf ihn zurennen
+- Nahkampfwaffe (entsprechend der Ruestung des Gegners?)

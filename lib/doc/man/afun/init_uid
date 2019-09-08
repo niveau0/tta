@@ -1,0 +1,8 @@
+
+/* File: /kernel/lib/creator.c
+ * Function name: init_uid
+ * Description:   set the initial user id of this object
+ *                (only root may change it)
+ */
+private void
+init_uid()

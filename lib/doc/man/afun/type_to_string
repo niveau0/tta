@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: type_to_string
+ * Description:   translate any data type into string form (for debug output)
+ * Arguments:     arg - data value to transform
+ *                indent - indentation value
+ * Returns:       string, the transformed value
+ */
+static nomask string
+type_to_string(mixed arg, int indent)

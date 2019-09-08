@@ -1,0 +1,6 @@
+LISTEN(obj) macro moved
+manwe
+Tue Oct 28 13:28:28 1997
+The macro LISTEN(obj) has been moved to event.h (/kernel/include).
+
+Manwe

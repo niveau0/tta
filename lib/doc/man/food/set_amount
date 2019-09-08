@@ -1,0 +1,8 @@
+
+/* File: /base/food.c
+ * Function name: set_amount
+ * Description:   the 'feeding', nourishing value of this food
+ * Arguments:     a - the amount
+ */
+nomask void
+set_amount(int a)

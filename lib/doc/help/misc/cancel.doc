@@ -1,0 +1,19 @@
+*-------------------------------( Misc: Cancel )-----------------------------*
+
+   Type:        command
+   Usage:       cancel [<spell> on <target>]
+                
+   Description: 'cancel' without arguments cancels your running commands. 
+    	    	So if you are removing your cloth you can stop removing
+    	    	more, or if you have typed a lot directions you can cancel
+    	    	the command queue.
+    	    	Another use of the cancel command is to break spells you 
+    	    	have cast on someone. 
+                
+   Example:     cancel
+		cancel sutra on fingol
+    	    	 (this stops the spell 'sutra' if it still affects 
+    	    	  Fingol and if the spell was invoked by yourself)
+                    
+*----------------------------------------------------------------------------*
+ See also: 'cast'

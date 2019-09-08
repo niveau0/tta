@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: query_climate
+ * Description:   return climate of this room
+ * Returns:       int
+ */
+nomask int
+query_climate()

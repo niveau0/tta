@@ -1,0 +1,10 @@
+light 500
+height 100
+xsize 250
+ysize 200
+type 2
+room_coords ({3|2950,2700,0,})
+room_short "Inside a cell"
+room_long "You hope to never come back to here. This cell is a small, narrow, cold\nand dirty room. The walls are made of some black stone and the only\nexit besides the door seems to be the grilled hole in a wall. You\nare sure that never ever anybody will escape from here.\n"
+room_exits ([0|])
+objs_to_clone ({2|({2|"/d/Standard/Bree/obj/cell1_door",({1|({3|2950,2754,0,}),}),}),({2|"/lib/furniture/chair",({1|({3|2950,2700,0,}),}),}),})

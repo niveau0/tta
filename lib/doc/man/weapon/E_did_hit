@@ -1,0 +1,12 @@
+
+/* File: /base/weapon.c
+ * Function name: E_did_hit
+ * Description:   notify every hit
+ * Arguments:     o - object that made the hit
+ *                ao - object that has been hit
+ *                damage - the inflicted damage
+ *                slot - the slot that has been hit
+ *                w - the object that caused the hit
+ */
+nomask void
+E_did_hit(object o, object ao, int damage, int slot, object w)

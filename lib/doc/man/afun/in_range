@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/tool.c
+ * Function name: in_range
+ * Description:   check if a target is in range of a given 3D cube
+ * Arguments:     co_tar - target coordinates
+ *                co_ob - cube base coordinates
+ *                range - cube size values
+ * Returns:       1 if in range, 0 else
+ */
+static nomask int
+in_range(int *co_tar, int *co_ob, int *range)

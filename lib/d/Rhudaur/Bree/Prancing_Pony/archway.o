@@ -1,0 +1,11 @@
+height 180
+xsize 276
+ysize 72
+climate 1
+type 131072
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|0,288,0,})
+room_short "In a short archway"
+room_long "This is a short archway made from bricks. Its main direction is west to east.\nThe most possible purpose is the transport of wares and animals into the more\nsheltered yard in the east. Westward it is connected to a worn road which\nleads into the vast space of Bree.\n"
+room_exits ([1|"yard":({7|101,0,0,72,180,0,0,}),])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/archway_door",({1|({3|156,359,0,}),}),}),})

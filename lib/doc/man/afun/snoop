@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/comm.c
+ * Function name: snoop
+ * Description:   watch someones input
+ * Arguments:     snooper - watching living
+ *                snoopee - victim
+ * Returns:       1 if success, 0 else, object if another snoop was broken
+ */
+static nomask mixed
+snoop(object snooper, object snoopee)

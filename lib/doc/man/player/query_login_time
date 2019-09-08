@@ -1,0 +1,8 @@
+
+/* File: /base/player/extra.c
+ * Function name:   query_login_time()
+ * Description:     Gives back the login-time.
+ * Returns:         The login-time.
+ */
+nomask int
+query_login_time()

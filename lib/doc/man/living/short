@@ -1,0 +1,10 @@
+
+/* File: /base/living.c
+ * Function name: short
+ * Description:   Returns the short-description of this living.
+ *                Handles met/nonmet.
+ * Arguments:     tp - acting player (optional)
+ * Returns:       string, short description
+ */
+varargs string
+short(object tp)

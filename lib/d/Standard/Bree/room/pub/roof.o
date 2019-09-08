@@ -1,0 +1,13 @@
+light 20000
+height 90
+xsize 380
+ysize 480
+climate 1
+type 2
+cornerheight ({4|100,100,100,100,})
+room_coords ({3|1410,1210,100,})
+room_short "The second storey"
+room_long "Floor and ceiling of this room show wooden boards to you, contrasting to the\nwalls which are made from stone. At the eastern wall you notice a metal pipe\nemerging from the planks of the floor and going up through the boards of the\nceiling. These boards have a strong slope due to the fact that they are fixed\ndirectly under the roof. Within the southern wall sits a single window as a\nconcession to the fact that light is not for free in a stonebuilding.\n"
+room_exits ([1|"back":({7|100,0,400,40,80,0,0,}),])
+objs_to_clone ({2|({2|"/lib/furniture/bed",({1|({3|1410,1210,100,}),}),}),({2|"/lib/furniture/wardrobe",({1|({3|1630,1210,100,}),}),}),})
+pseudo_items ([2|1:({4|({1|"window",}),({1|"windows",}),"@@look_window:/lib/misc/special/window|The window leads to the big place south of this house. You take a closer look:\n|/d/Standard/Bree/room/marketplace",({3|1600,1210,145,}),}),2:({4|({2|"pipe","metal pipe",}),({2|"pipes","metal pipes",}),"The pipe radiates warmth and is made from metal which has become a dark\ncolor. It goes all up the wall until it vanishes within a hole in the\nceiling.",({3|1785,1650,100,}),}),])

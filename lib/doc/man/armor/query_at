@@ -1,0 +1,8 @@
+
+/* File: /base/armor.c
+ * Function name: query_at
+ * Description:   gives the armor type 
+ * Returns:       int, at code
+ */
+nomask int
+query_at()

@@ -1,0 +1,8 @@
+height 100000000
+xsize 10
+ysize 10
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "The Village Entrance"
+room_long "After your long walk on that sandy road, you reached\na friendly looking village. Little flowers bloom on\nthe edge of the road and from north you can hear some\nlaughter of happy people. You can go north or s from here.**\n"
+room_exits ([0|])

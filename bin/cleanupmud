@@ -1,0 +1,9 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+source $DIR/../config/env
+
+cd ${MUD_DIR}
+echo "Removing backup files macthing *~"
+rm -f `find ./* -type f -name *~ -print` >/dev/null &>/dev/null
+echo "Removing backup files macthing #*#"
+rm -f `find ./* -type f -name '#*#' -print` >/dev/null &>/dev/null

@@ -1,0 +1,8 @@
+
+/* File: /base/misc/wear.c
+ * Function name: query_wearer
+ * Description:   If this object is worn or not
+ * Returns:       The object who wears this object if this object is worn
+ */
+nomask object
+query_wearer()

@@ -1,0 +1,8 @@
+
+/* File: /base/missile_weapon.c
+ * Function name: check_weapon_damage
+ * Description:   looks if the weapon gets damaged
+ * Arguments:     tp - the player who wields the weapon       
+ */
+nomask void
+check_weapon_damage(object tp)

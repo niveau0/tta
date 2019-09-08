@@ -1,0 +1,10 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: filter_similar
+ * Description:   filter out targets affected by similar spell
+ * Arguments:     tar - all targets that should be checked
+ *                tp - casting player 
+ * Returns:       array of still affected objects
+ */
+static nomask object *
+filter_similar(object *tar, object tp)

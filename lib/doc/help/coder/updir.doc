@@ -1,0 +1,11 @@
+*-----------------------------( Builder: updir )-----------------------------*
+ 
+   Type:        command
+   Usage:       updir <path>
+
+   Description: Update a whole directory.
+ 
+   Example:  	updir /home/erikose/obj/
+   
+*----------------------------------------------------------------------------*
+ See also: 'loaddir', 'load', 'update'

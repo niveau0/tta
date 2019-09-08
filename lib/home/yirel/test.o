@@ -1,0 +1,12 @@
+light 1
+height 100000000
+xsize 10
+ysize 10
+climate 6
+type 2048
+edge_base ({4|1048576,1048576,1048576,1048576,})
+room_coords ({3|-600,0,1048576,})
+room_short "Great Wastes"
+room_long "A barren wasteland stretches out endlessly on all sides.  The ground is\ncoarse and broken, bereft of any life-giving water.  The air is thin and\nstale, without moisture or odor.  A great feeling of sterility exudes\nfrom the land here.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/lib/drink/winebottle",0,}),})

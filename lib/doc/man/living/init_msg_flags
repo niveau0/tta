@@ -1,0 +1,7 @@
+
+/* File: /base/living/extra.c
+ * Function name: init_msg_flags()
+ * Description:    initialize message events and message flags
+ */
+nomask void
+init_msg_flags()

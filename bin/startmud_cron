@@ -1,0 +1,53 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+source $DIR/../config/env
+
+LOG=${LOG_DIR}Cron
+DATE=`date +'%d.%m.%y %T'`
+ulimit -c unlimited
+
+function find_id () {
+	TTA_PID=` ps xw|\
+		grep ${TTA_DRIVER_BIN}|\
+		grep ${TTA_CONFIG_FILE}|\
+		grep -v $0|\
+		grep -v grep|\
+		cut -b1-5`
+	TTA_PID2=`ps auxw|\
+		grep ${TTA_DRIVER_BIN}|\
+		grep ${TTA_CONFIG_FILE}|\
+		grep -v $0|\
+		grep -v grep|\
+		cut -b10-14`
+	if [ "${TTA_PID}" != "${TTA_PID2}" ]
+	then
+	    OTHER_USER=`ps auxwc|\
+		    grep $TTA_DRIVER_BIN|\
+		    grep $TTA_CONFIG_FILE|\
+		    grep -v $LOGNAME|\
+		    cut -b1-8`
+	    echo "${DATE} START ERROR  Other user! ${OTHER_USER}" >>${LOG}
+	fi
+}
+
+function start_driver () {
+	umask 003
+	cd ${TTA_MUD_DIR}
+	${TTA_DRIVER_BIN} ${TTA_CONFIG_FILE} >& ${TTA_LOG_FILE} 
+	umask 007
+	DRIVER_PID=${!}
+	echo "${DATE} START DONE   PID:${DRIVER_PID}" >>${LOG}
+}
+
+
+find_id
+
+if [ -n "${TTA_PID}" ]
+then
+	echo "${DATE} START FAIL   still running PID:${TTA_PID}" >>${LOG}
+else
+	start_driver
+	echo $DRIVER_PID > ${TTA_PID_FILE}
+	sleep 60
+	$HOME/bin/startmud & 
+fi

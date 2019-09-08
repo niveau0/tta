@@ -1,0 +1,8 @@
+
+/* File: /base/plant.c
+ * Function name: query_burning
+ * Description:   is this object burning.
+ * Returns:       integer - burning status
+ */
+nomask int
+query_burning()

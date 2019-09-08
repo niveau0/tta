@@ -1,0 +1,8 @@
+
+/* File: /base/object/props.c
+ * Function name: query_state
+ * Description:   return current state
+ * Returns:       integer
+ */
+nomask int
+query_state()

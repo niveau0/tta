@@ -1,0 +1,10 @@
+light 20000
+height 100000000
+xsize 100
+ysize 150
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "The Home of Merlinda"
+room_long "You Left the stranges symbols of unknown power and fell suddenly\nvery different. As you look around you recognize a little and cosy\nplace. But wait what is that? A shadow seems to move in the corner.\nSuddenly you turn around and hear a voice saying \"Welcome Stranger\"\n"
+room_exits ([0|])

@@ -1,0 +1,8 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_connections
+ * Description:   get the connections to a slot
+ * Arguments:     slot - the slot
+ */
+nomask int *
+query_connections(int slot)

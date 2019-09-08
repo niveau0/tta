@@ -1,0 +1,9 @@
+
+/* File: /base/living/stat.c
+ * Function name: dev_points_for_stat
+ * Description:   how much development for each stat
+ * Arguments:     stat - the stat to query
+ * Returns:       the development points
+ */
+nomask int
+dev_points_for_stat(int stat)

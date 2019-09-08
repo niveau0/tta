@@ -1,0 +1,10 @@
+
+/* File: /base/container.c
+ * Function name: set_liquid_type
+ * Description:   set the liquid inside the object
+ * Arguments:     t - the liquid (see <liquid.h>)
+ *                look - how the liquid looks
+ *                l - the name of the liquid
+ */
+nomask void
+set_liquid_type(int t, string look, string l)

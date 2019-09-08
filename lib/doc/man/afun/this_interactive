@@ -1,0 +1,8 @@
+
+/* File: /kernel/lib/living.c
+ * Function name: this_interactive
+ * Description:   give current interactive object
+ * Returns:       object
+ */
+static nomask object
+this_interactive()

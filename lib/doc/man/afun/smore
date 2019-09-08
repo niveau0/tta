@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: smore
+ * Description:   string-more, show a string in small chunks
+ * Arguments:     str - string to show
+ *                tp - player to show to
+ *                func - function to call after
+ */
+static nomask varargs void
+smore(string str, object tp, string func)

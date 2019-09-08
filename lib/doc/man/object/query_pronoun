@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name:   query_pronoun()
+ * Description:     Returns the pronoun
+ * Returns:         here: "it"
+ */
+string
+query_pronoun()

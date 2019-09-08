@@ -1,0 +1,8 @@
+
+/* File: /base/poison.c
+ * Function name: query_subdesc_id
+ * Description:   gives name of sublocation
+ * Returns:       string
+ */
+string
+query_subdesc_id()

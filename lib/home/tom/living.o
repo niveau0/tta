@@ -1,0 +1,10 @@
+light 300
+height 100000000
+xsize 128
+ysize 288
+type 16384
+edge_base ({4|1048576,1048576,1048576,1048576,})
+room_coords ({3|-600,0,1048576,})
+room_short "in a new room"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([0|])

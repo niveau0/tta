@@ -1,0 +1,9 @@
+function skill_check
+manwe
+Tue Jul 21 00:39:43 1998
+Please use this function for all standard skill checks, because
+otherwise the skill-usage won't be stored correctly and the skill
+won't improve.
+Check the manuals.
+
+Manwe

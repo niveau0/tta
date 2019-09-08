@@ -1,0 +1,10 @@
+
+/* File: /base/object/props.c
+ * Function name: query_state_desc
+ * Description:   returns a string describing the objects states
+ * Arguments:     tp - living to describe the state for
+ * Returns:       describing string of the form
+ *                desc1, desc2, desc3, ... and descn
+ */
+nomask string
+query_state_desc(object tp)

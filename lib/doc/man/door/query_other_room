@@ -1,0 +1,8 @@
+
+/* File: /base/door.c
+ * Function name: query_other_room
+ * Description:   give filename of connected room
+ * Returns:       string
+ */
+nomask string
+query_other_room()

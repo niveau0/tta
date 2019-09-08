@@ -1,0 +1,10 @@
+
+/* File: /base/object/props.c
+ * Function name: add_prop
+ * Description:   Add a property to the property list.
+ *                If the property already exist, the value is replaced
+ * Arguments:	  prop - The property string to be added.
+ *                val - The value of the property
+ */
+nomask void
+add_prop(mixed prop, mixed val)

@@ -1,0 +1,10 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: query_no_targets 
+ * Description:   get the number of possible targets according to the
+ *                casting level
+ * Arguments:     level - the casting level
+ * Returns:       integer
+ */
+int
+query_no_targets(int level)

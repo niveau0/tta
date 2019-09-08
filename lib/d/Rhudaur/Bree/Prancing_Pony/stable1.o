@@ -1,0 +1,10 @@
+height 156
+xsize 276
+ysize 288
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "In a stable"
+room_long "You are in a room with several boxes, most possible a stable for animals.\n"
+room_exits ([1|"stable2":({7|101,0,0,192,156,0,0,}),])

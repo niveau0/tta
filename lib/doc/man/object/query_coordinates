@@ -1,0 +1,10 @@
+
+/* File: /base/object.c
+ * Function name: query_coordinates
+ * Description:   gives the coordinates of this object
+ * Arguments:     co - optional player coordinates to determine correct
+ *                     blocking distance
+ * Returns:       the coordinates
+ */
+nomask varargs int *
+query_coordinates(int *co)

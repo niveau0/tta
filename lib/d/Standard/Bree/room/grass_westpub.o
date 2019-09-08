@@ -1,0 +1,10 @@
+height 100000000
+xsize 1380
+ysize 500
+climate 1
+type 4096
+edge_base ({4|0,0,0,0,})
+room_coords ({3|0,1200,0,})
+room_short "A grassy area"
+room_long "The grasscovered ground stretches from a cobbled place in the south along the\nwalls of a building in the east up to an even larger grassy area in the north.\nThe building blocks your sight eastward and all you see are the rough grey\nstones the wall is masoned from. Far in the north you recognize the citywall\nand more to the northeast lies an area with small hills, stones and statues\nbeside a building with a high tower. In the southeast a road emerges from the\nplace and straightly goes off westward.\n"
+room_exits ([2|"grass_northpub":({7|110,1300,2,80,99999998,0,0,}),"marketplace":({7|115,0,0,1380,100000000,0,0,}),])

@@ -1,0 +1,7 @@
+
+/* File: /base/container.c
+ * Function name: create_container
+ * Description:   redefinable create function 
+ */
+static void
+create_container()

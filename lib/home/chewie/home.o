@@ -1,0 +1,8 @@
+height 100000000
+xsize 20
+ysize 20
+edge_base ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "A cave"
+room_long "You are standing in a large cave somewhere in a mountain.\n"
+room_exits ([0|])

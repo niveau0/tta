@@ -1,0 +1,10 @@
+
+/* File: /base/living.c
+ * Function name: plural_short
+ * Description:   Returns the plural short-description of this living.
+ *                Handles met/nonmet.
+ * Arguments:     tp - acting player (optional)
+ * Returns:       string, plural short description
+ */
+varargs string
+plural_short(object tp)

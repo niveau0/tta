@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: remove_name
+ * Description:   Removes name(s)
+ * Arguments:	  name - the name(s) to remove
+ */
+void
+remove_name(mixed name)

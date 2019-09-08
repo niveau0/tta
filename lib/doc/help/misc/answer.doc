@@ -1,0 +1,13 @@
+*-------------------------------( Misc: Answer )-----------------------------*
+
+   Type:        command
+   Usage:       answer <name> <text>
+                
+   Description: Give an answer to a previous asked question. This is a game
+    	    	mechanism to start certain actions (see example).
+                
+   Example:     if you have been offered by Findor to learn a skill from him
+                you should answer like this: 
+                answer findor yes
+   
+*----------------------------------------------------------------------------*

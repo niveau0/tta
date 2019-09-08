@@ -1,0 +1,10 @@
+/include/slots.h new definitions
+manwe
+Tue Jun  9 02:39:56 1998
+There are new definitions for slot positions now. Please use them
+and edit your old files. The new macros are compatible but old hardcoded
+values shouldn't be used anymore.
+I.e. instead of writing SLT_ARM+1 for the left arm, please use
+SLT_LEFT(SLT_ARM).
+
+Manwe

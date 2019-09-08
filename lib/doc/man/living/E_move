@@ -1,0 +1,10 @@
+
+/* File: /base/living.c
+ * Function name: E_move
+ * Description:   event, here: catch own movement and set msg events
+ * Arguments:     ob - which object moved
+ *                from - where the object comes from
+ *                to - where it goes
+ */
+nomask void
+E_move(object ob, object from, object to)

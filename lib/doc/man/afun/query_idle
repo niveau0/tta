@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: query_idle
+ * Description:   give idle time of an interactive user
+ * Arguments:     obj - living to query
+ * Returns:       integer, idle time
+ */
+static nomask int
+query_idle(object obj)

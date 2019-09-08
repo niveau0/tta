@@ -1,0 +1,9 @@
+
+/* File: /base/living/stat.c
+ * Function name: query_stat
+ * Description:   Get the compound value of a stat. Never less than 1.
+ * Arguments:     stat - Which stat to find.
+ * Returns:       the current stat value
+ */
+nomask int
+query_stat(int stat)

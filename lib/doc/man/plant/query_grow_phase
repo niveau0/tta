@@ -1,0 +1,8 @@
+
+/* File: /base/plant.c
+ * Function name: query_grow_phase
+ * Description:   gives actual grow phase
+ * Returns:       integer
+ */
+nomask int
+query_grow_phase()

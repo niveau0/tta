@@ -1,0 +1,31 @@
+			 About the creation of weapons
+			 -----------------------------
+
+- set_wield_size(size, hands)
+	To determine the correct wield size of a weapon, first think about
+	how many hands are needed to wield/use the weapon.  E.g. a falchion
+	may be wielded with one handed or with two hands by smaller people.
+	But a bow needs a least 2 hands to work properly.
+	After you have come to conclusion about the hands, you determine the
+	sizevalue that needs to be available in the wielders hands.  E.g. a
+	size of 1600 (and 2 hands maximum allowed) requires 1600 or less free
+	space to wield the weapon one handed, or the value maybe split to wield
+	it two handed (e.g. one hand 700 + the other 900 = 1600).
+	How to compute the correct value? This depends on the size you like to
+	see if the weapon needs two hands.  Maybe you want a dagger to be very
+	huge so hobbits need to wield it with two hands.
+	The wield size is then 
+          (bodyvolume of wielder) / 100 * 3
+        where body volume is the value at which the weapon is still to just use
+	one hand.
+	If hobbits would have a bodies volume around 30000, the wield size is
+	900.  So if we want hobbits need both hands, the size needs to be
+	greater then 900.  Take that value as the 'size' argument.
+	The 'hands' argument takes value as following:
+	- negative number: number of hands that must be used (for a two handed
+	                   bow this is -2 then)
+	- positive number: number of hands that could be used (for a sword 
+			   maybe 2 - two hands allowed if one is not enough)
+
+
+(to be continued...)

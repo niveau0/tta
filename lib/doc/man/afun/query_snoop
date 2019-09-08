@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/comm.c
+ * Function name: query_snoop
+ * Description:   give snooper of a player
+ * Arguments:     obj - living to query
+ * Returns:       object if found, 0 else
+ */
+static nomask object
+query_snoop(object obj)

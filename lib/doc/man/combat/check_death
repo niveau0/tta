@@ -1,0 +1,13 @@
+
+/* File: /base/living/combat.c
+ * Function name: check_death
+ * Description:   add damage and check if living should die, which occurs if
+ *                the hitpoints are lower then the negative constitution value.
+ * Arguments:     damage - the damage to add
+ *                killer - the object that caused the damage
+ * Returns:       0 if living is still alive
+ *                1 if living is dead
+ *                2 if living is unconscious
+ */
+nomask int
+check_death(int damage, object killer)

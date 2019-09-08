@@ -1,0 +1,9 @@
+
+/* File: /base/living/cmd.c
+ * Function name:   add_cmdsoul(string soul)
+ * Description:	    Add a command soul to the list of command souls.
+ * Arguments:       soul - string with the filename of the command soul.
+ * Returns:         1 if success, 0 else
+ */
+nomask int
+add_cmdsoul(string soul)

@@ -1,0 +1,13 @@
+light 20000
+height 100
+xsize 600
+ysize 400
+type 524290
+edge_base ({4|0,0,0,0,})
+room_coords ({3|3800,-450,0,})
+room_short "Inside a grocery"
+room_long "You are standing in a fine small grocery. Vegitables, fruits and other\nedible things you've never seen bevor are stored in big baskets      \nand sacks. Some lanterns and torchs are giving this room a good\nlight. Look at the small list behind the counter to see what you can buy\nhere.\n"
+room_exits ([0|])
+objs_to_clone ({2|({2|"/d/Standard/Bree/npc/teribor",({1|({3|4100,-350,0,}),}),}),({2|"/d/Standard/Bree/obj/grocer_door",({1|({3|4100,-50,0,}),}),}),})
+pseudo_items ([3|1:({3|({2|"sack","basket",}),({2|"sacks","baskets",}),"The sacks and baskets are filled with fresh vegitables and fruits.",}),2:({3|({2|"lantern","torch",}),({2|"lanterns","torches",}),"The lanterns and torches of this room are shining very bright.",}),3:({3|({1|"list",}),({1|"lists",}),"@@list_offer",}),])
+offer ([3|"/lib/drink/waterskin":({5|30,"waterskin",30,500,896371272,}),"/lib/food/apple":({5|250,"green apple",250,100,896371272,}),"/lib/food/egg":({5|50,"egg",50,150,896371272,}),])

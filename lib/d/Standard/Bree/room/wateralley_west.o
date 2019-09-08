@@ -1,0 +1,11 @@
+height 100000000
+xsize 800
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2000,400,0,})
+room_short "On the western part of the Wateralley"
+room_long "This is a small way from the eastern part of Bree to the marketplace you\nsee to the west. North and south are human homes and to the east\nis the crossing with the Winestreet.\n"
+room_exits ([2|"cross_wine_water":({7|101,0,0,200,1000,0,0,}),"marketplace":({7|119,0,0,200,1000,0,0,}),])
+pseudo_items ([2|1:({4|({2|"place","marketplace",}),({2|"places","marketplaces",}),"The road widens to a large cobbled place with several buildings around it.",({3|1950,500,0,}),}),2:({4|({1|"crossing",}),({1|"crossings",}),"Crossing: A place, where usually two roads intersect. This special crossing\nis the spot, where the Winestreet crosses the Wateralley or the other way\nround.",({3|2900,500,0,}),}),])

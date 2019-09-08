@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: query_weight
+ * Description:   gives the weight value of this object
+ * Returns:       integer, the weight
+ */
+int
+query_weight()

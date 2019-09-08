@@ -1,0 +1,12 @@
+light 80
+height 250
+xsize 400
+ysize 350
+type 6
+edge_base ({4|0,0,0,0,})
+room_coords ({3|1650,1300,0,})
+room_short "A large room"
+room_long "You entered a large dimly lit room. An exit to the west is the only obvious\nexit out of here that seems to be a room for guards. It is cleaner the the\ntunnel and doesn't even stink that much. Nevertheless some broken\nfurniture lie around and some deep scratches on the walls and the floor\nshow signs of former fights inside here.\n"
+room_exits ([1|"tunnel_4":({7|119,100,0,120,200,0,0,}),])
+objs_to_clone ({7|({2|"/lib/npc/humanoid/orc",({1|({3|1850,1396,0,}),}),}),({2|"/lib/npc/humanoid/orc",({1|({3|1850,1504,0,}),}),}),({2|"/lib/furniture/wardrobe",({1|({3|1742,1300,0,}),}),}),({2|"/lib/furniture/wardrobe",({1|({3|1850,1300,0,}),}),}),({2|"/lib/furniture/bench",({1|({3|1850,1396,0,}),}),}),({2|"/lib/furniture/bench",({1|({3|1850,1504,0,}),}),}),({2|"/lib/furniture/table",({1|({3|1850,1450,0,}),}),}),})
+pseudo_items ([3|1:({4|({1|"exit",}),({1|"western exit",}),"An exit back to the tunnel.",({3|1600,1460,0,}),}),2:({3|({1|"scratch",}),({1|"scratches",}),"These are deep scratches hewn in the rock by sharp tools. You wonder what\nlivings have the power to do such a damage.",}),3:({3|({2|"furniture","broken furniture",}),({2|"furnitures","broken furnitures",}),"These former beds, chairs and tables are now absolutely useless - except of\nmaking a fire.",}),])

@@ -1,0 +1,15 @@
+*--------------------------------( Misc: Bug )-------------------------------*
+
+   Type:        command
+   Usage:       bug <text>
+                
+   Description: This is an out of character command. If you encounter a 
+    	    	problem which seems to be an obvious program error (bug)
+    	    	you could help to find (so the administration can fix it)
+    	    	the problem. Just describe the bug you discovered.
+                
+   Example:     bug After drinking a potion I got no response, like: 'You 
+                drink from the vial'
+                    
+*----------------------------------------------------------------------------*
+ See also: 'idea', 'typo', 'ooc'

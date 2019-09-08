@@ -1,0 +1,10 @@
+books
+manwe
+Mon May  4 17:28:39 1998
+The /base/book.c file got changed. Now a book consists of just two files,
+the contents (a .o datafile) and the book itself (to clone).
+If you want to write to a book, create a book file (the .c file), then
+use the 'write on title|page <no> of book' command.
+For a first example look at /lib/book/poison.c
+
+Manwe

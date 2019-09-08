@@ -1,0 +1,165 @@
+;; -- private load-path --
+(setq load-path (append (list "~/lib/emacs/lisp") load-path))
+(setq load-path (append (list "~/lib/emacs") load-path))
+(setq load-path (append (list "/opt/local/site-lisp/gnus-5.4.56/lisp") load-path))
+
+(setq Info-default-directory-list (cons "/opt/local/site-lisp/gnus-5.4.56/texi" Info-default-directory-list))
+
+(setq ange-ftp-dumb-unix-host-regexp "heute.cs.tu-berlin.de 7681")
+
+;; Kult's Paddaborna Einrueckungen
+;;(add-hook 'c-mode-hook
+;	  '(lambda ()
+;	     (c-set-style "Stroustrup")
+;	     (setq c-basic-offset 4)))
+
+(put 'eval-expression 'disabled nil)
+
+(load-library "font-lock")
+(load-library "lpc-mode")
+(global-font-lock-mode t)
+
+;;; Setup file for cc-mode
+
+(setq c-site-default-style "cc-mode")
+(setq c-block-comments-indent-p nil)
+(setq c-recognize-knr-p nil)
+
+(setq c-style-alist
+      '(("cc-mode"
+         (c-basic-offset . 4)
+          (c-comment-only-line-offset . (0 . 0))
+          (c-offsets-alist . ((topmost-intro        . 0)
+                              (topmost-intro-cont   . 0)
+                              (substatement         . 4)
+                              (substatement-open    . 0)
+                              (statement-case-intro . 2)
+                              (case-label           . 2)
+                              (access-label         . -3)
+                              (inclass              . 6)
+                              (inline-open          . 0))))
+        ("java"
+         (c-basic-offset . 4)
+         (c-comment-only-line-offset . (0 . 0))
+         (c-offsets-alist . ((topmost-intro         . 0)
+                             (topmost-intro-cont    . 0)
+                             (substatement          . 4)
+                             (substatement-open     . 0)
+                             (statement-block-intro . +)
+                             (inline-open           . +)
+                             (label                 . 0)
+                             (inclass               . 4)
+                             (statement-case-open   . +)
+                             (statement-cont        . +)
+                             (arglist-intro . c-lineup-arglist-intro-after-paren)
+                             (arglist-close . c-lineup-arglist)
+                             (access-label  . 0))))
+))
+
+(add-hook 'c++-mode-hook
+          '(lambda ()
+;;             (require 'paderman)
+             (require 'hideshow)
+             (if (string-match "^/\\(padermud\\|xyllomer\\):" buffer-file-name)
+                 (setq comment-start "/* "
+                       comment-end   " */"))
+             (hs-minor-mode)
+;             (turn-on-elec-equal)
+             (define-key c++-mode-map "\C-cd"  'reindent-then-newline-and-indent)
+             (define-key c++-mode-map "\C-cs" 'hs-show-block)
+             (define-key c++-mode-map "\C-ch" 'hs-hide-block)
+             (define-key c++-mode-map "\C-cS" 'hs-show-all)
+             (define-key c++-mode-map "\C-cH" 'hs-hide-all)
+             (define-key c++-mode-map "\C-cd" 'cc-insert-lpc-header)
+             (define-key c++-mode-map "m"   'paderman)
+             (modify-syntax-entry ?' "."  c++-mode-syntax-table)
+             (modify-syntax-entry 34 "\"" c++-mode-syntax-table)
+             (modify-syntax-entry ?_ "w"  c++-mode-syntax-table)
+             (c-set-style "cc-mode")
+             (if (featurep 'font-lock)
+                 (progn
+                   (setq font-lock-keywords c++-font-lock-keywords)
+                   (font-lock-mode t)))))
+
+(add-hook 'java-mode-hook
+          '(lambda ()
+             (define-key java-mode-map "\C-cd"  'reindent-then-newline-and-indent)
+             (define-key java-mode-map "\C-cs" 'hs-show-block)
+             (define-key java-mode-map "\C-ch" 'hs-hide-block)
+             (define-key java-mode-map "\C-cS" 'hs-show-all)
+             (define-key java-mode-map "\C-cH" 'hs-hide-all)
+             (define-key java-mode-map "\C-cd" 'java-function-header)
+
+             (define-key java-mode-map "\C-co"
+               '(lambda ()
+                  (interactive)
+                  (insert "System.out.println();")
+                  (backward-char 2)))
+             (modify-syntax-entry ?_ "w"  java-mode-syntax-table)
+             (modify-syntax-entry ?' "."  java-mode-syntax-table)
+             (modify-syntax-entry 34 "\"" java-mode-syntax-table)
+
+             (hs-minor-mode 1)
+             (c-set-style "java")
+
+             (if (featurep 'font-lock)
+                 (progn
+                   (setq font-lock-keywords java-font-lock-keywords)
+                   (font-lock-mode t)))))
+
+(defun cc-insert-lpc-header (&optional arg)
+  "Inserts the infamous LPC function documentation header with `Function' name
+and `Description'. With prefix arg, also insert `Arguments' and `Returns'."
+  (interactive "P")
+  (let (a)
+    (insert "/*\n * Function Name: ")
+    (setq a (point))
+    (insert "\n * Description:   \n")
+    (if arg
+        (insert " * Arguments:     \n * Returns:       \n"))
+    (insert " */\n")
+    (if (featurep 'hilit19)
+        (hilit-repaint-command 0))
+    (goto-char a)))
+
+(defun java-function-header (&optional arg)
+  (interactive "P")
+  (insert "// Funktion:     ")
+  (let ((a (point)))
+    (c-indent-line)
+    (insert "\n// Beschreibung: ")
+    (c-indent-line)
+    (if arg
+        (progn
+          (insert "\n// Parameter:    ")
+          (c-indent-line)
+          (insert "\n// Returnwert:   ")
+          (c-indent-line)))
+    (insert "\n")
+    (goto-char a)
+    (end-of-line)))
+
+(setq auto-mode-alist
+      (append '(("\\.c$" . c++-mode)
+		("\\.h$" . c++-mode)
+		("\\.java$" . java-mode))
+		auto-mode-alist))
+
+(setq line-number-mode t)
+(setq c-indent-level 4)
+(setq c-continued-statement-offset 0)
+(setq c-label-offset 0)
+(setq c-tab-always-indent 0)
+(setq c-brace-offset 0)
+(setq c-brace-imaginary-offset 0)
+
+(put 'eval-expression 'disabled nil)
+
+(setq which-func-modes '(c++-mode))
+(autoload 'which-func-mode "which-function")
+
+;;; electric-equal minor mode
+;(autoload 'elec-equal-mode "elec-equal" nil t)
+;(autoload 'turn-on-elec-equal "elec-equal" nil)
+
+

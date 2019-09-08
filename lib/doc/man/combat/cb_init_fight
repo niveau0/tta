@@ -1,0 +1,7 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: cb_init_fight
+ * Description:   initalizes fight while moving
+ */
+nomask void
+cb_init_fight()

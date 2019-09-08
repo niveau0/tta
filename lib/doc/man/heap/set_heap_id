@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: set_heap_id
+ * Description:   set a unique heap id
+ * Arguments:     id - the id
+ */
+nomask void
+set_heap_id(string id)

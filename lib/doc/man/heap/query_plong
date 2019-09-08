@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_plong
+ * Description:   Gives the plural long description.
+ * Returns:       string, plural long description
+ */
+nomask string
+query_plong()

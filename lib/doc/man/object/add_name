@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: add_name
+ * Description:   add name to the current names
+ * Arguments:	  name - the additional name
+ */
+void
+add_name(string name)

@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: remove_adj
+ * Description:   Removes adjective(s)
+ * Arguments:	  adj - adjective(s) to remove
+ */
+void
+remove_adj(mixed adj)

@@ -1,0 +1,10 @@
+height 100000000
+xsize 200
+ysize 500
+climate 1
+type 393216
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-5000,2100,0,})
+room_short "A bend in the Chapelway"
+room_long "This turn in the road leads south as well as east. In the first direction you\nsee another road which crosses this way and in the other, to the east, you see\nit continuing parallel to the citywall. While in the opposite direction, to\nthe west, only a small stonebuilding can be observed with the citywall rising\nbehind it.\n"
+room_exits ([2|"/d/Standard/Bree/room/chapelway":({7|101,300,0,200,100000000,0,0,}),"/d/Standard/Bree/room/cross_chapel_water":({7|115,0,0,200,100000000,0,0,}),])

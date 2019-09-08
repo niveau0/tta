@@ -1,0 +1,17 @@
+Event:     E_MOVE_ATTEMPT
+
+Called:    Whenever an object is about to change its environment _and_ it is
+           allowed to forbid the following movement, a move-attempt event is
+           called for this object, its old environment and destination.
+
+Usage:     Add an event (see add_event), create an event handling function, 
+           that will be called if the event occurs:
+	   int function(object o, object from, object to) { ... }
+           
+           if the function returns an integer != 0, moving is forbidden.
+
+Arguments: object o    - the object that _wants_ to move
+           object from - the former environment
+           object to   - the new environment
+
+See also:  E_MOVE, E_MOVE_INV

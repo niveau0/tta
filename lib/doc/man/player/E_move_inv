@@ -1,0 +1,10 @@
+
+/* File: /base/player.c
+ * Function name: E_move_inv
+ * Description:   event: notify creators if something enters the inventory
+ * Arguments:     ob - what object
+ *                from - where it comes from
+ *                to - where it goes
+ */
+nomask void
+E_move_inv(object ob, object from, object to)

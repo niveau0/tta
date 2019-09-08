@@ -1,0 +1,11 @@
+
+/* File: /base/living/slot.c
+ * Function name: find_location
+ * Description:   find a specified location within a list of locations
+ * Arguments:     locs - list of locations to search
+ *                pref_slot - prefered slot that must appear within the list
+ * Returns:       list of modified locations including the prefered slot if
+ *                found, else 0
+ */
+nomask int *
+find_location(int *locs, int pref_slot)

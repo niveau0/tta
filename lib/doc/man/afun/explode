@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: explode
+ * Description:   split a string by a given seperator
+ * Arguments:     str - string to split
+ *                pat - split seperator
+ * Returns:       array, splitted string
+ */
+static nomask string *
+explode(string str, string pat)

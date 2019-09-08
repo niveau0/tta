@@ -1,0 +1,8 @@
+new macro SLT_ALL
+manwe
+Mon Dec 22 15:38:29 1997
+SLT_ALL is meant to replace the '-1' value always used as function argument
+to get info about all slots (e.g. query_wield(-1)). Please use SLT_ALL
+instead of -1 now (to be found in file <slots.h>).
+
+Manwe

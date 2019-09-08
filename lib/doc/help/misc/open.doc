@@ -1,0 +1,11 @@
+*--------------------------------( Misc: Open )------------------------------*
+
+   Type:        command
+   Usage:       open <item> [with <item>]
+                
+   Description: Open something. You may also add a tool, like a key.
+                
+   Example:     open door with golden key
+                    
+*----------------------------------------------------------------------------*
+ See also: 'close'

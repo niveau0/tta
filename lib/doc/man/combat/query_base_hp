@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat.c
+ * Function name: query_base_hp
+ * Description:   the base hitpoints the living can have.
+ * Returns:       integer
+ */
+nomask int
+query_base_hp()

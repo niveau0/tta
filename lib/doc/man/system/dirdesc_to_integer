@@ -1,0 +1,10 @@
+
+/* File: /system/composite.c
+ * Function name: dirdesc_to_integer
+ * Description:   splits a direction desc (e.g. 2n3e) to 
+ *                integer values
+ * Arguments:     suffix - the direction desc
+ * Returns:       array,  here: ({ 2, 3 })
+ */
+nomask int *
+dirdesc_to_integer(string desc)

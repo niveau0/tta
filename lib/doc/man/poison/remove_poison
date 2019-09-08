@@ -1,0 +1,8 @@
+
+/* File: /base/poison.c
+ * Function name: remove_poison
+ * Description:   remove a poison
+ * Arguments:     tp - the player to heal
+ */
+void
+remove_poison(object tp)

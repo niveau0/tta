@@ -1,0 +1,36 @@
+*----------------------------( Builder: project )----------------------------*
+ 
+   Type:        command
+   Usage:       project <projectname>|list|own
+	        project <projectname> c
+	        project <projectname> d <description>
+	        project <projectname> D
+	        project <projectname> a <member to add>
+	        project <projectname> r <member to remove>
+	        project <projectname> + <access to add>
+	        project <projectname> - <access to remove>
+	        project <membername> q
+                
+   Description: the project command is for communication with the project
+		manager. You can 'list' all projects, list your 'own' 
+		projects or change the status of existing projects.
+                  If you created a project by yourself you can change the 
+		projects fileaccess as long you have the fileaccess you
+		want to add. 
+		  Everyone with a higher level may also change the project
+		values or remove it. 
+   Options:     c    create a project
+                d    set a project description
+                D    delete a project
+                a    add someone to a project
+                r    remove someone from a project
+                +/-  change fileaccess of a project
+                q    query the projects of someone
+ 
+   Example:     project list
+                project Bree 
+		project own
+		project doc + r+/doc
+
+*----------------------------------------------------------------------------*
+ See also: 'access'

@@ -1,0 +1,9 @@
+
+/* File: /base/living/combat.c
+ * Function name: do_die
+ * Description:   Called when this living died.
+ * Arguments:     killer - The enemy that caused our death.
+ * Returns:       1 if success, else 0
+ */
+int
+do_die(object killer)

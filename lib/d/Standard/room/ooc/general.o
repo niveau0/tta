@@ -1,0 +1,13 @@
+light 100000
+height 100000000
+xsize 300
+ysize 300
+climate 5
+type 2
+edge_base ({4|1048576,1048576,1048576,1048576,})
+room_coords ({3|0,300,1048576,})
+room_short "In a huge marble made room"
+room_long "A huge room, the floor is made of black marble, reflecting the light that\nseems to permeate the smooth chess-patterned walls.  The shadows flicker\nand so it gives the impression of hidden candles behind the marble walls.\nThere is one wide arcade open to the south, leading to the next room.  A\nplain pinboard is magically hovering above the ground.\n"
+room_exits ([1|"/d/Standard/room/ooc/discussion":({7|115,0,0,300,100000000,0,0,}),])
+objs_to_clone ({1|({2|"/d/Standard/obj/generalboard",0,}),})
+pseudo_items ([1|1:({3|({2|"light","candle",}),({1|"candles",}),"You cannot realize the candles behind the walls.",}),])

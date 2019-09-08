@@ -1,0 +1,11 @@
+height 156
+xsize 300
+ysize 192
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|276,0,0,})
+room_short "In a stable"
+room_long "You are in a room which is separated by several niches. You assume this is a\nstable for common animals like horses and ponys.\n"
+room_exits ([2|"stable1":({7|119,0,0,192,156,0,0,}),"yard":({7|110,84,0,120,150,0,0,}),])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/stablegate",({1|({3|420,192,0,}),}),}),})

@@ -1,0 +1,10 @@
+light 2000
+height 100000000
+xsize 1000
+ysize 1000
+type 2
+cornerheight ({4|1048576,1048576,1048576,1048576,})
+room_coords ({3|0,300,1048576,})
+room_short "Home of Sauron"
+room_long "You are in Sauron's tower.\n"
+room_exits ([0|])

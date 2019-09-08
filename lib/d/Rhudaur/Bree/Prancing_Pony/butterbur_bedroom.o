@@ -1,0 +1,13 @@
+light 30000
+height 156
+xsize 138
+ysize 90
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|414,450,0,})
+room_short "A diningroom"
+room_long "Light brown boards cover the walls, framing a window in the southeastern\ncorner and a fireplace in the middle of the southern wall.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/but_bed_door",({1|({3|483,539,0,}),}),}),})
+pseudo_items ([1|1:({4|({1|"window",}),({1|"windows",}),"@@look_window:/lib/misc/special/window|Thick curtains are hanging on both sides of the window. It is made from a\nwooden frame and four panes. Looking through the window you see:\n|/d/Rhudaur/Bree/Prancing_Pony/yard",({3|534,450,30,}),}),])

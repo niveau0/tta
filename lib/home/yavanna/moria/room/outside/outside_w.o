@@ -1,0 +1,11 @@
+height 100000000
+xsize 600
+ysize 600
+climate 7
+type 512
+edge_base ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "Inside the mountains"
+room_long "You are standing in an great canyon inside the mountains. It seems that there\nis no other exit, because at three sides you are surrounded by high mountain-\nwalls.\n"
+room_exits ([0|])
+objs_to_clone ({6|({2|"/home/yavanna/moria/obj/gate/west_gate",0,}),({2|"/lib/misc/light/tinder&stone",0,}),({2|"/lib/misc/light/torch",0,}),({2|"/lib/misc/light/torch",0,}),({2|"/lib/misc/light/torch",0,}),({2|"/lib/weapon/one_h_c/warhammer",({2|0,0,}),}),})

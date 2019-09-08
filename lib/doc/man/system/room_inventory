@@ -1,0 +1,9 @@
+
+/* File: /system/inventory.c
+ * Function name: room_inventory
+ * Description:   return the inventory of the room
+ * Arguments:     flag - see 'inventory' manual
+ * Returns:       array
+ */
+private object *
+room_inventory(int flag)

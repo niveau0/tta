@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: stop_call_out
+ * Description:   stops save and consume call_out after login out
+ */
+static nomask void
+stop_call_out()

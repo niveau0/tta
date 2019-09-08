@@ -1,0 +1,13 @@
+*------------------------------( Misc: knot )--------------------------------*
+
+   Type:        command
+   Usage:       knot <object> to [<position> of] <rope>
+                
+   Description: This way you try to fix an object to a rope with a knot as
+		complicated as possible.
+
+   Example:     knot horse to end of rope
+		knot lamp to chain
+   
+*----------------------------------------------------------------------------*
+ See also: 'untie', 'rope mastery'

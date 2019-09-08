@@ -1,0 +1,8 @@
+
+/* File: /base/object/item.c
+ * Function name: remove_item 
+ * Description:   remove a pseudo item (you may only remove the last added)
+ * Arguments:     id - item id
+ */
+nomask void
+remove_item(int id)

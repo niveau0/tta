@@ -1,0 +1,8 @@
+
+/* File: /base/misc/attach.c
+ * Function name: set_slots
+ * Description:   set the number of attach slots this object should have
+ * Arguments:     s - the number of attach slots
+ */
+static nomask void
+set_attach_slots(int s)

@@ -1,0 +1,10 @@
+
+/* File: /base/weapon.c
+ * Function name: set_wield_size
+ * Description:   set the volumes this weapon occupy if wielded
+ * Arguments:     sz - the wield volume weapon needs
+ *                h - maximum number of hand that could be used
+ *                    negative: force more handed (e.g. longbow: -2) 
+ */
+nomask int
+set_wield_size(int sz, int h)

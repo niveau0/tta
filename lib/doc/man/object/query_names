@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: query_names
+ * Description:   Gives the names of the object
+ * Returns:       array
+ */
+string *
+query_names()

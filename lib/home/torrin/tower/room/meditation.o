@@ -1,0 +1,12 @@
+light 100
+height 120
+xsize 480
+ysize 480
+climate 8
+type 2
+edge_base ({4|120,120,120,120,})
+room_coords ({3|0,0,120,})
+room_short "Torrin's Meditation Room"
+room_long "You have reached the top floor of Torrin's tower. You see a comfortable,\nfluffy red pillow in the center of the room with several silver pillows\nsurrounding it inviting you to have a seat. Otherwise, the room is utterly\nempty.\n"
+room_exits ([2|"staire":({7|101,420,0,60,120,0,0,}),"stairw":({7|119,420,0,60,120,0,0,}),])
+objs_to_clone ({5|({2|"/home/torrin/tower/obj/r_pillow",0,}),({2|"/home/torrin/tower/obj/s_pillow",0,}),({2|"/home/torrin/tower/obj/s_pillow",0,}),({2|"/home/torrin/tower/obj/s_pillow",0,}),({2|"/home/torrin/tower/obj/s_pillow",0,}),})

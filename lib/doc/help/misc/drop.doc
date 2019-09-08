@@ -1,0 +1,11 @@
+*--------------------------------( Misc: Drop )------------------------------*
+
+   Type:        command
+   Usage:       drop <item>
+                
+   Description: Drop something on the ground. It may happen that you cannot
+    	        drop a cursed item.
+                
+   Example:     drop coins
+                    
+*----------------------------------------------------------------------------*

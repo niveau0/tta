@@ -1,0 +1,13 @@
+light 35000
+height 120
+xsize 300
+ysize 300
+climate 1
+type 2
+edge_base ({4|600,600,600,600,})
+room_coords ({3|0,0,600,})
+room_short "Top of the tower"
+room_long "Deep black walls surround you in every direction and even the ceiling is only\na black gap above you. Flickering in the middle of the room you see a sphere,\nhalf buried in the floor. Beside the sphere is a hole in the floorplate that\nleads to stairs downward.\n"
+room_exits ([1|"library":({7|100,112,112,75,75,0,0,}),])
+objs_to_clone ({2|({2|"/lib/furniture/chair",({1|({3|0,0,1200,}),}),}),({2|"/lib/furniture/table",({1|({3|0,54,1200,}),}),}),})
+pseudo_items ([5|1:({3|({1|"ceiling",}),({1|"ceilings",}),"The ceiling is a concave dome over your head and seemingly made from the same\nblack material as the walls. Upon closer examination you notice that the\nceiling itself is not black as you assumed, but transparent. It was the black\nvoid expanding behind it that lead to your first thought.",}),2:({3|({1|"wall",}),({1|"walls",}),"Black and smooth describes the major visual properties of this walls.",}),3:({4|({2|"sphere","half sphere",}),({2|"spheres","half spheres",}),"The upper end of the towers main column ends here in a glistening globe. The\nsphere is partly of a dark gray tone and partly filled with colourful sparks\nand lines. Your examining touch cannot reach its surface, as it is dragged\naside by an invisible force.",({3|150,150,600,}),}),4:({4|({1|"stair",}),({1|"stairs",}),"This is only the upper end, you have to go closer to see more of it.",({3|150,150,600,}),}),5:({4|({1|"hole",}),({1|"holes",}),"It is just a square spot where the floor is missing. You think you can see\nthe upper steps of a stair.",({3|150,150,600,}),}),])

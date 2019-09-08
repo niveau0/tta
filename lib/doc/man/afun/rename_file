@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: rename_file
+ * Description:   change name of a file
+ * Arguments:     from - old file path
+ *                to - new file path
+ * Returns:       1 if success, 0 else
+ */
+static nomask int
+rename_file(string from, string to)

@@ -1,0 +1,14 @@
+*--------------------------------( Misc: Aid )-------------------------------*
+
+   Type:        command
+   Usage:       aid [broken] <body part> of <name>
+                
+   Description: Help someone suffering from bloodloss or bandage the broken
+		bones. Your success to stop the bleeding depends on your first
+		aid skill, the bandage of a broken limb on your second aid
+		skill.
+                
+   Example:     aid left arm of findulas
+		aid broken leg of dergios
+   
+*----------------------------------------------------------------------------*

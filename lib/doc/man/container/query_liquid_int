@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: query_liquid_int
+ * Description:   gives the liquid
+ * Returns:       int with the number of the liquid defined in liquid.h
+ */
+nomask int
+query_liquid_int()

@@ -1,0 +1,24 @@
+NAME
+	compile_object - compile an object
+
+SYNOPSIS
+	object compile_object(string file)
+
+
+DESCRIPTION
+	Compile an object from a LPC file, specified by the argument string
+	with ".c" appended.  The returned object will have the argument string
+	as name.
+	If the object to be compiled already exists and is not inherited by
+	any other object, it and all of its clones will be upgraded to the
+	new version.  Variables will be preserved only if they also exist in
+	the new version and have the same type; new variables will be
+	initialized to 0.  The actual upgrading is done immediately upon
+	completion of the current thread.
+
+ERRORS
+	Compilation errors will be reported to the driver object.  Furthermore,
+	a failure to compile will result in a runtime error, as well.
+
+SEE ALSO
+	kfun/object_name

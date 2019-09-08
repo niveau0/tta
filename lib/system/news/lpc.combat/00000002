@@ -1,0 +1,7 @@
+armor size
+manwe
+Fri Sep 13 16:45:09 1996
+There are now defines for different races in <race.h>.
+Please use those to set armor race size.
+
+Manwe

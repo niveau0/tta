@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: remove_dir
+ * Description:   delete a directory
+ * Arguments:     file - directory path
+ * Returns:       1 if success, 0 else
+ */
+static nomask int
+remove_dir(string file)

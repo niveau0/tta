@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: cb_set_parry_skill
+ * Description:   set the skill to parry with if fighting unarmed
+ * Arguments:     sk - the skill number
+ */
+nomask void
+cb_set_parry_skill(int sk)

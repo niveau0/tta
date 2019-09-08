@@ -1,0 +1,9 @@
+arrival(int)
+manwe
+Wed Jul 16 20:55:42 1997
+If livings get commanded to walk somewhere, the function arrival(int)
+will be called if the moving ended.
+The integer argument is 1 if they arrived, 0 if they did't reach
+there target.
+
+Manwe

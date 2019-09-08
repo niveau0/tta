@@ -1,0 +1,18 @@
+*----------------------------( Builder: review )-----------------------------*
+ 
+   Type:        command
+   Usage:       review
+                
+   Description: The command 'review' is used to review your movement messages.
+ 
+   Example:     
+	
+    > review
+    teleport out: looks into your ear and struggles his way into your head!
+    teleport in : suddenly struggles and appears from out of your ear!  OW!
+    walk msg    : slowly waddles his way
+    run msg     : zoomy zoom zooms
+   
+*----------------------------------------------------------------------------*
+ See also: 'set_walk_msg', 'set_run_msg', 'set_teleport_in', 
+	   'set_teleport_out'

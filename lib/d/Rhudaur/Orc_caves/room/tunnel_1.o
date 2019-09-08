@@ -1,0 +1,11 @@
+height 150
+xsize 100
+ysize 250
+type 6
+edge_base ({4|0,0,0,0,})
+room_coords ({3|50,400,0,})
+room_short "A long and dark tunnel"
+room_long "The walls seem to come closer to you. The smell of death surrounds you\nand makes it almost impossible to breath. To the south you smell fresh\nwind while a hole in the north eastern wall let the tunnel continue to\nthe east. You can hear strange noises from there.\n"
+room_exits ([2|"entrance":({7|115,0,0,100,150,0,0,}),"tunnel_2":({7|101,150,0,100,150,0,0,}),])
+objs_to_clone ({1|({2|"/lib/npc/humanoid/orc",({1|({3|50,400,0,}),}),}),})
+pseudo_items ([2|1:({4|({1|"south tunnel",}),({1|"southern tunnel",}),"The tunnel opens here into a cave.",({3|75,400,0,}),}),2:({4|({2|"bend"," hole",}),({2|"bends"," holes",}),"The tunnel continues here and leads deeper into the hill.",({3|155,600,0,}),}),])

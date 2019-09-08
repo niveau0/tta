@@ -1,0 +1,49 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+source $DIR/../config/env
+
+LOG=${LOG_DIR}Cron
+DATE=`date +'%d.%m.%y %T'`
+ulimit -c unlimited
+
+function find_id () {
+	TEST_PID=` ps xw|\
+		grep ${TEST_DRIVER_BIN}|\
+		grep ${TEST_CONFIG_FILE}|\
+		grep -v $0|\
+		grep -v grep|\
+		cut -b1-5`
+	TEST_PID2=`ps auxw|\
+		grep ${TEST_DRIVER_BIN}|\
+		grep ${TEST_CONFIG_FILE}|\
+		grep -v $0|\
+		grep -v grep|\
+		cut -b10-14`
+	if [ "${TEST_PID}" != "${TEST_PID2}" ]
+	then
+	    OTHER_USER=`ps auxwc|\
+		    grep $TEST_DRIVER_BIN|\
+		    grep $TEST_CONFIG_FILE|\
+		    grep -v $LOGNAME|\
+		    cut -b1-8`
+	    echo "${DATE} START ERROR  Other user! ${OTHER_USER}" >>${LOG}
+	fi
+}
+
+function start_driver () {
+	cd ${TEST_MUD_DIR}
+	${TEST_DRIVER_BIN} ${TEST_CONFIG_FILE} >& ${TEST_LOG_FILE} &
+	DRIVER_PID=${!}
+	echo "${DATE} START DONE   PID:${DRIVER_PID}" >>${LOG}
+}
+
+
+find_id
+
+if [ -n "${TEST_PID}" ]
+then
+	echo "${DATE} TEST FAIL    still running PID:${TEST_PID}" >>${LOG}
+else
+	start_driver
+	echo $DRIVER_PID > ${TEST_PID_FILE}
+fi

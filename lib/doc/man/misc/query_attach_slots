@@ -1,0 +1,8 @@
+
+/* File: /base/misc/attach.c
+ * Function name: query_slots
+ * Description:   how many attach slots does this object have
+ * Returns:       int, number of slots
+ */
+static nomask int
+query_attach_slots()

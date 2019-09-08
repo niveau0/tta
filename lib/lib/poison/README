@@ -1,0 +1,36 @@
+POISONS:
+========
+
+
+acaana :	Hurts for 2-6 HP	  Level 10
+bragolith:	Hurts for 3-7 HP	  Level  5
+brithagurth:	Paralyses all arms	  Level  2
+carnegurth:	Blood clutting -> DEATH   Level  1
+dynallca:	Deafness + 1-10 HP	  Level  3
+galenaana:	Kills Elves, makes	  Level  9
+		other unconcious
+henuial:	blinds			  Level  6
+jegga:		Hurts for 1-100 HP	  Level  7
+jeggarukh:	Hurts for 10-99 HP	  Level  6
+jitsu:		Hurts for 5-50 HP	  Level  5
+jitsutyr:	Destroys lungs -> DEATH	  Level  2
+karfar:		Heartshutdown -> DEATH	  Level  7
+kly:		Hurts for 3-300 HP	  Level  3
+klytun:		Makes unconscious	  Level  5
+muilfana:	blinds  or      	  Level  2
+		destroys lungs with dam
+		1-5;1-8;2-10;2-13;3-17
+nimnaur:	destroys organs ->DEATH	  Level  3
+ondohithui:	dehydrates body ->DEATH	  Level  3
+sharkasar:	Hurts for 1-10 HP	  Level 10
+silmaana:	Hurts for 2-20 HP	  Level  9
+taynaga:	Hurts for 5-50 HP	  Level  8
+trusa:		if resistance<=-21 DEATH  Level  4
+		<=0 unconscious + blind
+		else blind
+ul_acaana:	first paralyses		  Level 20
+		then -> DEATH
+uraana:		Hurts for 3-30 HP	  Level  6
+vuraana:	Hurts for 1-100 HP	  Level  2
+zaganzar:	blinds + 1-10 HP	  Level  5
+		

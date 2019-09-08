@@ -1,0 +1,10 @@
+light 500
+height 100
+xsize 400
+ysize 600
+type 2
+room_coords ({3|-800,200,0,})
+room_short "In the backroom of the bakery"
+room_long "You are now in the backroom of the bakery. It is very hot here, because\nevery oven is on. It smells like very fresh bread and you can't even\nawait to get one. The trimmings are stored in cupboards and after a few\nseconds you are completely covered with flour.\nYou can enter the sales room to the east.\n"
+room_exits ([1|"/d/Standard/Bree/room/bakery":({7|101,250,0,100,100,0,0,}),])
+pseudo_items ([3|1:({3|({1|"cupboard",}),({1|"cupboards",}),"The cupboards are fully stored with flour, sugar and other trimmings a baker\nuses.",}),2:({3|({1|"oven",}),({1|"ovens",}),"They seem to be really hot. You won't even touch them.",}),3:({4|({2|"sales room","salesroom",}),({1|"sales rooms",}),"That is obviously the room where the breads, cakes and other products are\nsold by the shopkeeper.",({3|-350,500,0,}),}),])

@@ -1,0 +1,10 @@
+height 100000000
+xsize 1500
+ysize 100
+type 6
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|150,550,0,})
+room_short "A long and dark tunnel"
+room_long "You entered a long, dark tunnel that leads from west to east. The stench\nis almost incredible and even a breeze from the west end can't fresh up\nthe air. Some very big and ugly bugs crawl around your feet and big\nspiders watch you from the ceiling. A narrow tunnel runs south into\ndarkness while the east end bends to the north, where you can hear some\nmore strange noises.\n"
+room_exits ([3|"tunnel_1":({7|119,0,0,100,150,0,0,}),"tunnel_3":({7|115,200,0,90,150,0,0,}),"tunnel_4":({7|110,1350,0,150,200,0,0,}),])
+pseudo_items ([5|1:({4|({1|"western end",}),({1|"west end",}),"The tunnel bends here to the south.",({3|150,600,0,}),}),2:({4|({1|"narrow tunnel",}),({1|"southern tunnel",}),"A narrow and dark tunnel leads into darkness.",({3|400,550,0,}),}),3:({4|({1|"east end",}),({1|"bend",}),"The tunnel leads north from here.",({3|1550,650,0,}),}),4:({3|({1|"bug",}),({1|"bugs",}),"They crawl within and on messy the floor. A first glance only shows\noscillating, moving masses clustering at several parts of the tunnel.\nExamining these closer reveals a handful of different kinds of bugs reaching\nsizes between one and five inches.",}),5:({3|({1|"spider",}),({1|"spiders",}),"Scattered over the ceiling you discover fat spiders, some of them close to or\nin their nets, others just sitting near clefts of their size or similar dark\nplaces. They are hairy, big and with high possibility poisonous.",}),])

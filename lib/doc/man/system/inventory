@@ -1,0 +1,16 @@
+
+/* File: /system/inventory.c
+ * Function name: inventory
+ * Description:   return an array with the inventory of this object  
+ * Arguments:     flag - 0 whole inventory,
+ *                       1 only items,
+ *                       2 only livings,
+ *                       3 only heaps
+ *                       4 only items (without surrounding rooms),
+ *                       5 only livings (without surrounding rooms),
+ *                       6 only heaps (without surrounding rooms)
+ *                       7 whole inventory (without surrounding rooms)
+ * Returns:       array
+ */
+nomask varargs object *
+inventory(int flag)

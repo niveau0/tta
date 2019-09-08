@@ -1,0 +1,6 @@
+/home/seclan/room/tower/laboratory
+seclan
+Tue Feb 17 20:57:17 1998
+Cast should check wether a target or direction is valid BEFORE you start to
+concentrate and so on. Especially with long preparation-times it is
+annoying to wait and wait, just to see that the syntax was wrong.

@@ -1,0 +1,13 @@
+light 30000
+height 156
+xsize 144
+ysize 324
+climate 1
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|0,360,0,})
+room_short "A dining room"
+room_long "Though quite spatious for such a purpose you think this is a dining room.\nWindows within the western wall give a view outside and a large fireplace\nprepares the room for colder days. Light brown boards cover the walls and\npolished planks build the floor.\n"
+room_exits ([0|])
+objs_to_clone ({1|({2|"/d/Rhudaur/Bree/Prancing_Pony/obj/dining_door",({1|({3|143,432,0,}),}),}),})
+pseudo_items ([1|1:({4|({2|"fireplace","chimney",}),({2|"fireplaces","chimneys",}),"The fireplace is made from big stones, skillfully masoned, and iron grates.\nIts size will allow to make a large fire in it. It shows signs of usage, but\nit is also clean and well cared.",({3|0,522,0,}),}),])

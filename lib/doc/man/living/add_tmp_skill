@@ -1,0 +1,9 @@
+
+/* File: /base/living/skill.c
+ * Function name: add_tmp_skill
+ * Description:   add a skill bonus/malus to skill rank
+ * Arguments:     skill - which skill to change
+ *                v - the value 
+ */
+nomask void
+add_tmp_skill(int skill, int v)

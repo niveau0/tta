@@ -1,0 +1,10 @@
+
+/* File: /base/misc/openclose.c
+ * Function name: unlock_cmd
+ * Description:   called if someone tries to unlock this container
+ * Arguments:     str - optional argument (e.g. white key)
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+int
+unlock_cmd(string str, object tp)

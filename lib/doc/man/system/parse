@@ -1,0 +1,12 @@
+
+/* File: /system/parse.c
+ * Function name: parse
+ * Description:   try to match a pattern with an objects names/identifiers
+ * Arguments:     p - pattern to match
+ *                list - object list
+ *                tp - living (optional for introduce check)
+ *                distance - optional for distance check
+ * Returns:       array of matching objects
+ */
+static nomask varargs object *
+parse(string p, object *list, object tp, int distance)

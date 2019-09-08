@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/call_out.c
+ * Function name: call_out
+ * Description:   start a delayed local function call
+ * Arguments:     func - function to call after delay
+ *                delay - call delay (seconds)
+ *                arg - arguments to pass to delayed function
+ * Returns:       integer, unique call_out id
+ */
+static nomask varargs int
+call_out(string func, int delay, mixed arg...)

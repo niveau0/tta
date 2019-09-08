@@ -1,0 +1,18 @@
+*---------------------------( Builder: tellall )-----------------------------*
+ 
+   Type:        command
+   Usage:       tellall <text>
+                
+   Description: The command 'tellall' is used to tell everyone in the mud 
+		your <text>.  Do not abuse this command.  This should only 
+		be used for mud-related things, like letting everyone know 
+		that a major bug is fixed, or that problems exist and to sit 
+		tight and wait for a bit.
+ 
+   Example:
+	     
+	> tellall The bug in the inventory is now fixed, Enjoy!
+	You tell everyone: The bug in the inventory is now fixed, Enjoy!
+   
+*----------------------------------------------------------------------------*
+ See also: 'tell'

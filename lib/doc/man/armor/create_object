@@ -1,0 +1,7 @@
+
+/* File: /base/armor.c
+ * Function name: create_object
+ * Description:   Create the armor. (constructor)
+ */
+static nomask void
+create_object()

@@ -1,0 +1,7 @@
+
+/* File: /base/living/cmd.c
+ * Function name: stop_cmdqueue
+ * Description:   stop processing further cmds and clear queue
+ */
+static nomask void	
+stop_cmdqueue()

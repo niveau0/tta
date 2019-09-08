@@ -1,0 +1,56 @@
+=====================================
+Open Mentalism List
+=====================================
+
+[nyi] = not yet implemented
+
+delil : Delving
+---------------
+
+1)  haju   : Item Feel (tells the purpose of the item, e.g. weapon etc. )
+2)  terl   : Detect Power (tells if the item has a special power but 
+             not which) [nyi]
+5)  crui   : Detect Curse (tells if an item is cursed, but not what curse)
+6)  teri   : Power Lore (tells if there is a spell on an item and what spells) [nyi]
+10) gafo   : Delving (gives weight, material, size, purpose of an item) [nyi]
+13) dafa   : Item Lore (gives weight, material, size, purpose, powers of an item) [nyi]
+19) treulo : Item Analysis (tells weight, material, purpose, powers, spells, curses, 
+             how much damaged, slots of an item) [nyi]
+
+reda : Damage Resistance
+------------------------
+
+1)  heta  : Heat Resistance (+20 CB_RESIST_HEAT)
+2)  cota  : Cold Resistance (+20 CB_RESIST_COLD)
+6)  lest  : Stun Relief I (relieves 1 round of stun)
+7)  westu : Resist Poison (delays the effect of a poison as long as
+                           caster concentrates) [nyi]
+11) lowe  : Stun Relief III (relieves 3 rounds of stun) 
+
+gilo : Cloaking
+---------------
+
+2) rihl : Blur (+10 DB)
+
+celi : Brilliance
+-----------------
+
+2) ryhl : Blur (+10 DB)                  
+
+---- : Anticipations
+--------------------
+
+cevo : Attack Avoidance
+-----------------------
+
+sede : Detections
+-----------------
+
+---- : Illusion
+---------------
+
+hafel : Self Healing
+--------------------
+
+refa : Spell Resistance
+-----------------------

@@ -1,0 +1,9 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: query_similar_code
+ * Description:   gives a unique code id of the spell to forbid accumulative
+ *                use
+ * Returns:       mixed id
+ */
+mixed
+query_similar_code()

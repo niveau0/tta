@@ -1,0 +1,10 @@
+height 100000000
+xsize 13000
+ysize 21500
+climate 1
+type 8192
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-20000,-18500,0,})
+room_short "On a grassy ground"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([4|"eastroad_west3":({7|101,21000,0,500,100000000,0,0,}),"eastroad_west4":({7|110,0,0,13000,100000000,0,0,}),"free_s2w5":({7|115,6750,0,6450,100000000,0,0,}),"free_s3w2":({7|101,0,0,19700,100000000,0,0,}),])

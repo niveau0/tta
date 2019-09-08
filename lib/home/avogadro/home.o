@@ -1,0 +1,9 @@
+light 1000
+height 1000
+xsize 1000
+ysize 1000
+edge_base ({4|-10000,-10000,-10000,-10000,})
+room_coords ({3|10000,10000,-10000,})
+room_short "A meadow"
+room_long "A wonderful meadow, which is dotted by thousands of beautiful flowers.\nGentle hills can be seen in the distance, and a brook bubbles quitely\nalong.\n"
+room_exits ([0|])

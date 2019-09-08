@@ -1,0 +1,1663 @@
+Hinweise:
+
+- Die Seiten sind 78 Zeichen breit.
+- Die Eintraege sind 3 Felder von den Raender entfernt (rechts und links).
+- Die Ueberschriften sind ungefaehr zu zentrieren. 
+
+Hier nun einige Beispiele die als Vorlage dienen sollen:
+
+Academic Skills:
+================
+
+*------------------------------( Misc: Analyse )-----------------------------*
+
+   Type:        command
+   Usage:       
+                
+   Description: 
+                
+   Example:     
+   
+*----------------------------------------------------------------------------*
+
+*----------------------------( Skills: long sword )--------------------------*
+
+   Name:            Long Sword
+
+   Type:            Melee, one hand slashing
+   Similar Skills:  Broadsword, Falchion, Scimitar
+ 
+   Description:     The art of wielding a longsword efficiently.
+                                                   
+*----------------------------------------------------------------------------*
+
+*--------------------------( Skills: adrenal defense )-----------------------*
+
+   Name:            Adrenal Defense
+
+   Type:            Defense, Maneuver
+   Similar Skills:   
+ 
+   Description:     The ability to  defend yourself without wearing any 
+                    pieces of armor. A very powerful skill, but hard to 
+                    learn.
+                                                   
+*----------------------------------------------------------------------------*
+
+##############################################################################
+##############################################################################
+
+So, jetzt kommen die neuen Helppages:
+
+* Schon eingebaut *
+*----------------------------( Skills: demon lore )--------------------------*
+
+   Name:            Demon Lore
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Demon Lore is the knowledge about demons.
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*----------------------------( Skills: fauna lore )--------------------------*
+
+   Name:            Fauna Lore
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Fauna Lore is the knowledge about plants.
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*----------------------------( Skills: flora lore )--------------------------*
+
+   Name:            Flora Lore
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Flora Lore is the knowledge about animals.
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*----------------------------( Skills: herb lore )---------------------------*
+
+   Name:            Herb Lore
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Herb Lore is the knowledge about herbs.
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*----------------------------( Skills: lock lore )---------------------------*
+
+   Name:            Lock Lore
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Lock Lore is the knowledge about locks
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*-----------------------------( Skills: mapping )----------------------------*
+
+   Name:            Mapping
+
+   Type:            Academic, Art
+ 
+   Description:     Mapping is the art of creating and reading maps.
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*---------------------------( Skills: mathematics )--------------------------*
+
+   Name:            Mathematics
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Mathemathics is the knowledge about mathematics.
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*----------------------------( Skills: navigation )--------------------------*
+
+   Name:            Navigation
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Navigation is the knowledge about how to determine ones
+                    location by watching the stellar constellation.
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*---------------------------( Skills: poison lore )--------------------------*
+
+   Name:            Poison Lore
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Poison Lore is the knowledge about poisons 
+                    and antidotes.
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*---------------------------( Skills: Warding Lore )-------------------------*
+
+   Name:            Warding Lore
+
+   Type:            Academic, Knowledge
+ 
+   Description:     ?
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*------------------------( Skills: weather watching )------------------------*
+
+   Name:            Weather Watching
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Weather Watching is the knowledge about the weather
+                    and how to forecast it. 
+                                                   
+*----------------------------------------------------------------------------*
+
+* Schon eingebaut *
+*---------------------------( Skills: mathematics )--------------------------*
+
+   Name:            Mathematics
+
+   Type:            Academic, Knowledge
+ 
+   Description:     Mathemathics is the knowledge about mathematics.
+                                                   
+*----------------------------------------------------------------------------*
+
+Athletic Skills:
+================
+
+*---------------------------( Skills: acrobatics )---------------------------*
+
+   Name:            Acrobatics
+
+   Type:            Athletic, Maneuver
+   Similar Skills:   
+ 
+   Description:     The abillity to somersault and to perform other
+                    acrobatic feats. 
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'tumble', 'skills'
+
+*----------------------------( Skills: climbing )----------------------------*
+
+   Name:            Climbing
+
+   Type:            Athletic, Maneuver
+   Similar Skills:   
+ 
+   Description:     The abillity to climb trees, mountains and other
+                    rough surfaces with or without any tools. 
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'climb', 'skills'
+
+*---------------------------( Skills: contortions )--------------------------*
+
+   Name:            Contortions
+
+   Type:            Athletic, Maneuver
+   Similar Skills:   
+ 
+   Description:     The abillity to contort ones body to escape bondage
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'contort', 'skills'
+
+*--------------------------( Skills: distance run )--------------------------*
+
+   Name:            Distance Run
+
+   Type:            Athletic, Maneuver
+   Similar Skills:   
+ 
+   Description:     The abillity to keep on running over a long distance
+                    without getting tired. 
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'run', 'skills'
+
+*-----------------------------( Skills: jumping )----------------------------*
+
+   Name:            Jumping
+
+   Type:            Athletic, Maneuver
+   Similar Skills:   
+ 
+   Description:     The abillity to leap very far. 
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'jump', 'skills'
+
+*-----------------------------( Skills: riding )-----------------------------*
+
+   Name:            Riding
+
+   Type:            Athletic, Maneuver
+   Similar Skills:   
+ 
+   Description:     The abillity to control a mount and to remain seated
+                    on its back even in difficult circumstances
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'dismount', 'mount', 'skills'
+
+*---------------------------( Skills: sprinting )----------------------------*
+
+   Name:            Sprinting
+
+   Type:            Athletic, Maneuver
+   Similar Skills:   
+ 
+   Description:     The abillity to run very fast over a short distance.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'run', 'skills', 'sprint'
+
+*----------------------------( Skills: swimming )----------------------------*
+
+   Name:            Swimming
+
+   Type:            Athletic, Maneuver
+   Similar Skills:   
+ 
+   Description:     The ability not to drown.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills', 'swim'
+
+
+*-----------------------------( Moving: tumble )-----------------------------*
+
+   Type:        command
+   Usage:       tumble <direction>
+                
+   Description: Lets you tumble in the given direction. Hitting a tumbling
+                person is very difficult. One has to be skilled in
+                acrobatics to use this command successfully.
+                
+   Example:     tumble east
+   
+*----------------------------------------------------------------------------*
+ See also: 'acrobatics', 'skills'
+
+*-----------------------------( Moving: climb )-----------------------------*
+
+   Type:        command
+   Usage:       climb <direction>
+                
+   Description: Lets you climb in the given direction (mostly up). One
+                should be skilled in climbing if using this command.
+                
+   Example:     climb east
+   
+*----------------------------------------------------------------------------*
+ See also: 'climbing', 'skills'
+
+*-----------------------------( Misc: contort )------------------------------*
+
+   Type:        command
+   Usage:       contort <limb>
+                
+   Description: Lets you contort the given limb to free it from the bond.
+                One should be skilled in contortion to use this command
+                successfully.
+
+   Example:     contort right leg
+   
+*----------------------------------------------------------------------------*
+ See also: 'contortions', 'skills'
+
+*-----------------------------( Moving: jump )-------------------------------*
+
+   Type:        command
+   Usage:       jump <direction>
+                
+   Description: Lets you leap in the given direction. Being skilled in
+                jumping makes it easier to use this command.
+                
+   Example:     jump south
+   
+*----------------------------------------------------------------------------*
+ See also: 'jumping', 'skills'
+
+*-----------------------------( Moving: sprint )-----------------------------*
+
+   Type:        command
+   Usage:       sprint <direction>
+                
+   Description: Lets you run very fast in the given direction. Being
+                skilled in sprinting helps using this command.
+                
+   Example:     sprint north
+   
+*----------------------------------------------------------------------------*
+ See also: 'skills', 'sprinting'
+
+*------------------------------( Moving: swim )------------------------------*
+
+   Type:        command
+   Usage:       swim <direction>
+                
+   Description: Lets you swim in the given direction. You try to remain 
+                on the surface. If you want to go down you should dive.
+                The skill swimming is required to use this command 
+                successfully.
+                
+   Example:     swim east
+   
+*----------------------------------------------------------------------------*
+ See also: 'dive', 'diving', 'skills', 'swimming'
+
+Craft Skills
+============
+
+*---------------------------( Skills: leather works )------------------------*
+
+   Name:            Leather Works
+
+   Type:            Craft
+   Similar Skills:  
+ 
+   Description:     The knowledge of how to create objects made of hide
+                    or leather.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*------------------------------( Skills: mining )----------------------------*
+
+   Name:            Mining
+
+   Type:            Craft
+   Similar Skills:  
+ 
+   Description:     The knowledge of how to dig in the dirt.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*-----------------------------( Skills: sailing )----------------------------*
+
+   Name:            Leather Works
+
+   Type:            Craft
+   Similar Skills:  
+ 
+   Description:     The knowledge of the sea and wind driven vessels.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills','sail'
+
+*----------------------------( Skills: wood craft )--------------------------*
+
+   Name:            Wood Craft
+
+   Type:            Craft
+   Similar Skills:  
+ 
+   Description:     The knowledge of how to create objects made of wood.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: metal craft )--------------------------*
+
+   Name:            Metal Craft
+
+   Type:            Craft
+   Similar Skills:  
+ 
+   Description:     The knowledge of how to create objects made of all
+                    kinds of metal.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*----------------------------( Skills: fletching )---------------------------*
+
+   Name:            Fletching
+
+   Type:            Craft
+   Similar Skills:  
+ 
+   Description:     The knowledge of how to create wooden bolts and 
+                    arrows.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+General Skills
+==============
+
+*---------------------------( Skills: eval armor )---------------------------*
+
+   Name:            Eval(uate) Armour
+
+   Type:            General
+   Similar Skills:  
+ 
+   Description:     This is the ability to judge the quality of
+                    armor.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills','appraisal','eval weapon'
+
+*--------------------------( Skills: eval weapon )---------------------------*
+
+   Name:            Eval(uate) Weapon
+
+   Type:            General
+   Similar Skills:  
+ 
+   Description:     This is the ability to judge the quality of
+                    weapons.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills','appraisal','eval armor'
+
+*----------------------------( Skills: cookery )-----------------------------*
+
+   Name:            Cookery
+
+   Type:            General
+   Similar Skills:  
+ 
+   Description:     This is the ability to use recepies and appropriated
+                    ingrediance to prepare food and potions.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*--------------------------( Skills: read tracks )---------------------------*
+
+   Name:            Read Tracks
+
+   Type:            General
+   Similar Skills:  
+ 
+   Description:     This is the ability to discover tracks and to follow
+                    them. It includes the knowledge of who or what could 
+                    have caused the tracks.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*--------------------------( Skills: rope mastery )--------------------------*
+
+   Name:            Rope Mastery
+
+   Type:            General
+   Similar Skills:  
+ 
+   Description:     This is the ability to securely tie a rope or to
+                    securely fasten something with a rope. This skills
+                    is quit usefull in bonding prisoners.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*----------------------------( Skills: trading )-----------------------------*
+
+   Name:            Trading
+
+   Type:            General
+   Similar Skills:  
+ 
+   Description:     This is the ability to get the best price for
+                    an items, be it a higher price at sale or lower
+                    price when buying.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*------------------------------( Misc: carve )-------------------------------*
+
+   Type:        command
+   Usage:       carve <object> from wood
+                
+   Description: Lets you carve an object out of wood. You need a piece
+                of wood large enough to get the object out of it and
+                you also need a fletiching kit. This command is most
+                usefull in conjunction with the skills "fletching" and
+                "wood craft". 
+                
+   Example:     carve arrow from wood
+   
+*----------------------------------------------------------------------------*
+ See also: 'skills', 'fletching','wood craft'
+
+*------------------------------( Misc: cook )--------------------------------*
+
+   Type:        command
+   Usage:       cook <recipe name> with <cooking container>
+                
+   Description: Lets you prepare food or a potion according to
+                the prescription given as the <recipe name>. You 
+                need a <cooking container> and the appropriated 
+                ingredience to succeed.
+                
+   Example:     carve arrow from wood
+   
+*----------------------------------------------------------------------------*
+ See also: 'skills', 'cookery'
+
+Linguistic Skills
+=================
+
+*-------------------------( Skills: speak adunaic )--------------------------*
+
+   Name:            Speak Adunaic
+
+   Type:            Linguistics
+   Similar Skills:  
+ 
+   Description:     The ability to speak and understand Adunaic.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills','speak'
+
+*-----------------------( Skills: speak black speech )-----------------------*
+
+   Name:            Speak Black Speech
+
+   Type:            Linguistics
+   Similar Skills:  
+ 
+   Description:     The ability to speak and understand Black Speech.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills','speak'
+
+*-------------------------( Skills: speak khuzdul )--------------------------*
+
+   Name:            Speak Khuzdul
+
+   Type:            Linguistics
+   Similar Skills:  
+ 
+   Description:     The ability to speak and understand Khuzdul.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills','speak'
+
+*-------------------------( Skills: speak quenya )---------------------------*
+
+   Name:            Speak Quenya
+
+   Type:            Linguistics
+   Similar Skills:  
+ 
+   Description:     The ability to speak and understand Quenya.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills','speak'
+
+*-------------------------( Skills: speak roheric )--------------------------*
+
+   Name:            Speak Roheric
+
+   Type:            Linguistics
+   Similar Skills:  
+ 
+   Description:     The ability to speak and understand Roheric.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills','speak'
+
+*-------------------------( Skills: speak sindarin )-------------------------*
+
+   Name:            Speak Sindarin
+
+   Type:            Linguistics
+   Similar Skills:  
+ 
+   Description:     The ability to speak and understand Sindarin.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills','speak'
+
+*-------------------------( Skills: speak westron )--------------------------*
+
+   Name:            Speak Westron
+
+   Type:            Linguistics
+   Similar Skills:  
+ 
+   Description:     The ability to speak and understand Westron.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills','speak'
+
+*-------------------------( Skills: tale telling )---------------------------*
+
+   Name:            Tale Telling
+
+   Type:            Linguistics
+   Similar Skills:  
+ 
+   Description:     The ability to vividly tell a story that really
+                    captures the attention of the audience.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills','speak'
+
+Magic Skills
+============
+
+#define SK_CHANNELING                  700
+*---------------------------( Skills: channeling )---------------------------*
+
+   Name:            Channeling
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     The ability to transfer mana from you to other
+                    livings.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'channel','skills'
+
+#define SK_POWER_PROJ                  701
+*------------------------( Skills: power projection )------------------------*
+
+   Name:            Power Projection
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     You need this skill to participate in magical
+                    contention common among mages. Both contestant
+                    stand opposite each other. A large ball of
+                    magical energie appears between them, that has
+                    the tendency to skip towards one of the contestant.
+                    You can make the ball skip toward to your opponent
+                    by pumping mana into the sphere. Your opponent will
+                    do the same. The more mana you invest the greater
+                    the strain on your mind gets. The one who is
+                    hit by the ball is attacked by all the magical
+                    energy stored in sphere up to this point.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_RUNES                       702
+*--------------------------( Skills: reading runes )-------------------------*
+
+   Name:            Runes
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     The ability to decipher runes and to invoke
+                    the magic in them.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_SENSE_MAGIC                 703
+*--------------------------( Skills: sense magic )---------------------------*
+
+   Name:            Sense Magic
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     The ability to sense magical energies.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_STAVES_WANDS                704
+*-------------------------( Skills: using staves )---------------------------*
+
+   Name:            Using Staves
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     The ability to activate the magic stored in
+                    a staff or wand.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_TRANS_ARMOR                 705
+*------------------------( Skills: transcend armor)--------------------------*
+
+   Name:            Transcended Armor
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     You can somewhat compensate the influence of
+                    armor on the ability to cast spells with this
+                    skill.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_AIONION                  720
+*----------------------------( Skills: aionion )-----------------------------*
+
+   Name:            Aionion
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_AISTHASIS                721
+*---------------------------( Skills: aisthasis )----------------------------*
+
+   Name:            Aisthasis
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_ANATHEMA                 722
+*---------------------------( Skills: anathema )-----------------------------*
+
+   Name:            Anathema
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_ASEBEIA                  723
+*----------------------------( Skills: asebeia )-----------------------------*
+
+   Name:            Asebeia
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_ASTER                    724
+*----------------------------( Skills: asther )-----------------------------*
+
+   Name:            Asther
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists light based
+                    spells.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_CHAOS                    725
+*----------------------------( Skills: chaos )-----------------------------*
+
+   Name:            Chaos
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_CONSCIOUSNESS            726
+*-------------------------( Skills: consciousness )--------------------------*
+
+   Name:            Consciousness
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists analyse and
+                    detect spells.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_EARTHBLOOD               727
+*--------------------------( Skills: earthblood )----------------------------*
+
+   Name:            Earthblood
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_EIRENAY                  728
+*---------------------------( Skills: eirenay )------------------------------*
+
+   Name:            Eirenay
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_GNOSIS                   729
+*----------------------------( Skills: gnosis )-----------------------------*
+
+   Name:            Gnosis
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_GRAPHAY                  730
+*---------------------------( Skills: graphay )------------------------------*
+
+   Name:            Graphay
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists spells 
+                    concerning sign or symbols.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_HUDATOS                  731
+*---------------------------( Skills: hudatos )------------------------------*
+
+   Name:            Hudatos
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_IHYAMA                   732
+*----------------------------( Skills: ihyama )------------------------------*
+
+   Name:            Ihyama
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists cure and
+                    healing spells.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_IRUARIC                  733
+*----------------------------( Skills: iruaric )-----------------------------*
+
+   Name:            Iruarik
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_KUBEIA                   734
+*----------------------------( Skills: kubeia )------------------------------*
+
+   Name:            Kubeia
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_LOGOS                    735
+*-----------------------------( Skills: logos )------------------------------*
+
+   Name:            Logos
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists sound based
+                    spells.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_PARAPATEO                736
+*---------------------------( Skills: parapateo )----------------------------*
+
+   Name:            Parapateo
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_PETRA                    737
+*-----------------------------( Skills: petra )------------------------------*
+
+   Name:            Aionion
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists spells that
+                    protect from certain magic and spells that create
+                    obstacles out of water or earth.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_PNEUMATIKOS              738
+*--------------------------( Skills: pneumatikos )---------------------------*
+
+   Name:            Pneumatikos
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists summon spells.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_PORNEIA                  739
+*----------------------------( Skills: porneia )-----------------------------*
+
+   Name:            Porneia
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_PUROSIS                  740
+*----------------------------( Skills: purosis )-----------------------------*
+
+   Name:            Purosis
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_QADOSH                   741
+*-----------------------------( Skills: qadosh )-----------------------------*
+
+   Name:            Qadosh
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists spells 
+                    concerning the primal urges of living beings.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_SKOTIA                   742
+*----------------------------( Skills: skotia )-----------------------------*
+
+   Name:            Skotia
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_SOMA                     743
+*-----------------------------( Skills: soma )-------------------------------*
+
+   Name:            Soma
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_SPOUDAZO                 744
+*---------------------------( Skills: spoudazo )-----------------------------*
+
+   Name:            Spoudazo
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_THANATOS                 745
+*---------------------------( Skills: thanatos )-----------------------------*
+
+   Name:            Thanatos
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_TOTEM                    746
+*-----------------------------( Skills: totem )------------------------------*
+
+   Name:            Totem
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists spells that
+                    control animal behaviour.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_ML_XZULOU                   747
+*----------------------------( Skills: xzulou )------------------------------*
+
+   Name:            Xzulou
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This is a magical language. It assists spells
+                    concerning plants.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_MATTACK_COLD_BALL           760
+*--------------------------( Skills: cold ball )-----------------------------*
+
+   Name:            Magical Attack Cold Ball
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This skill gives you more control over where your
+                    cold ball hits.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_MATTACK_FIRE_BALL           761
+*--------------------------( Skills: fire ball )-----------------------------*
+
+   Name:            Magical Attack Fire Ball
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This skill gives you more control over where your
+                    fire ball hits.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_MATTACK_FIRE_BOLT           762
+*--------------------------( Skills: fire bolt )-----------------------------*
+
+   Name:            Magical Attack Fire Bolt
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This skill gives you more control over where your
+                    fire bolt hits.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_MATTACK_ICE_BOLT            763
+*---------------------------( Skills: ice bolt )-----------------------------*
+
+   Name:            Magical Attack Ice Bolt
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This skill gives you more control over where your
+                    bolt of ice hits.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_MATTACK_LIGHT_BOLT          764
+*------------------------( Skills: lightning bolt )--------------------------*
+
+   Name:            Magical Attack Lighting Bolt
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This skill gives you more control over where your
+                    lightning bolt hits.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_MATTACK_SHOCK_BOLT          765
+*--------------------------( Skills: shock bolt )----------------------------*
+
+   Name:            Magical Attack Shock Bolt
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This skill gives you more control over where your
+                    shock bolt hits.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_MATTACK_STONE_THROW         766
+*-------------------------( Skills: stone throw )----------------------------*
+
+   Name:            Magical Attack Stone Throw
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This skill gives you more control over where your
+                    thrown stone hits.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+#define SK_MATTACK_WATER_BOLT          767
+*--------------------------( Skills: water bolt )----------------------------*
+
+   Name:            Magical Attack Water Bolt
+
+   Type:            Magic
+   Similar Skills:  
+ 
+   Description:     This skill gives you more control over where your
+                    water bolt hits.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+
+Medical Skills
+==============
+
+*------------------------( Skills: animal healing )--------------------------*
+
+   Name:            Animal Healing
+
+   Type:            Medical
+   Similar Skills:  first aid, second aid
+ 
+   Description:     The ability to heal animals
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'diagnostics','first aid','second aid','skills'
+
+*--------------------------( Skills: diagnostics )---------------------------*
+
+   Name:            Diagnostics
+
+   Type:            Medical
+   Similar Skills:  
+ 
+   Description:     The ability to diagnose an illness, wounding or
+                    infection.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'animal healing','first aid','second aid','skills'
+
+*---------------------------( Skills: first aid )----------------------------*
+
+   Name:            First Aid
+
+   Type:            Medical
+   Similar Skills:  animal healing, second aid
+ 
+   Description:     The ability to treat wounds of a humanoid. This has 
+                    to happen shortly after the wounding.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'animal healing','diagnostics','second aid','skills'
+
+*--------------------------( Skills: second aid )----------------------------*
+
+   Name:            Second Aid
+
+   Type:            Medical
+   Similar Skills:  animal healing, first aid
+ 
+   Description:     The ability to treat a wound of a humanoid.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'animal healing','diagnostics','first aid','skills'
+
+Mental Skills
+=============
+
+*-----------------------( Skills: ctrl lycantrophy )-------------------------*
+
+   Name:            Control Lycantrophy
+
+   Type:            Mental
+   Similar Skills:  
+ 
+   Description:     This ability gives you more control over when
+                    the curse is "activated".
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*------------------------( Skills: meditation heal )-------------------------*
+
+   Name:            Mediation Healing
+
+   Type:            Mental
+   Similar Skills:  
+ 
+   Description:     You will heal some hitpoints with this kind
+                    of meditation.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*-----------------------( Skills: meditation clean )-------------------------*
+
+   Name:            Mediation Cleansing
+
+   Type:            Mental
+   Similar Skills:  
+ 
+   Description:     You will clean your body from poison with this
+                    kind of meditation.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*-----------------------( Skills: meditation sleep )-------------------------*
+
+   Name:            Mediation Sleep
+
+   Type:            Mental
+   Similar Skills:  
+ 
+   Description:     You will fall into sleep much more easily with
+                    this kind of meditation.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: perception )---------------------------*
+
+   Name:            Perception
+
+   Type:            Mental
+   Similar Skills:  
+ 
+   Description:     You get more information out of what you see with
+                    this ability.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------( Skills: spatial location aware )---------------------*
+
+   Name:            Spatial Location Awareness
+
+   Type:            Mental
+   Similar Skills:  
+ 
+   Description:     You get to "feel" your surrounding while closing
+                    your eyes.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills','sla'
+
+*-------------------------------( Misc: sla )--------------------------------*
+
+   Type:        command
+   Usage:       sla [on|off]
+                
+   Description: This command toggles wether you use your spatial 
+                location awareness or not.
+                
+   Example:     sla on
+   
+*----------------------------------------------------------------------------*
+ See also: 'skills','spatial location aware'
+
+Music Skills
+============
+
+*-----------------------------( Skills: dance )------------------------------*
+
+   Name:            Dance
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to move ones body to the music. This
+                    includes the knowledge of the steps of some
+                    traditional dances.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: play drum )----------------------------*
+
+   Name:            Play Drum
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to play drums.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*--------------------------( Skills: play flute )----------------------------*
+
+   Name:            Play Flute
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to play flutes.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*--------------------------( Skills: play guitar )---------------------------*
+
+   Name:            Play Guitar
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to play guitars.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: play harp )----------------------------*
+
+   Name:            Play Drum
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to play harps.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: play horn )----------------------------*
+
+   Name:            Play Horn
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to play horns.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: play lyre )----------------------------*
+
+   Name:            Play Lyre
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to play lyres.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*-------------------------( Skills: play trumpet )---------------------------*
+
+   Name:            Play Trumpet
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to play trumpets.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*-------------------------( Skills: play violin )----------------------------*
+
+   Name:            Play Violin
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to play violins.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*----------------------------( Skills: singing )-----------------------------*
+
+   Name:            Singing
+
+   Type:            Music
+   Similar Skills:  
+ 
+   Description:     The ability to sing beautifully.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+Subterfuge Skills
+=================
+
+*-----------------------------( Skills: ambush )-----------------------------*
+
+   Name:            Ambush
+
+   Type:            Subterfuge
+   Similar Skills:  
+ 
+   Description:     The knowldedge of how and where to lay an ambush.
+                    This skill can also be used to discover an ambush
+                    before it happens.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: disarm trap )--------------------------*
+
+   Name:            Disarm Trap
+
+   Type:            Subterfuge
+   Similar Skills:  
+ 
+   Description:     The ability to disarm traps. This skills depends on
+                    the knowledge of how traps work as well as the
+                    dexterity of the one who treis to disarm a trap.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*-----------------------------( Skills: hide )-----------------------------*
+
+   Name:            Hide
+
+   Type:            Subterfuge
+   Similar Skills:  
+ 
+   Description:     The ability to use shadows and obstacles to hide
+                    oneself.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: hide item )----------------------------*
+
+   Name:            Hide Item
+
+   Type:            Subterfuge
+   Similar Skills:  
+ 
+   Description:     The ability to hide items where noone will look
+                    for them.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: pick locks )---------------------------*
+
+   Name:            Pick Locks
+
+   Type:            Subterfuge
+   Similar Skills:  
+ 
+   Description:     The ability to open locks without the proper key.
+                    This skills depends on the knowledge of how locks
+                    work as well as the dexterity of the "thief".
+                    Appropriated equipment is also needed to succeed
+                    in opening a lock.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: pick pockets )-------------------------*
+
+   Name:            Pick Pockets
+
+   Type:            Subterfuge
+   Similar Skills:  
+ 
+   Description:     The ability to remove objects from a person without
+                    her noticing the act.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*----------------------------( Skills: set traps )---------------------------*
+
+   Name:            Set Traps
+
+   Type:            Subterfuge
+   Similar Skills:  
+ 
+   Description:     The knowldedge of where to put traps and how traps
+                    work.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*---------------------------( Skills: silent kill )--------------------------*
+
+   Name:            Silent Kill
+
+   Type:            Subterfuge
+   Similar Skills:  
+ 
+   Description:     The ability to swiftly kill a person by attacking
+                    vital organs. This skill includes a basic knowledge 
+                    of the anatomy of humanoids.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+*------------------------------( Skills: stalk )-----------------------------*
+
+   Name:            Stalk
+
+   Type:            Subterfuge
+   Similar Skills:  
+ 
+   Description:     The ability to sneak up to or past a person without 
+                    being noticed.
+                                                   
+*----------------------------------------------------------------------------*
+ See also: 'skills'
+
+
+Other Helppages
+===============
+
+*-----------------------------( Misc: language )-----------------------------*
+
+   Type:        command
+   Usage:       language <language>
+                
+   Description: Lets you set the <language> you want to speak. <language>
+                has to be a language that you know. You can see the 
+                languages that you know by typing "skills linguistics".
+                
+   Example:     language westron
+   
+*----------------------------------------------------------------------------*
+ See also: 'language','skills'

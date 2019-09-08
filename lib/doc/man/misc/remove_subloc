@@ -1,0 +1,8 @@
+
+/* File: /base/misc/subloc.c
+ * Function name: remove_subloc
+ * Description:   Remove a named sublocation of this container.
+ * Arguments:     sloc - Name of sub location
+ */
+nomask void
+remove_subloc(string sloc)

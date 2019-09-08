@@ -1,0 +1,9 @@
+
+/* File: /base/container.c
+ * Function name: fill_cmd
+ * Description:   called if filling was tried
+ * Arguments:     ob - from which object this one gets the liquid
+ * Returns:       1 if success, -1 else
+ */
+int
+fill_cmd(object ob)

@@ -1,0 +1,13 @@
+*----------------------------( Combat: Unwield )-----------------------------*
+
+   Type:        command
+   Usage:       unwield <item>
+                where <item> is the name of the tools you want to stop 
+                wielding.
+                
+   Description: Remove some tool from the position it needs for usage. E.g.
+                carry your  sword in a less  straining way than  holding it
+                ready for battle. But your need to re-wield it for fight.
+   
+*----------------------------------------------------------------------------*
+ See also: 'wield'

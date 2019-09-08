@@ -1,0 +1,11 @@
+light 30000
+height 156
+xsize 648
+ysize 37
+climate 1
+type 2
+cornerheight ({4|312,312,312,312,})
+room_coords ({3|0,650,312,})
+room_short "A corridor"
+room_long "This corridor leads along the whole northern side of the building. Its walls\nare covered with light brown boards and some lamps spend light.\nAt the eastern end you notice a hole in the floor and in the west is a bend\ngoing southward.\n"
+room_exits ([1|"stairway2":({7|100,608,0,40,37,0,0,}),])

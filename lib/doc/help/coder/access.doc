@@ -1,0 +1,24 @@
+*-----------------------------( Builder: access )----------------------------*
+ 
+   Type:        command
+   Usage:       access
+                
+   Description: The command 'access' is used to list your access privileges to
+ 		the various directories of the mudlib.  They are specified by 
+		the following:
+		(r read, w write, + access granted, - access denied)
+ 
+   Example:     > access
+		Read write permissions
+		r+/base
+		r+/d
+		r+/doc
+		r+/include
+		r+/lib
+		r+/log
+		r+/open
+		w+/doc/help
+   
+*----------------------------------------------------------------------------*
+ See also: 'cd', 'cp,', 'ls', 'mkdir', 'mv', 'pwd', 'rm', 'rmdir', 'sanction',
+	   'updir'

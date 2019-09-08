@@ -1,0 +1,9 @@
+
+/* File: /base/living/extra.c
+ * Function name: visible
+ * Description:   removes not visible objects from object array
+ * Arguments:     ob - the objects to check
+ * Returns:       an array with visible objects
+ */
+nomask object *
+visible(object *ob)

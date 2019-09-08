@@ -1,0 +1,8 @@
+
+/* File: /base/living/extra.c
+ * Function name:   query_npc()
+ * Description:     Checks whether the living is a non-player character
+ * Returns:         True if non-player character
+ */
+nomask int
+query_npc()

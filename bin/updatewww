@@ -1,0 +1,16 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+source $DIR/../config/env
+
+# set permissions for www access if lost
+
+cd $TTA_MUD_DIR
+
+#done by cron: perl/usergraph.pl
+perl/mkhelp.pl
+
+chmod 6771 lib
+chmod 6775 lib/www lib/syslog
+find lib/www/. -type f -exec chmod 664 {} \;
+find lib/www/. -type d -exec chmod 6775 {} \;
+

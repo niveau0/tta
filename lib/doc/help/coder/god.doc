@@ -1,0 +1,15 @@
+*------------------------------( Builder: god )------------------------------*
+ 
+   Type:        command
+   Usage:       god <text>
+		@ <text>
+                	
+   Description: 'God' and '@' are what the Immortals use to speak to each 
+		other.  This text is ONLY seen by other Immortals, however, 
+		keep in mind that it is seen by ALL Immortals.
+ 
+   Example:     > god TTA ROCKS!
+		@ Erikose: TTA ROCKS!
+   
+*----------------------------------------------------------------------------*
+ See also: 

@@ -1,0 +1,8 @@
+
+/* File: /base/door.c
+ * Function name: query_status
+ * Description:   give actual door status
+ * Returns:       integer
+ */
+nomask int
+query_status()

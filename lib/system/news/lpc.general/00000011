@@ -1,0 +1,7 @@
+create_xxx()
+manwe
+Thu May 15 11:55:58 1997
+The create function of all objects should be declared 'static' so they cannot
+be called via call_other (->), please keep that in mind. ;)
+
+Manwe

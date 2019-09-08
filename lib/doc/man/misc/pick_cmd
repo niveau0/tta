@@ -1,0 +1,10 @@
+
+/* File: /base/misc/openclose.c
+ * Function name: pick_cmd
+ * Description:   called if someone tries to pick the lock of this container
+ * Arguments:     str - optional argument (e.g. lockpick set)
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+int
+pick_cmd(string str, object tp)

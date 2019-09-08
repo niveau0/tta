@@ -1,0 +1,13 @@
+light 27000
+height 120
+xsize 300
+ysize 300
+climate 3
+type 2
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|0,0,0,})
+room_short "Storeroom"
+room_long "Within the ceiling sits a half sphere that emits a greyish light. Furthermore\nyou see deep black walls which appear to be made from glass or a similar\nmaterial.\nMost surprisingly the floor is not the usual plain surface to walk on, but a\nconcave dip. Only a small circle at its bottom is filled with sand and hereby\ncreates a little place without slope.\n"
+room_exits ([1|"entrance":({7|117,112,112,75,75,0,0,}),])
+objs_to_clone ({3|({2|"/lib/drink/winebottle",({1|({3|150,150,0,}),}),}),({2|"/lib/drink/beerkeg",({1|({3|150,150,0,}),}),}),({2|"/home/seclan/room/tower/object/stair_storeroom",({1|({3|150,150,0,}),}),}),})
+pseudo_items ([1|1:({4|({2|"sphere","half sphere",}),({2|"spheres","half spheres",}),"The sphere is the lower end of a strange column that leads through the whole\ntower. The sphere is partly of a dark gray tone and partly filled with\ncolourful sparks and lines. Your examining touch is not able to reach its\nsurface, as it is dragged aside by an invisible force.",({3|150,150,120,}),}),])

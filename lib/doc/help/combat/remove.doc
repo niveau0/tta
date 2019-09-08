@@ -1,0 +1,11 @@
+*-----------------------------( Combat: Remove )-----------------------------*
+
+   Type:        command
+   Usage:       remove <item>
+                where <item> is the name of the clothes you want to remove.
+                
+   Description: Get rid of something you are wearing.  This may fail if the
+                item is somehow cursed.
+   
+*----------------------------------------------------------------------------*
+ See also: 'wear'

@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: cb_bonus_map
+ * Description:   gives the whole bonus mapping
+ * Returns:       bonus map
+ */
+nomask mapping
+cb_bonus_map()

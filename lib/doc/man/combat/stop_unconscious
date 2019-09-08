@@ -1,0 +1,10 @@
+
+/* File: /base/living/combat.c
+ * Function name: stop_unconscious
+ * Description:   awake from unconsciousness
+ * Arguments:     force - optional,
+ *                        if 1, no hp check 
+ *                        if 2, no hp check and no wake up message
+ */
+nomask varargs void
+stop_unconscious(int force)

@@ -1,0 +1,10 @@
+height 100000000
+xsize 800
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|2000,-400,0,})
+room_short "The Juiceway"
+room_long "This sideroad connects the street east from here and the imposing townhall\nthat towers above you to the west. From the stamped earth at you feet your\nlook goes northward, but is blocked by a little house. To the south you see a\nsmall grassy area and behind it a street that bends it way south to a\ncitygate. Southwest from here lies a large area covered with grass that ends\nabruptly at the citywall's feet.\n"
+room_exits ([1|"cross_wine_juice":({7|101,0,0,200,1000,0,0,}),])

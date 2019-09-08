@@ -1,0 +1,7 @@
+
+/* File: /base/food.c
+ * Function name: create_food
+ * Description:   std constructor
+ */
+static void
+create_food()

@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_heap_id
+ * Description:   gives the heap id modified by light and invisibility
+ * Returns:       the id
+ */
+string
+query_heap_id()

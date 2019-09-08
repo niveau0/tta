@@ -1,0 +1,13 @@
+*-----------------------------( Builder: load )------------------------------*
+ 
+   Type:        command
+   Usage:       load <filename>
+
+   Description: Load (i.e. compile) an object to memory. If the object has
+                been loaded before, the create() function won't be called 
+                again and no data values change, but the code gets recompiled.
+ 
+   Example:  	load /home/erikose/obj/sword
+   
+*----------------------------------------------------------------------------*
+ See also: 'loaddir', 'update', 'updir'

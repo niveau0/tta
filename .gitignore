@@ -1,0 +1,8 @@
+lib/TAGS
+lib/log
+lib/syslog
+config/MUD_PID
+tmp
+log
+bin/dgd
+

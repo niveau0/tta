@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: create_living
+ * Description:   init variables if necessary
+ */
+static void
+create_living()

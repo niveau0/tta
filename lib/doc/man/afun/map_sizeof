@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: map_sizeof
+ * Description:   gives the number of mapping entries
+ * Arguments:     map - mapping
+ * Returns:       integer, the size
+ */
+static nomask int
+map_sizeof(mapping map)

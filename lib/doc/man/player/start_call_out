@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: start_call_out
+ * Description:   starts save and consume call_out after login was successful
+ */
+nomask void
+start_call_out()

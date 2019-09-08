@@ -1,0 +1,7 @@
+
+/* File: /base/armor.c
+ * Function name: create_armor
+ * Description:   create the armor.
+ */
+static void
+create_armor()

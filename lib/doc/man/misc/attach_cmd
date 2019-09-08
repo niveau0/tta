@@ -1,0 +1,10 @@
+
+/* File: /base/misc/attach.c
+ * Function name: attach_cmd
+ * Description:   called from cmdsoul to attach an item
+ * Arguments:     ob - the object to attach to this object
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+nomask int
+attach_cmd(object ob, object tp)

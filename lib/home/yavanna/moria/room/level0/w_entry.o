@@ -1,0 +1,10 @@
+height 360
+xsize 210
+ysize 210
+climate 7
+type 2
+room_coords ({3|601,154,0,})
+room_short "The west-entry of Moria"
+room_long "You are standing behind the gate. An arching passage of stairs starts here.\nYou hardly can see cracks or traces of its age on the walls and the\nstairs. The ground and the stairs are covered with a layer of dust.\n"
+room_exits ([1|"/home/yavanna/moria/room/level0/w_entry_hall":({7|117,0,110,210,100,0,0,}),])
+objs_to_clone ({2|({2|"/home/yavanna/moria/obj/gate/west_gate","601x154y0z",}),({2|"/home/yavanna/moria/obj/elevator/elevator_door","601x154y0z",}),})

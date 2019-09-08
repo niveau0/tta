@@ -1,0 +1,10 @@
+
+/* File: /base/room.c
+ * Function name: E_room_move
+ * Description:   event: notice movement in room
+ * Arguments:     ob - the moving object
+ *                from - from where it comes
+ *                to - where it goes
+ */
+nomask void
+E_room_move(object ob, object from, object to)

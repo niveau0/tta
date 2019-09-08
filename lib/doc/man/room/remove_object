@@ -1,0 +1,7 @@
+
+/* File: /base/room.c
+ * Function name: remove_object
+ * Description:   Removes this object from the game.
+ */
+varargs void
+remove_object(object ob)

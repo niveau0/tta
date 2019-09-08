@@ -1,0 +1,10 @@
+
+/* File: /base/object.c
+ * Function name: move_now
+ * Description:   Called by move, handles the update of light and weight/volume
+ *                properties while moving this object.
+ * Arguments:     dest - destination object
+ *                from - where it comes from
+ */
+static nomask void
+move_now(object dest, object from)

@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: set_max_volume
+ * Description:   Set the maximum volume the container can hold. 
+ * Arguments:     Volume value
+ */
+nomask void
+set_max_volume(int val)

@@ -1,0 +1,8 @@
+
+/* File: /base/object.c
+ * Function name: query_pname
+ * Description:   Gives the plural names of the object
+ * Returns:       array
+ */
+string *
+query_pnames()

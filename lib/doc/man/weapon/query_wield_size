@@ -1,0 +1,9 @@
+
+/* File: /base/weapon.c
+ * Function name: query_wield_size
+ * Description:   how much volume does this weapon occupy and how many hands
+ *                may be used
+ * Returns:       integer array
+ */
+nomask int *
+query_wield_size()

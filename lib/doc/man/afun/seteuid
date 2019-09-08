@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/creator.c
+ * Function name: seteuid
+ * Description:   set effective user id
+ * Arguments:     id - effective user id to set
+ *                obj - object to change
+ */
+static nomask varargs void
+seteuid(string id, object obj)

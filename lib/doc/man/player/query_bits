@@ -1,0 +1,8 @@
+
+/* File: /base/player/extra.c
+ * Function name: query_bits
+ * Description:   Gives back the bits of a player
+ * Returns:       the bit integer
+ */
+nomask mapping
+query_bits()

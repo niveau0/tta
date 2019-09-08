@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat.c
+ * Function name: team_remove_invite
+ * Description:   Removes a team invitation
+ * Arguments:	  ob - The objectpointer to the already invited member.
+ */
+nomask void
+team_remove_invite(object ob)

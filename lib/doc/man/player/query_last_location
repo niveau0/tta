@@ -1,0 +1,8 @@
+
+/* File: /base/player/extra.c
+ * Function name: query_last_location
+ * Description:   Gives back the last location of a player
+ * Returns:       The string with the filename of the startup-room.
+ */
+nomask string
+query_last_location()

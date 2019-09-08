@@ -1,0 +1,10 @@
+light 500
+height 100
+xsize 100
+ysize 600
+type 2
+room_coords ({3|2850,2700,0,})
+room_short "In a small hall"
+room_long "This is a small hall of the jail. Some torches light this uncomfortable\nroom and you recognize that it is narrow but very clean here. South you\ngo back to the jailer's room and north the hall ends in a black wall\nof huge stones. East and west you see on each side three heavy doors that\ncan be locked and barred.\n"
+room_exits ([1|"jailer_room":({7|115,0,0,100,100,0,0,}),])
+objs_to_clone ({6|({2|"/d/Standard/Bree/obj/cell1_door",({1|({3|2904,2754,0,}),}),}),({2|"/d/Standard/Bree/obj/cell2_door",({1|({3|2904,2916,0,}),}),}),({2|"/d/Standard/Bree/obj/cell3_door",({1|({3|2904,3078,0,}),}),}),({2|"/d/Standard/Bree/obj/cell6_door",({1|({3|2850,3078,0,}),}),}),({2|"/d/Standard/Bree/obj/cell5_door",({1|({3|2850,2916,0,}),}),}),({2|"/d/Standard/Bree/obj/cell4_door",({1|({3|2850,2754,0,}),}),}),})

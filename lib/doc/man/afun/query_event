@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/event.c
+ * Function name: query_event
+ * Description:   give all objects listening to an event
+ * Arguments:     event - event type to query
+ * Returns:       array, objects
+ */
+nomask object *
+query_event(int event)

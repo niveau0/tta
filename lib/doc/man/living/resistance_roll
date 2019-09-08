@@ -1,0 +1,16 @@
+
+/* File: /base/living/extra.c
+ * Function name: resistance_roll(int attack_type, int attack_level,
+ *                                int modifier)
+ * Description:   checks, if living succeeds to resist against the
+ *                attacking forces
+ * Arguments:     type - type of attack (e.g. one realm, poison, ...)
+ *                attack_level - level of this given attack
+ *                modifier - harder if negativ, positiv easier
+ * Returns:       returns (roll - needed), a value greater 0 indicates
+ *                a resistance of target. the returned value can be used to
+ *                test if poison or something else takes not the full
+ *                effect.
+ */
+nomask int
+resistance_roll(int attack_type, int attack_level, int modifier)

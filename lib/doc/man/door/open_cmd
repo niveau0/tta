@@ -1,0 +1,10 @@
+
+/* File: /base/door.c
+ * Function name: open_cmd
+ * Description:   handle open cmd
+ * Arguments:     str - command arguments
+ *                tp - acting living
+ * Returns:       1 if success, -1 else
+ */
+int
+open_cmd(string str, object tp)

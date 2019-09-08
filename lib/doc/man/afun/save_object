@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: save_object
+ * Description:   save object to data file
+ * Arguments:     file - file path (without .o suffix)
+ * Returns:       1 if success, 0 else
+ */
+static nomask void
+save_object(string file)

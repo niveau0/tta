@@ -1,0 +1,11 @@
+*-----------------------------( Combat: Attack )-----------------------------*
+
+   Type:        command
+   Usage:       attack <name>
+                where <name> is the name of the person you want to attack.
+                
+   Description: Start fighting with someone.  You try to hit your opponent
+                if he/she is in melee range.
+   
+*----------------------------------------------------------------------------*
+ See also: 'assist'

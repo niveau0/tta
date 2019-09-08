@@ -1,0 +1,8 @@
+
+/* File: /base/room.c
+ * Function name: query_coordinates
+ * Description:   gives the coordinates of this room
+ * Returns:       array with x, y, z coordinate
+ */
+nomask int *
+query_coordinates()

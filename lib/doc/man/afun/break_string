@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: break_string
+ * Description:   insert newline characters after a given number of letters
+ * Arguments:     str - string to process
+ *                num - maximum characters per line
+ *                indent - indentation value per line
+ * Returns:       string, the changed string
+ */
+static nomask varargs string
+break_string(string str, int num, int indent)

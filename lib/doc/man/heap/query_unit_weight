@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_unit_weight
+ * Description:   gives weight of one heap unit
+ * Returns:       a units weight
+ */
+nomask int
+query_unit_weight()

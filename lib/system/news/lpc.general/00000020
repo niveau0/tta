@@ -1,0 +1,13 @@
+cooking
+manwe
+Tue Nov 18 20:55:21 1997
+3 new standard files to support the cooking skill:
+/include/ingredients.h with definitions for all ingredients (will be extended)
+/include/recipe.h, holding all recipes (potions, etc.)
+/base/misc/cook.c, the cook cmd support to inherit for all cooking 
+                   containers.
+
+/base/object.c got two new functions, set_ and query_ingredient, read the
+manuals.
+
+ Manwe

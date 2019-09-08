@@ -1,0 +1,128 @@
+<html>
+<head><title>The Third Age - Lpc</title></head>
+
+<body
+background="../pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="../index.html">
+<img border=0 src="../pic/tta.mini.gif" alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - Eine Einf&uuml;hrung zu LPC</h3>
+<font size=-1>
+<i>(von Manwe, Januar 1997)</i>
+</font>
+</center>
+<p>
+<hr noshade>
+
+<h4>
+<center>
+<font color="#007744"
+<b>Kapitel 2 - Der PreCompiler</b>
+</font>
+</center>
+</h4>
+
+Bei der &Uuml;bersetzung der LPC-Datei in einen Zwischencode (um die
+sp&auml;tere Ausf&uuml;hrung zu beschleunigen) werden schon alle
+PreCompilerbefehle behandelt bzw. ersetzt, da sie zu einem
+sp&auml;teren Zeitpunkt keine Bedeutung mehr haben.
+<p>
+Einige Interpreter haben zus&auml;tzliche PreCompiler Anweisungen, es
+werden hier jedoch nur die wichtigsten und allgemein g&uuml;ltigen
+erkl&auml;rt. 
+<p>
+Der PreCompiler kann ungemein die Programmierung erleichtern. Die
+&Uuml;bersichtlichkeit eines Programms kann verbessert, oft
+benutzte Programmdateien mehrfach genutzt werden.
+<p>
+Die Anweisungen des PreCompilers beginnen im Code immer mit einem
+<b>#</b> Zeichen am Anfang der Zeile. Folgende Anweisungen sind zugelassen:
+
+<ul>
+<li>#include
+<li>#define
+<li>#undef
+<li>#if
+<li>#ifdef
+<li>#ifndef
+<li>#else
+<li>#endif
+</ul>
+
+Im folgenden nun die Bedeutung der einzelnen Anweisungen.
+<h4>#include</h4>
+Syntax:<br>
+#include Filename
+<p>
+Die <i>include</i> Anweisung wird bei der Vor&uuml;bersetzung des Programms
+vollst&auml;ndig durch den Inhalt der angegebenen Datei (hier: Filename)
+ersetzt. Dies bedeutet, da&szlig; jede Art von Datei durch nur eine
+Zeile in das eigene Programm eingebunden werden kann und zwar eben
+genau an die Position der <i>include</i> Anweisung.
+<p>
+Man beachte das die eingebundenen Daten nicht unbedingt Programmcode
+sein m&uuml;ssen, es kann sich auch um reinen Text handeln. Dieser
+PreCompiler Befehl wird meist dazu verwendet Standard-Definitionen
+(siehe <b>#define</b>) einzubinden. Dies wird unterst&uuml;tzt, da der
+Filename auch innerhalb von spitzen Klammern stehen kann
+(&lt;Filename&gt;) und der Interpreter dadurch wei&szlig;, da&szlig;
+er in vordefinierten Verzeichnissen nach dieser Datei suchen soll.
+
+<h4>#define, #undef</h4>
+Syntax:<br>
+#define Makroname Ersetzung<br>
+#undef Makroname
+<p>
+Die <i>define</i> Anweisung erlaubt es einen komplexen Ausdruck oder
+vielleicht einen langen Text durch einen kurzen Makronamen zu
+ersetzen. Dieses Makro kann im <i>folgenden</i> Programm so oft wie
+n&ouml;tig verwendet werden und wird bei der &Uuml;bersetzung durch
+den Ausdruck ersetzt. Makros k&ouml;nnen auch mit Argumenten definiert
+werden, siehe dazu die Beispiele. Eine doppelte Definition des gleichen
+Makronamens innerhalb eines Programms ist nicht zul&auml;ssig.
+<p>
+<i>undef</i> macht eine <i>define</i> Anweisung r&uuml;ckg&auml;ngig,
+der Makroname wird wieder freigegeben (z.B. zur Umdefinierung).
+
+<h4>#if, #ifdef, #ifndef, #else, #endif</h4>
+Syntax:<br>
+#if Ausdruck<br>
+...<br>
+#else<br>
+...<br>
+#endif
+<p>
+Die Syntax zeigt die vollst&auml;ndige Benutzung der
+Bedingungsanweisungen <i>if</i>, <i>ifdef</i> und <i>ifndef</i>.
+<p>
+Die <i>if</i> Anweisung pr&uuml;ft ob der folgende Ausdruck zutrifft
+(wahr ist), wenn ja wird der folgende Programmteil (hier die folgenden
+drei Punkte) mit&uuml;bersetzt, wenn nicht wird der Teil
+&uuml;bersprungen. Eine <i>else</i> Anweisung kann angef&uuml;gt
+werden um einen alternativen Code zu &uuml;bersetzen, d.h. wenn keiner
+der vorherigen Tests zutraf. <i>else</i> ist allerdings optional, es
+mu&szlig; kein 'falsch' Zweig vorhanden sein. Die <i>if</i> Anweisung
+mu&szlig; mit <i>endif</i> abgeschlossen werden.
+<p>
+Zu beachten ist das <i>if</i> einen mathematischen Ausdruck testet,
+<i>ifdef</i> und <i>ifndef</i> jedoch nur das Vorhandensein eines
+Makros. <i>ifndef</i> verh&auml;lt sich wie <i>ifdef</i> jedoch wird
+das Makro auf 'nicht definiert' getestet.
+
+<p>
+<center>
+<i><a href="chap3.html">Weiter</a></i>
+</center>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Jan 13, 1997</address>
+</body>
+</html>

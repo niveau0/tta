@@ -1,0 +1,12 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: test_summon
+ * Description:   test if a summoned object could materialize
+ *                the spell fails if an object is inside the summon area
+ * Arguments:     sumco - the summoned objects base coordinates
+ *                range - the size of the summoned object
+ *                obj - all possible resisting targets
+ * Returns:       1 if successful, 0 if spell failed
+ */
+int
+test_summon(int *sumco, int *range, object *obj)

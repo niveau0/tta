@@ -1,0 +1,18 @@
+*-----------------------------( Builder: cleanup )---------------------------*
+ 
+   Type:        command
+   Usage:       cleanup [-s] [-l] [-f]
+
+   Description: Clean a room, i.e. remove all objects. The -l option also
+		removes npc's. Objects with the OBJ_NO_GET property will only
+		be removed with the -f option. The room will be saved after 
+		cleanup if you specify the -s option. 
+ 
+   Example:     cleanup
+ 		cleanup	-s
+ 		cleanup	-l -s
+ 		cleanup	-l
+   		cleanup -f -s
+
+*----------------------------------------------------------------------------*
+ See also: 'destruct', 'uh'

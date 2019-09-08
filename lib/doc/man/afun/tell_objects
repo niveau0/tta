@@ -1,0 +1,14 @@
+
+/* File: /kernel/lib/comm.c
+ * Function name: tell_objects
+ * Description:   send a message to listening objects through catch_msg  
+ * Arguments:     obj - all message receiving objects
+ *                str - message
+ *                type - message type (MSG_HEAR, etc)
+ *                actor - responsible object (e.g. talking player)
+ *                d - loudness (if audible message)
+ *                no_prompt - true if no prompt should be sent after message
+ */
+static nomask varargs void
+tell_objects(object *obj, mixed str, int type, object actor, int d,
+	     int no_prompt)

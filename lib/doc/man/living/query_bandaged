@@ -1,0 +1,8 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_bandaged
+ * Description:   Returns the bandaged map
+ * Returns:       mapping bandaged
+ */
+nomask mapping
+query_bandaged()

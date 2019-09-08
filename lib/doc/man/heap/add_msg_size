@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: add_msg_size
+ * Description:   add some units to the moved heapsize in this thread.
+ * Arguments:     num - amount to add
+ */
+nomask int
+add_msg_size(int num)

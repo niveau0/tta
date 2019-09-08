@@ -1,0 +1,13 @@
+
+/* File: /base/living/magic.c
+ * Function name: spell_resistance(int attack_type, int attack_level, int roll,
+ *                                 int rr_mod)
+ * Description:   evaluate resistance against spells
+ * Arguments:     attack_type - spell type, see <rr_types.h>
+ *                attack_level - spell level
+ *                roll - dice roll of attacker
+ *                rr_mod - resistance modifier (positive: easier to resist)
+ * Returns:       resistance_roll result
+ */
+nomask varargs int
+spell_resistance(int attack_type, int attack_level, int roll, int rr_mod)

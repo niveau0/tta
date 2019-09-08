@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/tool.c
+ * Function name: distance
+ * Description:   check if distance between two objects is lesser or equal max
+ * Arguments:     co_ob - first objects coordinates
+ *                co_tar - second objects coordinates
+ *                max - maximum distance value
+ * Returns:       1 if distance is <= max, else 0
+ */
+static nomask int
+distance(int *co_ob, int *co_tar, int max)

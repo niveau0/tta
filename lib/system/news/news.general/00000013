@@ -1,0 +1,8 @@
+more
+manwe
+Tue Mar 18 22:38:44 1997
+The more command accepts now an optional line argument. This is useful
+as the manuals now contain the line where the functions are.
+Usage: more 123 file.c
+
+Manwe

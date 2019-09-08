@@ -1,0 +1,4 @@
+New include clone.h
+aule
+Mon Mar 23 20:28:12 1998
+Use the defines here to clone items by code. (e.g. in spells, commands, etc)

@@ -1,0 +1,9 @@
+
+/* File: /base/player.c
+ * Function name:   query_met(string name)
+ * Description:     Tells if we know a certain living's name.
+ * Arguments:       name - Name of living
+ * Returns:         the remembered name
+ */
+nomask string
+query_met(string name)

@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_light
+ * Description:   find out about the light
+ * Returns:       total light of this heap
+ */
+nomask int
+query_light()

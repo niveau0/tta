@@ -1,0 +1,8 @@
+
+/* File: /base/shield.c
+ * Function name: set_wielder
+ * Description:   Set the wielder of this object
+ * Arguments:     The wielder object
+ */
+void
+set_wielder(object w)

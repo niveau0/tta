@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: compare_thread
+ * Description:   check if it is still the same thread
+ * Returns:       1 if same thread, else 0
+ */
+nomask int
+compare_thread()

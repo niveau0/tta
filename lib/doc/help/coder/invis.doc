@@ -1,0 +1,24 @@
+*-----------------------------( Builder: invis )-----------------------------*
+ 
+   Type:        command
+   Usage:       invis
+                
+   Description: The command 'invis' is a God command that is used to render 
+		one invisible to mortals.  That means that you will not show 
+		up on the 'who' list for them.  You will still be visible to 
+		other Immortals, but you will have '()' around your name, 
+		signifing that you are invisible.
+ 
+   Example:     > invis
+		You are now invisible.
+		(Others see)
+		Erikose enters a rift and disappears.
+
+  To the west, the road continues north of the western building and another
+  smaller alley winds its way south of it.
+  An open small oakdoor leading into the bakery of Bree[41n].
+  An open entrance leading into a pub[100n141e].
+  (Erikose), Cadderly, (Manwe).
+		
+*----------------------------------------------------------------------------*
+ See also: 'vis'

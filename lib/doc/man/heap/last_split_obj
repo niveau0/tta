@@ -1,0 +1,10 @@
+
+/* File: /base/heap.c
+ * Function name: last_split_obj
+ * Description:   if the last move of this heap has moved a split of this
+ *                heap instead of this object, this function gives the object
+ *                which represents the split.
+ * Returns:       object, the last split of this heap that was moved, else 0
+ */
+nomask object
+last_split_obj()

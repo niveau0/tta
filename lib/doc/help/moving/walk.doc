@@ -1,0 +1,17 @@
+*-------------------------------( Moving: Walk )----------------------------*
+
+   Type:        command
+   Usage:       walk <direction>
+	  	walk <item|person>
+
+   Description: Start to walk into a specified direction, you will keep on
+                walking until you are to tired, something blocks your way 
+                or you just 'stop'. 
+		You may also walk to someone/something.
+                
+   Example:     walk west
+		walk 1n2e
+		walk finduilas
+   
+*----------------------------------------------------------------------------*
+ See also: 'run'

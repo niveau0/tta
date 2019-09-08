@@ -1,0 +1,12 @@
+*-----------------------------( Moving: sprint )-----------------------------*
+
+   Type:        command
+   Usage:       sprint <direction>
+                
+   Description: Lets you run very fast in the given direction. Being
+                skilled in sprinting helps using this command.
+                
+   Example:     sprint north
+   
+*----------------------------------------------------------------------------*
+ See also: 'skills', 'sprinting'

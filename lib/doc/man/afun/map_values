@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: map_values
+ * Description:   gives all mapping values as array
+ * Arguments:     map - mapping
+ * Returns:       array, values
+ */
+static nomask mixed *
+map_values(mapping map)

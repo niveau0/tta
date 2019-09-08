@@ -1,0 +1,202 @@
+cha
+-------------------------------------------------------
+
+open/anar:
+alkar  - Aura
+anari  - Flare 
+ilumi  - Light
+ilunar - Waiting light (word or delay)
+iluri  - Mass light
+shoc   - Shockbolt
+surus  - Flash, stuns
+
+open/brel:
+airth  - Fogcloud
+ecli   - Perma earthwall
+ethar  - Earthwall
+itril  - Icewall
+regil  - Perma stonewall
+rial   - Fogcloud (concentrate)
+rog    - Stonewall
+voca   - Perma woodwall
+waal   - Waterwall (concentrate)
+waol   - Waterwall
+woca   - woodwall
+
+open/cor:
+gopar  - Awake
+hle    - Heal
+kre    - Stun relief
+mul    - Mass heal
+ri     - Regeneration
+tile   - True heal
+
+open/dec:
+anac   - Analyse curse
+anpar  - Analyse poison
+crow   - Detect curse
+firce  - Detect trap
+gone   - See invis
+loc    - Count all livings
+maro   - Detect active spells
+mort   - Detect undead
+perc   - Detect magic 
+pien   - Detect active spells
+secha  - Detect 'cha' spells
+senes  - Detect 'ess' spells
+senma  - Detect 'men' spells
+tyce   - Analyse living
+whec   - Detect object
+
+open/dri:
+covra  - Protection against elem. attacks (10 targets)
+covre  - Protection shield against elem. attacks
+esha   - Protection against 'ess'
+eshda  - Strong 'ess' protection
+ihac   - Protection against 'men'
+ishda  - Strong 'men' protection
+osac   - Strong protection against all realms
+shac   - Protection against 'cha'
+shada  - Strong 'cha' protection
+shel   - Protection against all realms
+
+open/nat:
+glar   - Analyse herb
+hro    - Speed grow for plants
+mirc   - Animal control
+
+open/pure:
+dica   - Heal disease
+disra  - Protect against disease
+ulcar  - Heal poison
+ulnah  - Protect against poison
+alo	- increases disease resistance
+rive	- increases poison  resistance
+ques	- removes all diseases
+solo	- removes all poisons
+foy	- removes all poisons+diseases
+
+open/sou:
+silo   - Silence
+speca  - Increase speech skill
+
+open/weth:
+
+-------------------------------------------------------
+
+closed/clec:
+
+closed/drip:
+rek    - Repair minor fracture
+ulya   - Close a bleeding wound
+velar  - Stop bloodflow
+
+closed/lota:
+
+closed/nera:
+
+closed/org:
+
+closed/orl:
+
+closed/syc:
+curu   - Symbol
+
+closed/ulcum:
+
+closed/wek:
+fek    - Create bread
+suta   - Stop hunger and thirst one day
+wale   - Create water
+
+-------------------------------------------------------
+
+base/comu:
+
+base/licra:
+
+base/nhar:
+kea    - Stun
+sol    - Tear off the soul
+trel   - Channel spell
+
+base/piro:
+
+base/pro:
+
+base/sumo:
+malec  - Summon animal
+
+==========================================================================
+
+ess
+--------------------------------------------------------------------------
+open/yar:	(Elemental Shields)
+dilg	- weak 1 Person protection against lightning
+helar	-                                  heat
+shiv	-                                  cold
+knor	- weak protection against lightning for all in 10' radius
+telar	-                         heat
+fer	-                         cold
+gora	- strong 1 Person protection against lightning
+tork	-                                    heat
+icera	-                                    cold
+alec	- strong protection against lightning for all in 10' radius
+boro	-                           heat
+esep	-                           cold
+
+open/unwa:	(Unbarring Ways)
+kolc	- locks every lock
+fork	- gives 15+level bonus in lock pick skill
+tork	-                         disarm trap skill  
+
+open/phen:	(Physical Enhancement)
+ghop	- infravision (1person)
+mghop	-      "      (more persons)
+turo	- information about 1 object (mass, weight)
+
+open/wade:	(Detecting Ways)
+dess	- detect ess
+suro	- detect men
+hiro	- detect cha
+
+open/lawn:	(Spell Wall)
+deri	- 1 person protection against elemental attack
+glorin	- multi person -"-
+ziho	- protection against essence magic
+jik	-                    mentalism
+numb	-		     channel
+grot	-		     all three
+
+closed/flim:	(Invisible Ways)
+gor	- make invisible
+
+base/iref:	(Fire Law)
+her	- firebolt
+
+base/ise:	(Ice Law)
+ice	- icebolt
+
+base/flad:	(Flesh Destruction)
+hiro	- Sprains an arm of the target
+lipa	- paralyse one random limb
+vewa	- breaks one random limb
+pollo	- gives target a critical impact on random limb (touch)
+wequi	-     						(2000 inch range)
+dik	-						(5000		)
+joli	-						(10000		)
+bony	-						(30000		)
+xorn	- Destroys a random ear of the target
+goga	-		    eye
+
+base/sesig:	(Guises)
+rulb	- blurs, +10DB
+murl	- massblur "
+wodi	- shadows, 25-75 bonus on hide and stalk
+
+==========================================================================
+
+men
+--------------------------------------------------------------------------
+
+-> see /lib/spell/men/open/list.txt

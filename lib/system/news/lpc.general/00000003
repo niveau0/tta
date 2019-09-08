@@ -1,0 +1,7 @@
+parse()
+manwe
+Thu Oct 10 16:07:03 1996
+Parse has been extracted from auto-object. If you want to use it, you need
+to inherit "/system/parse".
+
+Manwe

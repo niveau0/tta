@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: set_heap_size
+ * Description:   sets the size of the heap
+ * Arguments:     num - The new size of the heap
+ */
+nomask void
+set_heap_size(int num)

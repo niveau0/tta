@@ -1,0 +1,8 @@
+
+/* File: /base/object/props.c
+ * Function name: delete_state
+ * Description:   clear state bit(s)
+ * Arguments:     s - bit(s) to clear
+ */
+nomask void
+delete_state(int s)

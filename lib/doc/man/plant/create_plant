@@ -1,0 +1,7 @@
+
+/* File: /base/plant.c
+ * Function name: create_plant
+ * Description:   redefinable plant-constructor function
+ */
+static void
+create_plant()

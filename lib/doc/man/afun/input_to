@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/comm.c
+ * Function name: input_to
+ * Description:   redirect user input to a function
+ * Arguments:     func - function to call with user input
+ *                flag - if true input echoing is switched off
+ *                args - additional arguments to 'func' 
+ * Returns:       true if success, 0 else
+ */
+static nomask varargs int
+input_to(string func, int flag, mixed args...)

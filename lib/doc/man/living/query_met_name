@@ -1,0 +1,8 @@
+
+/* File: /base/living.c
+ * Function name: query_met_name
+ * Description:   Gives the name of this living to players who have met
+ * Returns:       string, 0 if name equals race name, i.d. no individual name
+ */
+nomask string
+query_met_name()

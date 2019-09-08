@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/file.c
+ * Function name: more
+ * Description:   show a file in small chunks
+ * Arguments:     file - file path of file to show
+ *                tp - player to show to
+ *                func - function to call after
+ *                line - starting line
+ */
+static nomask varargs void
+more(string file, object tp, string func, int line)

@@ -1,0 +1,9 @@
+
+/* File: /base/player/consume.c
+ * Function name: add_water
+ * Description:   satisfy the stomach of the player
+ * Arguments:     w - how much water to add
+ * Returns:       how much of given amount can be drunken
+ */
+nomask int
+add_water(int w)

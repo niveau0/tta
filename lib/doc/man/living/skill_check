@@ -1,0 +1,14 @@
+
+/* File: /base/living/skill.c
+ * Function name: skill_check
+ * Description:   General skillcheck method.
+ * Arguments:     skill - skillcode
+ *                modifier - difficulty (negative -> harder)
+ *                countUsage - if 1  skill usage is stored if success
+ *                             if 0  skill usage is always stored
+ *                             if -1 skill usage is stored if failed
+ * Returns:       integer, success difference,
+ *                         positive value means success
+ */
+nomask int
+skill_check(int skill, int modifier, int countUsage)

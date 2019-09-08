@@ -1,0 +1,52 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+source $DIR/../config/env
+
+LOG=${LOG_DIR}Cron
+DATE=`date +'%d.%m.%y %T'`
+
+function find_id () {
+	TEST_PID=` ps xw|\
+		grep ${TEST_DRIVER_BIN}|\
+		grep ${TEST_CONFIG_FILE}|\
+		grep -v $0|\
+		grep -v grep|\
+		cut -b1-5`
+	TEST_PID2=`ps auxw|\
+		grep ${TEST_DRIVER_BIN}|\
+		grep ${TEST_CONFIG_FILE}|\
+		grep -v $0|\
+		grep -v grep|\
+		cut -b10-14`
+	if [ "${TEST_PID}" != "${TEST_PID2}" ]
+	then
+	   OTHER_USER=`ps auxww|\
+		    grep $TEST_DRIVER_BIN|\
+		    grep $TEST_CONFIG_FILE|\
+		    grep -v $LOGNAME|\
+		    grep -v grep|\
+		    cut -b1-8`
+	echo "${DATE} STOP  ERROR  Other user/process ${OTHER_USER}" >>${LOG}
+	fi
+}
+
+if [ -f ${TEST_PID_FILE} ]
+then
+	TEST_PID=`cat ${TEST_PID_FILE}`
+	kill -15 ${TEST_PID}    >/dev/null
+	sleep 60               >/dev/null
+	kill -9  ${TEST_PID}    >/dev/null
+	rm -f ${TEST_PID_FILE}  >/dev/null
+	echo "${DATE} STOP  DONE   killed PID:${TEST_PID}" >>${LOG}
+	exit
+else
+	find_id
+	kill -15 ${TEST_PID}    >/dev/null
+	sleep 60               >/dev/null
+	kill -9  ${TEST_PID}    >/dev/null
+	rm -f ${TEST_PID_FILE}  >/dev/null
+	echo "${DATE} STOP  WARN   killed PID missing PID:${TEST_PID}" >>${LOG}
+fi
+
+
+

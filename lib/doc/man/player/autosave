@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: autosave
+ * Description:   cares for autosaving
+ */
+static nomask void
+autosave()

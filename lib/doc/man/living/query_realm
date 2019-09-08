@@ -1,0 +1,8 @@
+
+/* File: /base/living/magic.c
+ * Function name: query_realm
+ * Description:   gives the realm code
+ * Returns:       the realm code
+ */
+nomask int
+query_realm()

@@ -1,0 +1,9 @@
+
+/* File: /base/living/skill.c
+ * Function name:   set_skill_rank(int skill, int val)
+ * Description:     Set a specific skillrank to a specific value.
+ * Arguments:       skill - The skill-number to set
+ *                  val - The value to set the skillrank to.
+ */
+nomask void
+set_skill_rank(int skill, int val)

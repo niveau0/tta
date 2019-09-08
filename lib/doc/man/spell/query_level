@@ -1,0 +1,8 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: query_level
+ * Description:   gives base level of the spell without modifications
+ * Returns:       integer
+ */
+int
+query_level()

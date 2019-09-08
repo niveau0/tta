@@ -1,0 +1,20 @@
+*------------------------------( Misc: Drink )-------------------------------*
+
+   Type:        command
+   Usage:       drink from <item>
+
+   Description: Depending on your constitution your body will show you more
+                or less often, that you are thirsty. 
+                'You get an inconsiderable feeling of thirst.'
+                How thirsty or hungry you are, can be also seen in your 
+                personal informations ('stats').
+                Water or other drinks are mostly available in pubs (they sell
+                small flasks) but you can also satisfy your thirst at wells,
+                fountains or rivers ('drink from river|well|fountain').
+		Drink something when you get thirsty to avoid the death 
+                caused by thirst.
+
+   Example:     drink from flask
+
+*----------------------------------------------------------------------------*
+ See also: 'eat', 'stats'

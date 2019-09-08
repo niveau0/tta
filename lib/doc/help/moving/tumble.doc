@@ -1,0 +1,13 @@
+*-----------------------------( Moving: tumble )-----------------------------*
+
+   Type:        command
+   Usage:       tumble <direction>
+                
+   Description: Lets you tumble in the given direction. Hitting a tumbling
+                person is very difficult. One has to be skilled in
+                acrobatics to use this command successfully.
+                
+   Example:     tumble east
+   
+*----------------------------------------------------------------------------*
+ See also: 'acrobatics', 'skills'

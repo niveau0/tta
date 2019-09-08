@@ -1,0 +1,8 @@
+
+/* File: /base/living.c
+ * Function name: query_extra_desc
+ * Description:   gives the extra description to the short
+ * Returns:       the extra description
+ */
+nomask string *
+query_extra_desc()

@@ -1,0 +1,8 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: destruct_object
+ * Description:   remove an object (this doesn't affect its inventory!)
+ * Arguments:     obj - object to destruct, defaults to this_object()
+ */
+static nomask varargs void
+destruct_object(object obj)

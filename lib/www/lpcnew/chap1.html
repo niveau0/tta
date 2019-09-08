@@ -1,0 +1,84 @@
+<html>
+<head><title>The Third Age - Lpc</title></head>
+
+<body
+background="../pic/back.jpg"
+text="#000000"
+link="#701000"
+vlink="#406000"
+alink="#003300"
+>
+
+<a href="../index.html">
+<img border=0 src="../pic/tta.mini.gif" alt="TTA" align=left></a>
+<br>
+<center>
+<h3>The Third Age - Eine Einf&uuml;hrung zu LPC</h3>
+<font size=-1>
+<i>(von Manwe, Januar 1997)</i>
+</font>
+</center>
+<p>
+<hr noshade>
+
+<h4>
+<center>
+<font color="#007744"
+<b>Kapitel 1 - Die LPC Programmstruktur</b>
+</font>
+</center>
+</h4>
+
+Dieses Kapitel befasst sich mit dem eigentlichen Aufbau und dem
+Start/Ablauf eines LPC Programmfiles ohne n&auml;her auf die
+Programmierung selbst einzugehen. Wer sich mit C oder C++ ausgekennt
+sollte diesen Teil jedoch vielleicht nicht unbedingt &uuml;berspringen
+um sich eventuelle Unterschiede bewu&szlig;t zu machen.
+<p>
+Eine LPC-Datei ist ein einfaches Textfile mit der Namensendung
+<b>.c</b> (z.B. datei.c), um dem Interpreter klar zu machen das es
+sich hierbei um ein ausf&uuml;hrbares LPC-Programm handeln <i>soll</i> :)
+<p>
+Innerhalb dieser Textdatei k&ouml;nnen sich nun verschiedene
+Programmelemente befinden (die Erkl&auml;rung selbiger folgt in
+sp&auml;teren Kapiteln):
+<ul>
+<li>Pre-Compiler Befehle
+<li>Deklarationen globaler Variablen
+<li>Funktions-Definitionen
+<li>Funktions-Prototypen
+</ul>
+Um ein solches LPC Programm nun auszuf&uuml;hren sollte die
+Programmierumgebung (in diesem Falle das Mud) Kommandos zum
+&Uuml;bersetzen des LPC Programms bereitstellen, quasi die
+Schnittstelle der Kommunikation zwischen Programmierer und Interpreter.
+<p>
+Vorausgesetzt ein solches Kommando w&uuml;rde nun auf die Code-Datei
+angewandt, h&auml;tte dies zur Folge, da&szlig; der Interpreter nun
+das LPC Programm auf Syntaxfehler untersucht, es in eine
+ihm verst&auml;ndlicherere Zwischenform bringt und im Speicher ablegt,
+bis es wieder per Kommando entfernt oder ben&ouml;tigt wird.
+Dies entspricht in etwa der Compilierung eines C Programs <i>vor</i>
+der Ausf&uuml;hrung.
+<p>
+Die Funktionen eines LPC Programms k&ouml;nnen nun (insofern sie nicht
+als 'gesch&uuml;tzt' markiert sind) von jedem anderen LPC Code im Mud
+benutzt werden. Das Programm wird also nicht 'gestartet' (abgesehen
+von der Vor&uuml;bersetzung, die als Start angesehen werden
+k&ouml;nnte), sondern ist von au&szlig;en jederzeit verf&uuml;gbar. 
+<p>
+Die meisten Interpreter stellen jedoch den Aufruf einer
+<b>Initialisierungsfunktion</b> (d.h. eines bestimmten Programmteils
+der eigenen Datei) bereit, welche bei erstmaligem Laden der Datei 
+<i>immer</i> ausgef&uuml;hrt wird um wichtige Startwerte der
+Programmdaten einstellen zu k&ouml;nnen.
+<p>
+<center>
+<i><a href="chap2.html">Weiter</a></i>
+</center>
+
+<hr noshade>
+
+<address>&#169; <a href="mailto:Markus.Tippmann@informatik.uni-oldenburg.de">manwe</a>, Jan 13, 1997</address>
+</body>
+</html>

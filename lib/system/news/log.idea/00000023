@@ -1,0 +1,5 @@
+/home/seclan/room/tower/laboratory
+seclan
+Sun Mar 14 18:42:32 1999
+Show the degree of damage in the long description of an object. Something
+like 70%<damage<80% and you give an output: the ... is extremely damaged.

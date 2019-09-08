@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat.c
+ * Function name: set_base_hp
+ * Description:   sets the maximum hitpoints the living can have.
+ * Arguments:     mhp - the maximum hitpoints
+ */
+nomask void
+set_base_hp(int mhp)

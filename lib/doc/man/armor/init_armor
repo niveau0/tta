@@ -1,0 +1,8 @@
+
+/* File: /base/armor.c
+ * Function name: init_armor
+ * Description:   initialize stored data of the armor
+ * Arguments:     data - array with reloading data
+ */
+nomask void
+init_armor(mixed data)

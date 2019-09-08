@@ -1,0 +1,12 @@
+*------------------------------( Misc: Analyse )-----------------------------*
+
+   Type:        command
+   Usage:       analyse <item>
+                
+   Description: Find out more about the nature or origin of a special item.
+    	    	It might happen that you need special equipment to analyse
+    	    	your chosen item.
+                
+   Example:     analyse brown root
+   
+*----------------------------------------------------------------------------*

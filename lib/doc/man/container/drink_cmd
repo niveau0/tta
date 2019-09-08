@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: drink_cmd
+ * Description:   called if drinking was tried
+ * Returns:       1 if success, -1 else
+ */
+nomask int
+drink_cmd()

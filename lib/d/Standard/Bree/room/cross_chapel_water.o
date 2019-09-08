@@ -1,0 +1,10 @@
+height 100000000
+xsize 200
+ysize 300
+climate 1
+type 393216
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-5000,1800,0,})
+room_short "Near the crossing of Wateralley and Chapelway"
+room_long "A much wider street crosses this way south from here, where it passes at least\nin western direction as you can see it reaching the big western gate in the\ncitywall. Houses in the southwestern direction prevent you from watching its\nfurther course eastward. Not obstructed is your sight to the north and so you\nnotice that this way makes a bend allowing it to lead eastward, too. Within\nthe northwest lies a corner of the citywall that houses a small building of\ngrey stone. Behind the bend in the north you see the same kind of stones\npiling up to the citywall that protects the northside of the town.\n"
+room_exits ([3|"chapelway_bend":({7|110,0,0,200,100000000,0,0,}),"wateralley_west3":({7|115,100,0,100,100000000,0,0,}),"wateralley_west4":({7|115,0,0,100,100000000,0,0,}),])

@@ -1,0 +1,8 @@
+
+/* File: /base/living/move.c
+ * Function name:   query_teleport_in()
+ * Description:     Gives the magical entrance message of this living.
+ * Returns:         The message string
+ */
+nomask string
+query_teleport_in()

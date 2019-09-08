@@ -1,0 +1,11 @@
+height 100000000
+xsize 800
+ysize 200
+climate 1
+type 262144
+edge_base ({4|0,0,0,0,})
+room_coords ({3|3000,400,0,})
+room_short "The eastern part of the Wateralley"
+room_long "In two of four directions you are surrounded by houses. The only free ways are\nto the west and to the east. Westward lies a crossing with a street that goes\nnorth-southward. Behind the crossing you spot this road continuing for a short\ndistance and then it ends in a large place. Eastward lies a bend to the south\nwith even more buildings situated close to it.\n"
+room_exits ([2|"cross_wine_water":({7|119,0,0,200,1000,0,0,}),"wateralley_bend":({7|101,0,0,200,1000,0,0,}),])
+pseudo_items ([2|1:({4|({1|"crossing",}),({1|"crossings",}),"Crossing: A place, where usually two roads intersect each other. This special\ncrossing is the spot, where the Winestreet crosses the Wateralley ... or the\nother way round.",({3|2900,500,0,}),}),2:({4|({2|"place","large place",}),({2|"places","large places",}),"Cobbled ground, vast amount of space. That is all can see from here.",({3|1950,500,0,}),}),])

@@ -1,0 +1,11 @@
+*-------------------------------( Misc: Pour )-------------------------------*
+
+   Type:        command
+   Usage:       pour <container> out
+                
+   Description: You empty a liquid-container. The liquid flows into the 
+		ground and is lost.
+                
+   Example:     pour cooking pot out
+   
+*----------------------------------------------------------------------------*

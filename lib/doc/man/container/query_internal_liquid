@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: query_internal_liquid
+ * Description:   Returns how much liquid is inside the container
+ * Returns:	  integer
+ */
+nomask int
+query_internal_liquid()

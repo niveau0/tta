@@ -1,0 +1,9 @@
+
+/* File: /base/living.c
+ * Function name: query_met
+ * Description:   Tells if we know a certain living's name.
+ * Arguments:     name - Name of living or objectp of living
+ * Returns:       True if we know this name otherwise false.
+ */
+string
+query_met(string name)

@@ -1,0 +1,9 @@
+
+/* File: /base/living/slot.c
+ * Function name: bandage
+ * Description:   add a slot as bandaged
+ * Arguments:     slot - the bandaged slot
+ *                healtime - how long does it take to heal the slot
+ */
+nomask void
+bandage(int slot, int healtime)

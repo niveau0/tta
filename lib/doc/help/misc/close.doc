@@ -1,0 +1,11 @@
+*-------------------------------( Misc: Close )------------------------------*
+
+   Type:        command
+   Usage:       close <item> [with <item>]
+                
+   Description: Close something. You may also add a tool, like a key.
+                
+   Example:     close door with golden key
+                    
+*----------------------------------------------------------------------------*
+ See also: 'open'

@@ -1,0 +1,15 @@
+*------------------------------( Builder: imsg )-----------------------------*
+
+   Type:        command
+   Usage:       imsg [<channelname>:] <message>
+                
+   Description: Send a message to an udp channel. If you want to choose a
+		channel you need to specify channelname and add a colon 
+	        after the channel. Further usage of imsg will send to the
+		last chosen channel.
+
+   Example:     imsg talk: Hello friends!
+		imsg How are you?
+   
+*----------------------------------------------------------------------------*
+ See also: 'istatus', 'ijoin', 'ileave', 'ilist', 'itell', 'iwho'

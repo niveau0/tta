@@ -1,0 +1,11 @@
+
+/* File: /kernel/lib/tool.c
+ * Function name: sort_array
+ * Description:   sort an array by sort function
+ * Arguments:     source - source array to sort
+ *                func - function to call (to determine sort order)
+ *                obj - object to call function in
+ * Returns:       array, sorted
+ */
+static nomask mixed *
+sort_array(mixed *source, string func, mixed obj)

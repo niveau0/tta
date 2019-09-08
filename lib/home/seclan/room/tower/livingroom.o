@@ -1,0 +1,12 @@
+light 30000
+height 120
+xsize 300
+ysize 300
+climate 1
+type 2
+cornerheight ({4|240,240,240,240,})
+room_coords ({3|0,0,240,})
+room_short "Livingroom"
+room_long "There is a column in the middle of this room and smooth black walls that block\nmovement in all directions. You correct your impression. There are exits.\nThey lead up and down and a staircase which winds around the column allows to\nreach them by foot. The soft greyish light the column eradiates creates a\nfriendly atmosphere. At least most people will think so.\n"
+room_exits ([2|"bedroom":({7|117,112,112,75,75,0,0,}),"entrance":({7|100,112,112,75,75,0,0,}),])
+objs_to_clone ({4|({2|"/home/seclan/room/tower/object/armchair",({1|({3|0,299,240,}),}),}),({2|"/home/seclan/room/tower/object/armchair",({1|({3|299,0,240,}),}),}),({2|"/home/seclan/room/tower/object/armchair",({1|({3|0,0,240,}),}),}),({2|"/home/seclan/room/tower/object/armchair",({1|({3|299,299,240,}),}),}),})

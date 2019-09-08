@@ -1,0 +1,10 @@
+height 100000000
+xsize 200
+ysize 700
+climate 1
+type 262144
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|5600,500,0,})
+room_short "The Ale Road"
+room_long "Now you see you have entered a dead end. The road just turns into grassy\nground and vanishes to the north. Directly at the end you see a building, most\nprobable the reason for the existance of the road.\nThis part of the town is not populated very dense, considered by the large\nlots with wild plants being their only occupants. Beside the lots east and\nwest of the road there are another two houses more to the south which owners\npreferred the proximity to the bigger road that goes there in eastwestern\ndirection.\n"
+room_exits ([1|"/d/Standard/Bree/room/cross_ale_water":({7|115,0,0,200,1000,0,0,}),])

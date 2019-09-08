@@ -1,0 +1,8 @@
+
+/* File: /base/plant.c
+ * Function name: query_heap_id
+ * Description:   gives the heap id
+ * Returns:       the id
+ */
+string
+query_heap_id()

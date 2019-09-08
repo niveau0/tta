@@ -1,0 +1,9 @@
+
+/* File: /base/room.c
+ * Function name: query_light
+ * Description:   Returns the light status in this room
+ * Arguments:     oblight - optional light value to subtract
+ * Returns:	  Light value
+ */
+nomask varargs int
+query_light(int oblight)

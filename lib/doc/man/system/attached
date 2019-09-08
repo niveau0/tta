@@ -1,0 +1,8 @@
+
+/* File: /system/inventory.c
+ * Function name: attached
+ * Description:   return an array with the attachments of this object  
+ * Returns:       array
+ */
+nomask varargs object *
+attached()

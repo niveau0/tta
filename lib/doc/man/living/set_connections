@@ -1,0 +1,8 @@
+
+/* File: /base/living/slot.c
+ * Function name: set_connections
+ * Description:   sets the connections between limbs
+ * Arguments:     c - mapping ([ HITLOC: ({ CONNECTIONS }) ])
+ */
+static nomask void
+set_connections(mapping c)

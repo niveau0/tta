@@ -1,0 +1,9 @@
+
+/* File: /base/object.c
+ * Function name: query_data
+ * Description:   collect all data of a given type
+ * Arguments:     type - name, pname or adjective
+ * Returns:       array of all collected data
+ */
+private string *
+query_data(int type)

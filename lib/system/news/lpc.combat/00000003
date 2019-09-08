@@ -1,0 +1,13 @@
+weapon / armor changes
+manwe
+Wed May 21 15:15:03 1997
+Weapon and armor have been changed a lot. Now the armor doesn't contain
+the critical threshold anymore. Only the weapon stores its attack values
+against each armor type. There are many new definitions for the attack-
+modifiers and OB-modifiers (see file <combat.h> and the manuals for
+weapon/ and armor/, also have a look at the updated files in /lib/weapon
+and /lib/armor to understand the new configuration.)
+
+This was done to make combat more flexible and weapons easier to balance.
+
+Manwe

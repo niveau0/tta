@@ -1,0 +1,12 @@
+height 100000000
+xsize 3300
+ysize 250
+climate 1
+type 262144
+cornerheight ({4|0,0,0,0,})
+room_coords ({3|5700,-50,0,})
+room_short "The Wateralley"
+room_long "This section of the road lies close to the citywall and a gate within, which\nmay be accessed in the east. South of of the gate the citywall has a bend as\nit turns first west and then southwest as far as you can see. Within this bend\nsits a house with grey stonewalls. North of it, across the road, is another\nhouse that is built much less robust. The road itself continues to the west\nuntil it vanishes in a curve. About halfway between the citygate and the curve\nyou notice another, smaller road leading northward from a little crossing.\nNear the crossing you realize different houses with the appearance of shops\nthat are spread among buildings with a more private appearance.\n"
+room_exits ([3|"cross_ale_water":({7|110,0,0,100,100000000,0,0,}),"eastgate":({7|101,50,0,150,200,0,0,}),"wateralley_east2":({7|119,0,0,250,100000000,0,0,}),])
+objs_to_clone ({1|({2|"/d/Standard/Bree/obj/smith_door",0,}),})
+pseudo_items ([1|1:({4|({1|"crossing",}),({1|"crossings",}),"At this spot you see a road branching off to the north.",({3|5700,100,0,}),}),])

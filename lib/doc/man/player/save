@@ -1,0 +1,7 @@
+
+/* File: /base/player.c
+ * Function name: save
+ * Description:   function to call for saving a player
+ */
+nomask void
+save()

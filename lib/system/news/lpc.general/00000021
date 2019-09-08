@@ -1,0 +1,14 @@
+properties.h changed
+manwe
+Fri Dec  5 16:53:59 1997
+I renamed the properties to check for a certain item time (like HEAP_IS, 
+PLANT_IS etc.) and added some more. Also there are no more the also used
+check_functions (like check_heap() etc.).
+
+The fixed usage is now:
+  object->query_prop(IS_<itemtype>)
+e.g.
+  object->query_prop(IS_HEAP)  or
+  object->query_prop(IS_ARMOR)
+
+Manwe

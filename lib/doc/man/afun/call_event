@@ -1,0 +1,10 @@
+
+/* File: /kernel/lib/event.c
+ * Function name: call_event
+ * Description:   cause an event to be send
+ * Arguments:     event - event type to generate
+ *                args - arguments to event function
+ * Returns:       1 if event sending was stopped by an object, 0 else
+ */
+nomask varargs int
+call_event(int event, mixed args...)

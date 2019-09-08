@@ -1,0 +1,7 @@
+
+/* File: /base/plant.c
+ * Function name: extinguish
+ * Description:   put the plant out.
+ */
+nomask int
+extinguish_cmd()

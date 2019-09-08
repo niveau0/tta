@@ -1,0 +1,8 @@
+
+/* File: /base/misc/wear.c
+ * Function name: query_layer
+ * Description:   gives the equipment layer. See also set_layer.
+ * Returns:       integer
+ */
+nomask int
+query_layer()

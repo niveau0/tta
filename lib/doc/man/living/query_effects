@@ -1,0 +1,8 @@
+
+/* File: /base/living/extra.c
+ * Function name: query_effects
+ * Description:   gives the effects
+ * Returns:       mapping
+ */
+nomask mapping
+query_effects()

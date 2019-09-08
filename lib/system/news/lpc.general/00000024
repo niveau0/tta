@@ -1,0 +1,13 @@
+change in restoring object data
+manwe
+Mon Mar 23 20:06:46 1998
+The functionality of reload_data and init_reload has been changed.
+If you want to save data of an object carried by a player over to his/her 
+next login, you have to announce two functions via 'add_reload'.
+One (the reload function) is used to query all data that should be saved,
+the second (the init function) is called (with your reloading data as 
+argument) if the reloading should occur.
+See /lib/food/meat.c as an example
+ (which is saving its current weight, volume etc.)
+
+Manwe

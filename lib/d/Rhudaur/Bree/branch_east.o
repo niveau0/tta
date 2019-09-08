@@ -1,0 +1,10 @@
+height 100000000
+xsize 1000
+ysize 1500
+climate 1
+type 131072
+edge_base ({4|0,0,0,0,})
+room_coords ({3|-2250,13250,0,})
+room_short "at a branching"
+room_long "A new room. That's what you would call empty.\n"
+room_exits ([4|"free_n6w":({7|115,0,0,250,100000000,0,0,}),"free_nbranchw":({7|119,0,0,1500,100000000,0,0,}),"road_north6":({7|115,250,0,500,100000000,0,0,}),"road_north7":({7|110,0,0,500,100000000,0,0,}),])

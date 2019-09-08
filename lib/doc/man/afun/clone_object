@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: clone_object
+ * Description:   make a copy of a master object to get a clone
+ * Arguments:     arg - object or filepath of object to clone
+ * Returns:       object, the clone
+ */
+static nomask object
+clone_object(mixed arg)

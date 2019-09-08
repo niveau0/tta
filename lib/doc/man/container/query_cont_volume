@@ -1,0 +1,8 @@
+
+/* File: /base/container.c
+ * Function name: query_cont_volume
+ * Description:   Returns the volume of the container itself. 
+ * Returns:	  Volume value
+ */
+nomask int
+query_cont_volume()

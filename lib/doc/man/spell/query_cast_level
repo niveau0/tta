@@ -1,0 +1,8 @@
+
+/* File: /lib/spell/spell_base.c
+ * Function name: query_cast_level
+ * Description:   gives the level the spell was casted at
+ * Returns:       integer
+ */
+int
+query_cast_level()

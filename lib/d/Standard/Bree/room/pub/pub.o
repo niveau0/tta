@@ -1,0 +1,14 @@
+light 28000
+height 100
+xsize 400
+ysize 300
+climate 2
+type 524290
+edge_base ({4|0,0,0,0,})
+room_coords ({3|1400,1200,0,})
+room_short "Bar of the Hollow Barrel"
+room_long "Looking around you notice several windows in the southern wall which allows\nthe light to fill the room. The northern part of the pub is dominated by a bar\nwhere the most common liquids are sold to please the guests of this\nestablishment. With another short look you notice the clean wooden planks on\nthe floor and then the strong beams supporting the ceiling. Though clean and\nneat everything looks old and used.\nLamps along the eastern and western wall guarantee enough light to stay here\neven if it is getting dark outside.\nIn the northwestern corner is an exit that leads into another room.\n"
+room_exits ([0|])
+objs_to_clone ({12|({2|"/d/Standard/Bree/npc/berlon",({1|({3|1569,1480,0,}),}),}),({2|"/d/Standard/Bree/room/pub/obj/pub_door",({1|({3|1700,1200,0,}),}),}),({2|"/d/Standard/Bree/room/pub/obj/back_door",({1|({3|1450,1499,0,}),}),}),({2|"/lib/furniture/bench",0,}),({2|"/lib/furniture/bench",0,}),({2|"/lib/furniture/bench",0,}),({2|"/lib/furniture/bench",0,}),({2|"/lib/furniture/table",({1|({3|1569,1480,0,}),}),}),({2|"/lib/furniture/table",({1|({3|1569,1480,0,}),}),}),({2|"/lib/furniture/bench",({1|({3|1569,1480,0,}),}),}),({2|"/lib/furniture/table",({1|({3|1565,1470,0,}),}),}),({2|"/lib/furniture/bench",({1|({3|1565,1470,0,}),}),}),})
+pseudo_items ([5|1:({3|({2|"window","south",}),({2|"windows","souths",}),"@@look_window:/lib/misc/special/window|The windows are clean and estimated by the thickness of their panes they have\nto be quite sturdy. Behind them you see:\n|/d/Standard/Bree/room/marketplace",}),2:({4|({2|"bar","counter",}),({2|"bars","counters",}),"The counter leads along nearly the whole wall and is made from a dark wood.\nYou notice a little list with prices on it.",({3|1600,1470,0,}),}),3:({3|({2|"lamp","light",}),({2|"lamps","lights",}),"Years of passing adventurers left only the most firmly attached oillamps at\nthe wall. There is no way to obtain this lightsource except breaking down the\nwall.",}),4:({3|({1|"list",}),({1|"lists",}),"@@list_offer",}),5:({4|({3|"corner","northwestern corner","exit",}),({2|"corners","exits",}),"Close to the corner sits an exit to the north leading into the rest of this\nbuilding.",({3|1435,1530,45,}),}),])
+offer ([3|"/lib/drink/beerkeg":({5|55,"beerkeg",55,85000,895832851,}),"/lib/drink/waterskin":({5|7,"waterskin",7,175000,895832851,}),"/lib/drink/winebottle":({5|200,"bottle of wine",200,80000,895832851,}),])

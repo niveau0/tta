@@ -1,0 +1,8 @@
+
+/* File: /base/heap.c
+ * Function name: query_msg_size
+ * Description:   find out about the moved heapsize in this thread.
+ * Returns:       size of the moved heap units
+ */
+nomask int
+query_msg_size()

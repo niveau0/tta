@@ -1,0 +1,210 @@
+*-----------------------------( Builder: edref )-----------------------------*
+
+   DGD-Editor command reference.
+   
+   'ed' is a lineoriented editor. It has like the unix 'vi' a command and
+   an insert modus. 
+ 
+   : is the prompt in command modus.
+   * is the prompt in insert/edit modus.
+
+   There are 26 buffers available.
+   Instead of a <count> it is possible to specify the range of lines _before_
+   the command. E.g. for the delete command:
+      <firstline>,<lastline> delete
+
+   Command flags
+   -------------
+   p	print the current line after the command. This is default.
+   l	print the current line after the command in 'list' format.
+   #	print the current line after the command in 'number' format.
+   +	increase the current line number by 1 before printing it.
+   -	decrease the current line number by 1 before printing it.
+
+   Command								abbrev
+   -------                                                              ------
+   append								a
+   Enter Insert Mode and append lines after the specified line.
+   A line of 0 may be given to indicate that lines are to be 
+   inserted before the first line in the main buffer.
+   
+   change [count]			    				c
+   Enter Insert Mode and replace the specified lines.
+   
+   copy <line> [count] [flags]						co
+   Place a copy of the specified lines after the given line.
+   The line might be 0, in which case the copied lines are
+   inserted before the first line in the main buffer.
+   
+   delete [buffer] [count] [flags]					d
+   Delete the specified lines.  The deleted lines are saved in the
+   default buffer, and in the secondary buffer if one is specified.
+   
+   edit [file]								e
+   Start editing a new file.  The current main buffer and all
+   secondary buffers will be discarded.  The current line will be
+   placed at the last line of the main buffer.
+   
+   edit! [file]								e!
+   Start editing a new file, even if the current main buffer was
+   modified.
+   
+   file [file]								f
+   Show statistics on the current file edited.  If an argument is
+   given, the current file name is changed into the one specified.
+   
+   global /pattern/ [command]						g
+   Execute the command on all lines matching the given pattern.
+   By default, the matching lines are just printed.
+   
+   global! /pattern/ [command]						g!
+   Execute the command on all lines not matching the given pattern.
+   By default, the lines that don't match are just printed.
+   
+   insert								i
+   Enter Insert Mode and insert lines before the specified one.
+
+   join [count] [flags]							j
+   Join the specified lines together in a single line.  White
+   space at the beginning of a next line will be discarded.
+   Unless the next line starts with ')', a space is inserted
+   between two joined lines, or two spaces if the first line ends
+   in '.'.
+
+   join! [count] [flags]						j!
+   Join the specified lined together in a single line without
+   white space processing.
+   
+   list [count] [flags]							l
+   Show the specified lines, displaying tabs as '^I' and marking
+   the end of the line with '$'.
+   
+   mark x								k
+   Mark the specified line with x, a single lowercase letter.  If
+   the abbreviation 'k' is used, there need not be any spaces
+   between the command and the argument.
+   
+   move <line> [flags]							m
+   Reposition the specified lines after the given line.
+   
+   number [count] [flags]						#
+   Display the specified lines, preceded by their line number.
+   
+   print [count] [flags]						p
+   Display the specified lines.
+   
+   put [buffer]								pu
+   Copy lines from the secondary buffer, or from the default
+   buffer if none is given, after the specified line.
+   
+   quit									q
+   Quit this editing session.
+   
+   quit!								q!
+   Quit this editing session, even if the main buffer has been
+   modified.
+
+   read [file]								r
+   Place a copy of the text in [file] after the specified line.
+   
+   set [parameter]							se
+   Set without argument shows the current values of the editor
+   variables.  Variables are numeric or toggles.  Toggles can be
+   turned on with 'set option' and turned off with 'set nooption'.
+   Numeric variables can be given a value with 'set numeric=value'.
+   The following variables exist:
+   
+       NAME	ABBREV	DEFAULT	MEANING
+   
+       ignorecase	ic	noic	ignore case in searches.
+       shiftwidth	sw	4	affects the '<', '>' and 'I'
+   					commands.
+       window	wi	20		specifies the number of lines
+   					displayed with the z command.
+   
+   
+   substitute /pattern/replacement/ [g] [count] [flags]			s
+   Replace <pattern> by <replacement> in the specified lines.  If
+   the 'g' option is specified, repeat the substitution in each
+   line until all occurrances of <pattern> have been replaced.
+   In <replacement>, \x, where x is a digit in range 1-9, specifies
+   the xth subexpression in <pattern>, which is enclosed by \( \)
+   pairs in <pattern>.  Furthermore, '&' in <replacement> specifies
+   the text that matched <pattern>, and '\n' in <replacement>
+   specifies a newline, splitting the line in two.  If the symbols
+   '&' and '\' themselves are desired in <replacement>, they should
+   be prefixed by '\'.  All parameters are optional. 'substitute'
+   by itself will repeat the previous substitution.
+   
+   t <line> [flags]
+   An alias for the 'copy' command.
+   
+   undo									u
+   Undo the effects of the previous command on the main buffer.
+   'edit' and 'yank' commands can not be undone, and 'global'
+   commands are undone as a whole.
+   
+   v /pattern/ [command]
+   An alias for the 'global!' command.
+   
+   write [file]								w
+   Write the specified lines to [file], or to the current file if
+   no argument is specified.
+   
+   write! [file]							w!
+   Write the specified lines to [file], even if some error
+   occurred that prevented the main buffer from containing an exact
+   image of the file that is being edited.
+   
+   write >> [file]							w>>
+   This variant of write appends to a file, instead of overwriting
+   it.
+   
+   wq [file]
+   Write the main buffer to the current file, and quit this
+   editing session.
+   
+   wq! [file]
+   Write the main buffer to the current file and quit this editing
+   session, even if some error occurred that prevented the main
+   buffer from containing an exact image of the file that is being
+   edited.
+   
+   xit [file]								x
+   Write the main buffer to the current file if it was modified,
+   and quit this editing session.
+   
+   yank [buffer] [count] [flags]					y
+   Copy the specified lines to the secondary buffer given in the
+   argument, or just to the default buffer if no argument is given.
+   
+   z [mode] [flags]
+   Show a page of lines, starting with the specified line.  The
+   number of lines displayed is determined by the value of the
+   'window' variable, which can be changed by the 'set' command.
+   [mode] can be one of the following:
+   
+       +	show specified line at top of page (default)
+       .	show specified line in middle of page
+       -	show specified line at bottom of page
+   
+   
+   < [count] [flags]
+   Leftshift the specified lines the number of spaces given by the
+   'shiftwidth' variable, which can be changed by the 'set' command.
+   
+   > [count] [flags]
+   Rightshift the specified lines the number of spaces given by the
+   'shiftwidth' variable, which can be changed by the 'set' command.
+   
+   =
+   Show the specified line number.
+   
+   I [flags]
+   Indent the specified lines, under the assumption that they are
+   LPC code.  The number of spaces used for indentation is given by
+   the 'shiftwidth' variable, which can be changed by the 'set'
+   command.
+   
+*----------------------------------------------------------------------------*
+ See also: 'ed'

@@ -1,0 +1,8 @@
+
+/* File: /base/living/combat_intern.c
+ * Function name: cb_remove_shield
+ * Description:   remove a shield
+ * Arguments:     s - the shield
+ */
+nomask void
+cb_remove_shield(object s)

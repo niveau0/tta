@@ -1,0 +1,9 @@
+
+/* File: /base/living/gender.c
+ * Function name:   query_possessive()
+ * Description:     Returns the possessive that goes with the gender of this
+ *                  living.
+ * Returns:         "his", "her" or "its", depending on gender.
+ */
+string
+query_possessive()

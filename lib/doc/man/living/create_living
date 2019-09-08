@@ -1,0 +1,7 @@
+
+/* File: /base/living.c
+ * Function name: create_living
+ * Description:   redefinable create function
+ */
+static void
+create_living()

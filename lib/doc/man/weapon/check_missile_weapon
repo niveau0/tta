@@ -1,0 +1,8 @@
+
+/* File: /base/missile_weapon.c
+ * Function name: check_missile_weapon
+ * Description:   indicates that this is a missile weapon
+ * Returns:       1
+ */
+nomask int
+check_missile_weapon()

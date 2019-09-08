@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/creator.c
+ * Function name: geteuid
+ * Description:   give effective user id of an object
+ * Arguments:     obj - object to query 
+ * Returns:       string
+ */
+nomask varargs string
+geteuid(object obj)

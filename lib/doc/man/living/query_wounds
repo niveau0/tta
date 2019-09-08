@@ -1,0 +1,8 @@
+
+/* File: /base/living/slot.c
+ * Function name: query_wounds
+ * Description:   Returns the wound map
+ * Returns:       mapping wounds
+ */
+nomask mapping
+query_wounds()

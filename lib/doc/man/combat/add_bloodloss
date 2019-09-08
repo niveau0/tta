@@ -1,0 +1,10 @@
+
+/* File: /base/living/combat.c
+ * Function name: add_bloodloss
+ * Description:   Set the amount how much bloodloss every beat
+ * Arguments:     bl - The amount of bloodloss
+ *                slot - which slot should bleed
+ * Returns:       1 if success, 0 else
+ */
+nomask int
+add_bloodloss(int bl, int slot)

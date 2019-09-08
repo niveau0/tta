@@ -1,0 +1,8 @@
+
+/* File: /base/player/slot.c
+ * Function name: slot_player_reset
+ * Description:   set the tool slots for the player
+ *                must be called after player is loaded
+ */
+static nomask void
+slot_player_reset()

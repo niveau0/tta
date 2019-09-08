@@ -1,0 +1,9 @@
+
+/* File: /kernel/lib/simfun.c
+ * Function name: lower_case
+ * Description:   change all letters of a string to lower case letters
+ * Arguments:     str - string to change
+ * Returns:       string
+ */
+static nomask string
+lower_case(string str)
